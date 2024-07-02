@@ -2,10 +2,10 @@
 title: Nieuw bestand
 description: Beschrijving
 keywords: nieuw bestand, bestand toevoegen, bestand
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '81'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 5%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="Workfloweigenschappen"
->abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de workflow te maken en geef een label op. Vouw de sectie EXTRA OPTIONS uit om meer instellingen te configureren, zoals de interne naam van de workflow, de map, de tijdzone en de supervisorgroep. Het wordt hoogst geadviseerd om een supervisorgroep te selecteren zodat de exploitanten worden gealarmeerd als een fout voorkomt."
 
 
 >[!CONTEXTUALHELP]

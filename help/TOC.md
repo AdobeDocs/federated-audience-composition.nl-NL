@@ -2,10 +2,10 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '102'
+ht-degree: 13%
 
 ---
 
@@ -23,8 +23,10 @@ ht-degree: 14%
    + [Werken met het publiek](customer/audiences.md)
 + Composities {#compositions}
    + [Aan de slag met composities](compositions/gs-compositions.md)
-   + [Werken met activiteiten](compositions/activities/about-activities.md)
-   + Lijst van activiteiten {#activities}
+   + [Een compositie maken](compositions/gs-compositions.md)
+   + [Composities openen en beheren](compositions/gs-compositions.md)
+   + Werken met activiteiten {#activities}
+      + [Lijst van activiteiten](compositions/activities/about-activities.md)
       + [En-verbinding](compositions/activities/and-join.md)
       + [publiek opbouwen](compositions/activities/build-audience.md)
       + [Dimensie wijzigen](compositions/activities/change-dimension.md)
