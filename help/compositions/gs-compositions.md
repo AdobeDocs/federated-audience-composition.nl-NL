@@ -2,9 +2,9 @@
 audience: end-user
 title: Aan de slag met composities
 description: Leer hoe u begint met composities
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities opene
 
 Als u de lijst wilt verfijnen en eenvoudig de gewenste compositie wilt zoeken, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
-U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de Configure kolommen knoop en beheer
+U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik **Kolom configureren** en voegt u de gewenste uitvoerkolommen toe of verwijdert u deze.
 
 ![](assets/compositions-columns.png)
 
