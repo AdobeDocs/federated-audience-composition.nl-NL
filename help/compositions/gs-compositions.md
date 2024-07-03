@@ -2,7 +2,7 @@
 audience: end-user
 title: Aan de slag met composities
 description: Leer hoe u begint met composities
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Met gegevenscompositie voor Adobe kunt u composities maken, waarbij u verschille
 ## Toegang tot composities {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="Composities"
 >abstract="In dit scherm, kunt u tot de volledige lijst van samenstellingen toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuwe samenstelling creëren."
 
