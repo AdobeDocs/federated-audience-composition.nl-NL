@@ -2,7 +2,7 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: b946f8821d965fb00f79f6f5557adcfff1ee2387
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -22,8 +22,6 @@ Zodra de samenstelling loopt, wordt elke activiteit in het canvas uitgevoerd in 
 
 U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele stroom. Hierdoor kunt u snel de status van elke activiteit en het aantal profielen identificeren dat tussen de activiteiten overgaat.
 
-![](assets/composition-execution.png){zoomable="yes"}
-
 ## Compositieovergangen {#transitions}
 
 In samenstellingen worden gegevens die van de ene activiteit naar de andere worden vervoerd via overgangen opgeslagen in een tijdelijke werktabel. Deze gegevens kunnen voor elke overgang worden weergegeven. Selecteer hiertoe een overgang om de eigenschappen ervan in de rechterkant van het scherm te openen.
@@ -31,26 +29,22 @@ In samenstellingen worden gegevens die van de ene activiteit naar de andere word
 * Klikken **[!UICONTROL Preview schema]** om het schema van de het werklijst te tonen.
 * Klikken **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden vervoerd.
 
-![](assets/transition.png){zoomable="yes"}
-
 ## Activiteitenuitvoering controleren {#activities}
 
 De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u toe om hun uitvoering te controleren:
 
 | Visuele indicator | Beschrijving |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | De activiteit wordt momenteel uitgevoerd. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | De activiteit vereist uw aandacht. Dit kan inhouden dat de verzending van een levering wordt bevestigd of dat de nodige actie wordt ondernomen. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Er is een fout opgetreden in de activiteit. Om de kwestie op te lossen, open samenstellingslogboeken voor meer informatie. |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | De activiteit is met succes uitgevoerd. |
+|  | De activiteit wordt momenteel uitgevoerd. |
+|  | De activiteit vereist uw aandacht. Dit kan inhouden dat de verzending van een levering wordt bevestigd of dat de nodige actie wordt ondernomen. |
+|  | Er is een fout opgetreden in de activiteit. Om de kwestie op te lossen, open samenstellingslogboeken voor meer informatie. |
+|  | De activiteit is met succes uitgevoerd. |
 
 ## Logboeken en taken controleren {#logs-tasks}
 
 Het controleren van samenstellingenlogboeken en taken is een zeer belangrijke stap om uw samenstellingen te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk vanuit de **[!UICONTROL Logs]** pictogram dat beschikbaar is in de actiewerkbalk en in het eigenschappenvenster van elke activiteit.
 
 De **[!UICONTROL Logs and tasks]** biedt een geschiedenis van de uitvoering van de compositie, waarbij alle handelingen van de gebruiker worden opgenomen en fouten worden aangetroffen. Deze geschiedenis wordt opgeslagen voor de duur die is opgegeven in de compositie [uitvoeringsopties](composition-settings.md). Tijdens deze duur, worden alle berichten bewaard, zelfs na een nieuw begin van de samenstelling. Als u de berichten uit een vorige uitvoering niet wilt opslaan, klikt u op de knop **[!UICONTROL Purge history]** knop.
-
-![](assets/composition-logs.png){zoomable="yes"}
 
 Er zijn twee soorten informatie beschikbaar:
 
