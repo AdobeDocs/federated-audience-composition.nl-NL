@@ -2,9 +2,9 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
+source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ De **In geval van fout** in dit veld kunt u opgeven welke actie moet worden uitg
 
 ### Initialisatiescript
 
-De **Initialisatiescript** Hiermee kunt u variabelen initialiseren of activiteitseigenschappen wijzigen. Klik op de knop **Code bewerken** en typ het uit te voeren codefragment. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd. Zie de sectie over [gebeurtenisvariabelen](../workflows/event-variables.md).
+De **Initialisatiescript** Hiermee kunt u variabelen initialiseren of activiteitseigenschappen wijzigen. Klik op de knop **Code bewerken** en typ het uit te voeren codefragment. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
 
 ## Voorbeeld {#example}
 
@@ -108,4 +108,4 @@ Hiervoor zijn de volgende activiteiten toegevoegd:
 
 Nadat u de workflow hebt voltooid, voegt u **[!UICONTROL End]** activiteit aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft deze geen invloed op de functionaliteit.
 
-Nadat u het werkstroomdiagram hebt ontworpen, kunt u de werkstroom uitvoeren en de voortgang van de verschillende taken volgen. [Leer hoe u een workflow kunt starten en de uitvoering ervan kunt controleren](start-monitor-workflows.md)
+Nadat u het werkstroomdiagram hebt ontworpen, kunt u de werkstroom uitvoeren en de voortgang van de verschillende taken volgen.
