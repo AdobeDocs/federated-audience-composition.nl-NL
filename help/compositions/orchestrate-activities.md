@@ -2,7 +2,7 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 1%
@@ -40,7 +40,6 @@ De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de acti
 * **Uitzoomen** / **Inzoomen**: Uitzoomen of op het canvas.
 * **Kaart weergeven**: Hiermee opent u een opname van het canvas waarop u uw locatie ziet.
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Activiteiten beheren {#manage}
 
@@ -93,8 +92,6 @@ De **Initialisatiescript** Hiermee kunt u variabelen initialiseren of activiteit
 ## Voorbeeld {#example}
 
 Hier volgt een voorbeeld van een workflow die is ontworpen om een e-mail naar alle klanten (andere dan VIP klanten) te sturen met een e-mail die geïnteresseerd is in koffiecomputers.
-
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 Hiervoor zijn de volgende activiteiten toegevoegd:
 
