@@ -2,9 +2,9 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 11%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 11%
       + [Deduplicatie](compositions/activities/deduplication.md)
       + [Verrijking](compositions/activities/enrichment.md)
       + [Vertakking](compositions/activities/fork.md)
-      + [Incrementele query](compositions/activities/incremental-query.md)
       + [Afstemming](compositions/activities/reconciliation.md)
       + [Doelgroep opslaan](compositions/activities/save-audience.md)
+      + [Planner](compositions/activities/scheduler.md)
       + [Splitsen](compositions/activities/split.md)
       + [Wachten](compositions/activities/wait.md)
 + De database opvragen {#query-database}
