@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: De publieksactiviteit Opslaan gebruiken
-description: Meer informatie over het gebruik van de vorkactiviteit
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: Leer hoe u de publieksactiviteit Opslaan gebruikt
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '358'
+ht-degree: 0%
 
 ---
+
 
 # Doelgroep opslaan {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 1%
 >abstract="Selecteer de primaire identiteit die u voor profielen wilt gebruiken."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Meer informatie in de documentatie bij Experience Platforms"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Naamruimte identiteit"
 >abstract="Selecteer de naamruimte die u wilt gebruiken voor profielen."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Meer informatie in de documentatie bij Experience Platforms"
-
-
 
 De **Adviezen opslaan** met activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de bevolking die stroomopwaarts in een compositie is berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen van toepassingen en wordt beschikbaar gesteld via de **Soorten publiek** -menu.
 
@@ -46,21 +44,23 @@ Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 
 1. Voeg een **Adviezen opslaan** activiteit aan uw samenstelling.
 
-1. In de **Modus** selecteert u de actie die u wilt uitvoeren:
+   ![](../assets/save-audience.png)
 
-   * **Een bestaand publiek maken of bijwerken**: definieer een **Label publiek**. Als het publiek reeds bestaat, zal het worden bijgewerkt, anders zal een nieuw publiek worden gecreeerd.
+1. Geef het label op van het publiek dat u wilt maken.
 
-   * **Een bestaand publiek bijwerken**: kies de optie **Publiek** U wilt een update uitvoeren in de lijst met bestaande doelgroepen.
+1. Klikken **Toewijzing publiek toevoegen** Kies vervolgens de velden voor de bron en het doelpubliek:
 
-1. Selecteer de **Modus Bijwerken** die van toepassing zijn op bestaande doelgroepen:
+   * **Source Audience Field**:
+   * **Doelpubliek veld**:
 
-   * **De inhoud van het publiek vervangen door nieuwe gegevens**: alle publieksinhoud wordt vervangen. De oude data gaan verloren. Alleen de gegevens van de binnenkomende overgang van de activiteit voor het opslaan van het publiek blijven behouden. Met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
+   Herhaal de bewerking om zoveel publiek-toewijzingen toe te voegen als u nodig hebt.
 
-   * **Volledige doelgroep met nieuwe gegevens**: de oude publieksinhoud wordt bewaard en de gegevens van de binnenkomende overgang van de activiteit van het sparen publiek worden toegevoegd aan het.
+1. Selecteer de primaire identiteit en naamruimte die u wilt gebruiken om de doelprofielen in de database te identificeren:
 
-1. Controleer de **Een uitgaande overgang genereren** als u een overgang wilt toevoegen na de **Adviezen opslaan** activiteit.
+   * **Primair identiteitsveld**: Selecteer het veld dat u wilt gebruiken om de profielen te identificeren. Bijvoorbeeld zijn e-mailadres of telefoonnummer.
+   * **Naamruimte identiteit**: Selecteer de naamruimte die u wilt gebruiken om de profielen te identificeren, dat wil zeggen het type gegevens dat u als identificatietoets wilt gebruiken. Als het e-mailadres bijvoorbeeld is geselecteerd als primair identiteitsveld, wordt de naamruimte van de identiteit **E-mail** moet worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan identiteit namespace **Telefoon** moet worden geselecteerd.
 
-De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde weergave van het publiek, die toegankelijk is vanuit het **Soorten publiek** -menu. De kolommen beschikbaar uit deze mening beantwoorden aan de kolommen van de binnenkomende overgang van **Adviezen opslaan** activiteit.
+Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform, en toegankelijk gemaakt in **Soorten publiek** -menu.
 
 <!--
 
