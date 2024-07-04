@@ -2,9 +2,9 @@
 audience: end-user
 title: Aan de slag met composities
 description: Leer hoe u begint met composities
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Met gegevenscompositie voor Adobe kunt u composities maken, waarbij u verschille
 
 ![](assets/composition-example.png)
 
-## Toegang tot composities {#access}
+## Composities openen en beheren {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -26,17 +26,15 @@ Met gegevenscompositie voor Adobe kunt u composities maken, waarbij u verschille
 
 Composities zijn toegankelijk vanuit de Adobe Experience Platform **[!UICONTROL Audiences]** in het menu **Federale composities** tab.
 
-![](assets/compositions-list.png)
+Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities openen. U kunt ook een bestaande compositie dupliceren of verwijderen door op de knop Ovaal naast de naam te klikken.
 
-Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities openen.
+![](assets/compositions-list.png)
 
 Als u de lijst wilt verfijnen en eenvoudig de gewenste compositie wilt zoeken, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
 U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik **Kolom configureren** en voegt u de gewenste uitvoerkolommen toe of verwijdert u deze.
 
 ![](assets/compositions-columns.png)
-
-Als u een bestaande compositie wilt dupliceren of verwijderen, klikt u op de knop met de ellips naast de naam en selecteert u de gewenste bewerking.
 
 ## Status van samenstellingen {#status}
 
@@ -47,3 +45,5 @@ Composities kunnen meerdere statussen hebben:
 * **[!UICONTROL Stopped]**: De uitvoering van de compositie is gestopt.
 * **[!UICONTROL Paused]**: De uitvoering van de compositie is gepauzeerd.
 * **[!UICONTROL Erroneous]**: Er is een fout opgetreden tijdens het uitvoeren van de compositie. Open de compositie en open de logboeken en de taken om de fout te identificeren en op te lossen.
+
+Gedetailleerde informatie over het starten en controleren van een compositie is beschikbaar in [deze sectie](../compositions/start-monitor-composition.md).
