@@ -2,10 +2,10 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
+source-wordcount: '715'
+ht-degree: 0%
 
 ---
 
@@ -18,94 +18,60 @@ Zodra u een samenstelling hebt gecreeerd, kunt u beginnen de verschillende taken
 
 In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het startpictogram.
 
-Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen van uw positie binnen het samenstellingsdiagram af. Wanneer u bijvoorbeeld uw eerste activiteit toevoegt, kunt u uw compositie starten door zich te richten op een publiek, het workflowpad te splitsen of een **Wachten** activiteit om de uitvoering van de workflow uit te stellen. Aan de andere kant **publiek opbouwen** activiteit, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het samenstellingsproces met debietcontroleactiviteiten organiseren.
+Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen van uw positie binnen het samenstellingsdiagram af. Wanneer u bijvoorbeeld uw eerste activiteit toevoegt, kunt u uw compositie starten door zich te richten op een publiek, het workflowpad te splitsen, een planner te installeren om de uitvoering van de workflow te vertragen of een **Wachten** activiteit om de uitvoering van de workflow uit te stellen. Aan de andere kant **publiek opbouwen** activiteit, kunt u uw doel met het richten van activiteiten verfijnen of het samenstellingsproces met debietcontroleactiviteiten organiseren.
 
 Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. Gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [deze sectie](activities/about-activities.md).
 
-Herhaal dit proces om zoveel activiteiten toe te voegen als gewenst afhankelijk van de taken die u wilt uitvoeren uw samenstelling. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
+![](assets/composition-create-add.png)
 
-Als u een activiteit wilt verwijderen, selecteert u deze op het canvas en klikt u op de knop **Verwijderen** in de eigenschappen activity.
+Herhaal dit proces om zoveel activiteiten toe te voegen als gewenst afhankelijk van de taken die u wilt uitvoeren uw samenstelling. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
 
 >[!TIP]
 >
 >U kunt de naam van de overgangen tussen elke activiteit aanpassen. U doet dit door de overgang te selecteren en het label ervan te wijzigen in het rechterdeelvenster.
 
-## De werkbalk {#toolbar}
+## De werkbalk Canvas {#toolbar}
 
-De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de activiteiten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
+De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de activiteiten eenvoudig kunt manipuleren en op het canvas kunt navigeren.
 
-* **Meerdere selectiemodus**: Selecteer meerdere activiteiten om deze allemaal tegelijk te verwijderen of kopieer en plak ze. Zie [deze sectie](#copy).
+![](assets/canvas-toolbar.png)
+
+Beschikbare acties zijn:
+
+* **Meerdere selecties**: Selecteer meerdere activiteiten om deze allemaal tegelijk te verwijderen of kopieer en plak ze. Zie [deze sectie](#copy).
 * **Roteren**: Verander het canvas verticaal.
 * **Aanpassen aan scherm**: Pas het zoomniveau van het canvas aan op het scherm.
 * **Uitzoomen** / **Inzoomen**: Uitzoomen of op het canvas.
 * **Kaart weergeven**: Hiermee opent u een opname van het canvas waarop u uw locatie ziet.
 
-
 ## Activiteiten beheren {#manage}
 
-Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren. U kunt:
+Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren.
+
+![](assets/activity-actions.png)
+
+U kunt:
 
 * **Verwijderen** de activiteit van het canvas.
 * **Uitschakelen/inschakelen** de activiteit. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
-* **Kopiëren** de activiteit. Zie [deze sectie](#copy).
-* Toegang krijgen tot de activiteiten **Logboeken en taken**.
 * **Pauzeren/hervatten** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+* **Kopiëren** de activiteit om het op een andere plaats in de samenstelling te kleven. Om dit te doen, klik **+** en selecteer &quot;X-activiteit plakken&quot;. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
+* Configureren **Uitvoeropties** voor de geselecteerde activiteit. Vouw de onderstaande sectie uit voor meer informatie over de beschikbare opties.
 
-Meerdere **Targeting** activiteiten, zoals **Combineren** of **Deduplicatie**, kunt u de resterende populatie verwerken en opnemen in een extra uitgaande overgang. Als u bijvoorbeeld een **Splitsen** de activiteit, bestaat het complement uit de populatie die niet overeenkwam met een van de eerder gedefinieerde subgroepen. Als u deze functie wilt gebruiken, activeert u de **Complement genereren** -optie.
+  +++Beschikbare uitvoeringsopties
 
-## Activiteiten kopiëren {#copy}
+  De **Eigenschappen** sectie staat u toe om generische montages betreffende de uitvoering van de activiteit te vormen:
 
-U kunt workflowactiviteiten kopiëren en deze in elke werkstroom plakken. De doelworkflow kan zich op een ander browsertabblad bevinden.
+   * **Uitvoering**: Definieer de handeling die moet worden uitgevoerd wanneer de handeling wordt gestart.
+   * **Maximale uitvoeringstermijn**: Geef een duur op, bijvoorbeeld &quot;30s&quot; of &quot;1h&quot;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
+   * **Tijdzone**: Selecteer de tijdzone van de activiteit. De federatieve Samenstelling van de Auditie staat u toe om de tijdverschillen tussen veelvoudige landen op het zelfde geval te beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
+   * **Affiniteit**: De compositieactiviteit forceren om op een bepaalde machine uit te voeren. Hiervoor moet u een of meer affiniteiten voor de desbetreffende activiteit opgeven.
+   * **Gedrag**: Definieer de procedure die moet worden gevolgd wanneer asynchrone taken worden gebruikt.
 
-Voor het kopiëren van activiteiten hebt u twee mogelijkheden:
+  De **Foutbeheer** kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt.
 
-* Kopieer één activiteit gebruikend de actieknoop.
+  De **Initialisatiescript** in deze sectie kunt u variabelen initialiseren of activiteitseigenschappen wijzigen. Klik op de knop **Code bewerken** en typ het uit te voeren codefragment. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
 
-* Kopieer meerdere activiteiten met de werkbalkknop.
++++
 
-Als u de gekopieerde activiteiten wilt plakken, klikt u op de knop **+** en selecteer &quot;X-activiteit plakken&quot;.
-
-## Execution options {#execution}
-
-Met alle activiteiten kunt u de uitvoeropties ervan beheren. Selecteer een activiteit en klik op **Uitvoeropties** knop. Hiermee kunt u de uitvoeringsmodus en het gedrag van de activiteit definiëren in het geval van fouten.
-
-### Properties
-
-De **Uitvoering** in het veld kunt u de actie definiëren die moet worden uitgevoerd wanneer de taak wordt gestart.
-
-De **Maximale uitvoeringstermijn** kunt u een duur opgeven, bijvoorbeeld &#39;&#39;30s&#39;&#39; of &#39;&#39;1h&#39;&#39;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
-
-De **Tijdzone** kunt u de tijdzone van de activiteit selecteren. Met Adobe Campaign kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
-
-**De affiniteit** in het veld kunt u een workflow of een werkstroomactiviteit op een bepaalde computer uitvoeren. Hiervoor moet u een of meer affiniteiten opgeven voor de workflow of activiteit in kwestie.
-
-De **Gedrag** kunt u in het veld de procedure definiëren die moet worden gevolgd wanneer asynchrone taken worden gebruikt.
-
-### Foutbeheer
-
-De **In geval van fout** in dit veld kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt.
-
-### Initialisatiescript
-
-De **Initialisatiescript** Hiermee kunt u variabelen initialiseren of activiteitseigenschappen wijzigen. Klik op de knop **Code bewerken** en typ het uit te voeren codefragment. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
-
-## Voorbeeld {#example}
-
-Hier volgt een voorbeeld van een workflow die is ontworpen om een e-mail naar alle klanten (andere dan VIP klanten) te sturen met een e-mail die geïnteresseerd is in koffiecomputers.
-
-Hiervoor zijn de volgende activiteiten toegevoegd:
-
-* A **[!UICONTROL Fork]** activiteit die de werkstroom in drie wegen (één voor elke reeks klant) verdeelt;
-* **[!UICONTROL Build audience]** activiteiten om de drie categorieën klanten te bereiken:
-
-   * Klanten met een e-mail,
-   * Klanten die behoren tot het reeds bestaande publiek &quot;Interrested in Coffee Machine(s)&quot;,
-   * Klanten die tot het reeds bestaande &quot;VIP of beloning&quot; publiek behoren.
-
-* A **[!UICONTROL Combine]** activiteiten die klanten met een e-mail en degenen die geïnteresseerd zijn in koffiemachines verenigen;
-* A **[!UICONTROL Combine]** activiteiten die VIP klanten uitsluiten;
-* An **[!UICONTROL Email delivery]** activiteit die een e-mail naar de resulterende klanten verzendt.
-
-Nadat u de workflow hebt voltooid, voegt u **[!UICONTROL End]** activiteit aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft deze geen invloed op de functionaliteit.
-
-Nadat u het werkstroomdiagram hebt ontworpen, kunt u de werkstroom uitvoeren en de voortgang van de verschillende taken volgen.
+* Toegang krijgen tot de activiteiten **Logboeken en taken**.
