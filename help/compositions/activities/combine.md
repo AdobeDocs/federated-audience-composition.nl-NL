@@ -2,12 +2,13 @@
 audience: end-user
 title: De combinatie-activiteit gebruiken
 description: Meer informatie over het gebruik van de combinatieactiviteit
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 11%
 
 ---
+
 
 # Combineren {#combine}
 
@@ -22,9 +23,7 @@ De **Combineren** de activiteit staat u toe om segmentatie op uw binnenkomende b
 * De **Intersectie** Hiermee kunt u alleen de elementen behouden die gemeenschappelijk zijn voor de verschillende binnenkomende populaties in de activiteit.
 * De **Uitsluiting** kunt u elementen op basis van bepaalde criteria uitsluiten van één populatie.
 
-
 De **Combineren** activiteit kan na enige andere activiteit worden geplaatst, maar niet aan het begin van de samenstelling. Elke activiteit kan na de **Combineren**.
-
 
 ## De combinatieactiviteit configureren {#combine-configuration}
 

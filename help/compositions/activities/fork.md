@@ -2,7 +2,7 @@
 audience: end-user
 title: De vorkactiviteit gebruiken
 description: Meer informatie over het gebruik van de vorkactiviteit
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -32,4 +32,5 @@ Voer de volgende stappen uit om de **Vork** activiteit:
 1. Voeg een **Vork** activiteit aan uw samenstelling.
 1. Klikken **Overgang toevoegen** een nieuwe uitgaande overgang toevoegen. Standaard zijn twee overgangen gedefinieerd.
 1. Voeg een label toe aan elk van uw overgangen.
+
 

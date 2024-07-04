@@ -2,7 +2,7 @@
 audience: end-user
 title: De wachttijd-activiteit gebruiken
 description: Leer hoe u de wachtfunctie gebruikt
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 31%
@@ -27,4 +27,5 @@ Voer de volgende stappen uit om de **Wachten** activiteit:
 1. Geef de **Duur** van de wachttijd tussen de binnenkomende en uitgaande overgangen.
 
 1. Selecteer de tijdeenheid in het dialoogvenster **Punten** veld: seconden, minuten, uren, dagen.
+
 

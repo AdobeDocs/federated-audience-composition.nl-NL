@@ -2,9 +2,9 @@
 audience: end-user
 title: Werken met activiteiten
 description: Leer hoe u met activiteiten kunt werken
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -12,12 +12,14 @@ ht-degree: 0%
 
 # Werken met activiteiten {#activities}
 
-## Lijst van activiteiten {#activity-list}
+In Federated Audience Composition, kunt u samenstellingen tot stand brengen gebruikend twee soorten activiteiten:
 
-In Federated Audience Composition zijn de activiteiten specifiek voor het richten. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
+* **Gerichte activiteiten** Hiermee kunt u een of meer doelen maken door een publiek te definiëren en deze doelgroepen te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsacties.
+* **Stroomregeling** de activiteiten zijn specifiek gericht op het organiseren en uitvoeren van composities. Hun belangrijkste taak is de coördinatie van de andere activiteiten.
 
-<!--to update -->
+## Gerichte activiteiten
 
+* [Activiteit voor publiek opbouwen](build-audience.md): Definieer de doelpopulatie. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
 * [Dimensie wijzigen](change-dimension.md): Verander de het richten dimensie aangezien u uw samenstelling bouwt.
 * [Combineren](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
 * [Deduplicatie](deduplication.md): Verwijder duplicaten van de resultaten van de binnenkomende activiteiten.
@@ -26,3 +28,10 @@ In Federated Audience Composition zijn de activiteiten specifiek voor het richte
 * [Adviezen opslaan](save-audience.md): Werk een bestaand publiek bij of maak een nieuw publiek van de populatie die stroomopwaarts in een samenstelling wordt berekend.
 * [Splitsen](split.md): Segmenteer de binnenkomende populatie in verschillende subsets.
 
+## Stroombeheeractiviteiten
+
+* [AND-join](and-join.md): Meerdere uitvoeringstakken van een workflow synchroniseren.
+* **Einde** : Geeft grafisch het einde van een workflow aan. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
+* [Vork](fork.md): Maak uitgaande overgangen om meerdere activiteiten tegelijk te starten.
+* [Planner](scheduler.md): Plan wanneer de workflow wordt gestart.
+* [Wachten](wait.md): Onderbreek tijdelijk de uitvoering van een deel van een workflow.

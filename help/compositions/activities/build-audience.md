@@ -2,12 +2,13 @@
 audience: end-user
 title: Gebruik de het publieksactiviteit van de Bouwstijl
 description: Leer hoe u de gebruikersactiviteit van Build gebruikt
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
 
 ---
+
 
 # publiek opbouwen {#build-audience}
 
@@ -24,10 +25,7 @@ Om de publieksbevolking te bepalen, kunt u:
 * Selecteer een Adobe Experience Platform-publiek.
 * Bouw een nieuw publiek met de bouwer van de vraagmodelleur door het filtreren criteria te bepalen en te combineren.
 
-
-
 De **publiek opbouwen** activiteit kan aan het begin van de samenstelling of na enige andere activiteit worden geplaatst. Elke activiteit kan na de **publiek opbouwen**.
-
 
 ## Vorm de het publieksactiviteit van de Bouwstijl {#build-audience-configuration}
 
