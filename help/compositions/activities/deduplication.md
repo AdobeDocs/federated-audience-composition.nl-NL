@@ -2,10 +2,10 @@
 audience: end-user
 title: De deduplicatieactiviteit gebruiken
 description: Leer hoe u de deduplicatieactiviteit gebruikt
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 20%
+source-wordcount: '561'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,11 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. Voeg een **Deduplicatie** activiteit aan uw samenstelling.
 
+1. Als de activiteit verscheidene binnenkomende overgangen heeft, selecteer de overgang om deduplicatie van uit te voeren **[!UICONTROL Primary set]** vervolgkeuzelijst
+
 1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om de velden op te geven waarvoor de identieke waarden het mogelijk maken duplicaten te identificeren, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
+
+   ![](../assets/deduplication.png)
 
 1. In de **Instellingen voor deduplicatie** selecteert u het aantal unieke **Duplicaten om te behouden**. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
 
@@ -52,9 +56,10 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. Selecteer de **Deduplicatiemethode** te gebruiken:
 
-   * **Willekeurige selectie**: hiermee selecteert u willekeurig de record die u uit de duplicaten wilt verwijderen.
-   * **Expressies gebruiken**: hiermee kunt u de records bijhouden waarin de waarde van de ingevoerde expressie het kleinst of het grootst is.
-   * **Na een lijst met waarden**: hiermee kunt u een waardeprioriteit voor een of meer velden definiëren. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Klik op de knop Toevoegen boven de lijst met waarden om een nieuw veld te definiëren.
+   * **Willekeurige selectie**: Hiermee selecteert u willekeurig de record die u uit de duplicaten wilt verwijderen.
+   * **Expressies gebruiken**: Bewaar de records waarin de waarde van de ingevoerde expressie het kleinst of het grootst is.
+   * **Niet-lege waarden**: Bewaar de records waarvoor de expressie niet leeg is.
+   * **Na een lijst met waarden**: Definieer een waardeprioriteit voor een of meer velden. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Als u een nieuw veld wilt definiëren, klikt u op de knop **Knop Toevoegen** boven de lijst met waarden.
 
 1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
 
