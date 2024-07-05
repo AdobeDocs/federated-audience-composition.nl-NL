@@ -2,9 +2,9 @@
 audience: end-user
 title: De activiteit Splitsen gebruiken
 description: Leer hoe u de activiteit Splitsen gebruikt
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ De **Splitsen** met activiteit kunt u inkomende populaties segmenteren in meerde
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Overlappende uitvoerpopulaties inschakelen"
->abstract="Overlappende uitvoerpopulaties inschakelen"
+>abstract="De **[!UICONTROL Enable overlapping of output populations]** kunt u populaties beheren die tot verschillende subsets behoren. Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria. Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. Adobe Campaign raadt aan exclusieve criteria te hanteren."
 
 Voer de volgende stappen uit om de **Splitsen** activiteit:
 
@@ -75,9 +75,13 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
 
 1. Nadat subsets zijn toegevoegd, toont de activiteit evenveel uitvoerovergangen als er subsets zijn. Wij adviseren sterk veranderend het etiket van elke ondergroep om hen in het samenstellingscanvas gemakkelijk te identificeren.
 
+   ![](../assets/split.png)
+
 1. Vorm hoe elke ondergroep de inkomende bevolking zou moeten filtreren. Ga als volgt te werk om dit te doen:
 
-   1. Open de subset om de eigenschappen ervan weer te geven.
+   1. Vouw de subset uit om de eigenschappen ervan weer te geven.
+
+      ![](../assets/split-subset.png)
 
    1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel gebruikend de vraagmodeler. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -94,6 +98,11 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
    >[!NOTE]
    >
    >De **[!UICONTROL Generate all subsets in the same table]** kunt u alle subsets groeperen in één uitvoerovergang.
+
+1. De **[!UICONTROL Enable overlapping of output populations]** Met deze optie kunt u populaties beheren die tot verschillende subsets behoren:
+
+   * Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria.
+   * Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. Adobe Campaign raadt aan exclusieve criteria te hanteren.
 
 De activiteit wordt nu gevormd. Bij uitvoering wordt de populatie opgesplitst in de verschillende subgroepen, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
 
