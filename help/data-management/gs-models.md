@@ -2,9 +2,9 @@
 audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
-source-git-commit: e37229f46b865526f209da5831ba31b3acc8a784
+source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -35,4 +35,26 @@ ht-degree: 0%
 
 
 ## Wat is een gegevensmodel? {#data-model-start}
+
+Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen hen.
+
+Meer informatie over [schema&#39;s](customer/schemas.md).
+
+Meer informatie over [publiek](customer/audiences.md).
+
+## Hoe kan ik een gegevensmodel maken? {#data-model-create}
+
+In **[!UICONTROL FEDERATED DATA]** sectie, ga in **[!UICONTROL Models]** koppeling. Je vindt daar de **[!UICONTROL Data model]** tab.
+
+![](assets/datamodel_create.png){zoomable="yes"}
+
+Klik op de knop **[!UICONTROL Create data model]** kunt u uw gegevensmodel een naam geven en op de knop **[!UICONTROL Create]** knop.
+
+![](assets/datamodel_name.png){zoomable="yes"}
+
+U krijgt toegang tot het venster waarin u de schema&#39;s, het publiek en de koppelingen van uw gegevensmodel kunt toevoegen.
+
+![](assets/datamodel_created.png){zoomable="yes"}
+
+![](assets/datamodel_schemas.png){zoomable="yes"}
 
