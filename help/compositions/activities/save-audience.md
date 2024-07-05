@@ -2,7 +2,7 @@
 audience: end-user
 title: De publieksactiviteit Opslaan gebruiken
 description: Leer hoe u de publieksactiviteit Opslaan gebruikt
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
    * **Primair identiteitsveld**: Selecteer het veld dat u wilt gebruiken om de profielen te identificeren. Bijvoorbeeld zijn e-mailadres of telefoonnummer.
    * **Naamruimte identiteit**: Selecteer de naamruimte die u wilt gebruiken om de profielen te identificeren, dat wil zeggen het type gegevens dat u als identificatietoets wilt gebruiken. Als het e-mailadres bijvoorbeeld is geselecteerd als primair identiteitsveld, wordt de naamruimte van de identiteit **E-mail** moet worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan identiteit namespace **Telefoon** moet worden geselecteerd.
 
-Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform, en toegankelijk gemaakt in **Soorten publiek** -menu.
+Nadat u de compositie hebt uitgevoerd, wordt het resulterende publiek opgeslagen in Adobe Experience Platform <!-- to check-->en toegankelijk worden gemaakt in de **Soorten publiek** -menu.
 
 <!--
 
