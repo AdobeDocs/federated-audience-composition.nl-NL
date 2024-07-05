@@ -2,9 +2,9 @@
 audience: end-user
 title: De verrijkingsactiviteit gebruiken
 description: Leer hoe u de verrijkingsactiviteit kunt gebruiken
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -53,55 +53,29 @@ Zodra de verrijkingsgegevens aan de samenstelling zijn toegevoegd, kunnen ze wor
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
-## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
+## De verrijkingsactiviteit configureren {#enrichment-configuration}
 
 Voer de volgende stappen uit om de **Verrijking** activiteit:
 
 1. Voeg activiteiten toe zoals **publiek opbouwen** en **Combineren** activiteiten.
 1. Een **Verrijking** activiteit.
-1. Als de veelvoudige overgangen in uw samenstelling zijn gevormd, kunt u gebruiken **[!UICONTROL Primary set]** veld om te bepalen welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
 
-## Verrijkingsgegevens toevoegen {#enrichment-add}
+   ![](../assets/enrichment.png)
+
+1. Als de veelvoudige overgangen in uw samenstelling zijn gevormd, kunt u gebruiken **[!UICONTROL Primary set]** veld om te bepalen welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
 
 1. Klikken **Verrijkingsgegevens toevoegen** en selecteert u het kenmerk dat u wilt gebruiken om de gegevens te verrijken.
 
-   U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting, of een inzamelingsverbinding. Elk van deze typen wordt in de volgende voorbeelden beschreven:
+   ![](../assets/enrichment-add.png)
 
-   * [Enkel verrijkingskenmerk](#single-attribute)
-   * [Verzamelaar](#collection-link)
+   >[!NOTE]
+   >
+   >De **De knop Expressie bewerken** in het selectiescherm voor kenmerken kunt u geavanceerde expressies maken om het kenmerk te selecteren.
 
-<!--
->[!NOTE]
->
->The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)-->
+<!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
-## Koppelingen maken tussen tabellen {#create-links}
-
-De **[!UICONTROL Link definition]** kunt u een koppeling maken tussen de gegevens van de werktabellen en uw database. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken.
-
-Er zijn verschillende typen koppelingen beschikbaar:
-
-* **[!UICONTROL 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan één record uit de gekoppelde gegevens.
-* **[!UICONTROL 0 or 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan 0 of 1 record uit de gekoppelde gegevens, maar niet aan meer dan één record.
-* **[!UICONTROL N cardinality collection link]**: Elke record uit de primaire set kan worden gekoppeld aan 0, 1 of meer (N) records uit de gekoppelde gegevens.
-
-Ga als volgt te werk om een koppeling te maken:
-
-1. In de **[!UICONTROL Link definition]** klikt u op de **[!UICONTROL Add link]** knop.
-
-1. In de **Relatietype** kiest u het type koppeling dat u wilt maken.
-
-1. Identificeer het doel u de primaire reeks aan wilt verbinden:
-
-   * Als u een bestaande tabel in de database wilt koppelen, kiest u **[!UICONTROL Database schema]** en selecteer de gewenste tabel in het menu **[!UICONTROL Target schema]** veld.
-   * Als u wilt koppelen aan gegevens uit de invoerovergang, kiest u **Tijdelijk schema** en selecteer de overgang waarvan u de gegevens wilt gebruiken.
-
-1. Definieer de afstemmingscriteria die overeenkomen met gegevens uit de primaire set met het gekoppelde schema. Er zijn twee soorten verbindingen beschikbaar:
-
-   * **Eenvoudige samenvoeging**: Selecteer een specifiek kenmerk dat overeenkomt met de gegevens in de twee schema&#39;s. Klikken **Verbinden toevoegen** en selecteert u de **Source** en **Doel** kenmerken die als afstemmingscriteria moeten worden gebruikt.
-   * **Geavanceerde verbinding**: Maak een verbinding met behulp van geavanceerde voorwaarden. Klikken **Verbinden toevoegen** en klik op de knop **Voorwaarde maken** om de vraagmodeler te openen.
-
-Een samenstellingssteekproef gebruikend verbindingen is beschikbaar in [Voorbeelden](#link-example) sectie.
+    * [Single enrichment attribute](#single-attribute)
+    * [Collection lnk](#collection-link)-->
 
 ## Voorbeelden {#example}
 
@@ -113,90 +87,46 @@ Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedat
 1. Selecteer een eenvoudig veld in de doeldimensie, de geboortedatum in ons voorbeeld.
 1. Klikken **Bevestigen**.
 
-### Verzamelingskoppeling {#collection-link}
+<!--### Collection link {#collection-link}
 
-In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren die een verbinding met een 1-N kardinaliteit tussen lijsten is. Laten we de drie laatste aankopen ophalen die minder dan 100 dollar bedragen. Hiervoor moet u definiëren:
+In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* een verrijkingskenmerk: de **Totaal bedrag** field
-* het aantal op te halen lijnen: 3
-* een filter: items uitfilteren die groter zijn dan 100$
-* een sortering: afstammende sortering op de **Datum van bestelling** veld.
+* an enrichment attribute: the **Total amount** field
+* the number of lines to retrieve: 3
+* a filter: filter out items that are greater than 100$
+* a sorting: descendant sorting on the **Order date** field. 
 
-#### Het kenmerk toevoegen {#add-attribute}
+#### Add the attribute {#add-attribute}
 
-Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt gebruiken.
+This is where you select the collection link to use as enrichment data.
 
-1. Klik in het dialoogvenster **Kenmerk** veld.
-1. Klikken **Geavanceerde kenmerken weergeven**.
-1. Selecteer de **Totaal bedrag** veld van de **Aankopen** tabel.
+1. Click inside the **Attribute** field.
+1. Click **Display advanced attributes**.
+1. Select the **Total amount** field from the **Purchases** table. 
 
-#### De verzamelingsinstellingen definiëren{#collection-settings}
+#### Define the collection settings{#collection-settings}
 
-Definieer vervolgens hoe de gegevens worden verzameld en hoeveel records moeten worden opgehaald.
+Then, define how the data is collected and the number of records to retrieve.
 
-1. Selecteren **Gegevens verzamelen** in de **Selecteer hoe de gegevens worden verzameld** vervolgkeuzelijst.
-1. Type &quot;3&quot; in het dialoogvenster **Op te halen regels (te maken kolommen)** veld.
+1. Select **Collect data** in the **Select how the data is collected** drop-down.
+1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-Als u bijvoorbeeld het gemiddelde aantal aankopen voor een klant wilt ophalen, selecteert u **Geaggregeerde gegevens** en selecteert u **Gemiddeld** in de **Samengevoegde functie** vervolgkeuzelijst.
+If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-#### Filters definiëren{#collection-filters}
+#### Define the filters{#collection-filters}
 
-Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. Klikken **Filters bewerken**.
-1. Voeg de twee volgende filters toe: **Totaal bedrag** bestaat EN **Totaal bedrag** is kleiner dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
-1. Klikken **Bevestigen**.
+1. Click **Edit filters**.
+1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Confirm**.
 
-#### De sortering definiëren{#collection-sorting}
+#### Define the sorting{#collection-sorting}
 
-We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
+We now need to apply sorting in order to retrieve the three **latest** purchases.
 
-1. Activeer **Sorteren inschakelen** -optie.
-1. Klik in het dialoogvenster **Kenmerk** veld.
-1. Selecteer de **Datum van bestelling** veld.
-1. Klikken **Bevestigen**.
-1. Selecteren **Aflopend** van de **Sorteren** vervolgkeuzelijst.
-
-
-### Verrijking met gekoppelde gegevens {#link-example}
-
-In het onderstaande voorbeeld ziet u een compositie die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend een activiteit van de Vraag, terwijl de tweede overgang aankoopgegevens omvat die in een dossier worden opgeslagen dat door een activiteit van het Dossier van de Lading wordt geladen.
-
-* De eerste **Verrijking** activiteit verbindt onze primaire reeks (gegevens van **Query** activiteit) met het schema van **Bestand laden** activiteit. Hierdoor kunnen we elk profiel waarop de query betrekking heeft, afstemmen op de corresponderende aankoopgegevens.
-* Een seconde **Verrijking** activiteit wordt toegevoegd om gegevens van de samenstellingstabel met de koopgegevens te verrijken die uit **Bestand laden** activiteit. Op deze manier kunnen we die gegevens in verdere activiteiten gebruiken, bijvoorbeeld om berichten die aan klanten worden verzonden met informatie over hun aankoop te personaliseren.
-
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.-->
