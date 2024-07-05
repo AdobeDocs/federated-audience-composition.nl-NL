@@ -2,7 +2,7 @@
 audience: end-user
 title: De vorkactiviteit gebruiken
 description: Meer informatie over het gebruik van de vorkactiviteit
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 >id="dc_orchestration_fork"
 >title="Vorkactiviteit"
 >abstract="De **Vork** de activiteit staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ Voer de volgende stappen uit om de **Vork** activiteit:
 1. Klikken **Overgang toevoegen** een nieuwe uitgaande overgang toevoegen. Standaard zijn twee overgangen gedefinieerd.
 1. Voeg een label toe aan elk van uw overgangen.
 
-
+   ![](../assets/fork.png)
