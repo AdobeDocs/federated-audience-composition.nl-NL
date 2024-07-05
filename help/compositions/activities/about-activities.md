@@ -2,9 +2,9 @@
 audience: end-user
 title: Werken met activiteiten
 description: Leer hoe u met activiteiten kunt werken
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ In Federated Audience Composition, kunt u samenstellingen tot stand brengen gebr
 ## Gerichte activiteiten
 
 * [Activiteit voor publiek opbouwen](build-audience.md): Definieer de doelpopulatie. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
-* [Dimensie wijzigen](change-dimension.md): Verander de het richten dimensie aangezien u uw samenstelling bouwt.
+* [Dimensie wijzigen](change-dimension.md): Wijzig het schema, ook wel afmeting aanwijzen genoemd, terwijl u uw compositie samenstelt.
 * [Combineren](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
 * [Deduplicatie](deduplication.md): Verwijder duplicaten van de resultaten van de binnenkomende activiteiten.
 * [Verrijking](enrichment.md): Definieer aanvullende gegevens die in uw compositie moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.

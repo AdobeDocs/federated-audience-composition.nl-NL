@@ -2,9 +2,9 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in vraagmodeler te bouwen.
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2092'
 ht-degree: 52%
 
 ---
@@ -28,7 +28,7 @@ De uitdrukkingsredacteur is beschikbaar bij vraagmodeler **[!UICONTROL Edit expr
 De uitdrukkingsredacteur verstrekt:
 
 * An **invoerveld (1)** waarin de expressie wordt gedefinieerd.
-* De lijst met beschikbare **velden 2** die in de uitdrukking kunnen worden gebruikt en aan de het richten dimensie van de vraag beantwoorden.
+* De lijst met beschikbare **velden 2** die in de uitdrukking en het beantwoorden aan het schema kunnen worden gebruikt, dat ook als het richten dimensie, van de vraag wordt bekend.
 * **Helperfuncties (3)**, gesorteerd op categorie
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.

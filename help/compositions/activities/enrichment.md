@@ -2,9 +2,9 @@
 audience: end-user
 title: De verrijkingsactiviteit gebruiken
 description: Leer hoe u de verrijkingsactiviteit kunt gebruiken
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Verrijkingsgegevens"
->abstract="Selecteer de gegevens die u wilt gebruiken om uw compositie te verrijken. U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting, of een inzamelingsverbinding, die een verbinding met een 1-N kardinaliteit tussen lijsten is."
+>abstract="Selecteer de gegevens die u wilt gebruiken om uw compositie te verrijken. U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van het schema, dat ook als het richten van afmeting wordt bekend, of een inzamelingsverbinding, die een verbinding met een 1-N kardinaliteit tussen lijsten is."
 
 De **Verrijking** de activiteit staat u toe om de gerichte gegevens met extra informatie van het gefedereerde gegevensbestand te verbeteren. Het wordt doorgaans gebruikt in composities na segmentatieactiviteiten.
 
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om de **Verrijking** activiteit:
 Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedatum. Voer de volgende stappen uit:
 
 1. Klik in het dialoogvenster **Kenmerk** veld.
-1. Selecteer een eenvoudig veld in de doeldimensie, de geboortedatum in ons voorbeeld.
+1. Selecteer een eenvoudig veld in het schema. Dit wordt ook wel de doeldimensie genoemd. In het voorbeeld ziet u de geboortedatum.
 1. Klikken **Bevestigen**.
 
 <!--### Collection link {#collection-link}

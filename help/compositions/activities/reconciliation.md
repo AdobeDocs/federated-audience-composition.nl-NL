@@ -2,9 +2,9 @@
 audience: end-user
 title: De afstemmingsactiviteit gebruiken
 description: Leer hoe u de verzoeningsactiviteit kunt gebruiken
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ De **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Selecteer het nieuwe schema dat op de gegevens moet worden toegepast. Met een schema, ook wel &#39;doeldimensie&#39; genoemd, kunt u de doelpopulatie definiëren: ontvangers, abonnees van apps, operators, abonnees, enz. Door gebrek, wordt de samenstelling het huidige richten afmeting geselecteerd."
+>abstract="Selecteer het nieuwe schema dat op de gegevens moet worden toegepast. Met een schema, ook wel doeldimensie genoemd, kunt u de doelpopulatie definiëren: ontvangers, abonnementen op apps, operators, abonnees, enz. Door gebrek, wordt de samenstelling huidige schema geselecteerd."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ De **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Doeldimensie selecteren"
->abstract="Selecteer het richten afmeting voor uw binnenkomende gegevens met elkaar in overeenstemming te brengen."
+>abstract="Selecteer het schema, dat ook als het richten dimensie wordt bekend, voor uw binnenkomende gegevens met elkaar in overeenstemming te brengen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om de **Verzoening** activiteit:
 
 1. Voeg een **Verzoening** activiteit in uw samenstelling.
 
-1. Selecteer de **Nieuw schema**. Met een schema, ook wel &#39;doeldimensie&#39; genoemd, kunt u de doelpopulatie definiëren: ontvangers, abonnees van apps, operators, abonnees, enz.
+1. Selecteer de **Nieuw schema**. Met een schema, ook wel doeldimensie genoemd, kunt u de doelpopulatie definiëren: ontvangers, abonnementen op apps, operators, abonnees, enz.
 
 1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 

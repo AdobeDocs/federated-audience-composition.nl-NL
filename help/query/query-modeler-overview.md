@@ -2,9 +2,9 @@
 audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe te met vraagmodeler te werken.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Query-modelleraar"
->abstract="Bepaal het filtreren criteria voor ontvangers of om het even welke andere gericht afmeting van het gegevensbestand."
+>abstract="Bepaal het filtreren criteria voor ontvangers of om het even welk ander schema, ook genoemd richtend dimensie, van het gegevensbestand."
 
 De vraagmodeler vereenvoudigt het proces om het gegevensbestand te filtreren dat op diverse criteria wordt gebaseerd. Bovendien, kan de vraagmodeler zeer complexe en lange vragen efficiënt beheren, die grotere flexibiliteit en precisie aanbieden. Bovendien ondersteunt het programma vooraf gedefinieerde filters binnen voorwaarden, waarmee u query&#39;s eenvoudig kunt verfijnen en geavanceerde expressies en operatoren kunt gebruiken voor uitgebreide doelgerichte en segmentatiestrategieën voor het publiek.
 

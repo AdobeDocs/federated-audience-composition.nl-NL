@@ -2,9 +2,9 @@
 audience: end-user
 title: De combinatie-activiteit gebruiken
 description: Meer informatie over het gebruik van de combinatieactiviteit
-source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 12%
 
 ---
@@ -87,7 +87,7 @@ Hiervoor voert u de volgende extra stappen uit:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Uitsluitingsregels"
->abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van de dimensie op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
+>abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Immers, om een doel van een ander schema uit te sluiten, dat ook als het richten dimensie wordt bekend, moet dit doel aan het zelfde schema worden teruggekeerd zoals het belangrijkste doel. Om dit te doen, klik **Een regel toevoegen** in de **uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van het schema op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ Hiervoor voert u de volgende extra stappen uit:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Uitsluitingsregels"
->abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van de dimensie op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
+>abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Immers, om een doel van een ander schema uit te sluiten, dat ook als het richten dimensie wordt bekend, moet dit doel aan het zelfde schema worden teruggekeerd zoals het belangrijkste doel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van het schema op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -112,7 +112,7 @@ Hiervoor moet u de volgende extra stappen volgen:
 
 1. In de **Stelt in om te verbinden** selecteert u de **Primaire set** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
 
-1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van de dimensie op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie. <!-- pas compris-->
+1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Als u een doel wilt uitsluiten van een ander schema, moet dit doel worden geretourneerd naar hetzelfde schema als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van het schema op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie. <!-- pas compris-->
 1. U kunt de **Voltooiing genereren** als u de resterende populatie wilt verwerken. Zie de [Intersectie](#intersection) sectie.
 
 <!--
