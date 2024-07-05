@@ -2,10 +2,10 @@
 audience: end-user
 title: De afstemmingsactiviteit gebruiken
 description: Leer hoe u de verzoeningsactiviteit kunt gebruiken
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 6%
+source-wordcount: '515'
+ht-degree: 0%
 
 ---
 
@@ -36,19 +36,14 @@ De **Verzoening** Met activiteit kunt u de koppeling definiëren tussen de gegev
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## Best practices {#reconciliation-best-practices}
-
-Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in uw samenstelling te verwerken (u kunt gebruiken **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of om verbindingen met een tijdelijke middel tot stand te brengen), **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
-
->[!NOTE]
->De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan.  Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product is gekocht, op welk moment, door welke klant, enzovoort, moeten het product en de klant al in de database aanwezig zijn.
+De **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De verzoeningsverrichting impliceert dat de gegevens u zich aansluit bij reeds in het gegevensbestand zijn. Als u bijvoorbeeld informatie over aankopen wilt afstemmen waarin wordt aangegeven welk product is aangeschaft, op welk tijdstip, door welke client, enzovoort, moeten het product en de client al in de database aanwezig zijn.
 
 ## De afstemmingsactiviteit configureren {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="Doeldimensie"
->abstract="Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. Standaard is de huidige doeldimensie geselecteerd."
+>title="Schema"
+>abstract="Selecteer het nieuwe schema dat op de gegevens moet worden toegepast. Met een schema, ook wel &#39;doeldimensie&#39; genoemd, kunt u de doelpopulatie definiëren: ontvangers, abonnees van apps, operators, abonnees, enz. Door gebrek, wordt de samenstelling het huidige richten afmeting geselecteerd."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -72,21 +67,26 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 
 Voer de volgende stappen uit om de **Verzoening** activiteit:
 
-1. Voeg een **Verzoening** activiteit in uw samenstelling. <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. Voeg een **Verzoening** activiteit in uw samenstelling.
 
-1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. Selecteer de **Nieuw schema**. Met een schema, ook wel &#39;doeldimensie&#39; genoemd, kunt u de doelpopulatie definiëren: ontvangers, abonnees van apps, operators, abonnees, enz.
 
 1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 
-   1. Als u kenmerken wilt gebruiken om gegevens op elkaar af te stemmen, selecteert u de optie **Eenvoudige kenmerken** -optie. De **Source** In dit veld worden de velden weergegeven die beschikbaar zijn in de invoerovergang en die moeten worden afgestemd. De **Doel** komt overeen met de velden van de geselecteerde doeldimensie. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Selecteer bijvoorbeeld de **E-mail** velden voor het dupliceren van profielen op basis van hun e-mailadres.
+   1. Als u kenmerken wilt gebruiken om gegevens op elkaar af te stemmen, selecteert u de optie **Eenvoudige kenmerken** klikt u op de knop **Regel toevoegen** knop.
+   1. Selecteer de **Source** en **Doel** velden voor de afstemming. De **Source** veld. De **Doel** komt overeen met de velden van het geselecteerde schema.
+
+      De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Selecteer bijvoorbeeld de **E-mail** velden voor het dupliceren van profielen op basis van hun e-mailadres.
 
       Klik op de knop **Regel toevoegen** knop. Als er meerdere samenvoegvoorwaarden zijn opgegeven, moeten deze ALLES worden gecontroleerd zodat de gegevens aan elkaar kunnen worden gekoppeld.
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+      ![](../assets/reconciliation-rules.png)
 
-   1. Als u andere kenmerken wilt gebruiken om gegevens met elkaar te verzoenen, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** -optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+   1. Als u andere kenmerken wilt gebruiken om gegevens met elkaar te verzoenen, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** klikt u op de knop **Voorwaarden maken** knop. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler.
 
-1. U kunt gegevens filteren om te verzoenen met de **Filter maken** knop. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+      ![](../assets/reconciliation-advanced.png)
+
+1. U kunt gegevens filteren om te verzoenen met de **Filter maken** knop. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie.
 
 Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Als u niet-compatibele gegevens wilt verwijderen, desactiveert u het dialoogvenster **Niet-compatibele gegevens behouden** -optie.
 
