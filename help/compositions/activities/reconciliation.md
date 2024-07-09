@@ -2,9 +2,9 @@
 audience: end-user
 title: De afstemmingsactiviteit gebruiken
 description: Leer hoe u de verzoeningsactiviteit kunt gebruiken
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om de **Verzoening** activiteit:
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Als u andere kenmerken wilt gebruiken om gegevens met elkaar te verzoenen, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** klikt u op de knop **Voorwaarden maken** knop. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler.
+   1. Als u andere kenmerken wilt gebruiken om gegevens met elkaar te verzoenen, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** klikt u op de knop **Voorwaarden maken** knop. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

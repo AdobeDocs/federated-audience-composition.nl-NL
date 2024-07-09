@@ -2,9 +2,9 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in de vraagmodeler te bouwen
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats 
 
 U kunt twee typen elementen toevoegen:
 
-* **Componenten filteren** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek of een vooraf bepaald filter te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [Leer hoe u met filtercomponenten werkt](#filtering)
+* **Componenten filteren** (De voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [Leer hoe u met filtercomponenten werkt](#filtering)
 
   Voorbeeld: *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &#39;Sport&#39;*. *Ontvangers in New York*, *Ontvangers in San Francisco*
 
@@ -33,7 +33,6 @@ Door componenten te filteren kunt u de query verfijnen door:
 
 * **[Aangepaste voorwaarden](#custom-condition)**: Filter uw query door uw eigen voorwaarde te maken met kenmerken uit de database en geavanceerde expressies.
 * **[Soorten publiek](#audiences)**: Filter de query met een bestaand publiek.
-* **[Vooraf gedefinieerd filter](#predefined-filters)**: Filter de query met behulp van bestaande vooraf gedefinieerde filters.
 
 ### Een aangepaste voorwaarde configureren {#custom-condition}
 
@@ -52,7 +51,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    >[!NOTE]
    >
-   >De **Expressie bewerken** staat u toe aan hefboomwerking de de uitdrukkingsredacteur van het Web om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [Leer hoe u expressies kunt bewerken](expression-editor.md)
+   >De **Expressie bewerken** Met een knop kunt u de expressieeditor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [Leer hoe u expressies kunt bewerken](expression-editor.md)
 
 1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -79,15 +78,11 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 +++
 
-1. In de **Waarde** -veld, definieert u de verwachte waarde. U kunt de de uitdrukkingsredacteur van het Web ook hefboomwerking om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **Expressie bewerken** knop. [Leer hoe u expressies kunt bewerken](expression-editor.md)
+1. In de **Waarde** -veld, definieert u de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Om dit te doen, klik **Expressie bewerken** knop. [Leer hoe u expressies kunt bewerken](expression-editor.md)
 
    *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
-
-   Voor datatype-kenmerken zijn vooraf gedefinieerde waarden beschikbaar via de **[!UICONTROL Presets]** -optie.
-
-   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Aangepaste voorwaarden voor gekoppelde tabellen (1-1 en 1-N koppelingen){#links}
 
@@ -243,12 +238,12 @@ In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten
 >title="Eigenschappen van Rule"
 >abstract="Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant.<br/>In dit deelvenster kunt u de resulterende gegevens weergeven, een SQL-codeversie van de query ophalen en het aantal doelrecords controleren.<br/>Gebruik de **Filter selecteren of opslaan** om de query op te slaan als een vooraf gedefinieerd filter of om de canvasinhoud te vervangen door een bestaand filter."
 
-Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant. Beschikbare bewerkingen zijn:
+Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. Beschikbare bewerkingen zijn:
 
 * **Resultaten weergeven:** Hiermee geeft u de gegevens weer die het resultaat zijn van de query.
 * **Codeweergave**: Geeft een op code gebaseerde versie van de query in SQL weer.
 * **Berekenen**: Updates en geeft het aantal records weer dat wordt bedoeld door uw query.
-* **Filter selecteren of opslaan**: Kies een bestaand vooraf gedefinieerd filter dat u op het canvas wilt gebruiken of sla uw query op als een vooraf gedefinieerd filter voor toekomstig hergebruik. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Filter selecteren of opslaan**: Kies een bestaand vooraf gedefinieerd filter dat u op het canvas wilt gebruiken of sla uw query op als een vooraf gedefinieerd filter voor toekomstig hergebruik.
 
   >[!IMPORTANT]
   >

@@ -2,9 +2,9 @@
 audience: end-user
 title: Gebruik de het publieksactiviteit van de Bouwstijl
 description: Leer hoe u de gebruikersactiviteit van Build gebruikt
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '237'
 ht-degree: 1%
 
 ---
@@ -38,19 +38,19 @@ Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
 
 1. Voeg een **publiek opbouwen** activiteit.
 1. Definieer een label.
-1. Bepaal het publiekstype: **Maak uw eigen** of **Lees publiek**.
+1. Geef op of u een audio wilt maken of een bestaande audio wilt selecteren.
 1. Configureer uw publiek door de stappen uit te voeren die in de onderstaande tabbladen worden beschreven.
 
 >[!BEGINTABS]
 
->[!TAB Uw eigen bestand maken (query)]
+>[!TAB publiek maken]
 
-Voer de volgende stappen uit om uw eigen query te maken:
+Voer de volgende stappen uit om uw eigen publiek te maken:
 
-1. Selecteren **Uw eigen bestand maken (query)**.
-1. Kies de optie **Doeldimensie**. Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers.<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. Selecteren **publiek maken**.
+1. Kies de optie **Schema**, ook wel bekend als doelgerichte dimensie. Met het schema kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, operator, abonnees, enzovoort. Standaard is het schema geselecteerd bij de ontvangers.
 1. Klikken **Doorgaan**.
-1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Gebruik de vraagmodeler om uw vraag te bepalen. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
 >[!TAB Doelgroep lezen]
 
@@ -58,7 +58,7 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 1. Selecteren **Lees publiek**.
 1. Klikken **Doorgaan**.
-1. Selecteer uw publiek, de zelfde manier u een publiek gebruikt wanneer het ontwerpen van een nieuwe levering. <!--Refer to this [section](../../audience/add-audience.md).-->
+1. Selecteer uw publiek.
 
 >[!ENDTABS]
 

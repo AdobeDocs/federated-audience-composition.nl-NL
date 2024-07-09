@@ -4,10 +4,10 @@ title: De incrementele queryactiviteit gebruiken
 description: Leer hoe te om de Incrementele vraagactiviteit te gebruiken
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 18%
+source-wordcount: '573'
+ht-degree: 17%
 
 ---
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om de **Incrementele query** activiteit:
 
    Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
 1. In de **[!UICONTROL Processed data]** selecteert u de incrementele modus die u wilt gebruiken:
 

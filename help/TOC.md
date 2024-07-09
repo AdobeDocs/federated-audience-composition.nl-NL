@@ -2,9 +2,9 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 10%
 
 ---
@@ -47,6 +47,5 @@ ht-degree: 10%
    + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
    + [Uw eerste query samenstellen](query/build-query.md)
    + [Expressies bewerken](query/expression-editor.md)
-   + [Filterlijsten](query/filter.md)
 + Audittrail {#audit-trail}
    + [Uw databases controleren](admin/audit-trail.md)

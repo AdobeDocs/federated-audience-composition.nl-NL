@@ -1,50 +1,50 @@
 ---
 audience: end-user
-title: Werken met de querymodeller
-description: Leer hoe u met de querymodeller kunt werken.
-source-git-commit: 5d4bdbbb9c903e839b21d22455d870396ac1df7d
+title: Werken met de querymodelfunctie
+description: Leer hoe te met vraagmodeler te werken.
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
-# Werken met de querymodeller {#segment-builder}
+# Werken met de querymodelfunctie {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
->title="Querymodeller"
->abstract="Filtercriteria definiëren voor ontvangers of een ander schema, ook wel targetingdimensie genoemd, uit de database."
+>title="Query-modelleraar"
+>abstract="Bepaal het filtreren criteria voor ontvangers of om het even welk ander schema, ook genoemd richtend dimensie, van het gegevensbestand."
 
-De querymodeller vereenvoudigt het filteren van de database op basis van verschillende criteria. Bovendien kan de querymodeller zeer complexe en lange query&#39;s efficiënt beheren, wat meer flexibiliteit en precisie biedt. Bovendien biedt de tool ondersteuning voor vooraf gedefinieerde filters binnen de voorwaarden, zodat u uw zoekopdrachten eenvoudig kunt verfijnen en tegelijkertijd geavanceerde expressies en operatoren kunt gebruiken voor uitgebreide doelgroep- en segmenteringsstrategieën.
+De vraagmodeler vereenvoudigt het proces om het gegevensbestand te filtreren dat op diverse criteria wordt gebaseerd. Bovendien, kan de vraagmodeler zeer complexe en lange vragen efficiënt beheren, die grotere flexibiliteit en precisie aanbieden. Bovendien ondersteunt het programma vooraf gedefinieerde filters binnen voorwaarden, waarmee u query&#39;s eenvoudig kunt verfijnen en geavanceerde expressies en operatoren kunt gebruiken voor uitgebreide doelgerichte en segmentatiestrategieën voor het publiek.
 
-## Toegang krijgen tot de querymodeller
+## Heb toegang tot de vraagmodeller
 
-De querymodeller is beschikbaar in elke context waar u regels moet definiëren om gegevens te filteren.
+De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen.
 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
-| **Definieer doelgroepen**: geef de doelgroep aan die u wilt selecteren in uw composities en creëer moeiteloos nieuwe doelgroepen die zijn afgestemd op uw behoeften. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Workflowactiviteiten** aanpassen: pas regels toe binnen compositieactiviteiten, zoals **Splitsen** en **Afstemming**, die moeten worden afgestemd op uw specifieke vereisten. [Meer informatie over compositieactiviteiten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Soorten publiek definiëren**: Geef de doelgroep op in uw composities en maak moeiteloos nieuwe doelgroepen die aan uw behoeften zijn aangepast. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Workflowactiviteiten aanpassen**: regels toepassen binnen compositieactiviteiten, zoals **Splitsen** en **Verzoening**, om deze aan te passen aan uw specifieke vereisten. [Meer informatie over compositieactiviteiten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-## Interface van querymodeller {#interface}
+## Query-modellerinterface {#interface}
 
-De querymodeller biedt een centraal canvas waar u uw query kunt samenstellen en een rechterdeelvenster met informatie over de query.
+De vraagmodeler verstrekt een centraal canvas waar u uw vraag bouwt, en een juiste ruit die informatie over uw vraag verstrekt.
 
 ![](assets/query-interface.png){zoomable="yes"}
 
 ### Het centrale canvas {#canvas}
 
-In het centrale canvas van de querymodeller kunt u verschillende componenten toevoegen en combineren om uw query samen te stellen. [Leer hoe u een query kunt samenstellen](build-query.md)
+Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert die uw vraag opbouwen. [Leer hoe u een query maakt](build-query.md)
 
-De werkbalk in de rechterbovenhoek van het canvas biedt opties om de querycomponenten eenvoudig te bewerken en op het canvas te navigeren:
+De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
 
-* **Modus** Meervoudige selectie: Selecteer meerdere filtercomponenten die u wilt kopiëren en op de gewenste locatie plakken.
-* **Roteren**: schakel het canvas verticaal om.
-* **Aanpassen aan scherm**: pas het zoomniveau van het canvas aan uw scherm aan.
-* **Uitzoomen** / **Inzoomen**: Zoom uit of op het canvas.
-* **Kaart weergeven**: hiermee wordt een opname van het canvas geopend waarin wordt aantoont dat u zich bevindt.
+* **Meerdere selectiemodus**: Selecteer meerdere filtercomponenten om deze op de gewenste locatie te kopiëren en te plakken.
+* **Roteren**: Verander het canvas verticaal.
+* **Aanpassen aan scherm**: Pas het zoomniveau van het canvas aan op het scherm.
+* **Uitzoomen** / **Inzoomen**: Uitzoomen of op het canvas.
+* **Kaart weergeven**: Hiermee opent u een opname van het canvas waarop u uw locatie ziet.
 
-### Het deelvenster Regeleigenschappen {#rule-properties}
+### Het deelvenster Eigenschappen van regel {#rule-properties}
 
-Aan de rechterkant vindt u in het **[!UICONTROL Rule properties]** deelvenster informatie over uw vraag. Hiermee kunt u verschillende bewerkingen uitvoeren om de query te controleren en ervoor te zorgen dat deze aan uw behoeften voldoet. [Leer hoe u uw query kunt controleren en valideren](build-query.md#check-and-validate-your-query)
+Aan de rechterkant **[!UICONTROL Rule properties]** verstrekt informatie over uw vraag. Het staat u toe om diverse handelingen uit te voeren om de vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. [Leer hoe u uw query kunt controleren en valideren](build-query.md#check-and-validate-your-query)

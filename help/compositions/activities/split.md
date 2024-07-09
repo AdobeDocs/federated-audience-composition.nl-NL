@@ -2,9 +2,9 @@
 audience: end-user
 title: De activiteit Splitsen gebruiken
 description: Leer hoe u de activiteit Splitsen gebruikt
-source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
 
       ![](../assets/split-subset.png)
 
-   1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel gebruikend de vraagmodeler. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+   1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel gebruikend de vraagmodeler. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
    1. Als u het aantal profielen dat door de subset is geselecteerd, wilt beperken, schakelt u het **[!UICONTROL Enable limit]** en geeft het aantal of de percentages van de populatie aan die moeten worden opgenomen.
 
