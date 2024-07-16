@@ -2,7 +2,7 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 10%
@@ -13,18 +13,18 @@ ht-degree: 10%
 # Federale documentatie van Audience Composition {#using}
 
 + [Federale documentatie van Audience Composition](home.md)
-+ [Aan de slag](chapter1/newfile.md)
++ [Aan de slag](start/get-started.md)
 + Configuratiestappen {#config}
    + [Connect AEP met Federatieve Audience Composition](connections/destinations.md)
    + [Configureer uw gefedereerde databases](connections/federated-db.md)
    + [Verbindingen maken en beheren](connections/connections.md)
-   + Gegevensmodellen en -schema&#39;s{#datamodel}
+   + Gegevensmodellen en schema&#39;s {#datamodel}
       + [Uw gegevensmodellen configureren](data-management/gs-models.md)
       + [Schema&#39;s maken en configureren](customer/schemas.md)
    + [Werken met het publiek](customer/audiences.md)
 + Composities {#compositions}
    + [Aan de slag met composities](compositions/gs-compositions.md)
-   + Creeer en stel uw eerste samenstelling in werking {#create-composition}
+   + Uw eerste compositie maken en uitvoeren {#create-composition}
       + [Belangrijkste beginselen voor het creëren van compositie](compositions/gs-composition-creation.md)
       + [De compositie maken en configureren](compositions/create-composition.md)
       + [Orchestraten](compositions/orchestrate-activities.md)
