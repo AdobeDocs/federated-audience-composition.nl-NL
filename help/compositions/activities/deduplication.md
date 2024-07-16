@@ -15,38 +15,38 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Velden om duplicaten te identificeren"
->abstract="In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om de velden op te geven waarvoor de identieke waarden het mogelijk maken duplicaten te identificeren, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt."
+>abstract="In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="Deduplicatieactiviteit"
->abstract="De **Deduplicatie** Met activiteit kunt u duplicaten uit de resultaten van de binnenkomende activiteiten verwijderen. Het wordt meestal gebruikt na doelgerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken."
+>abstract="De **Deduplicatie** activiteit staat u toe om duplicaten in de resultaten van de binnenkomende activiteiten te schrappen. Het wordt meestal gebruikt na doelgerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Een complement genereren"
->abstract="U kunt een extra uitgaande overgang met de resterende bevolking produceren, die als duplicaat werd uitgesloten. Om dit te doen, knevel op **Complement genereren** option"
+>abstract="U kunt een extra uitgaande overgang met de resterende bevolking produceren, die als duplicaat werd uitgesloten. Om dit te doen, op **van een knevel voorzien produceer complement** optie"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="Instellingen voor deduplicatie"
 >abstract="Als u duplicaten van binnenkomende gegevens wilt verwijderen, definieert u de deduplicatiemethode in de onderstaande velden. Standaard wordt slechts één record bewaard. U moet ook de deduplicatiemodus selecteren op basis van een expressie of een kenmerk. Standaard wordt de record die buiten de duplicaten moet blijven, willekeurig geselecteerd."
 
-De **Deduplicatie** Met activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten, bijvoorbeeld gedupliceerde profielen in de lijst met ontvangers. De **Deduplicatie** de activiteit wordt doorgaans gebruikt na doelgerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken.
+De **Deduplicatie** activiteit staat u toe om duplicaten in het resultaat(en) van de binnenkomende activiteiten, bijvoorbeeld gedupliceerde profielen in de ontvankelijke lijst te schrappen. De **Deduplicatie** activiteit wordt over het algemeen gebruikt na het richten van activiteiten, en vóór activiteiten die het gebruik van gerichte gegevens toestaan.
 
 ## De deduplicatieactiviteit configureren{#deduplication-configuration}
 
-Voer de volgende stappen uit om de **Deduplicatie** activiteit:
+Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren:
 
-1. Voeg een **Deduplicatie** activiteit aan uw samenstelling.
+1. Voeg de activiteit van de a **Deduplicatie** aan uw samenstelling toe.
 
-1. Als de activiteit verscheidene binnenkomende overgangen heeft, selecteer de overgang om deduplicatie van uit te voeren **[!UICONTROL Primary set]** vervolgkeuzelijst
+1. Als de activiteit verscheidene binnenkomende overgangen heeft, selecteer de overgang om deduplicatie uit te voeren van de **[!UICONTROL Primary set]** drop-down lijst
 
-1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om de velden op te geven waarvoor de identieke waarden het mogelijk maken duplicaten te identificeren, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
+1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 
    ![](../assets/deduplication.png)
 
-1. In de **Instellingen voor deduplicatie** selecteert u het aantal unieke **Duplicaten om te behouden**. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
+1. In de **montages van de Deduplicatie** sectie, selecteer het aantal unieke **Duplicaten om** te houden. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
 
    Stel bijvoorbeeld dat records A en B worden beschouwd als duplicaten van record Y en dat een record C wordt beschouwd als duplicaat van record Z:
 
@@ -54,14 +54,14 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
    * Als de waarde van het veld 0 is: alle records blijven behouden.
    * Als de waarde van het veld 2 is: de records C en Z blijven behouden en twee records van A, B en Y blijven behouden, bij toeval of afhankelijk van de daarna geselecteerde deduplicatiemethode.
 
-1. Selecteer de **Deduplicatiemethode** te gebruiken:
+1. Selecteer de **methode van de Deduplicatie** aan gebruik:
 
-   * **Willekeurige selectie**: Hiermee selecteert u willekeurig de record die u uit de duplicaten wilt verwijderen.
-   * **Expressies gebruiken**: Bewaar de records waarin de waarde van de ingevoerde expressie het kleinst of het grootst is.
-   * **Niet-lege waarden**: Bewaar de records waarvoor de expressie niet leeg is.
-   * **Na een lijst met waarden**: Definieer een waardeprioriteit voor een of meer velden. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Als u een nieuw veld wilt definiëren, klikt u op de knop **Knop Toevoegen** boven de lijst met waarden.
+   * **Willekeurige selectie**: Selecteert willekeurig het verslag dat uit de duplicaten moet worden gehouden.
+   * **Gebruikend een uitdrukking**: Behoud de verslagen waarin de waarde van de ingevoerde uitdrukking de kleinste of grootste is.
+   * **Niet-lege waarden**: houd de verslagen waarvoor de uitdrukking niet leeg is.
+   * **na een lijst van waarden**: Bepaal een waardeprioriteit voor één of meerdere gebieden. Om de waarden te bepalen, klik **Attribuut** om een gebied te selecteren of een uitdrukking tot stand te brengen, dan voeg de waarde(n) in de aangewezen lijst toe. Om een nieuw gebied te bepalen, klik **toevoegen knoop** boven de lijst van waarden wordt gevestigd die.
 
-1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
+1. Controleer **aanvult** optie als u wenst om de resterende bevolking uit te buiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
 
 <!--
 ## Example{#deduplication-example}

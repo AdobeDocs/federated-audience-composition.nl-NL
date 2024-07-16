@@ -15,9 +15,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="Activiteit voor publiek opbouwen"
->abstract="De **publiek opbouwen** de activiteit staat u toe om het publiek te bepalen dat de samenstelling zal ingaan."
+>abstract="**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de samenstelling zal ingaan."
 
-De **publiek opbouwen** de activiteit staat u toe om het publiek te bepalen dat de samenstelling zal ingaan.
+**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de samenstelling zal ingaan.
 
 Om de publieksbevolking te bepalen, kunt u:
 
@@ -25,7 +25,7 @@ Om de publieksbevolking te bepalen, kunt u:
 * Selecteer een Adobe Experience Platform-publiek.
 * Bouw een nieuw publiek met de bouwer van de vraagmodelleur door het filtreren criteria te bepalen en te combineren.
 
-De **publiek opbouwen** activiteit kan aan het begin van de samenstelling of na enige andere activiteit worden geplaatst. Elke activiteit kan na de **publiek opbouwen**.
+**bouwt publieksactiviteit** aan het begin van de samenstelling of na een andere activiteit. Om het even welke activiteit kan na **worden geplaatst bouwt publiek**.
 
 ## Vorm de het publieksactiviteit van de Bouwstijl {#build-audience-configuration}
 
@@ -34,30 +34,30 @@ De **publiek opbouwen** activiteit kan aan het begin van de samenstelling of na 
 >title="Doelgroep"
 >abstract="Selecteer uw publiek."
 
-Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
+Volg deze stappen om **te vormen bouwen publiek** activiteit:
 
-1. Voeg een **publiek opbouwen** activiteit.
+1. Voeg a **toe bouwt publiek** activiteit.
 1. Definieer een label.
 1. Geef op of u een audio wilt maken of een bestaande audio wilt selecteren.
 1. Configureer uw publiek door de stappen uit te voeren die in de onderstaande tabbladen worden beschreven.
 
 >[!BEGINTABS]
 
->[!TAB publiek maken]
+>[!TAB  creeer publiek ]
 
 Voer de volgende stappen uit om uw eigen publiek te maken:
 
-1. Selecteren **publiek maken**.
-1. Kies de optie **Schema**, ook wel bekend als doelgerichte dimensie. Met het schema kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, operator, abonnees, enzovoort. Standaard is het schema geselecteerd bij de ontvangers.
-1. Klikken **Doorgaan**.
-1. Gebruik de vraagmodeler om uw vraag te bepalen. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
+1. Selecteer **tot publiek** leiden.
+1. Kies het **Schema**, die ook als het richten dimensie wordt bekend. Met het schema kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, operator, abonnees, enzovoort. Standaard is het schema geselecteerd bij de ontvangers.
+1. Klik **verdergaan**.
+1. Gebruik de vraagmodeler om uw vraag te bepalen. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
 >[!TAB Doelgroep lezen]
 
 Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
-1. Selecteren **Lees publiek**.
-1. Klikken **Doorgaan**.
+1. Selecteer **Gelezen publiek**.
+1. Klik **verdergaan**.
 1. Selecteer uw publiek.
 
 >[!ENDTABS]

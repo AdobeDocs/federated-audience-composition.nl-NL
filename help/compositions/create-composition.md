@@ -16,18 +16,18 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 
 ## De compositie maken {#create-the-composition}
 
-1. Toegang krijgen tot de **[!UICONTROL Audiences]** en selecteert u de **[!UICONTROL Federated compositions]** tab.
+1. Open het menu **[!UICONTROL Audiences]** en selecteer de tab **[!UICONTROL Federated compositions]** .
 
 1. Klik op de knop **[!UICONTROL Create composition]**.
 
    ![](assets/composition-create.png)
 
-1. In de **[!UICONTROL Properties]** , geeft u een label voor uw compositie op en klikt u op **[!UICONTROL Create]**.
+1. Geef in de sectie **[!UICONTROL Properties]** een label voor de compositie op en klik op **[!UICONTROL Create]** .
 
 1. Het compositicanvas wordt weergegeven. U kunt uw samenstelling nu vormen door zo vele activiteiten toe te voegen zoals nodig om uw behoeften aan te passen alvorens het uit te voeren:
 
    * [Leer hoe u activiteiten kunt ordenen](#action-activities)
-   * [Leer hoe u een compositie start en bewaakt](#save)
+   * [ leer hoe te om een samenstelling te beginnen en te controleren ](#save)
 
 ## Vorm de montages van de samenstelling {#settings}
 
@@ -39,7 +39,7 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="Samenstellingssegmentatie"
->abstract="Door gebrek, slechts worden de het werk lijsten van de laatste uitvoering van de samenstelling gehouden. U kunt deze optie inschakelen om werktabellen bij te houden voor testdoeleinden. Het moet worden gebruikt **alleen** op ontwikkelings- of staging-omgevingen. Het mag nooit worden gecontroleerd in een productieomgeving."
+>abstract="Door gebrek, slechts worden de het werk lijsten van de laatste uitvoering van de samenstelling gehouden. U kunt deze optie inschakelen om werktabellen bij te houden voor testdoeleinden. Het moet **slechts** op ontwikkeling of het opvoeren milieu&#39;s worden gebruikt. Het mag nooit worden gecontroleerd in een productieomgeving."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
@@ -48,22 +48,22 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 
 Wanneer het toegang hebben tot van een samenstelling, kunt u tot geavanceerde montages toegang hebben die u, bijvoorbeeld, toestaan om te bepalen hoe de samenstelling zich in het geval van fout zou moeten gedragen.
 
-Klik op de knop **Instellingen** knoop die in de hogere sectie van het scherm van de samenstellingsverwezenlijking wordt gevestigd.
+Om tot extra opties voor uw samenstelling toegang te hebben, klik de **knoop van Montages** die in de hogere sectie van het scherm van de samenstellingsverwezenlijking wordt gevestigd.
 
 ![](assets/composition-create-settings.png)
 
 De beschikbare instellingen zijn als volgt:
 
-* **[!UICONTROL Label]**: Wijzig het label van de compositie.
+* **[!UICONTROL Label]**: wijzig het label van de compositie.
 
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Door gebrek, slechts worden de het werk lijsten van de laatste uitvoering van de samenstelling gehouden. De werktabellen van vorige uitvoeringen worden door een technische samenstelling gezuiverd, die dagelijks loopt.
 
-  Als deze optie wordt toegelaten, zullen het werken lijsten worden gehouden zelfs nadat de samenstelling is uitgevoerd. U kunt het voor testdoeleinden gebruiken en daarom moet het worden gebruikt **alleen** op ontwikkelings- of staging-omgevingen. Het mag nooit in een productiesamenstelling worden gecontroleerd.
+  Als deze optie wordt toegelaten, zullen het werken lijsten worden gehouden zelfs nadat de samenstelling is uitgevoerd. U kunt het voor testende doeleinden gebruiken en daarom moet **slechts** op ontwikkeling of het opvoeren milieu&#39;s worden gebruikt. Het mag nooit in een productiesamenstelling worden gecontroleerd.
 
-* **[!UICONTROL Error management]**: Met deze optie kunt u de handelingen definiëren die moeten worden uitgevoerd als een compositieactiviteit fouten bevat. Er zijn drie mogelijke opties:
+* **[!UICONTROL Error management]**: met deze optie kunt u de handelingen definiëren die moeten worden uitgevoerd als een compositieactiviteit fouten bevat. Er zijn drie mogelijke opties:
 
-   * **[!UICONTROL Suspend the process]**: De compositie wordt automatisch gepauzeerd en de status wordt gewijzigd in **[!UICONTROL Failed]**. Zodra de kwestie wordt opgelost, hervat de samenstelling gebruikend **[!UICONTROL Resume]** knoppen.
-   * **[!UICONTROL Ignore]**: De status van de taak die de fout heeft veroorzaakt, verandert in **[!UICONTROL Failed]**, maar de samenstelling houdt de **[!UICONTROL Started]** status.
-   * **[!UICONTROL Abord the process]**: De compositie wordt automatisch gestopt en de status wordt gewijzigd in **[!UICONTROL Failed]**. Zodra de kwestie wordt opgelost, herstart de samenstelling gebruikend **[!UICONTROL Start]** knop.
+   * **[!UICONTROL Suspend the process]**: De compositie wordt automatisch gepauzeerd en de status verandert in **[!UICONTROL Failed]** . Nadat het probleem is opgelost, hervat u de compositie met de knoppen **[!UICONTROL Resume]** .
+   * **[!UICONTROL Ignore]**: De status van de taak die de fout heeft veroorzaakt, verandert in **[!UICONTROL Failed]** , maar de compositie behoudt de status **[!UICONTROL Started]** .
+   * **[!UICONTROL Abord the process]**: De compositie wordt automatisch gestopt en de status verandert in **[!UICONTROL Failed]** . Zodra de kwestie wordt opgelost, begin de samenstelling opnieuw gebruikend de **[!UICONTROL Start]** knoop.
 
-* **[!UICONTROL Consecutive errors]**: Geef het aantal fouten op dat kan worden genegeerd voordat het proces wordt gestopt. Zodra dit aantal wordt bereikt, verandert de samenstellingsstatus in **[!UICONTROL Failed]**. Als de waarde van dit veld 0 is, wordt de compositie nooit gestopt, ongeacht het aantal fouten.
+* **[!UICONTROL Consecutive errors]**: geef op hoeveel fouten kunnen worden genegeerd voordat het proces wordt gestopt. Zodra dit aantal wordt bereikt, verandert de samenstellingsstatus in **[!UICONTROL Failed]**. Als de waarde van dit veld 0 is, wordt de compositie nooit gestopt, ongeacht het aantal fouten.

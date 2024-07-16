@@ -15,6 +15,6 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Een doel maken"
->abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de **Verbinden met doel** knoop om uw configuratie te bevestigen."
+>abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik **verbinden met bestemmings** knoop om uw configuratie te bevestigen."
 
 

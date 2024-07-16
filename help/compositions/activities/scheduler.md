@@ -15,9 +15,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Planningsactiviteit"
->abstract="De **Planner** Met deze activiteit kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow."
+>abstract="De **Planner** activiteit staat u toe om te plannen wanneer het werkschema begonnen wordt. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow."
 
-De **Planner** activiteit is **Stroomregeling** activiteit. Het staat u toe om te plannen wanneer de samenstelling wordt begonnen. Deze activiteit moet worden beschouwd als een geplande start. Het kan slechts als eerste activiteit van de samenstelling worden gebruikt.
+De **planner** activiteit is de controle **activiteit van de a** Stroom. Het staat u toe om te plannen wanneer de samenstelling wordt begonnen. Deze activiteit moet worden beschouwd als een geplande start. Het kan slechts als eerste activiteit van de samenstelling worden gebruikt.
 
 ## De planningsactiviteit configureren {#scheduler-configuration}
 
@@ -31,39 +31,39 @@ De **Planner** activiteit is **Stroomregeling** activiteit. Het staat u toe om t
 >title="Planningsopties"
 >abstract="Bepaal de frequentie van de planner. Het kan op een specifiek moment, één keer of verscheidene keren per dag, week of maand worden uitgevoerd."
 
-Voer de volgende stappen uit om de **Planner** activiteit:
+Volg deze stappen om de **Planner** activiteit te vormen:
 
-1. Voeg een **Planner** activiteit aan uw werkschema.
+1. Voeg a **Planner** activiteit aan uw werkschema toe.
 
-1. Vorm **Uitvoerfrequentie**:
+1. Vorm de **frequentie van de Uitvoering**:
 
-   * **Eenmaal**: de compositie wordt één keer uitgevoerd.
+   * **Eenmaal**: de samenstelling wordt uitgevoerd één keer.
 
-   * **Dagelijks**: de compositie wordt op een specifiek tijdstip, eenmaal per dag, uitgevoerd.
+   * **Dagelijks**: de samenstelling wordt uitgevoerd op een specifieke tijd, eens per dag.
 
-   * **Meerdere keren per dag:** de samenstelling wordt regelmatig verscheidene keren per dag uitgevoerd. U kunt uitvoeringen instellen op specifieke tijdstippen of periodiek.
+   * **verscheidene tijden per dag:** de samenstelling wordt regelmatig uitgevoerd verscheidene keren per dag. U kunt uitvoeringen instellen op specifieke tijdstippen of periodiek.
 
      >[!NOTE]
      >
      >Plan geen samenstelling om meer dan om de 15 minuten in werking te stellen aangezien het algemene systeemprestaties kan belemmeren en tot blokken in het gegevensbestand kan leiden.
 
-   * **Wekelijks**: de samenstelling wordt uitgevoerd op een bepaald moment, één keer of meerdere keren per week.
+   * **Wekelijks**: de samenstelling wordt uitgevoerd op een gespecificeerd moment, eens of verscheidene tijden per week.
 
-   * **Maandelijks**: de compositie wordt uitgevoerd op een bepaald moment, één keer of meerdere keren per maand. U kunt maanden selecteren wanneer u de compositie nodig hebt die moet worden uitgevoerd. U kunt uitvoeringen ook instellen op bepaalde weekdagen van de maand, zoals de tweede dinsdag van de maand.
+   * **Maandelijks**: de samenstelling wordt uitgevoerd op een gespecificeerd moment, eens of verscheidene tijden per maand. U kunt maanden selecteren wanneer u de compositie nodig hebt die moet worden uitgevoerd. U kunt uitvoeringen ook instellen op bepaalde weekdagen van de maand, zoals de tweede dinsdag van de maand.
 
 1. Definieer de details van de uitvoering op basis van de geselecteerde frequentie. De detailvelden variëren, afhankelijk van de gebruikte frequentie (tijd, herhalingsfrequentie, opgegeven dagen, enz.).
 
-1. Klikken **Voorvertoning van opstartij** om het programma van de volgende tien uitvoeringen van uw samenstelling te controleren.
+1. Klik **de lanceringstijden van de Voorproef** om het programma van volgende tien uitvoeringen van uw samenstelling te controleren.
 
 1. Bepaal de geldigheidsperiode van de planner:
 
-   * **Permanent (nooit verlopen)**: de compositie wordt uitgevoerd volgens de opgegeven frequentie, zonder enige beperking van het tijdkader of het aantal herhalingen.
+   * **Vaste (verloopt nooit)**: de samenstelling wordt uitgevoerd, volgens de gespecificeerde frequentie, zonder enige grenzen aan het tijdkader of aantal herhalingen.
 
    * **Geldigheidsperiode**: de samenstelling wordt uitgevoerd volgens de gespecificeerde frequentie, tot een specifieke datum. U moet begin- en einddatums opgeven.
 
 >[!NOTE]
 >
->Als u de compositie meteen wilt starten, klikt u op de knop **Taak in behandeling uitvoeren** in de hoogste actiebar van de planner. Deze knoop is slechts beschikbaar wanneer u de samenstelling bent begonnen.
+>Als u de samenstelling wilt onmiddellijk beginnen, kunt u **klikken voert hangende taak** in de hoogste actiebar van de planner uit. Deze knoop is slechts beschikbaar wanneer u de samenstelling bent begonnen.
 
 <!--## Example{#scheduler-example}
 

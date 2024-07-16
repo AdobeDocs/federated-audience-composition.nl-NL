@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Een publiek opslaan"
->abstract="Gebruik deze activiteit om een bestaand publiek bij te werken of een nieuw publiek van de bevolking tot stand te brengen die stroomopwaarts in de samenstelling wordt berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen en is beschikbaar via de **Soorten publiek** -menu."
+>abstract="Gebruik deze activiteit om een bestaand publiek bij te werken of een nieuw publiek van de bevolking tot stand te brengen die stroomopwaarts in de samenstelling wordt berekend. Het gecreeerde publiek wordt toegevoegd aan de lijst van publiek, en beschikbaar via het **Publiek** menu."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
 >title="Uitgaande overgang genereren"
->abstract="Gebruik deze optie als u een overgang wilt toevoegen na het dialoogvenster **Adviezen opslaan** activiteit."
+>abstract="Gebruik deze optie als u een overgang na **wilt toevoegen sparen publiek** activiteit."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
@@ -34,33 +34,33 @@ ht-degree: 0%
 >abstract="Selecteer de naamruimte die u wilt gebruiken voor profielen."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Meer informatie in de documentatie bij Experience Platforms"
 
-De **Adviezen opslaan** met activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de bevolking die stroomopwaarts in een compositie is berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen van toepassingen en wordt beschikbaar gesteld via de **Soorten publiek** -menu.
+**sparen publiek** activiteit staat u toe om een bestaand publiek bij te werken of een nieuw publiek van de bevolking tot stand te brengen die stroomopwaarts in een samenstelling wordt verwerkt. Het gecreeerde publiek wordt toegevoegd aan de lijst van toepassingspubliek, en beschikbaar gemaakt via het **publiek** menu.
 
-Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde samenstelling te berekenen, door hen in herbruikbaar publiek om te zetten. Verbind het met andere gerichte activiteiten zoals **publiek opbouwen** of **Combineren** activiteit.
+Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde samenstelling te berekenen, door hen in herbruikbaar publiek om te zetten. Verbind het met andere het richten activiteiten zoals a **bouwt publiek** of a **combineer** activiteit.
 
 ## Vorm sparen publieksactiviteit {#save-audience-configuration}
 
-Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
+Volg deze stappen om **te vormen sparen publiek** activiteit:
 
-1. Voeg een **Adviezen opslaan** activiteit aan uw samenstelling.
+1. Voeg a **sparen publiek** activiteit aan uw samenstelling toe.
 
    ![](../assets/save-audience.png)
 
 1. Geef het label op van het publiek dat u wilt maken.
 
-1. Klikken **Toewijzing publiek toevoegen** Kies vervolgens de velden voor de bron en het doelpubliek:
+1. Klik **toevoegen de Toewijzing van het publiek** dan de bron en doelpublieksgebieden kiezen:
 
-   * **Source Audience Field**:
-   * **Doelpubliek veld**:
+   * **Gebied van het publiek van Source**:
+   * **Gebied van het publiek van het Doel**:
 
    Herhaal de bewerking om zoveel publiek-toewijzingen toe te voegen als u nodig hebt.
 
 1. Selecteer de primaire identiteit en naamruimte die u wilt gebruiken om de doelprofielen in de database te identificeren:
 
-   * **Primair identiteitsveld**: Selecteer het veld dat u wilt gebruiken om de profielen te identificeren. Bijvoorbeeld zijn e-mailadres of telefoonnummer.
-   * **Naamruimte identiteit**: Selecteer de naamruimte die u wilt gebruiken om de profielen te identificeren, dat wil zeggen het type gegevens dat u als identificatietoets wilt gebruiken. Als het e-mailadres bijvoorbeeld is geselecteerd als primair identiteitsveld, wordt de naamruimte van de identiteit **E-mail** moet worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan identiteit namespace **Telefoon** moet worden geselecteerd.
+   * **Primair identiteitsgebied**: Selecteer het gebied om de profielen te gebruiken te identificeren. Bijvoorbeeld zijn e-mailadres of telefoonnummer.
+   * **Identiteitsnaamruimte**: Selecteer namespace aan gebruik om de profielen, d.w.z. het type van gegevens te identificeren om als identificatiesleutel te gebruiken. Bijvoorbeeld, als het e-mailadres als primair identiteitsgebied is geselecteerd, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
-Nadat u de compositie hebt uitgevoerd, wordt het resulterende publiek opgeslagen in Adobe Experience Platform <!-- to check-->en toegankelijk worden gemaakt in de **Soorten publiek** -menu.
+Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform <!-- to check-->, en toegankelijk gemaakt in het **Publiek** menu.
 
 <!--
 

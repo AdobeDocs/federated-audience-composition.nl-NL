@@ -15,21 +15,21 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
 >title="Vorkactiviteit"
->abstract="De **Vork** de activiteit staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen."
+>abstract="De **activiteit 0} van het Vonk {staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.**"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="Overgangen naar vorkactiviteit"
->abstract="Standaard worden twee overgangen gemaakt met een **Vork** activiteit. Klik op de knop **Overgang toevoegen** om een extra uitgaande overgang te bepalen, en zijn etiket in te gaan."
+>abstract="Door gebrek, worden twee overgangen gecreeerd met de activiteit van het a **Fork**. Klik **toevoegen overgangsknoop** om een extra uitgaande overgang te bepalen, en zijn etiket in te gaan."
 
-De **Vork** de activiteit staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
+De **activiteit 0} van het Vonk {staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.**
 
 ## De vorkactiviteit configureren {#fork-configuration}
 
-Voer de volgende stappen uit om de **Vork** activiteit:
+Volg deze stappen om de **1} activiteit van het Fork {te vormen:**
 
-1. Voeg een **Vork** activiteit aan uw samenstelling.
-1. Klikken **Overgang toevoegen** een nieuwe uitgaande overgang toevoegen. Standaard zijn twee overgangen gedefinieerd.
+1. Voeg de activiteit van het a **Vonk** aan uw samenstelling toe.
+1. Klik **toevoegen overgang** om een nieuwe uitgaande overgang toe te voegen. Standaard zijn twee overgangen gedefinieerd.
 1. Voeg een label toe aan elk van uw overgangen.
 
    ![](../assets/fork.png)

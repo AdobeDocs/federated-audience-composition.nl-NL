@@ -14,18 +14,18 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
 >title="Wachtactiviteit"
->abstract="De **Wachten** activiteit wordt gebruikt om de overgang van een activiteit aan een andere uit te stellen."
+>abstract="**wacht** activiteit wordt gebruikt om de overgang van een activiteit aan een andere te vertragen."
 
-De **Wachten** de activiteit laat een bepaalde hoeveelheid tijd toe om tussen twee uit te voeren activiteiten over te gaan. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
+**wacht** activiteit staat een bepaalde hoeveelheid tijd toe om tussen twee activiteiten over te gaan die worden uitgevoerd. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
 
 ## Configuratie{#wait-configuration}
 
-Voer de volgende stappen uit om de **Wachten** activiteit:
+Volg deze stappen om **te vormen wachten** activiteit:
 
-1. Voeg een **Wachten** activiteit in uw samenstelling.
+1. Voeg a **toe wacht** activiteit in uw samenstelling.
 
-1. Geef de **Duur** van de wachttijd tussen de binnenkomende en uitgaande overgangen.
+1. Specificeer de **Duur** van het wachten tussen de binnenkomende en uitgaande overgangen.
 
-1. Selecteer de tijdeenheid in het dialoogvenster **Punten** veld: seconden, minuten, uren, dagen.
+1. Selecteer de tijdeenheid op het **gebied van Punten**: seconden, notulen, uren, dagen.
 
 

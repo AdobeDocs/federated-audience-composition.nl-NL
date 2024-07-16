@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # Uw eerste query samenstellen {#build-query}
 
-Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats van uw keus, afhankelijk van de actie u wilt uitvoeren. Het Query-model wordt geopend met een leeg canvas. Klik op de knop **+** knoop om de eerste knoop van uw vraag te vormen.
+Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats van uw keus, afhankelijk van de actie u wilt uitvoeren. Het Query-model wordt geopend met een leeg canvas. Klik **+** knoop om de eerste knoop van uw vraag te vormen.
 
 U kunt twee typen elementen toevoegen:
 
-* **Componenten filteren** (De voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [Leer hoe u met filtercomponenten werkt](#filtering)
+* **het Filtreren componenten** (de voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [ leren hoe te met het filtreren componenten ](#filtering) te werken
 
-  Voorbeeld: *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &#39;Sport&#39;*. *Ontvangers in New York*, *Ontvangers in San Francisco*
+  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief* intekende. *Ontvangers die in New York* leven, *Ontvangers die in San Francisco* leven
 
   ![](assets/query-add-component.png){zoomable="yes"}
 
-* **Groepoperatoren** (EN, OF, BEHALVE) staat u toe om het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [Leer werken met operatoren](#filtering)
+* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [ Leer hoe te met exploitanten ](#filtering) te werken
 
-  Voorbeeld: *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &quot;Sport&quot;**EN**die in New York wonen **OF**San Francisco*.
+  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**intekende die in New York **OF**San Francisco* leven.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -31,8 +31,8 @@ U kunt twee typen elementen toevoegen:
 
 Door componenten te filteren kunt u de query verfijnen door:
 
-* **[Aangepaste voorwaarden](#custom-condition)**: Filter uw query door uw eigen voorwaarde te maken met kenmerken uit de database en geavanceerde expressies.
-* **[Soorten publiek](#audiences)**: Filter de query met een bestaand publiek.
+* **[de voorwaarden van de Douane](#custom-condition)**: Filter uw vraag door uw eigen voorwaarde met attributen van het gegevensbestand en geavanceerde uitdrukkingen te bouwen.
+* **[Soorten publiek](#audiences)**: Filter uw vraag gebruikend een bestaand publiek.
 
 ### Een aangepaste voorwaarde configureren {#custom-condition}
 
@@ -43,15 +43,15 @@ Door componenten te filteren kunt u de query verfijnen door:
 
 Voer de volgende stappen uit om de query te filteren met behulp van een aangepaste voorwaarde:
 
-1. Klik op de knop **+** op de gewenste knoop en selecteer **[!UICONTROL Custom condition]**. Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
+1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Custom condition]** . Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
 
-1. In de **Kenmerk** Selecteer in de database het kenmerk dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw database, inclusief kenmerken van gekoppelde tabellen.
+1. Op het **gebied van Attributen**, selecteer de attributen van het gegevensbestand dat u hefboomwerking wilt gebruiken om uw voorwaarde tot stand te brengen. De lijst met kenmerken bevat alle kenmerken van uw database, inclusief kenmerken van gekoppelde tabellen.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >De **Expressie bewerken** Met een knop kunt u de expressieeditor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [Leer hoe u expressies kunt bewerken](expression-editor.md)
+   >De **geeft uitdrukking** knoop uit staat u toe aan hefboomwerking de uitdrukkingsredacteur om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
 1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -61,26 +61,26 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    |  ---  |  ---  |  ---  |
    | Gelijk aan | Retourneert een resultaat dat identiek is aan de gegevens die zijn ingevoerd in de tweede kolom Waarde. | Achternaam (@lastName) gelijk aan &#39;Jones&#39; retourneert alleen ontvangers met als achternaam Jones. |
    | Niet gelijk aan | Retourneert alle waarden die niet identiek zijn aan de ingevoerde waarde. | Taal (@taal) gelijk aan &#39;Engels&#39; |
-   | Groter dan | Retourneert een waarde die groter is dan de ingevoerde waarde. | Leeftijd (@leeftijd) groter dan 50</strong>alle waarden boven &quot;50&quot;, d.w.z. &quot;51&quot;, &quot;52&quot; enz. |
-   | Minder dan | Retourneert een waarde die kleiner is dan de ingevoerde waarde. | Aanmaakdatum (@created) vóór &#39;DaysAgo(100)&#39;</strong>, worden alle ontvangers geretourneerd die minder dan 100 dagen geleden zijn gemaakt. |
-   | Groter dan of gelijk aan | Retourneert alle waarden die gelijk zijn aan of groter zijn dan de ingevoerde waarde. | Leeftijd (@leeftijd) groter dan of gelijk aan &#39;30&#39;</strong>, worden alle ontvangers vanaf 30 jaar geretourneerd. |
-   | Kleiner dan of gelijk aan | Retourneert alle waarden die gelijk zijn aan of lager zijn dan de ingevoerde waarde. | Leeftijd (@leeftijd) kleiner dan of gelijk aan &#39;60&#39;</strong>, worden alle ontvangers vanaf 60 jaar geretourneerd. |
+   | Groter dan | Retourneert een waarde die groter is dan de ingevoerde waarde. | Leeftijd (@age) groter dan 50 </strong>, zal alle waarden groter dan &quot;50&quot;terugkeren, d.w.z. &quot;51&quot;, &quot;52&quot;, enz. |
+   | Minder dan | Retourneert een waarde die kleiner is dan de ingevoerde waarde. | De aanmaakdatum (@created) vóór &#39;DaysAgo(100)&#39; </strong>, retourneert alle ontvangers die minder dan 100 dagen geleden zijn gemaakt. |
+   | Groter dan of gelijk aan | Retourneert alle waarden die gelijk zijn aan of groter zijn dan de ingevoerde waarde. | Leeftijd (@age) groter dan of gelijk aan &quot;30&quot;</strong>, zal alle ontvangers terugkeren 30 of meer. |
+   | Kleiner dan of gelijk aan | Retourneert alle waarden die gelijk zijn aan of lager zijn dan de ingevoerde waarde. | Leeftijd (@age) minder dan of gelijk aan &quot;60&quot;</strong>, zal alle ontvangers terugkeren 60 of minder. |
    | Opgenomen in | Retourneert resultaten die zijn opgenomen in de aangegeven waarden. Deze waarden moeten door een komma worden gescheiden. | De geboortedatum (@geboortedatum) is opgenomen in &quot;12/10/1979,12/10/1984&quot; en retourneert de tussen deze data geboren ontvangers. |
    | Niet in | Werkt zoals is opgenomen in operator. Hier, willen wij ontvangers uitsluiten die op de ingegane waarden worden gebaseerd. | Geboortedatum (@geboortedatum) is niet opgenomen in &quot;10-12-1979,12-10-1984&quot;. Anders dan in het vorige voorbeeld worden ontvangers die binnen deze datums geboren zijn, niet geretourneerd. |
    | Is leeg | In dit geval komt het resultaat dat we zoeken overeen met een lege waarde in de tweede kolom Waarde. | Mobiele (@mobilePhone) is leeg en retourneert alle ontvangers die geen mobiel nummer hebben. |
    | Is niet leeg | Werkt in omgekeerde volgorde naar de operator Is leeg. Het is niet nodig gegevens in te voeren in de tweede kolom Waarde. | E-mail (@email) is niet leeg. |
    | Begint met | Retourneert de resultaten die beginnen met de ingevoerde waarde. | Account # (@account) begint met &#39;32010&#39;. |
    | Begint niet met | Retourneert de resultaten die niet beginnen met de ingevoerde waarde. | Account # (@account) begint niet met &#39;20&#39; |
-   | Bevat | Retourneert de resultaten die ten minste de ingevoerde waarde bevatten. | E-maildomein (@domein) bevat &#39;mail&#39;</strong>, worden alle domeinnamen geretourneerd die &#39;mail&#39; bevatten. Het domein &#39;gmail.com&#39; wordt dus ook geretourneerd. |
+   | Bevat | Retourneert de resultaten die ten minste de ingevoerde waarde bevatten. | E-maildomein (@domain) bevat &#39;mail&#39; </strong> , retourneert alle domeinnamen die &#39;mail&#39; bevatten. Het domein &#39;gmail.com&#39; wordt dus ook geretourneerd. |
    | Bevat niet | Retourneert resultaten die niet de ingevoerde waarde bevatten. | E-maildomein (@domain) bevat geen &#39;vo&#39;</strong>. In dit geval worden domeinnamen die &#39;vo&#39; bevatten, niet geretourneerd. De domeinnaam voila.fr wordt niet weergegeven in de resultaten. |
    | leuk | Net als de Contains-operator. Hiermee kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) zoals &#39;Jon%s&#39;. Hier wordt het jokerteken gebruikt als een joker om de naam Jones te vinden, mocht de operator de ontbrekende letter tussen de &#39;n&#39; en &#39;s&#39; vergeten hebben. |
    | Niet leuk | Net als de Contains-operator. Hiermee kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) houdt niet van &#39;Smi%h&#39;. Hier worden de ontvangers met de achternaam &#39;Smi%h&#39; niet geretourneerd. |
 
 +++
 
-1. In de **Waarde** -veld, definieert u de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Om dit te doen, klik **Expressie bewerken** knop. [Leer hoe u expressies kunt bewerken](expression-editor.md)
+1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Om dit te doen, klik **geef uitdrukking** knoop uit. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
-   *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
+   *het voorbeeld van de Vraag die alle profielen terugkeren die 21 of meer zijn:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
 
@@ -88,15 +88,15 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 De voorwaarden van de douane staan u toe om lijsten te vragen verbonden aan de lijst die momenteel door uw regel wordt gebruikt. Dit omvat lijsten met een 1-1 kardinaliteitsverbinding, of inzamelingstabellen (verbinding 1-N).
 
-Voor een **1-1 link**, navigeert u naar de gekoppelde tabel, selecteert u het gewenste kenmerk en definieert u de verwachte waarde.
+Voor a **1-1 verbinding**, navigeer aan de verbonden lijst, selecteer de gewenste attributen en bepaal de verwachte waarde.
 
-U kunt ook rechtstreeks een tabelkoppeling selecteren in het dialoogvenster **Waarde** plukker en bevestig. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
+U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren en bevestigen. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
 
 +++voorbeeld van Query
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-1. Navigeren in het deelvenster **Merk** en selecteer de **Label** kenmerk.
+1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -110,13 +110,13 @@ Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselect
 
 +++
 
-Voor een **1-N link** U kunt subvoorwaarden definiëren om uw query te verfijnen, zoals in het onderstaande voorbeeld wordt getoond.
+Voor a **1-N verbinding**, kunt u sub-voorwaarden bepalen om uw vraag te verfijnen, zoals aangetoond in het hieronder voorbeeld.
 
 +++voorbeeld van Query
 
 Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking tot het BrewMaster-product, voor een totale hoeveelheid van ten minste 100$.
 
-1. Selecteer de **Aankopen** tabel en bevestiging.
+1. Selecteer **Aankopen** lijst en bevestig.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +124,7 @@ Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Selecteer de **Prijs** kenmerk- en doelaankopen van 1000$ of meer
+1. Selecteer de **Prijs** attributen en doelaankopen van 1000$ of meer
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +142,7 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Schakel in het deelvenster Eigenschappen de optie **Samengevoegde gegevens** en selecteert u de gewenste statistische functie.
+1. In de eigenschappen ruit, knevel op de **Samengevoegde gegevens** optie en selecteer de gewenste gezamenlijke functie.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,15 +151,15 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Doelgroep selecteren"
->abstract="Met de opdracht **Doelgroep selecteren** kunt u het publiek kiezen dat u wilt gebruiken om de query te filteren."
+>abstract="Door de **Uitgezochte publiek** optie te gebruiken, kunt u het publiek kiezen dat u wilt gebruiken om uw vraag te filtreren."
 
 Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
-1. Klik op de knop **+** op het gewenste knooppunt en kies **[!UICONTROL Select audience]**.
+1. Klik op de knop **+** op het gewenste knooppunt en kies **[!UICONTROL Select audience]** .
 
-1. De **Doelgroep selecteren** eigenschappenvenster wordt aan de rechterkant geopend. Kies het publiek dat u wilt gebruiken om uw query te filteren.
+1. De **Uitgezochte publiek** eigenschappen ruit opent op de rechterkant. Kies het publiek dat u wilt gebruiken om uw query te filteren.
 
-   *Voorbeeld met zoekopdrachten waarin alle profielen worden geretourneerd die tot het publiek van het &quot;Festival Goers&quot; behoren:*
+   *voorbeeld van de vraag die alle profielen terugkeert die tot het &quot;publiek van de Goers van het Festival&quot;behoren:*
 
    ![](assets/query-audience.png){zoomable="yes"}
 
@@ -168,15 +168,15 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Vooraf gedefinieerd filter"
->abstract="Met de opdracht **Vooraf gedefinieerd filter** kunt u een vooraf gedefinieerd filter selecteren in de lijst met aangepaste filters of in de lijst met favorieten."
+>abstract="Door de **Vooraf bepaalde filteroptie** te gebruiken, kunt u een vooraf bepaald filter van de lijst van douanefilters of van favorieten selecteren."
 
 Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd filter:
 
-1. Klik op de knop **+** op de gewenste knoop en selecteer **[!UICONTROL Predefined filter]**.
+1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Predefined filter]** .
 
-1. De **Vooraf gedefinieerd filter** eigenschappenvenster wordt aan de rechterkant geopend. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
+1. De **Vooraf bepaalde filter** eigenschappen ruit opent op de rechterkant. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
 
-   *Voorbeeld van query met alle profielen die overeenkomen met het vooraf gedefinieerde filter &quot;Inactieve klanten&quot;:*
+   *voorbeeld van de Vraag die alle profielen terugkeren die aan de &quot;Inactieve klanten&quot;vooraf bepaalde filter beantwoorden:*
 
    ![](assets/query-predefined-filter.png){zoomable="yes"}
 
@@ -198,7 +198,7 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Als u de component(en) wilt plakken, klikt u op de +-knop aan het einde van de gewenste overgang en selecteert u **In items plakken**.
+1. Om de component(en) te kleven, klik + knoop aan het eind van de gewenste overgang en selecteer **Deeg in punten**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -209,23 +209,23 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 >title="Groep"
 >abstract="In dit deelvenster kunt u de operator wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen."
 
-Elke keer dat u een nieuwe filtercomponent aan uw query toevoegt, wordt deze automatisch aan de andere component gekoppeld door een component **EN** operator. Dit betekent dat de resultaten van de twee filtercomponenten worden gecombineerd.
+Telkens als u een nieuwe het filtreren component aan uw vraag toevoegt, wordt het automatisch verbonden met de andere component door een **EN** exploitant. Dit betekent dat de resultaten van de twee filtercomponenten worden gecombineerd.
 
-In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is gekoppeld aan de vooraf gedefinieerde filtervoorwaarde met een **EN** operator, wat betekent dat de queryresultaten ontvangers omvatten die het doelfilter &quot;Madridians&quot; (vooraf gedefinieerd) EN dat tot het publiek &quot;Discount hunters&quot; behoort.
+In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is verbonden met de vooraf bepaalde filtervoorwaarde met een **EN** exploitant, betekenend dat de vraagresultaten ontvangers omvatten die door de &quot;Madridians&quot;vooraf bepaalde filter worden gericht EN die tot het &quot;aantal van de Korting jagers&quot;publiek behoren.
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het dialoogvenster **Groep** venster dat aan de rechterkant wordt geopend.
+Om de exploitant te veranderen die wordt gebruikt om het filtreren voorwaarden samen te verbinden, klik op het en selecteer de gewenste exploitant in de **ruit van de Groep** die op de rechterkant opent.
 
 Beschikbare operatoren zijn:
 
-* **EN (Doorsnede)**: Combineert resultaten die overeenkomen met alle filtercomponenten in de uitgaande overgangen.
-* **OF (Verenigen)**: Deze groep bevat resultaten die overeenkomen met ten minste een van de filtercomponenten in de uitgaande overgangen.
-* **BEHALVE (Uitsluiting)**: Hiermee sluit u resultaten uit die overeenkomen met alle filtercomponenten in de uitgaande overgang.
+* **EN (Doorsnede)**: Combineert resultaten die alle het filtreren componenten in de uitgaande overgangen aanpassen.
+* **OF (Unie)**: Omvat resultaten die minstens één van de het filtreren componenten in de uitgaande overgangen aanpassen.
+* **BEHALVE (Uitsluiting)**: Sluit resultaten uit die alle het filtreren componenten in de uitgaande overgang aanpassen.
 
 ![](assets/query-operator-change.png){zoomable="yes"}
 
-Bovendien kunt u tussenliggende groepen componenten maken door op de knop **+** op een overgang. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
+Daarnaast kunt u tussenliggende groepen componenten maken door op de knop **+** in een overgang te klikken. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
 
 In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten opneemt van het publiek &quot;VIP te belonen&quot; of &quot;Super VIP&quot;.
 
@@ -236,21 +236,21 @@ In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Eigenschappen van Rule"
->abstract="Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant.<br/>In dit deelvenster kunt u de resulterende gegevens weergeven, een SQL-codeversie van de query ophalen en het aantal doelrecords controleren.<br/>Gebruik de **Filter selecteren of opslaan** om de query op te slaan als een vooraf gedefinieerd filter of om de canvasinhoud te vervangen door een bestaand filter."
+>abstract="Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend de **eigenschappen van de Regel** ruit die op de rechterkant wordt gevestigd.<br/> Dit ruit staat u toe om de resulterende gegevens te tonen, een SQL codeversie van de vraag terug te winnen, en het aantal gerichte verslagen te controleren.<br/> gebruik **Uitgezocht of sparen filter** knoop om uw vraag als vooraf bepaald filter te bewaren, of de canvasinhoud met een bestaand filter te vervangen."
 
-Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. Beschikbare bewerkingen zijn:
+Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend de **eigenschappen van de Regel** ruit die op de rechterkant wordt gevestigd. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. Beschikbare bewerkingen zijn:
 
-* **Resultaten weergeven:** Hiermee geeft u de gegevens weer die het resultaat zijn van de query.
-* **Codeweergave**: Geeft een op code gebaseerde versie van de query in SQL weer.
-* **Berekenen**: Updates en geeft het aantal records weer dat wordt bedoeld door uw query.
-* **Filter selecteren of opslaan**: Kies een bestaand vooraf gedefinieerd filter dat u op het canvas wilt gebruiken of sla uw query op als een vooraf gedefinieerd filter voor toekomstig hergebruik.
+* **resultaten van de Mening:** toont de gegevens die uit uw vraag voortvloeien.
+* **mening van de Code**: Toont een op code-gebaseerde versie van de vraag in SQL.
+* **berekent**: Updates en toont het aantal verslagen die door uw vraag worden gericht.
+* **Uitgezocht of sparen filter**: Kies een bestaand vooraf bepaald filter om in het canvas te gebruiken, of sparen uw vraag als vooraf bepaald filter voor toekomstig hergebruik.
 
   >[!IMPORTANT]
   >
   >Selecteer een vooraf gedefinieerd filter in het deelvenster Eigenschappen regel om de query die in het canvas is gemaakt te vervangen door het geselecteerde filter.
 
-Wanneer uw vraag klaar is, klik **[!UICONTROL Confirm]** in de rechterbovenhoek om het op te slaan.
+Wanneer uw vraag klaar is, klik de **[!UICONTROL Confirm]** knoop in de hoger-juiste hoek om het te bewaren.
 
-U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd er rekening mee dat als een bestaande query wordt geopend, deze in een vereenvoudigde weergave wordt weergegeven zonder dat de  **+** knoppen. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de component of operator **+** knoppen.
+U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd in mening dat het bij het openen van een bestaande vraag, het in een vereenvoudigde mening zonder de zichtbaarheid van **+** knopen toont. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de knoppen **+** weer te geven.
 
 ![](assets/edit-audience.png){zoomable="yes"}

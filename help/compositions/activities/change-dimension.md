@@ -15,26 +15,26 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Een complement genereren"
->abstract="U kunt een extra uitgaande overgang met de resterende bevolking produceren, die als duplicaat werd uitgesloten. Om dit te doen, knevel op **Complement genereren** option"
+>abstract="U kunt een extra uitgaande overgang met de resterende bevolking produceren, die als duplicaat werd uitgesloten. Om dit te doen, op **van een knevel voorzien produceer complement** optie"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Dimensieactiviteit wijzigen"
 >abstract="Deze activiteit staat u toe om het schema, dat ook als het richten dimensie wordt bekend te veranderen, aangezien u een publiek bouwt. Het verschuift de as afhankelijk van het gegevensmalplaatje en het inputschema. U kunt bijvoorbeeld van het schema &quot;contracten&quot; overschakelen op het schema &quot;clients&quot;."
 
-De **Dimensie wijzigen** de activiteit staat u toe om het schema te veranderen, dat ook als het richten dimensie wordt bekend, aangezien u uw publiek bouwt. Het verschuift de as afhankelijk van het gegevensmalplaatje en het inputschema.
+De **dimensie van de Verandering** activiteit staat u toe om het schema te veranderen, dat ook als het richten van dimensie wordt bekend, aangezien u uw publiek bouwt. Het verschuift de as afhankelijk van het gegevensmalplaatje en het inputschema.
 
 ## Vorm de de afmetingsactiviteit van de Verandering {#configure}
 
-Voer de volgende stappen uit om de **Dimensie wijzigen** activiteit:
+Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
 
-1. Voeg een **Dimensie wijzigen** activiteit aan uw samenstelling.
+1. Voeg de dimensie van de a **Verandering** activiteit aan uw samenstelling toe.
 
    ![](../assets/change-dimension.png)
 
-1. Definieer de **Nieuw schema**. Tijdens het wijzigen van het schema worden alle records bewaard.
+1. Bepaal het **Nieuwe schema**. Tijdens het wijzigen van het schema worden alle records bewaard.
 
-1. Voer de samenstelling uit om het resultaat te bekijken. Vergelijk de gegevens in de tabellen voor en na de **Dimensie wijzigen** en vergelijk de structuur van de compositietabellen.
+1. Voer de samenstelling uit om het resultaat te bekijken. Vergelijk de gegevens in de lijsten vóór en na de **dimensie van de Verandering** activiteit, en vergelijk de structuur van de samenstellingstabellen.
 
 <!--
 ## Example {#example}

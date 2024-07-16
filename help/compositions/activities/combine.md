@@ -15,40 +15,40 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
 >title="Combineer activiteit"
->abstract="De **Combineren** de activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor meerdere doelen."
+>abstract="**combineert** activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor meerdere doelen."
 
-De **Combineren** de activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen.
+**combineert** activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen.
 
-De **Combineren** activiteit kan na enige andere activiteit worden geplaatst, maar niet aan het begin van de samenstelling. Elke activiteit kan na de **Combineren**.
+**combineer** activiteit kan na een andere activiteit, maar niet aan het begin van de samenstelling worden geplaatst. Om het even welke activiteit kan worden geplaatst na **combineren**.
 
 ## De combinatieactiviteit configureren {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="Samenvoegopties voor doorsnede"
->abstract="De **intersection** Hiermee kunt u alleen de elementen behouden die gemeenschappelijk zijn voor de verschillende binnenkomende populaties in de activiteit. In de **Stelt in om te verbinden** in, controleert u alle vorige activiteiten waaraan u wilt deelnemen."
+>abstract="**doorsnede** staat u toe om slechts de elementen gemeenschappelijk voor de verschillende binnenkomende populaties in de activiteit te houden. In de **Reeksen om zich bij** sectie aan te sluiten, controleer alle vorige activiteiten u zich wilt aansluiten bij."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Samenvoegopties voor uitsluiting"
->abstract="De **uitsluiting** kunt u elementen op basis van bepaalde criteria uitsluiten van één populatie. In de **Stelt in om te verbinden** in, controleert u alle vorige activiteiten waaraan u wilt deelnemen."
+>abstract="De **uitsluiting** staat u toe om elementen van één bevolking volgens bepaalde criteria uit te sluiten. In de **Reeksen om zich bij** sectie aan te sluiten, controleer alle vorige activiteiten u zich wilt aansluiten bij."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="Selecteer het segmentatietype"
 >abstract="Selecteer hoe u het publiek wilt combineren: verenigen, doorsnijden of uitsluiten."
 
-Voer de volgende algemene stappen uit om de configuratie van de **Combineren** activiteit:
+Volg deze gemeenschappelijke stappen beginnen de **te vormen combineren** activiteit:
 
 1. Voeg meerdere activiteiten toe om minstens twee verschillende uitvoeringstakken te vormen.
 
-1. Voeg een **Combineren** activiteiten aan een van de vorige bijkantoren.
+1. Voeg a **** activiteit aan om het even welke vorige takken combineren.
 
-1. Selecteer het segmentatietype: [Unie](#union), [Intersectie](#intersection) of [Uitsluiting](#exclusion)en klik op **Doorgaan**.
+1. Selecteer het segmentatietype: [ Vereniging ](#union), [ Intersectie ](#intersection) of [ Uitsluiting ](#exclusion), en klik **gaat** verder.
 
    ![](../assets/combine.png)
 
-1. In de **Stelt in om te verbinden** alle vorige activiteiten controleren waaraan u wilt deelnemen.
+1. In de **Reeksen om zich bij** sectie aan te sluiten, controleer alle vorige activiteiten u zich wilt aansluiten.
 
 ## Samenvoegen {#combine-union}
 
@@ -60,60 +60,60 @@ Voer de volgende algemene stappen uit om de configuratie van de **Combineren** a
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
 >title="Afstemmingsopties"
->abstract="Selecteer de **Type afstemming** om te definiëren hoe duplicaten moeten worden verwerkt."
+>abstract="Selecteer het **Type van Verzoening** om te bepalen hoe te om duplicaten te behandelen."
 
-In de **Combineren** activiteit, kunt u vormen **Unie**.
+In **combineer** activiteit, kunt u a **Vereniging** vormen.
 
 ![](../assets/combine-union.png)
 
-Hiervoor moet u de optie **Type afstemming** om te bepalen hoe duplicaten worden verwerkt:
+Voor dit, moet u het **Type van Verzoening** selecteren om te bepalen hoe de duplicaten worden behandeld:
 
-* **Alleen toetsen**: dit is de standaardmodus. De activiteit behoudt slechts één element wanneer elementen van de verschillende binnenkomende overgangen dezelfde sleutel hebben. Deze optie kan alleen worden gebruikt als de binnenkomende populaties homogeen zijn.
-* **Een selectie van kolommen**: selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
+* **Sleutels slechts**: dit is de standaardwijze. De activiteit behoudt slechts één element wanneer elementen van de verschillende binnenkomende overgangen dezelfde sleutel hebben. Deze optie kan alleen worden gebruikt als de binnenkomende populaties homogeen zijn.
+* **een selectie van kolommen**: selecteer deze optie om de lijst van kolommen te bepalen waarop de gegevensverzoening wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
 
 ## Doorsnede {#combine-intersection}
 
-In de **Combineren** activiteit, kunt u vormen **Intersectie**.
+In **combineer** activiteit, kunt u een **Intersection** vormen.
 
 ![](../assets/combine-intersection.png)
 
 Hiervoor voert u de volgende extra stappen uit:
 
-1. Selecteer de **Type afstemming** om te bepalen hoe duplicaten worden verwerkt. Zie de [Unie](#union) sectie.
-1. U kunt de **Complement genereren** als u de resterende populatie wilt verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
+1. Selecteer het **Type van Verzoening** om te bepalen hoe de duplicaten worden behandeld. Zie [ Unie ](#union) sectie.
+1. U kunt **controleren produceert complementaire** optie als u wenst om de resterende bevolking te verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
 
 ## Uitsluiting {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Uitsluitingsregels"
->abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Immers, om een doel van een ander schema uit te sluiten, dat ook als het richten dimensie wordt bekend, moet dit doel aan het zelfde schema worden teruggekeerd zoals het belangrijkste doel. Om dit te doen, klik **Een regel toevoegen** in de **uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van het schema op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
+>abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Immers, om een doel van een ander schema uit te sluiten, dat ook als het richten dimensie wordt bekend, moet dit doel aan het zelfde schema worden teruggekeerd zoals het belangrijkste doel. Om dit te doen, klik **een regel** in de E **sectie van de uitsluitingsregels** toevoegen en de voorwaarden van de schemaverandering specificeren. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
 >title="Te combineren sets selecteren"
->abstract="In de **Stelt in om te verbinden** selecteert u de **Primaire set** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set."
+>abstract="In de **Reeksen om zich bij** sectie aan te sluiten, selecteer de **Primaire reeks** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Uitsluitingsregels"
->abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Immers, om een doel van een ander schema uit te sluiten, dat ook als het richten dimensie wordt bekend, moet dit doel aan het zelfde schema worden teruggekeerd zoals het belangrijkste doel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van het schema op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
+>abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Immers, om een doel van een ander schema uit te sluiten, dat ook als het richten dimensie wordt bekend, moet dit doel aan het zelfde schema worden teruggekeerd zoals het belangrijkste doel. Om dit te doen, klik **een regel** in de **sectie van de Regels van de Uitsluiting** toevoegen en de voorwaarden van de schemaverandering specificeren. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Combineren genereert een complement"
->abstract="In-/uitschakelen **Complement genereren** de mogelijkheid om de resterende populatie in een aanvullende overgang te verwerken."
+>abstract="Wisselen op **produceer complementaire** optie om de resterende bevolking in een extra overgang te verwerken."
 
-In de **Combineren** activiteit, kunt u vormen **Uitsluiting**.
+In **combineer** activiteit, kunt u een **Uitsluiting** vormen.
 
 ![](../assets/combine-exclusion.png)
 
 Hiervoor moet u de volgende extra stappen volgen:
 
-1. In de **Stelt in om te verbinden** selecteert u de **Primaire set** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
+1. In de **Reeksen om zich bij** sectie aan te sluiten, selecteer de **Primaire reeks** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
 
-1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Als u een doel wilt uitsluiten van een ander schema, moet dit doel worden geretourneerd naar hetzelfde schema als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van het schema op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie. <!-- pas compris-->
-1. U kunt de **Voltooiing genereren** als u de resterende populatie wilt verwerken. Zie de [Intersectie](#intersection) sectie.
+1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Als u een doel wilt uitsluiten van een ander schema, moet dit doel worden geretourneerd naar hetzelfde schema als het hoofddoel. Om dit te doen, klik **een regel** in de **sectie van de Regels van de Uitsluiting** toevoegen en de voorwaarden van de schemaverandering specificeren. Afstemming van gegevens vindt plaats via een attribuut of een join-functie. <!-- pas compris-->
+1. U kunt **controleren produceert volledigheid** optie als u wenst om de resterende bevolking te verwerken. Zie de [ sectie van de Intersectie ](#intersection).
 
 <!--
 ## Examples{#combine-examples}

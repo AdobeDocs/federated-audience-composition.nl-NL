@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Werken met modellen"
->abstract="Schema&#39;s en gegevensmodellen worden in dit scherm weergegeven. U kunt schema&#39;s en gegevensmodellen van tot stand brengen **Maken** knop."
+>abstract="Schema&#39;s en gegevensmodellen worden in dit scherm weergegeven. U kunt schema&#39;s en gegevensmodellen van **tot stand brengen leidt** knoop."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
@@ -38,17 +38,17 @@ ht-degree: 0%
 
 Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen hen.
 
-Meer informatie over [schema&#39;s](../customer/schemas.md).
+Leer meer over [ schema&#39;s ](../customer/schemas.md).
 
-Meer informatie over [publiek](../customer/audiences.md).
+Leer meer over [ publiek ](../customer/audiences.md).
 
 ## Hoe kan ik een gegevensmodel maken? {#data-model-create}
 
-In **[!UICONTROL FEDERATED DATA]** sectie, ga in **[!UICONTROL Models]** koppeling. Je vindt daar de **[!UICONTROL Data model]** tab.
+Ga in de sectie **[!UICONTROL FEDERATED DATA]** naar de koppeling **[!UICONTROL Models]** . Daar vindt u de tab **[!UICONTROL Data model]** .
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-Klik op de knop **[!UICONTROL Create data model]** kunt u uw gegevensmodel een naam geven en op de knop **[!UICONTROL Create]** knop.
+Als u op de knop **[!UICONTROL Create data model]** klikt, kunt u het gegevensmodel een naam geven en op de knop **[!UICONTROL Create]** klikken.
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 

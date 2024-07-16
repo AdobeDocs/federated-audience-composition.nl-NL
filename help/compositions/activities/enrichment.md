@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Verrijkingsactiviteit"
->abstract="De **Verrijking** Met deze activiteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt algemeen gebruikt in een samenstelling na segmentatieactiviteiten."
+>abstract="De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gegevensbestand te verbeteren. Het wordt algemeen gebruikt in een samenstelling na segmentatieactiviteiten."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="Verrijkingsactiviteit"
->abstract="Zodra de verrijkingsgegevens aan de samenstelling zijn toegevoegd, kunnen zij worden gebruikt in de activiteiten die na de **Verrijking** activiteit om profielen in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en keuzen worden gebaseerd."
+>abstract="Zodra de verrijkingsgegevens aan de samenstelling zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de **Verrijking** activiteit aan segmentprofielen in verschillende groepen worden toegevoegd die op hun gedrag, voorkeur, en keuzen worden gebaseerd."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
@@ -37,40 +37,40 @@ ht-degree: 0%
 >title="Verrijkingsgegevens"
 >abstract="Selecteer de gegevens die u wilt gebruiken om uw compositie te verrijken. U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van het schema, dat ook als het richten van afmeting wordt bekend, of een inzamelingsverbinding, die een verbinding met een 1-N kardinaliteit tussen lijsten is."
 
-De **Verrijking** de activiteit staat u toe om de gerichte gegevens met extra informatie van het gefedereerde gegevensbestand te verbeteren. Het wordt doorgaans gebruikt in composities na segmentatieactiviteiten.
+De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gefedereerde gegevensbestand te verbeteren. Het wordt doorgaans gebruikt in composities na segmentatieactiviteiten.
 
 Verrijkingsgegevens kunnen worden verkregen:
 
-* **Van dezelfde werktabel** als doelgroep in uw samenstelling:
+* **van de zelfde het werklijst** zoals die in uw samenstelling wordt gericht:
 
-  *Stel een groep klanten in en voeg het veld Geboortedatum toe aan de huidige tabel*.
+  *Doel een groep klanten en voeg het &quot;datum&quot;gebied van de Geboorteplaats aan de huidige het werklijst* toe.
 
-* **Van een andere werktabel**:
+* **van een andere het werklijst**:
 
-  *Selecteer een groep klanten en voeg de velden Bedrag en Type product uit de tabel Aankoop toe*.
+  *Beoogd een groep klanten en voeg de &quot;Bedrag&quot;en &quot;Type van product&quot;gebieden toe die uit de &quot;lijst van de Aankoop&quot;komen*.
 
-Zodra de verrijkingsgegevens aan de samenstelling zijn toegevoegd, kunnen ze worden gebruikt in de activiteiten die na de **Verrijking** activiteit om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en keuzen worden gebaseerd.
+Zodra de verrijkingsgegevens aan de samenstelling zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de **Verrijking** activiteit worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en keuzen worden gebaseerd.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
 ## De verrijkingsactiviteit configureren {#enrichment-configuration}
 
-Voer de volgende stappen uit om de **Verrijking** activiteit:
+Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
 
-1. Voeg activiteiten toe zoals **publiek opbouwen** en **Combineren** activiteiten.
-1. Een **Verrijking** activiteit.
+1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
+1. Voeg een **Verrijking** activiteit toe.
 
    ![](../assets/enrichment.png)
 
-1. Als de veelvoudige overgangen in uw samenstelling zijn gevormd, kunt u gebruiken **[!UICONTROL Primary set]** veld om te bepalen welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
+1. Als er meerdere overgangen zijn geconfigureerd in uw compositie, kunt u het veld **[!UICONTROL Primary set]** gebruiken om te definiëren welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
 
-1. Klikken **Verrijkingsgegevens toevoegen** en selecteert u het kenmerk dat u wilt gebruiken om de gegevens te verrijken.
+1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om de gegevens te gebruiken te verrijken.
 
    ![](../assets/enrichment-add.png)
 
    >[!NOTE]
    >
-   >De **De knop Expressie bewerken** in het selectiescherm voor kenmerken kunt u geavanceerde expressies maken om het kenmerk te selecteren.
+   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
@@ -83,9 +83,9 @@ Voer de volgende stappen uit om de **Verrijking** activiteit:
 
 Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedatum. Voer de volgende stappen uit:
 
-1. Klik in het dialoogvenster **Kenmerk** veld.
+1. Klik binnen het **gebied van Attributen**.
 1. Selecteer een eenvoudig veld in het schema. Dit wordt ook wel de doeldimensie genoemd. In het voorbeeld ziet u de geboortedatum.
-1. Klikken **Bevestigen**.
+1. Klik **bevestigen**.
 
 <!--### Collection link {#collection-link}
 
