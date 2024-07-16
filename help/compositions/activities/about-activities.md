@@ -2,7 +2,7 @@
 audience: end-user
 title: Werken met activiteiten
 description: Leer hoe u met activiteiten kunt werken
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 9f84502684c7cd0e174b1fcad4b9c811f50965f1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 In Federated Audience Composition, kunt u samenstellingen tot stand brengen gebruikend twee soorten activiteiten:
 
-* **Gerichte activiteiten** Hiermee kunt u een of meer doelen maken door een publiek te definiëren en deze doelgroepen te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsacties.
-* **Stroomregeling** de activiteiten zijn specifiek gericht op het organiseren en uitvoeren van composities. Hun belangrijkste taak is de coördinatie van de andere activiteiten.
+* **het richten activiteiten** laat u één of meerdere doelstellingen bouwen door een publiek te bepalen en deze doelgroepen te splitsen of te combineren gebruikend doorsnede, vereniging of uitsluitingsverrichtingen.
+* **de controle van de Stroom** activiteiten zijn specifiek aan het organiseren van en het uitvoeren van samenstellingen. Hun belangrijkste taak is de coördinatie van de andere activiteiten.
 
 ## Gerichte activiteiten
 
-* [Activiteit voor publiek opbouwen](build-audience.md): Definieer de doelpopulatie. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
-* [Dimensie wijzigen](change-dimension.md): Wijzig het schema, ook wel afmeting aanwijzen genoemd, terwijl u uw compositie samenstelt.
-* [Combineren](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
-* [Deduplicatie](deduplication.md): Verwijder duplicaten van de resultaten van de binnenkomende activiteiten.
-* [Verrijking](enrichment.md): Definieer aanvullende gegevens die in uw compositie moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
-* [Verzoening](reconciliation.md): Definieer de koppeling tussen de gegevens in de database en de gegevens in een werktabel, bijvoorbeeld gegevens die uit een extern bestand zijn geladen.
-* [Adviezen opslaan](save-audience.md): Werk een bestaand publiek bij of maak een nieuw publiek van de populatie die stroomopwaarts in een samenstelling wordt berekend.
-* [Splitsen](split.md): Segmenteer de binnenkomende populatie in verschillende subsets.
+* [ bouwt publieksactiviteit ](build-audience.md): Bepaal uw doelbevolking. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
+* [ dimensie van de Verandering ](change-dimension.md): Verander het schema, dat ook als het richten dimensie wordt bekend, aangezien u uw samenstelling bouwt.
+* [ combineren ](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
+* [ Deduplicatie ](deduplication.md): Schrap duplicaten in het resultaat(en) van de binnenkomende activiteiten.
+* [ Verrijking ](enrichment.md): Bepaal extra gegevens om in uw samenstelling te verwerken. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
+* [ Verzoening ](reconciliation.md): Bepaal het verband tussen de gegevens in het gegevensbestand en de gegevens in een het werklijst, bijvoorbeeld gegevens die van een extern dossier worden geladen.
+* [ sparen publiek ](save-audience.md): Werk een bestaand publiek bij of creeer een nieuw publiek van de bevolking die stroomopwaarts in een samenstelling wordt berekend.
+* [ Gesplitst ](split.md): De inkomende bevolking van het segment in verscheidene ondergroepen.
 
 ## Stroombeheeractiviteiten
 
-* [AND-join](and-join.md): Meerdere uitvoeringstakken van een workflow synchroniseren.
-* **Einde** : Geeft grafisch het einde van een workflow aan. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
-* [Vork](fork.md): Maak uitgaande overgangen om meerdere activiteiten tegelijk te starten.
-* [Planner](scheduler.md): Plan wanneer de workflow wordt gestart.
-* [Wachten](wait.md): Onderbreek tijdelijk de uitvoering van een deel van een workflow.
+* [ EN-sluit zich aan ](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een samenstelling.
+* **Eind** : Merk grafisch het eind van een samenstelling. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
+* [ Fork ](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
+* [ Planner ](scheduler.md): Plan wanneer de samenstelling begonnen wordt.
+* [ wacht ](wait.md): Onderbreek tijdelijk uitvoering van een deel van een samenstelling.
