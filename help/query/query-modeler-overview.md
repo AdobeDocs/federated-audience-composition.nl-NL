@@ -1,10 +1,11 @@
 ---
 audience: end-user
 title: Werken met de querymodelfunctie
-description: Leer hoe te met vraagmodeler te werken.
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: Leer hoe te met vraagmodeler te werken
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
 | **bepaalt publiek**: Specificeer de bevolking u in uw samenstellingen wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **pas werkschemaactiviteiten** aan: pas regels binnen samenstellingsactiviteiten, zoals **Splitsen** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ Leer meer op samenstellingsactiviteiten ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **pas activiteiten** aan: pas regels binnen samenstellingsactiviteiten, zoals **Splitsen** en **Verzoening** toe, om met uw specifieke vereisten te richten. [ Leer meer op samenstellingsactiviteiten ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Query-modellerinterface {#interface}
 
@@ -39,11 +40,11 @@ Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende c
 
 De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
 
-* **Veelvoudige selectiemodus**: Selecteer veelvoudige het filtreren componenten om hen bij de plaats van uw keus te kopiëren en te kleven.
-* **roteer**: Verdraai verticaal het canvas.
-* **Passend aan het scherm**: Pas het het gezoemniveau van het canvas aan uw scherm aan.
-* **Gezoem uit** / **Gezoem binnen**: Gezoem uit of in het canvas.
-* **kaart van de Vertoning**: Opent een momentopname van het canvas die u toont wordt gevestigd.
+* **[!UICONTROL Multiple selection mode]**: Selecteer meerdere filtercomponenten om deze op de gewenste locatie te kopiëren en te plakken.
+* **[!UICONTROL Rotate]**: verander het canvas verticaal.
+* **[!UICONTROL Fit to screen]**: pas het zoomniveau van het canvas aan het scherm aan.
+* **[!UICONTROL Zoom out]** / **[!UICONTROL Zoom in]** : Uitzoomen of op het canvas.
+* **[!UICONTROL Display map]**: hiermee opent u een opname van het canvas waarop wordt aangegeven waar u zich bevindt.
 
 ### Het deelvenster Eigenschappen van regel {#rule-properties}
 

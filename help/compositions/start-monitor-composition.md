@@ -2,9 +2,10 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -70,12 +71,12 @@ De actiebalk in de rechterbovenhoek biedt opdrachten waarmee u de uitvoering van
 
 Beschikbare acties zijn:
 
-* **Begin**: Begint de uitvoering van de samenstelling, die dan de **neemt Bezig** status. De samenstelling is begonnen en de eerste activiteiten worden geactiveerd.
+* **[!UICONTROL Start]**: hiermee wordt de uitvoering van de compositie gestart, die vervolgens de status **[!UICONTROL In progress]** krijgt. De samenstelling is begonnen en de eerste activiteiten worden geactiveerd.
 
-* **[!UICONTROL Resume]**: hiermee hervat u de uitvoering van de compositie die was gepauzeerd. De samenstelling neemt **Bezig** status over.
+* **[!UICONTROL Resume]**: hiermee hervat u de uitvoering van de compositie die was gepauzeerd. De compositie neemt de status **[!UICONTROL In progress]** over.
 
-* **[!UICONTROL Pause]** de uitvoering van de samenstelling, die dan de **Gepauzeerde** status neemt. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
+* **[!UICONTROL Pause]** de uitvoering van de compositie, die dan de **[!UICONTROL Paused]** status krijgt. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
 
-* **[!UICONTROL Stop]** een samenstelling die wordt uitgevoerd, die dan de **Voltooide** status zal nemen. De lopende bewerkingen worden indien mogelijk onderbroken. U kunt de compositie niet hervatten vanaf dezelfde plaats als waar deze is gestopt.
+* **[!UICONTROL Stop]** Een compositie die wordt uitgevoerd en die vervolgens de status **[!UICONTROL Finished]** krijgt. De lopende bewerkingen worden indien mogelijk onderbroken. U kunt de compositie niet hervatten vanaf dezelfde plaats als waar deze is gestopt.
 
-* **Begin** opnieuw: Stopt dan opnieuw een samenstelling. In de meeste gevallen, staat dit u toe om sneller opnieuw te beginnen, aangezien het tegenhouden een bepaalde hoeveelheid tijd vergt, en de **knoop van het Begin** is slechts beschikbaar wanneer het einde effectief is.
+* **[!UICONTROL Restart]**: stopt en start vervolgens een compositie opnieuw. In de meeste gevallen kunt u de toepassing sneller opnieuw starten, aangezien het stoppen een bepaalde hoeveelheid tijd in beslag neemt en de knop **[!UICONTROL Start]** alleen beschikbaar is wanneer de stop effectief is.

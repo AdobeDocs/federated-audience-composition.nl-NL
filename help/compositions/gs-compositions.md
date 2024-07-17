@@ -2,9 +2,10 @@
 audience: end-user
 title: Aan de slag met composities
 description: Leer hoe u begint met composities
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Met gegevenscompositie voor Adobe kunt u composities maken, waarbij u verschille
 >title="Composities"
 >abstract="In dit scherm, kunt u tot de volledige lijst van samenstellingen toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuwe samenstelling creëren."
 
-De samenstellingen zijn toegankelijk van het Adobe Experience Platform **[!UICONTROL Audiences]** menu, in het **Federated samenstellingen** lusje.
+Composities zijn toegankelijk via het menu Adobe Experience Platform **[!UICONTROL Audiences]** op het tabblad **[!UICONTROL Federated compositions]** .
 
 Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities openen. U kunt ook een bestaande compositie dupliceren of verwijderen door op de knop Ovaal naast de naam te klikken.
 
@@ -32,7 +33,7 @@ Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities opene
 
 Als u de lijst wilt verfijnen en eenvoudig de gewenste compositie wilt zoeken, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
-U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik **vorm kolom** knoop en voeg of verwijder de gewenste outputkolommen toe.
+U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de **[!UICONTROL Configure column] **s knoop en voeg of verwijder de gewenste outputkolommen toe.
 
 ![](assets/compositions-columns.png)
 

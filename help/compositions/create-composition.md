@@ -2,9 +2,10 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 
 Wanneer het toegang hebben tot van een samenstelling, kunt u tot geavanceerde montages toegang hebben die u, bijvoorbeeld, toestaan om te bepalen hoe de samenstelling zich in het geval van fout zou moeten gedragen.
 
-Om tot extra opties voor uw samenstelling toegang te hebben, klik de **knoop van Montages** die in de hogere sectie van het scherm van de samenstellingsverwezenlijking wordt gevestigd.
+Voor toegang tot extra opties voor uw compositie klikt u op de knop **[!UICONTROL Settings]** in de bovenste sectie van het scherm voor het maken van composities.
 
 ![](assets/composition-create-settings.png)
 

@@ -2,9 +2,10 @@
 audience: end-user
 title: Verbindingen met Federale Databases maken en beheren
 description: Leer hoe te om verbindingen met Federale Gegevensbestanden tot stand te brengen en te beheren
-source-git-commit: afcc9203b55eeb72a71cb8a82ea9e0dda5dfc683
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '94'
 ht-degree: 2%
 
 ---

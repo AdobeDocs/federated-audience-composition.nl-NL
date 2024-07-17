@@ -2,9 +2,10 @@
 audience: end-user
 title: De activiteit Splitsen gebruiken
 description: Leer hoe u de activiteit Splitsen gebruikt
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---

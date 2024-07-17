@@ -2,9 +2,10 @@
 audience: end-user
 title: De activiteit AND-join gebruiken
 description: Leer hoe te om de activiteit EN te gebruiken toetreedt
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Deze activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenk
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="Vorm EN-verbind activiteit"
->abstract="Selecteer de activiteiten waaraan u wilt deelnemen. In de **Primaire reeks** drop-down, kies welke binnenkomende overgangspopulatie u wilt houden."
+>abstract="Selecteer de activiteiten waaraan u wilt deelnemen. Kies in de vervolgkeuzelijst **[!UICONTROL Primary set]** welke binnenkomende overgangspopulatie u wilt behouden."
 
 Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
 
@@ -34,5 +35,5 @@ Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
 
    ![](../assets/and-join.png)
 
-1. In de **het samenvoegen opties** sectie, controleer alle vorige activiteiten u wenst om te synchroniseren.
-1. In de **Primaire reeks** drop-down, kies welke binnenkomende overgangspopulatie u wilt houden. De uitgaande overgang kan slechts één van de binnenkomende overgangspopulaties bevatten. Als de activiteit niet wordt gevormd, zal de uitgaande overgang willekeurig één van de binnenkomende populaties selecteren.
+1. Controleer in de sectie **[!UICONTROL Merging options]** alle vorige activiteiten die u wilt synchroniseren.
+1. Kies in de vervolgkeuzelijst **[!UICONTROL Primary set]** welke binnenkomende overgangspopulatie u wilt behouden. De uitgaande overgang kan slechts één van de binnenkomende overgangspopulaties bevatten. Als de activiteit niet wordt gevormd, zal de uitgaande overgang willekeurig één van de binnenkomende populaties selecteren.

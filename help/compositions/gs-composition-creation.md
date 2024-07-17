@@ -2,9 +2,10 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -27,9 +28,9 @@ Het compositiediagram is een weergave van wat er moet gebeuren. Hierin worden de
 
 Elke compositie bevat:
 
-* **Activiteiten**: Een activiteit is een uit te voeren taak. De verschillende activiteiten worden op het diagram weergegeven door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
-* **Overgangen**: De overgangen verbinden een bronactiviteit met een bestemmingsactiviteit en bepalen hun opeenvolging.
-* **Worktables**: De werklijst bevat alle informatie die door de overgang wordt gedragen. Elke samenstelling gebruikt verscheidene werklijsten. De gegevens die in deze lijsten worden overgebracht kunnen gedurende de het levenscyclus van de samenstelling worden gebruikt.
+* **[!UICONTROL Activities]**: Een activiteit is een taak die moet worden uitgevoerd. De verschillende activiteiten worden op het diagram weergegeven door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
+* **[!UICONTROL Transitions]**: Overgangen koppelen een bronactiviteit aan een doelactiviteit en definiëren hun volgorde.
+* **[!UICONTROL Worktables]**: De werktabel bevat alle gegevens die door de overgang worden overgedragen. Elke samenstelling gebruikt verscheidene werklijsten. De gegevens die in deze lijsten worden overgebracht kunnen gedurende de het levenscyclus van de samenstelling worden gebruikt.
 
 ## Belangrijke stappen om een compositie te maken {#gs-composition-steps}
 

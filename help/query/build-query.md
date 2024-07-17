@@ -2,9 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in de vraagmodeler te bouwen
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2018'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,13 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Custom condition]** . Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
 
-1. Op het **gebied van Attributen**, selecteer de attributen van het gegevensbestand dat u hefboomwerking wilt gebruiken om uw voorwaarde tot stand te brengen. De lijst met kenmerken bevat alle kenmerken van uw database, inclusief kenmerken van gekoppelde tabellen.
+1. Selecteer in het veld **[!UICONTROL Attribute]** het kenmerk in de database dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw database, inclusief kenmerken van gekoppelde tabellen.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >De **geeft uitdrukking** knoop uit staat u toe aan hefboomwerking de uitdrukkingsredacteur om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
+   >Met de knop **[!UICONTROL Edit expression]** kunt u de expressie-editor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
 1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -78,7 +79,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 +++
 
-1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Om dit te doen, klik **geef uitdrukking** knoop uit. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
+1. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Klik hiertoe op de knop **[!UICONTROL Edit expression]** . [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
    *het voorbeeld van de Vraag die alle profielen terugkeren die 21 of meer zijn:*
 
@@ -90,13 +91,13 @@ De voorwaarden van de douane staan u toe om lijsten te vragen verbonden aan de l
 
 Voor a **1-1 verbinding**, navigeer aan de verbonden lijst, selecteer de gewenste attributen en bepaal de verwachte waarde.
 
-U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren en bevestigen. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
+U kunt ook rechtstreeks een tabelkoppeling selecteren in de **[!UICONTROL Value]** -kiezer en bevestigen. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
 
 +++voorbeeld van Query
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
+1. Navigeer binnen de tabel **[!UICONTROL Brand]** en selecteer het kenmerk **[!UICONTROL Label]** .
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ Voor a **1-N verbinding**, kunt u sub-voorwaarden bepalen om uw vraag te verfijn
 
 Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking tot het BrewMaster-product, voor een totale hoeveelheid van ten minste 100$.
 
-1. Selecteer **Aankopen** lijst en bevestig.
+1. Selecteer de tabel **[!UICONTROL Purchases]** en bevestig deze.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Selecteer de **Prijs** attributen en doelaankopen van 1000$ of meer
+1. Selecteer het attribuut **[!UICONTROL Price]** en doelaankopen van 1000$ of meer
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. In de eigenschappen ruit, knevel op de **Samengevoegde gegevens** optie en selecteer de gewenste gezamenlijke functie.
+1. Schakel in het deelvenster Eigenschappen de optie **[!UICONTROL Aggregate data]** in en selecteer de gewenste statistische functie.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Doelgroep selecteren"
->abstract="Door de **Uitgezochte publiek** optie te gebruiken, kunt u het publiek kiezen dat u wilt gebruiken om uw vraag te filtreren."
+>abstract="Met de optie **[!UICONTROL Select audience]** kunt u het publiek kiezen dat u wilt gebruiken om de query te filteren."
 
 Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
 1. Klik op de knop **+** op het gewenste knooppunt en kies **[!UICONTROL Select audience]** .
 
-1. De **Uitgezochte publiek** eigenschappen ruit opent op de rechterkant. Kies het publiek dat u wilt gebruiken om uw query te filteren.
+1. Het deelvenster **[!UICONTROL Select audience]** -eigenschappen wordt aan de rechterkant geopend. Kies het publiek dat u wilt gebruiken om uw query te filteren.
 
    *voorbeeld van de vraag die alle profielen terugkeert die tot het &quot;publiek van de Goers van het Festival&quot;behoren:*
 
@@ -168,13 +169,13 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Vooraf gedefinieerd filter"
->abstract="Door de **Vooraf bepaalde filteroptie** te gebruiken, kunt u een vooraf bepaald filter van de lijst van douanefilters of van favorieten selecteren."
+>abstract="Met de optie **[!UICONTROL Predefined filter]** kunt u een vooraf gedefinieerd filter selecteren in de lijst met aangepaste filters of uit Favorieten."
 
 Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd filter:
 
 1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Predefined filter]** .
 
-1. De **Vooraf bepaalde filter** eigenschappen ruit opent op de rechterkant. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
+1. Het deelvenster **[!UICONTROL Predefined filter]** -eigenschappen wordt aan de rechterkant geopend. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
 
    *voorbeeld van de Vraag die alle profielen terugkeren die aan de &quot;Inactieve klanten&quot;vooraf bepaalde filter beantwoorden:*
 
@@ -198,7 +199,7 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Om de component(en) te kleven, klik + knoop aan het eind van de gewenste overgang en selecteer **Deeg in punten**.
+1. Als u de component(en) wilt plakken, klikt u op de knop + aan het einde van de gewenste overgang en selecteert u **[!UICONTROL Paste n items]** .
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten o
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Om de exploitant te veranderen die wordt gebruikt om het filtreren voorwaarden samen te verbinden, klik op het en selecteer de gewenste exploitant in de **ruit van de Groep** die op de rechterkant opent.
+Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het deelvenster **[!UICONTROL Group]** dat aan de rechterkant wordt geopend.
 
 Beschikbare operatoren zijn:
 
@@ -236,14 +237,14 @@ In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Eigenschappen van Rule"
->abstract="Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend de **eigenschappen van de Regel** ruit die op de rechterkant wordt gevestigd.<br/> Dit ruit staat u toe om de resulterende gegevens te tonen, een SQL codeversie van de vraag terug te winnen, en het aantal gerichte verslagen te controleren.<br/> gebruik **Uitgezocht of sparen filter** knoop om uw vraag als vooraf bepaald filter te bewaren, of de canvasinhoud met een bestaand filter te vervangen."
+>abstract="Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met het deelvenster **[!UICONTROL Rule properties]** aan de rechterkant.<br/> Dit ruit staat u toe om de resulterende gegevens te tonen, een SQL codeversie van de vraag terug te winnen, en het aantal gerichte verslagen te controleren.<br/> gebruik de **[!UICONTROL Select or save filter]** knoop om uw vraag als vooraf bepaald filter te bewaren, of de canvasinhoud met een bestaand filter te vervangen."
 
-Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend de **eigenschappen van de Regel** ruit die op de rechterkant wordt gevestigd. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. Beschikbare bewerkingen zijn:
+Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met het deelvenster **[!UICONTROL Rule properties]** aan de rechterkant. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. Beschikbare bewerkingen zijn:
 
-* **resultaten van de Mening:** toont de gegevens die uit uw vraag voortvloeien.
-* **mening van de Code**: Toont een op code-gebaseerde versie van de vraag in SQL.
-* **berekent**: Updates en toont het aantal verslagen die door uw vraag worden gericht.
-* **Uitgezocht of sparen filter**: Kies een bestaand vooraf bepaald filter om in het canvas te gebruiken, of sparen uw vraag als vooraf bepaald filter voor toekomstig hergebruik.
+* **[!UICONTROL View results]:** toont de gegevens die uit uw vraag voortvloeien.
+* **[!UICONTROL Code view]**: geeft een op code gebaseerde versie van de query weer in SQL.
+* **[!UICONTROL Calculate]**: werkt bij en toont het aantal verslagen die door uw vraag worden bedoeld.
+* **[!UICONTROL Select or save filter]**: Kies een bestaand vooraf gedefinieerd filter dat u op het canvas wilt gebruiken of sla uw query op als een vooraf gedefinieerd filter voor toekomstig hergebruik.
 
   >[!IMPORTANT]
   >

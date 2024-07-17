@@ -2,9 +2,10 @@
 audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -12,13 +13,13 @@ ht-degree: 0%
 
 # Orchestrische compositieactiviteiten {#activities}
 
-Zodra u een samenstelling hebt gecreeerd, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Om dit te doen, wordt een visueel canvas verstrekt, toestaand u om uw samenstellingsdiagram te construeren. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
+Zodra u een samenstelling hebt gecreeerd, kunt u beginnen de verschillende taken te ordenen het zal uitvoeren. Om dit te doen, wordt een visueel canvas verstrekt, toestaand u om uw diagram van de publiekssamenstelling te construeren. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
 
 ## Activiteiten toevoegen {#add}
 
-In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het beginpictogram.
+In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw samenstelling vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het beginpictogram.
 
-Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen van uw positie binnen het samenstellingsdiagram af. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw samenstelling beginnen door een publiek te richten, het werkschemapad te verdelen, montages een planner om de werkschemauitvoering te vertragen of a **te plaatsen wacht** activiteit om de werkschemauitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen of het samenstellingsproces met de activiteiten van de stroomcontrole organiseren.
+Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen van uw positie binnen het samenstellingsdiagram af. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw samenstelling beginnen door een publiek te richten, die de samenstellingsweg, montages een planner splitsen om de samenstellingsuitvoering te vertragen of a **te plaatsen wacht** activiteit om de samenstellingsuitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen of het samenstellingsproces met de activiteiten van de stroomcontrole organiseren.
 
 Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
 
@@ -38,11 +39,11 @@ De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de acti
 
 Beschikbare acties zijn:
 
-* **Veelvoudige selectie**: Selecteer veelvoudige activiteiten om hen allen in één keer te schrappen of hen te kopiëren en te kleven. Zie [deze sectie](#copy).
-* **roteer**: Verdraai verticaal het canvas.
-* **Passend aan het scherm**: Pas het het gezoemniveau van het canvas aan uw scherm aan.
-* **Gezoem uit** / **Gezoem binnen**: Gezoem uit of in het canvas.
-* **kaart van de Vertoning**: Opent een momentopname van het canvas die u toont wordt gevestigd.
+* **[!UICONTROL Multiple selection]**: Selecteer meerdere activiteiten om deze allemaal tegelijk te verwijderen of kopieer en plak ze. Zie [deze sectie](#copy).
+* **[!UICONTROL Rotate]**: verander het canvas verticaal.
+* **[!UICONTROL Fit to screen]**: pas het zoomniveau van het canvas aan het scherm aan.
+* **[!UICONTROL Zoom out]** / **[!UICONTROL Zoom in]** : Uitzoomen of op het canvas.
+* **[!UICONTROL Display map]**: hiermee opent u een opname van het canvas waarop wordt aangegeven waar u zich bevindt.
 
 ## Activiteiten beheren {#manage}
 
@@ -52,25 +53,25 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 
 U kunt:
 
-* **Schrap** de activiteit van het canvas.
-* **onbruikbaar maken/laat** de activiteit toe. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
-* **Pauze/hervat** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
-* **Exemplaar** de activiteit om het bij een andere plaats in de samenstelling te kleven. Klik hiertoe op de knop **+** in een overgang en selecteer &quot;X-activiteit plakken&quot;. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
-* Vorm **opties van de Uitvoering** voor de geselecteerde activiteit. Vouw de onderstaande sectie uit voor meer informatie over de beschikbare opties.
+* **[!UICONTROL Delete]** de activiteit vanaf het canvas.
+* **[!UICONTROL Disable]/[!UICONTROL Enable]** de activiteit. Wanneer de samenstelling wordt uitgevoerd, worden de gehandicapte activiteiten en de volgende activiteiten op de zelfde weg niet uitgevoerd en de samenstelling wordt tegengehouden.
+* **[!UICONTROL Pause]/[!UICONTROL Resume]** de activiteit. Wanneer de samenstelling wordt uitgevoerd, pauzeert het bij de gepauzeerde activiteit. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+* **[!UICONTROL Copy]** de activiteit om het op een andere plaats in de samenstelling te kleven. Klik hiertoe op de knop **+** op een overgang en selecteer **[!UICONTROL Paste X activity]** . <!-- cannot copy multiple activities ? cannot paste in another composition?-->
+* Configureer **[!UICONTROL Execution options]** voor de geselecteerde activiteit. Vouw de onderstaande sectie uit voor meer informatie over de beschikbare opties.
 
   +++Beschikbare uitvoeringsopties
 
-  De **sectie van Eigenschappen** staat u toe om generische montages betreffende de uitvoering van de activiteit te vormen:
+  In de sectie **[!UICONTROL Properties]** kunt u algemene instellingen configureren voor de uitvoering van de activiteit:
 
-   * **Uitvoering**: Bepaal de uit te voeren actie wanneer het is begonnen.
-   * **Maximale uitvoeringstijd**: Specificeer een duur zoals &quot;30s&quot;of &quot;1h&quot;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
-   * **streek van de Tijd**: Selecteer de tijdzone van de activiteit. De federatieve Samenstelling van de Auditie staat u toe om de tijdverschillen tussen veelvoudige landen op het zelfde geval te beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
-   * **Affinity**: Dwing de samenstellingsactiviteit om op een bepaalde machine uit te voeren. Hiervoor moet u een of meer affiniteiten voor de desbetreffende activiteit opgeven.
-   * **Gedrag**: Bepaal de te volgen procedure als de asynchrone taken worden gebruikt.
+   * **[!UICONTROL Execution]**: Definieer de handeling die moet worden uitgevoerd wanneer de handeling wordt gestart.
+   * **[!UICONTROL Maximum execution duration]**: geef een duur op, bijvoorbeeld &quot;30s&quot; of &quot;1h&quot;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de compositie.
+   * **[!UICONTROL Time zone]**: selecteer de tijdzone van de activiteit. De federatieve Samenstelling van de Auditie staat u toe om de tijdverschillen tussen veelvoudige landen op het zelfde geval te beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
+   * **[!UICONTROL Affinity]**: dwingt u de compositieactiviteit uit te voeren op een bepaalde computer. Hiervoor moet u een of meer affiniteiten voor de desbetreffende activiteit opgeven.
+   * **[!UICONTROL Behavior]**: definieer de procedure die moet worden gevolgd wanneer asynchrone taken worden gebruikt.
 
-  Het **beheer van de Fout** sectie staat u toe om de uit te voeren actie te specificeren als de activiteit een fout ontmoet.
+  In de sectie **[!UICONTROL Error management]** kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt.
 
-  De **sectie van het manuscript van de Initialisatie** laat u variabelen initialiseren of activiteiteneigenschappen wijzigen. Klik **geef code** knoop uit en typ het fragment van uit te voeren code. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
+  In de sectie **[!UICONTROL Initialization script]** kunt u variabelen initialiseren of eigenschappen van activiteiten wijzigen. Klik op de knop **[!UICONTROL Edit code]** en typ het codefragment dat u wilt uitvoeren. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
 
 +++
 

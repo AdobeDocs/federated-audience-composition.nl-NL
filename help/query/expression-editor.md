@@ -2,7 +2,8 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in vraagmodeler te bouwen.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
 source-wordcount: '2092'
 ht-degree: 52%
@@ -21,7 +22,7 @@ Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel 
 
 De expressie-editor is beschikbaar via de knop querymodel **[!UICONTROL Edit expression]** , beschikbaar voor de velden **[!UICONTROL Attribute]** en **[!UICONTROL Value]** wanneer u een aangepaste voorwaarde configureert.
 
-| Toegang van het **gebied van Attributen** | Toegang van het **gebied van de Waarde** |
+| Toegang vanuit het veld **[!UICONTROL Attribute]** | Toegang vanuit het veld **[!UICONTROL Value]** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 

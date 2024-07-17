@@ -2,7 +2,8 @@
 audience: end-user
 title: De activiteit Dimensie wijzigen gebruiken
 description: Leer hoe u de activiteit Dimensie wijzigen gebruikt
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Een complement genereren"
->abstract="U kunt een extra uitgaande overgang met de resterende bevolking produceren, die als duplicaat werd uitgesloten. Om dit te doen, op **van een knevel voorzien produceer complement** optie"
+>abstract="U kunt een extra uitgaande overgang met de resterende bevolking produceren, die als duplicaat werd uitgesloten. Schakel hiertoe de optie **[!UICONTROL Generate complement]** in"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

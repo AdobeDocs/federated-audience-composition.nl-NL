@@ -2,9 +2,10 @@
 audience: end-user
 title: De verrijkingsactiviteit gebruiken
 description: Leer hoe u de verrijkingsactiviteit kunt gebruiken
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---

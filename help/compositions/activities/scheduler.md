@@ -2,9 +2,9 @@
 audience: end-user
 title: De planningsactiviteit gebruiken
 description: Leer hoe u de planningsactiviteit gebruikt
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 8%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Planningsactiviteit"
->abstract="De **Planner** activiteit staat u toe om te plannen wanneer het werkschema begonnen wordt. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow."
+>abstract="De **Planner** activiteit staat u toe om te plannen wanneer de publiekssamenstelling begonnen wordt. Deze activiteit moet worden beschouwd als een geplande start. Het kan slechts als eerste activiteit van een samenstelling worden gebruikt."
 
 De **planner** activiteit is de controle **activiteit van de a** Stroom. Het staat u toe om te plannen wanneer de samenstelling wordt begonnen. Deze activiteit moet worden beschouwd als een geplande start. Het kan slechts als eerste activiteit van de samenstelling worden gebruikt.
 
@@ -33,7 +33,7 @@ De **planner** activiteit is de controle **activiteit van de a** Stroom. Het sta
 
 Volg deze stappen om de **Planner** activiteit te vormen:
 
-1. Voeg a **Planner** activiteit aan uw werkschema toe.
+1. Voeg a **Planner** activiteit aan uw samenstelling toe.
 
 1. Vorm de **frequentie van de Uitvoering**:
 

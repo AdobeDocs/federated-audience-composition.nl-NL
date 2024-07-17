@@ -2,9 +2,10 @@
 audience: end-user
 title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
-source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Federale databases"
->abstract="De bestaande verbindingen aan Federale Gegevensbestanden zijn vermeld in dit scherm. Om een nieuwe verbinding tot stand te brengen, klik **voegt gefedereerde gegevensbestand** knoop toe."
+>abstract="De bestaande verbindingen aan Federale Gegevensbestanden zijn vermeld in dit scherm. Klik op de knop **[!UICONTROL Add federated database]** om een nieuwe verbinding te maken."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +28,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Gegevens van gefederaliseerde database"
->abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de **knoop van de Verbinding van de Test** om uw configuratie te bevestigen."
+>abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Test connection]** om uw configuratie te valideren."
 
 Maak, configureer, test en sla de verbinding met een externe database op.
 
