@@ -2,10 +2,10 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 10%
+source-wordcount: '134'
+ht-degree: 11%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 10%
 # Federale documentatie van Audience Composition {#using}
 
 + [Federale documentatie van Audience Composition](home.md)
-+ [Aan de slag](start/get-started.md)
++ Aan de slag met Federatieve Audience Composition {#start}
+   + [Aan de slag](start/get-started.md)
+   + [Aanvullende informatie](start/release-notes.md)
 + Configuratiestappen {#config}
    + [Connect AEP met Federatieve Audience Composition](connections/destinations.md)
    + [Configureer uw gefedereerde databases](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 10%
    + [Expressies bewerken](query/expression-editor.md)
 + Audittrail {#audit-trail}
    + [Uw databases controleren](admin/audit-trail.md)
++ [&lt; Terug naar Adobe Experience Platform-documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
