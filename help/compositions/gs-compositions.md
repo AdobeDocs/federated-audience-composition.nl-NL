@@ -24,7 +24,7 @@ Met gegevenscompositie voor Adobe kunt u composities maken, waarbij u verschille
 >title="Composities"
 >abstract="In dit scherm, kunt u tot de volledige lijst van samenstellingen toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuwe samenstelling creëren."
 
-Composities zijn toegankelijk vanuit de Adobe Experience Platform **[!UICONTROL Audiences]** in het menu **Federale composities** tab.
+De samenstellingen zijn toegankelijk van het Adobe Experience Platform **[!UICONTROL Audiences]** menu, in het **Federated samenstellingen** lusje.
 
 Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities openen. U kunt ook een bestaande compositie dupliceren of verwijderen door op de knop Ovaal naast de naam te klikken.
 
@@ -32,7 +32,7 @@ Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities opene
 
 Als u de lijst wilt verfijnen en eenvoudig de gewenste compositie wilt zoeken, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
-U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik **Kolom configureren** en voegt u de gewenste uitvoerkolommen toe of verwijdert u deze.
+U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik **vorm kolom** knoop en voeg of verwijder de gewenste outputkolommen toe.
 
 ![](assets/compositions-columns.png)
 
@@ -44,6 +44,6 @@ Composities kunnen meerdere statussen hebben:
 * **[!UICONTROL In progress]**: De compositie is uitgevoerd en wordt momenteel uitgevoerd.
 * **[!UICONTROL Stopped]**: De uitvoering van de compositie is gestopt.
 * **[!UICONTROL Paused]**: De uitvoering van de compositie is gepauzeerd.
-* **[!UICONTROL Erroneous]**: Er is een fout opgetreden tijdens het uitvoeren van de compositie. Open de compositie en open de logboeken en de taken om de fout te identificeren en op te lossen.
+* **[!UICONTROL Erroneous]**: er is een fout opgetreden tijdens het uitvoeren van de compositie. Open de compositie en open de logboeken en de taken om de fout te identificeren en op te lossen.
 
-Gedetailleerde informatie over het starten en controleren van een compositie is beschikbaar in [deze sectie](../compositions/start-monitor-composition.md).
+De gedetailleerde informatie over hoe te om een samenstelling te beginnen en te controleren is beschikbaar in [ deze sectie ](../compositions/start-monitor-composition.md).

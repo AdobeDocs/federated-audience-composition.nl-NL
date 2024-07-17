@@ -11,11 +11,11 @@ ht-degree: 2%
 
 # Verbindingen maken {#connections-fdb}
 
-Ga naar **[!UICONTROL FEDERATED DATA]** en in de **[!UICONTROL Federated Databases]** koppeling, klik op **[!UICONTROL Add federated database]** knop.
+Als u een nieuwe verbinding met een gefedereerde database wilt maken, gaat u naar de sectie **[!UICONTROL FEDERATED DATA]** en klikt u in de koppeling **[!UICONTROL Federated Databases]** op de knop **[!UICONTROL Add federated database]** .
 
 ![](assets/connections_list.png){zoomable="yes"}
 
-U opent het venster voor de verbinding **[!UICONTROL Properties]**, met de naam en het type van uw database.
+U krijgt toegang tot het venster voor de verbinding **[!UICONTROL Properties]** met de naam en het type van de database.
 
 ![](assets/connections_name.png){zoomable="yes"}
 
@@ -23,7 +23,7 @@ Als u het type selecteert, hebt u toegang tot andere eigenschappen die u wilt in
 
 ![](assets/connections_details.png){zoomable="yes"}
 
-Nadat u de details hebt ingevuld, klikt u op **[!UICONTROL Test connection]** en aan **[!UICONTROL Deploy functions]** knop.
-Voltooi het maken van de verbinding door op het tabblad **[!UICONTROL Save]** knop.
+Klik op de knop **[!UICONTROL Test connection]** en op de knop **[!UICONTROL Deploy functions]** nadat u de details hebt ingevuld.
+Voltooi het maken van de verbinding door op de knop **[!UICONTROL Save]** te klikken.
 
 ![](assets/connections_testdeploy.png){zoomable="yes"}

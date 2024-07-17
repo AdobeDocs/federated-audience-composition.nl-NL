@@ -16,15 +16,15 @@ Zodra u een samenstelling hebt gecreeerd, kunt u beginnen de verschillende taken
 
 ## Activiteiten toevoegen {#add}
 
-In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het startpictogram.
+In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het beginpictogram.
 
-Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen van uw positie binnen het samenstellingsdiagram af. Wanneer u bijvoorbeeld uw eerste activiteit toevoegt, kunt u uw compositie starten door zich te richten op een publiek, het workflowpad te splitsen, een planner te installeren om de uitvoering van de workflow te vertragen of een **Wachten** activiteit om de uitvoering van de workflow uit te stellen. Aan de andere kant **publiek opbouwen** activiteit, kunt u uw doel met het richten van activiteiten verfijnen of het samenstellingsproces met debietcontroleactiviteiten organiseren.
+Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen van uw positie binnen het samenstellingsdiagram af. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw samenstelling beginnen door een publiek te richten, het werkschemapad te verdelen, montages een planner om de werkschemauitvoering te vertragen of a **te plaatsen wacht** activiteit om de werkschemauitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen of het samenstellingsproces met de activiteiten van de stroomcontrole organiseren.
 
-Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. Gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [deze sectie](activities/about-activities.md).
+Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
 
 ![](assets/composition-create-add.png)
 
-Herhaal dit proces om zoveel activiteiten toe te voegen als gewenst afhankelijk van de taken die u wilt uitvoeren uw samenstelling. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
+Herhaal dit proces om zoveel activiteiten toe te voegen als gewenst afhankelijk van de taken die u wilt uitvoeren uw samenstelling. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** knoop op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
 
 >[!TIP]
 >
@@ -38,11 +38,11 @@ De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de acti
 
 Beschikbare acties zijn:
 
-* **Meerdere selecties**: Selecteer meerdere activiteiten om deze allemaal tegelijk te verwijderen of kopieer en plak ze. Zie [deze sectie](#copy).
-* **Roteren**: Verander het canvas verticaal.
-* **Aanpassen aan scherm**: Pas het zoomniveau van het canvas aan op het scherm.
-* **Uitzoomen** / **Inzoomen**: Uitzoomen of op het canvas.
-* **Kaart weergeven**: Hiermee opent u een opname van het canvas waarop u uw locatie ziet.
+* **Veelvoudige selectie**: Selecteer veelvoudige activiteiten om hen allen in één keer te schrappen of hen te kopiëren en te kleven. Zie [deze sectie](#copy).
+* **roteer**: Verdraai verticaal het canvas.
+* **Passend aan het scherm**: Pas het het gezoemniveau van het canvas aan uw scherm aan.
+* **Gezoem uit** / **Gezoem binnen**: Gezoem uit of in het canvas.
+* **kaart van de Vertoning**: Opent een momentopname van het canvas die u toont wordt gevestigd.
 
 ## Activiteiten beheren {#manage}
 
@@ -52,26 +52,26 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 
 U kunt:
 
-* **Verwijderen** de activiteit van het canvas.
-* **Uitschakelen/inschakelen** de activiteit. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
-* **Pauzeren/hervatten** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
-* **Kopiëren** de activiteit om het op een andere plaats in de samenstelling te kleven. Om dit te doen, klik **+** en selecteer &quot;X-activiteit plakken&quot;. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
-* Configureren **Uitvoeropties** voor de geselecteerde activiteit. Vouw de onderstaande sectie uit voor meer informatie over de beschikbare opties.
+* **Schrap** de activiteit van het canvas.
+* **onbruikbaar maken/laat** de activiteit toe. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
+* **Pauze/hervat** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+* **Exemplaar** de activiteit om het bij een andere plaats in de samenstelling te kleven. Klik hiertoe op de knop **+** in een overgang en selecteer &quot;X-activiteit plakken&quot;. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
+* Vorm **opties van de Uitvoering** voor de geselecteerde activiteit. Vouw de onderstaande sectie uit voor meer informatie over de beschikbare opties.
 
   +++Beschikbare uitvoeringsopties
 
-  De **Eigenschappen** sectie staat u toe om generische montages betreffende de uitvoering van de activiteit te vormen:
+  De **sectie van Eigenschappen** staat u toe om generische montages betreffende de uitvoering van de activiteit te vormen:
 
-   * **Uitvoering**: Definieer de handeling die moet worden uitgevoerd wanneer de handeling wordt gestart.
-   * **Maximale uitvoeringstermijn**: Geef een duur op, bijvoorbeeld &quot;30s&quot; of &quot;1h&quot;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
-   * **Tijdzone**: Selecteer de tijdzone van de activiteit. De federatieve Samenstelling van de Auditie staat u toe om de tijdverschillen tussen veelvoudige landen op het zelfde geval te beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
-   * **Affiniteit**: De compositieactiviteit forceren om op een bepaalde machine uit te voeren. Hiervoor moet u een of meer affiniteiten voor de desbetreffende activiteit opgeven.
-   * **Gedrag**: Definieer de procedure die moet worden gevolgd wanneer asynchrone taken worden gebruikt.
+   * **Uitvoering**: Bepaal de uit te voeren actie wanneer het is begonnen.
+   * **Maximale uitvoeringstijd**: Specificeer een duur zoals &quot;30s&quot;of &quot;1h&quot;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
+   * **streek van de Tijd**: Selecteer de tijdzone van de activiteit. De federatieve Samenstelling van de Auditie staat u toe om de tijdverschillen tussen veelvoudige landen op het zelfde geval te beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
+   * **Affinity**: Dwing de samenstellingsactiviteit om op een bepaalde machine uit te voeren. Hiervoor moet u een of meer affiniteiten voor de desbetreffende activiteit opgeven.
+   * **Gedrag**: Bepaal de te volgen procedure als de asynchrone taken worden gebruikt.
 
-  De **Foutbeheer** kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt.
+  Het **beheer van de Fout** sectie staat u toe om de uit te voeren actie te specificeren als de activiteit een fout ontmoet.
 
-  De **Initialisatiescript** in deze sectie kunt u variabelen initialiseren of activiteitseigenschappen wijzigen. Klik op de knop **Code bewerken** en typ het uit te voeren codefragment. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
+  De **sectie van het manuscript van de Initialisatie** laat u variabelen initialiseren of activiteiteneigenschappen wijzigen. Klik **geef code** knoop uit en typ het fragment van uit te voeren code. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
 
 +++
 
-* Toegang krijgen tot de activiteiten **Logboeken en taken**.
+* Heb toegang tot de Logboeken en de taken van de activiteit ****.

@@ -16,7 +16,7 @@ Nadat u de compositie hebt gemaakt en de taken hebt ontworpen die u op het canva
 
 ## De compositie starten {#start}
 
-Als u een compositie wilt starten, klikt u op de knop **[!UICONTROL Start]** rechtsboven in het scherm. Wanneer de samenstelling loopt, wordt elke activiteit in het canvas uitgevoerd in een opeenvolgende orde, tot het eind van de samenstelling wordt bereikt.
+Als u een compositie wilt starten, klikt u op de knop **[!UICONTROL Start]** in de rechterbovenhoek van het scherm. Wanneer de samenstelling loopt, wordt elke activiteit in het canvas uitgevoerd in een opeenvolgende orde, tot het eind van de samenstelling wordt bereikt.
 
 U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele stroom. Hierdoor kunt u snel de status van elke activiteit en het aantal profielen identificeren dat tussen de activiteiten overgaat.
 
@@ -26,8 +26,8 @@ U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele
 
 In samenstellingen worden gegevens die van de ene activiteit naar de andere worden vervoerd via overgangen opgeslagen in een tijdelijke werktabel. Deze gegevens kunnen voor elke overgang worden weergegeven. Selecteer hiertoe een overgang om de eigenschappen ervan in de rechterkant van het scherm te openen.
 
-* Klikken **[!UICONTROL Preview schema]** om het schema van de het werklijst te tonen.
-* Klikken **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden vervoerd.
+* Klik op **[!UICONTROL Preview schema]** om het schema van de werktabel weer te geven.
+* Klik op **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden verzonden.
 
 ![](assets/transition-preview.png)
 
@@ -44,19 +44,19 @@ De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u
 
 ## Logboeken en taken controleren {#logs-tasks}
 
-Het controleren van samenstellingenlogboeken en taken is een zeer belangrijke stap om uw samenstellingen te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk vanuit de **[!UICONTROL Logs]** Deze knop is beschikbaar in de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
+Het controleren van samenstellingenlogboeken en taken is een zeer belangrijke stap om uw samenstellingen te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk via de knop **[!UICONTROL Logs]** die beschikbaar is in de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
 
 ![](assets/logs-button.png)
 
-De **[!UICONTROL Composition logs and tasks]** het scherm verstrekt een geschiedenis van de samenstellingsuitvoering, registrerend alle gebruikersacties en ondervonden fouten.
+Het scherm **[!UICONTROL Composition logs and tasks]** biedt een geschiedenis van de uitvoering van de compositie, waarbij alle handelingen van de gebruiker worden opgenomen en fouten worden aangetroffen.
 
 <!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
 
 De historie wordt ingedeeld in verschillende tabbladen, die hieronder worden beschreven:
 
-* De **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle compositieactiviteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden chronologisch geïndexeerd.
-* De **[!UICONTROL Tasks]** tabblad bevat informatie over de volgorde van uitvoering van de activiteiten. Met de knop aan het einde van elke taak kunt u de gebeurtenisvariabelen weergeven die door de activiteit worden doorgegeven.
-* De **[!UICONTROL Variables]** worden alle variabelen weergegeven die in de compositie worden doorgegeven. Het is beschikbaar wanneer het toegang tot van de logboeken en de taken van het samenstellingscanvas slechts. Het is nu beschikbaar wanneer u de logboeken opent vanuit het deelvenster met eigenschappen van een activiteit.  <!-- à confirmer-->
+* Het tabblad **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle compositieactiviteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden chronologisch geïndexeerd.
+* Het tabblad **[!UICONTROL Tasks]** bevat details over de uitvoeringsvolgorde van de activiteiten. Met de knop aan het einde van elke taak kunt u de gebeurtenisvariabelen weergeven die door de activiteit worden doorgegeven.
+* Het tabblad **[!UICONTROL Variables]** bevat een lijst met alle variabelen die in de compositie worden doorgegeven. Het is beschikbaar wanneer het toegang tot van de logboeken en de taken van het samenstellingscanvas slechts. Het is nu beschikbaar wanneer u de logboeken opent vanuit het deelvenster met eigenschappen van een activiteit.  <!-- à confirmer-->
 
 ![](assets/logs-tasks.png)
 
@@ -70,12 +70,12 @@ De actiebalk in de rechterbovenhoek biedt opdrachten waarmee u de uitvoering van
 
 Beschikbare acties zijn:
 
-* **Start**: Start de uitvoering van de compositie, die vervolgens het **In uitvoering** status. De samenstelling is begonnen en de eerste activiteiten worden geactiveerd.
+* **Begin**: Begint de uitvoering van de samenstelling, die dan de **neemt Bezig** status. De samenstelling is begonnen en de eerste activiteiten worden geactiveerd.
 
-* **[!UICONTROL Resume]**: Hiermee hervat u de uitvoering van de compositie die was gepauzeerd. De samenstelling neemt de **In uitvoering** status.
+* **[!UICONTROL Resume]**: hiermee hervat u de uitvoering van de compositie die was gepauzeerd. De samenstelling neemt **Bezig** status over.
 
-* **[!UICONTROL Pause]** de uitvoering van de samenstelling, die vervolgens de **Gepauzeerd** status. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
+* **[!UICONTROL Pause]** de uitvoering van de samenstelling, die dan de **Gepauzeerde** status neemt. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
 
-* **[!UICONTROL Stop]** een samenstelling die wordt uitgevoerd, die dan de **Voltooid** status. De lopende bewerkingen worden indien mogelijk onderbroken. U kunt de compositie niet hervatten vanaf dezelfde plaats als waar deze is gestopt.
+* **[!UICONTROL Stop]** een samenstelling die wordt uitgevoerd, die dan de **Voltooide** status zal nemen. De lopende bewerkingen worden indien mogelijk onderbroken. U kunt de compositie niet hervatten vanaf dezelfde plaats als waar deze is gestopt.
 
-* **Opnieuw starten**: Stopt en start vervolgens een compositie opnieuw. In de meeste gevallen kunt u de toepassing sneller opnieuw starten, omdat het stoppen enige tijd in beslag neemt en de instelling **Start** Deze knop is alleen beschikbaar wanneer de stop effectief is.
+* **Begin** opnieuw: Stopt dan opnieuw een samenstelling. In de meeste gevallen, staat dit u toe om sneller opnieuw te beginnen, aangezien het tegenhouden een bepaalde hoeveelheid tijd vergt, en de **knoop van het Begin** is slechts beschikbaar wanneer het einde effectief is.

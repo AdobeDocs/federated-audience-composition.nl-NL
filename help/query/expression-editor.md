@@ -19,25 +19,25 @@ Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel 
 
 ## Werken met de expressie-editor {#edit}
 
-De uitdrukkingsredacteur is beschikbaar bij vraagmodeler **[!UICONTROL Edit expression]** , beschikbaar voor de **[!UICONTROL Attribute]** en **[!UICONTROL Value]** velden bij het configureren van een aangepaste voorwaarde.
+De expressie-editor is beschikbaar via de knop querymodel **[!UICONTROL Edit expression]** , beschikbaar voor de velden **[!UICONTROL Attribute]** en **[!UICONTROL Value]** wanneer u een aangepaste voorwaarde configureert.
 
-| Toegang van de **Kenmerk** field | Toegang van de **Waarde** field |
+| Toegang van het **gebied van Attributen** | Toegang van het **gebied van de Waarde** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 De uitdrukkingsredacteur verstrekt:
 
-* An **invoerveld (1)** waarin de expressie wordt gedefinieerd.
-* De lijst met beschikbare **velden 2** die in de uitdrukking en het beantwoorden aan het schema kunnen worden gebruikt, dat ook als het richten dimensie, van de vraag wordt bekend.
-* **Helperfuncties (3)**, gesorteerd op categorie
+* Een **inputgebied (1)** waarin de uitdrukking wordt bepaald.
+* De lijst van beschikbare **gebieden (2)** die in de uitdrukking en het beantwoorden aan het schema kunnen worden gebruikt, dat ook als het richten dimensie, van de vraag wordt bekend.
+* **de functies van de Helper (3)**, die door categorie wordt gesorteerd.
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Wanneer uw uitdrukking klaar is, klik **[!UICONTROL Confirm]** knop. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
+Klik op de knop **[!UICONTROL Confirm]** als uw expressie gereed is. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
 
-In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het **[!UICONTROL Value]** veld. Als u de editor wilt bewerken, moet u de editor voor expressies openen met de opdracht **[!UICONTROL Edit expression]** knop.
+In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het veld **[!UICONTROL Value]** . Als u de expressie wilt bewerken, moet u de expressie-editor openen met de knop **[!UICONTROL Edit expression]** .
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
@@ -57,49 +57,49 @@ De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een
    <td> <strong>Syntaxis</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Avg</strong><br /> </td> 
-   <td> Hiermee wordt het gemiddelde van een kolom met het getaltype geretourneerd<br /> </td> 
+   <td> <strong> Avg </strong><br /> </td> 
+   <td> Keert het gemiddelde van een kolom van het aantaltype terug <br /> </td> 
    <td> Avg(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Aantal</strong><br /> </td> 
-   <td> Telt de niet-null waarden van een kolom<br /> </td> 
-   <td> Count()&lt;value&gt;)<br /></td>  
+   <td> <strong> Telling </strong><br /> </td> 
+   <td> Telt de niet-nulwaarden van een kolom <br /> </td> 
+   <td> Count(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>CountAll</strong><br /> </td> 
-   <td> Telt de geretourneerde waarden (alle velden)<br /> </td> 
+   <td> <strong> CountAll </strong><br /> </td> 
+   <td> Telt de teruggekeerde waarden (alle gebieden) <br /> </td> 
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Aftelbaar</strong><br /> </td> 
-   <td> Telt de verschillende niet-null-waarden van een kolom<br /> </td> 
-   <td> Countdifferent()&lt;value&gt;)<br /></td> 
+   <td> <strong> Countdifferent </strong><br /> </td> 
+   <td> Telt de duidelijke niet-krachteloze waarden van een kolom <br /> </td> 
+   <td> Countdifferent(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Max</strong><br /> </td> 
-   <td> Retourneert de maximumwaarde van een getal, tekenreeks of datumtekstkolom<br /> </td> 
+   <td> <strong> Max </strong><br /> </td> 
+   <td> Keert de maximumwaarde van een aantal, een koord, of een kolom van het datumtype terug <br /> </td> 
    <td> Max(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>Min</strong><br /> </td> 
-   <td> Hiermee wordt de minimumwaarde van een kolom met een getal, tekenreeks of datumtype geretourneerd<br /> </td> 
+   <td> <strong> Min </strong><br /> </td> 
+   <td> Keert de minimumwaarde van een aantal, een koord of een kolom van het datumtype terug <br /> </td> 
    <td> Min(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>StdDev</strong><br /> </td> 
-   <td> Retourneert de standaardafwijking van een getal, tekenreeks of datumkolom<br /> </td> 
+   <td> <strong> StdDev </strong><br /> </td> 
+   <td> Retourneert de standaardafwijking van een getal, tekenreeks of datumkolom <br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
   </tr>
   <tr> 
-   <td> <strong>StringAgg</strong><br /> </td> 
-   <td> Retourneert de samenvoeging van de waarden van een kolom met tekenreekstype, gescheiden door het teken in het tweede argument.<br /> </td> 
-   <td> StringAgg()&lt;value&gt;, &lt;string&gt;)<br /></td> 
+   <td> <strong> StringAgg </strong><br /> </td> 
+   <td> Keert de aaneenschakeling van de waarden van een koordtype kolom terug, die door het karakter in het tweede argument wordt gescheiden <br /> </td> 
+   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Som</strong><br /> </td> 
-   <td> Hiermee wordt de som van de waarden van een getal, tekenreeks of kolom met het gegevenstype geretourneerd<br /> </td> 
-   <td> Sum()&lt;value&gt;)<br /></td> 
+   <td> <strong> Som </strong><br /> </td> 
+   <td> Keert de som waarden van een aantal, een koord, of een kolom van het datumtype terug <br /> </td> 
+   <td> Sum(&lt;value&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,9 +146,9 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> AddYear(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> Hiermee wordt tijdstempel NTZ (tijdstempel zonder tijdzone) omgezet in TZ (tijdstempel met tijdzone) door gedefinieerde sessie TZ toe te passen<br/> </td> 
-   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+   <td> <strong> ConvertNTZ </strong><br /> </td> 
+   <td> Converteert timestamp NTZ (timestamp zonder timezone) in TZ (timestamp met timezone) het toepassen van bepaalde zitting TZ <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;) <br /> </td>  
   </tr>
   <tr> 
    <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
@@ -156,13 +156,13 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
   </tr>-->
   <tr> 
-   <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Twee datums vergelijken<br/> </td> 
-   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
+   <td> <strong> DateCmp </strong><br /> </td> 
+   <td> Twee datums vergelijken <br/> </td> 
+   <td> DateCmp (&lt;date&gt;,&lt;date&gt;) <br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
-   <td> Retourneert alleen de datum (met tijd om 00:00)*<br /> </td> 
+   <td> Keert de datum slechts (met tijd bij 00:00)* terug <br /> </td> 
    <td> DateOnly(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -172,17 +172,17 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Retourneert het getal van de dag in het jaar van de datum<br /> </td> 
+   <td> Keert het aantal van de dag in het jaar van de datum terug <br /> </td> 
    <td> DayOfYear(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> Retourneert de datum die overeenkomt met de huidige datum min n dagen<br /> </td> 
+   <td> Retourneert de datum die overeenkomt met de huidige datum min n dagen <br /> </td> 
    <td> DaysAgo(&lt;nummer&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Retourneert de datum (geheel getal jjjjmmdd) die overeenkomt met de huidige datum min n dagen<br /> </td> 
+   <td> Retourneert de datum (geheel getal jjjjmmdd) die overeenkomt met de huidige datum minus n dagen <br /> </td> 
    <td> DaysAgoInt(&lt;nummer&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -242,8 +242,8 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
-   <td> Retourneert de oudste datum in een bereik<br /> </td> 
-   <td> Oudste (&lt;date date=""&gt;)<br /> </td>  
+   <td> Keert de oudste datum in een waaier terug <br /> </td> 
+   <td> Oudst (&lt;date, date&gt;) <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -296,14 +296,14 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> ToDateTime(&lt;tekenreeks&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> Hiermee wordt een tekenreeks omgezet in een tijdstempel<br /> </td> 
-   <td> ToTimestamp()&lt;string&gt;)<br /> </td>  
+   <td> <strong> ToTimestamp </strong><br /> </td> 
+   <td> Converteert een koord in timestamp <br /> </td> 
+   <td> ToTimestamp (&lt;string&gt;) <br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> Een datum en tijd omzetten in een tijdzone<br /> </td> 
-   <td> ToTimeZone()&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+   <td> <strong> ToTimeZone </strong><br /> </td> 
+   <td> Converteer een datum + tijd naar tijdzone <br /> </td> 
+   <td> ToTimeZone (&lt;date&gt;,&lt;time zone&gt;) <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -323,7 +323,7 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> Rondt het tijdsdeel af naar de dichtstbijzijnde seconde<br /> </td> 
-   <td> TruncTim(e&lt;date&gt;, &lt;number of="" seconds=""&gt;)<br /> </td>  
+   <td> TruncTim (e&lt;date&gt;, &lt;number of seconds&gt;) <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -337,7 +337,7 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Retourneert een getal dat de dag in de week van de datum vertegenwoordigt (0=maandag, 6=zondag)<br /> </td> 
+   <td> Keert een aantal terug dat de dag in de week van de datum vertegenwoordigt (0=Maandag, 6=Zondag) <br /> </td> 
    <td> WeekDay(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -351,9 +351,9 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> YearAndMonth(&lt;datum&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>JarenAgo</strong><br /> </td> 
-   <td> Geeft als resultaat het aantal jaren tussen een bepaalde datum en de huidige datum<br /> </td> 
-   <td> YearAgo(&lt;date&gt;)<br /> </td>  
+   <td> <strong> YearAgo </strong><br /> </td> 
+   <td> Keert het aantal jaren tussen een bepaalde datum en de huidige datum terug <br /> </td> 
+   <td> YearAgo (&lt;date&gt;) <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearDiff</strong><br /> </td> 
@@ -370,7 +370,7 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
 
 >[!NOTE]
 >
->Let erop dat de **Alleen datum** De functie houdt rekening met de tijdzone van de server, niet de exploitant.
+>Merk op dat de **functie Dateonly** rekening houdt met timezone van de server, niet de exploitant.
 
 ### Geomarketing
 
@@ -414,7 +414,7 @@ De numerieke functies worden gebruikt om tekst om te zetten in getallen.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Retourneert het grootste gehele getal dat groter is dan of gelijk is aan een getal<br /> </td> 
+   <td> Retourneert het grootste gehele getal dat groter is dan of gelijk is aan een getal <br /> </td> 
    <td> Floor(&lt;nummer&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -429,7 +429,7 @@ De numerieke functies worden gebruikt om tekst om te zetten in getallen.
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Retourneert de rest van de integer-deling van n1 door n2<br /> </td> 
+   <td> Keert de rest van de geheelverdeling van n1 door n2 terug <br /> </td> 
    <td> Mod(&lt;nummer 1&gt;, &lt;nummer 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -487,13 +487,13 @@ Deze tabel bevat de resterende beschikbare functies.
    <td> <strong>Syntaxis</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Tekenreeks versleutelen die in argument is opgegeven<br /> </td> 
-   <td> AESEncrypt()&lt;value&gt;)<br /> </td> 
+   <td> <strong> AESEncrypt </strong><br /> </td> 
+   <td> Codeer koord dat in argument wordt verstrekt <br /> </td> 
+   <td> AESEncrypt (&lt;value&gt;) <br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> Retourneert waarde 1 als de voorwaarde true is. Zo niet, dan wordt waarde 2 geretourneerd.<br /> </td> 
+   <td> Retourneert waarde 1 als de voorwaarde true is. Als niet, keert het waarde 2 terug.<br /> </td> 
    <td> Case(When(&lt;voorwaarde&gt;, &lt;waarde 1&gt;), Else(&lt;waarde 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
@@ -508,7 +508,7 @@ Deze tabel bevat de resterende beschikbare functies.
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> Retourneert waarde 3 als waarde 1 = waarde 2. Indien geen waarde 4.<br /> </td> 
+   <td> Retourneert waarde 3 als waarde 1 = waarde 2. Indien niet waarde 4 terugkeert.<br /> </td> 
    <td> Decode(&lt;waarde 1&gt;, &lt;waarde 2&gt;, &lt;waarde 3&gt;, &lt;waarde 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
@@ -519,7 +519,7 @@ Deze tabel bevat de resterende beschikbare functies.
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Retourneert waarde 1 (mag alleen worden gebruikt als parameter van de case-functie)<br /> </td> 
-   <td> else(&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Else (&lt;value 1&gt;, &lt;value 2&gt;) <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -533,7 +533,7 @@ Deze tabel bevat de resterende beschikbare functies.
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Retourneert waarde 1 als de expressie true is. Zo niet, retourneert waarde 2<br /> </td> 
+   <td> Retourneert waarde 1 als de expressie true is. Als niet, keert waarde 2 <br /> terug </td> 
    <td> Iif(&lt;voorwaarde&gt;, &lt;waarde 1&gt;, &lt;waarde 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -543,13 +543,13 @@ Deze tabel bevat de resterende beschikbare functies.
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> Retourneert waarde 2 als tekenreeks 1 leeg is. Retourneert anders waarde 3<br /> </td> 
-   <td> IsEmptyString()&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Retourneert waarde 2 als tekenreeks 1 leeg is, anders retourneert u waarde 3 <br /> </td> 
+   <td> IsEmptyString (&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;) <br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NewUID</strong><br /> </td> 
-   <td> Retourneert een unieke id<br /> </td> 
-   <td> NewUID()<br /> </td>  
+   <td> <strong> NewUID </strong><br /> </td> 
+   <td> Retourneert een unieke id <br /> </td> 
+   <td> NewUID() <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
@@ -573,7 +573,7 @@ Deze tabel bevat de resterende beschikbare functies.
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> Retourneert waarde 1 als de expressie true is. Zo niet, dan wordt waarde 2 geretourneerd (mag alleen worden gebruikt als parameter van de case-functie)<br /> </td> 
+   <td> Retourneert waarde 1 als de expressie true is. Als niet, keert het waarde 2 terug (kan slechts als parameter van de case functie worden gebruikt) <br /> </td> 
    <td> When(&lt;voorwaarde&gt;, &lt;waarde 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -601,48 +601,48 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Ascii</strong><br /> </td> 
-   <td> Retourneert de ASCII-waarde van het eerste teken in de tekenreeks.<br /> </td> 
+   <td> <strong> Ascii </strong><br /> </td> 
+   <td> Keert de waarde van ASCII van het eerste karakter in het koord terug.<br /> </td> 
    <td> Ascii(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Hiermee wordt het teken geretourneerd dat overeenkomt met de ASCII-code ‘n’<br /> </td> 
-   <td> Char()&lt;number&gt;)<br /></td>  
+   <td> Char(&lt;number&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
-   <td> Retourneert de positie van tekenreeks 2 in tekenreeks 1.<br /> </td> 
-   <td> Charindex()&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Keert de positie van koord 2 in koord 1 terug.<br /> </td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> Geeft de grootte van de tekenreeks in bytes<br /> </td> 
-   <td> dataLength()&lt;string&gt;)<br /></td> 
+   <td> <strong> dataLength </strong><br /> </td> 
+   <td> Keert de grootte in bytes van het koord terug <br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Retourneert de n-de (van 1 tot en met n) regel van de tekenreeks<br /> </td> 
-   <td> GetLine()&lt;string&gt;)<br /></td> 
+   <td> GetLine(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> Retourneert de derde parameter als de eerste twee parameters gelijk zijn. Indien niet, wordt de laatste parameter geretourneerd<br /> </td> 
+   <td> Retourneert de derde parameter als de eerste twee parameters gelijk zijn. Indien niet, keert de laatste parameter <br /> terug </td> 
    <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> Geeft aan of het als parameter doorgegeven memo null is<br /> </td> 
-   <td> IsMemoNull()&lt;memo&gt;)<br /></td> 
+   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Voegt de doorgegeven tekenreeksen samen als parameters. Voegt indien nodig spaties tussen de tekenreeksen toe.<br /> </td> 
+   <td> Voegt de doorgegeven tekenreeksen samen als parameters. Voegt ruimten tussen de koorden toe indien nodig.<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Voegt de doorgegeven tekenreeksen samen als parameters. Voegt indien nodig spaties tussen de tekenreeksen toe<br /> </td> 
+   <td> Voegt de doorgegeven tekenreeksen samen als parameters. Voegt indien nodig spaties tussen de tekenreeksen toe <br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
@@ -652,48 +652,48 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> Retourneert de lengte van de tekenreeks<br /> </td> 
-   <td> Length()&lt;string&gt;)<br /></td> 
+   <td> Keert de lengte van het koord <br /> terug </td> 
+   <td> Lengte (&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Lijn</strong><br /> </td> 
-   <td> Regel n uit tekenreeks extraheren<br /> </td> 
-   <td> Line()&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> <strong> Lijn </strong><br /> </td> 
+   <td> Regel n uit tekenreeks extraheren <br /> </td> 
+   <td> Regel (&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Hiermee wordt de tekenreeks in kleine letters geretourneerd<br /> </td> 
-   <td> Lower()&lt;string&gt;)<br /></td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Hiermee wordt de voltooide tekenreeks links geretourneerd<br /> </td> 
-   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Hiermee worden spaties links van de tekenreeks verwijderd<br /> </td> 
-   <td> Ltrim()&lt;string&gt;)<br /></td> 
+   <td> Ltrim(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Retourneert een hexadecimale representatie van de MD5-toets van een tekenreeks<br /> </td> 
-   <td> Md5Digest()&lt;string&gt;)<br /></td> 
+   <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Hiermee wordt opgegeven of het memo de tekenreeks bevat die als parameter is doorgegeven<br /> </td> 
-   <td> MemoContains()&lt;memo&gt;, &lt;string&gt;)<br /></td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>NodeValue</strong><br /> </td> 
-   <td> Hiermee wordt de waarde van een XML-veld opgehaald uit het XPath en de veldgegevens<br /> </td> 
-   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> <strong> NodeValue </strong><br /> </td> 
+   <td> Extraheert de waarde van een gebied van XML van zijn XPath en de gebiedsgegevens <br /> </td> 
+   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Vervangt alle instanties van een opgegeven tekenreekswaarde door een andere tekenreekswaarde.<br /> </td> 
-   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
+   <td> Vervangt alle voorkomen van een gespecificeerde koordwaarde met een andere koordwaarde.<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -712,13 +712,13 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> Hexadecimale representatie van de SHA256-toets van een tekenreeks.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Hexadecimale vertegenwoordiging van de sleutel SHA256 van een koord.<br /> </td> 
+   <td> Sha256Digest (&lt;String&gt;) <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> Hexadecimale representatie van de SHA512-toets van een tekenreeks.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Hexadecimale vertegenwoordiging van de sleutel SHA512 van een koord.<br /> </td> 
+   <td> Sha512Digest (&lt;String&gt;) <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -727,13 +727,13 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> Hiermee wordt de subtekenreeks opgehaald die begint op teken n1 van de tekenreeks en lengte n2<br /> </td> 
+   <td> Extraheert substring die bij karakter n1 van het koord en van lengte n2 begint <br /> </td> 
    <td> Substring(&lt;tekenreeks&gt;, &lt;offset&gt;, &lt;lengte&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> Zet het getal om in een tekenreeks<br /> </td> 
-   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
+   <td> ToString (&lt;number&gt;, &lt;number&gt;) <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -764,8 +764,8 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> Voer de SQL functievraag uit ingegaan als 1st parameter, over Verdeling of Orde door de gebieden ingegaan als 2de parameter<br /> </td> 
-   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> Voer de SQL functievraag uit die als 1st parameter, over Verdeling of Orde door de gebieden is ingegaan als 2de parameter <br /> is ingegaan </td> 
+   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;) <br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
@@ -784,7 +784,7 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> Hiermee genereert u een regelnummer op basis van de tabelpartitie en een sorteervolgorde.<br /> </td> 
+   <td> Produceert een lijnaantal dat op de lijstverdeling en op een sorterende opeenvolging wordt gebaseerd.<br /> </td> 
    <td> RowNum(PartitionBy(&lt;waarde 1&gt;), OrderBy(&lt;waarde 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
