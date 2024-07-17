@@ -2,9 +2,9 @@
 title: Nieuwe functies in Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ In plaats van gegevensreeksen en/of publiek in Adobe Experience Platform op te n
 >
 >Federated Audience Composition is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 >
->Voor nu, is de eigenschap niet beschikbaar voor klanten die de Adobe **het Schild van de Gezondheidszorg** en **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+>Voor nu, is de eigenschap niet beschikbaar voor klanten die de Adobe **toe:voegen-op aanbieding van het Schild van de Gezondheidszorg van de 1} hebben gekocht.**
 
 
 ## Vereisten en geleiders {#rn-guardrails}
