@@ -3,27 +3,24 @@ audience: end-user
 title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '1298'
 ht-degree: 2%
 
 ---
 
 # Aan de slag met Federale Databases {#federated-db}
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Federale databases"
 >abstract="De bestaande verbindingen aan Federale Gegevensbestanden zijn vermeld in dit scherm. Klik op de knop **[!UICONTROL Add federated database]** om een nieuwe verbinding te maken."
 
-
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Federale database-eigenschappen"
 >abstract="Ga de naam van het nieuwe Federatieve Gegevensbestand in, en selecteer zijn type."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
@@ -42,20 +39,43 @@ Ondersteunde externe databases:
 
 ## Snowflake {#snowflake}
 
-* **[!UICONTROL Server]**:
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Snowflake te configureren.
 
-* **[!UICONTROL User]**: naam van de gebruiker.
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
-* **[!UICONTROL Password]**: wachtwoord gebruikersaccount.
+1. Klik op **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**:
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Working schema]**:
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-* **[!UICONTROL Private key]** :
-Alleen .pem-bestanden worden geaccepteerd
+1. Selecteer Snowflake in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
-* **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+   ![](assets/federated_database_2.png)
+
+1. Configureer de instellingen voor Snowflake-verificatie:
+
+   * **[!UICONTROL Server]**: voer uw servernaam in.
+
+   * **[!UICONTROL User]**: voer uw gebruikersnaam in.
+
+   * **[!UICONTROL Password]**: voer het wachtwoord voor uw account in.
+
+   * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
+
+   * **[!UICONTROL Working schema]** (optioneel): voer de naam van het werkschema in.
+
+   * **[!UICONTROL Private key]**: klik op het veld **[!UICONTROL Private key]** om de .pem-bestanden in de map met landinstellingen te selecteren.
+
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
+
+De connector ondersteunt de volgende opties:
 
 | Optie | Beschrijving |
 |---|---|
@@ -70,15 +90,37 @@ Alleen .pem-bestanden worden geaccepteerd
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL Service account]**: E-mail van uw **[!UICONTROL Service account]** . Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google Big Query te configureren.
 
-* **[!UICONTROL Project]**: naam van de **[!UICONTROL Project]** . Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
-* **[!UICONTROL Dataset]**: naam van de **[!UICONTROL Dataset]** . Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/bigquery/docs/datasets-intro).
+1. Klik op **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Key file Path]**: upload het sleutelbestand naar de server. Alleen .json-bestanden worden geaccepteerd.
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
+
+1. Selecteer Google Big Query in de vervolgkeuzelijst **[!UICONTROL Type]** .
+
+   ![](assets/federated_database_3.png)
+
+1. Configureer de Google Big Query-verificatie-instellingen:
+
+   * **[!UICONTROL Service account]**: voer de e-mail van uw **[!UICONTROL Service account]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+
+   * **[!UICONTROL Project]**: voer de naam van de **[!UICONTROL Project]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+   * **[!UICONTROL Dataset]**: voer de naam van de **[!UICONTROL Dataset]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/bigquery/docs/datasets-intro).
+
+   * **[!UICONTROL Key file Path]**: upload het sleutelbestand naar de server. Alleen .json-bestanden worden geaccepteerd.
+
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
 | Optie | Beschrijving |
 |:-:|:-:|
@@ -94,29 +136,77 @@ Alleen .pem-bestanden worden geaccepteerd
 
 ## Opnieuw azure synapsen {#azure-synapse-redshift}
 
-* **[!UICONTROL Server]**: URL van de Azure synapse-server
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Redshift te configureren.
 
-* **[!UICONTROL Account]**: Naam van de gebruiker
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
-* **[!UICONTROL Password]**: wachtwoord gebruikersaccount
+1. Klik op **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**: naam van de database
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Options]**
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
+
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Type]** de optie Azure synapse opnieuw verschuiven.
+
+   ![](assets/federated_database_4.png)
+
+1. Configureer de verificatie-instellingen voor opnieuw toewijzen van Azure synapse:
+
+   * **[!UICONTROL Server]**: voer de URL van de Azure synapse server in.
+
+   * **[!UICONTROL Account]**: voer de gebruikersnaam in.
+
+   * **[!UICONTROL Password]**: voer het accountwachtwoord in.
+
+   * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
+
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
+
+| Optie | Beschrijving |
+|:-:|:-:|
+| Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL doc ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (de koorden van de verbinding van het voorbeeld n°8) |
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL Server]**: URL van de [!DNL Vertica Analytics] -server
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Vertica analytics te configureren.
 
-* **[!UICONTROL Account]**: Naam van de gebruiker
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
-* **[!UICONTROL Password]**: wachtwoord gebruikersaccount
+1. Klik op **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**: naam van de database
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Working schema]**: naam van uw werkschema.
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-* **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+1. Selecteer Vertica analytics in de vervolgkeuzelijst **[!UICONTROL Type]** .
+
+   ![](assets/federated_database_5.png)
+
+1. Configureer de instellingen voor Vertica analytics-verificatie:
+
+   * **[!UICONTROL Server]**: voeg de URL van de [!DNL Vertica Analytics] -server toe.
+
+   * **[!UICONTROL Account]**: voeg de gebruikersnaam toe.
+
+   * **[!UICONTROL Password]**: voeg het accountwachtwoord toe.
+
+   * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
+
+   * **[!UICONTROL Working schema]** (optioneel): voer de naam van het werkschema in.
+
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
 De connector ondersteunt de volgende opties:
 
@@ -124,16 +214,36 @@ De connector ondersteunt de volgende opties:
 |---|---|
 | TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de Campaign Classic-app-server wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
 
-
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL Server]**: naam van de DNS
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Amazon Redshift te configureren.
 
-* **[!UICONTROL Account]**: Naam van de gebruiker
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
-* **[!UICONTROL Password]**: wachtwoord gebruikersaccount
+1. Klik op **[!UICONTROL Add federated database]**.
 
-* **[!UICONTROL Database]**: naam van de database indien niet opgegeven in DSN. Deze kan leeg worden gelaten, indien opgegeven in de DSN
+   ![](assets/federated_database_1.png)
 
-* **[!UICONTROL Working schema]**: naam van uw werkschema. [Meer informatie](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
+1. Selecteer Amazon Opnieuw verschuiven in de vervolgkeuzelijst **[!UICONTROL Type]** .
+
+   ![](assets/federated_database_6.png)
+
+1. Configureer de Amazon Redshift-verificatie-instellingen:
+
+   * **[!UICONTROL Server]**: voeg de naam van DNS toe.
+
+   * **[!UICONTROL Account]**: voeg de gebruikersnaam toe.
+
+   * **[!UICONTROL Password]**: voeg het accountwachtwoord toe.
+
+   * **[!UICONTROL Database]**: naam van de database indien niet opgegeven in DSN. Deze kan leeg worden gelaten, indien opgegeven in de DSN
+
+   * **[!UICONTROL Working schema]**: naam van uw werkschema. [Meer informatie](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
