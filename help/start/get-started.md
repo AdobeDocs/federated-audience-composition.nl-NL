@@ -2,9 +2,9 @@
 title: Aan de slag met Federatieve Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
@@ -67,10 +67,11 @@ Er zijn geen specifieke toestemmingen voor de Samenstelling van het Publiek Fede
 
 Voor deze release is Federated Audience Composition compatibel met:
 
-* Snowflake
-* Google Big Query
-* Azure synapse
 * Amazon Redshift
+* Azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 +++
 
