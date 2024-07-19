@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 2%
@@ -31,11 +31,11 @@ Maak, configureer, test en sla de verbinding met een externe database op.
 
 Ondersteunde externe databases:
 
-* Snowflake
-* Google Big Query
-* Azure synapse
-* Vertica Analytics
 * Amazon Redshift
+* Azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 ## Snowflake {#snowflake}
 
