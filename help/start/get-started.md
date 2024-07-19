@@ -2,9 +2,9 @@
 title: Aan de slag met Federatieve Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1326'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 Federated Audience Composition is een Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer-invoegtoepassing waarmee de klant het publiek van de externe gegevensopslagruimten kan opbouwen en verrijken en het publiek naar Adobe Experience Platform kan importeren.
 
-Adobe Experience Platform Federated Audience Composition biedt een eenvoudige en krachtige oplossing om uw bedrijfsgegevenspakhuis direct binnen Adobe Real-time Customer Data Platform en/of Adobe Journey Optimizer aan te sluiten en query&#39;s uit te voeren op de tabellen van uw gegevenspakhuis. Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag (zoals Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie.
+Adobe Experience Platform Federated Audience Composition biedt een eenvoudige en krachtige oplossing om uw bedrijfsgegevenspakhuis direct binnen Adobe Real-time Customer Data Platform en/of Adobe Journey Optimizer aan te sluiten en query&#39;s uit te voeren op de tabellen van uw gegevenspakhuis.
+
+Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag, zoals Amazon Redshift, Azure synapse Analytics en meer. De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie. De gesteunde platforms zijn vermeld in [ deze pagina ](../connections/federated-db.md#supported-db).
 
 
 ## Gebruiksscenario’s {#rn-uc}

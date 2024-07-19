@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1337'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 2%
 >title="Gegevens van gefederaliseerde database"
 >abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Test connection]** om uw configuratie te valideren."
 
-Maak, configureer, test en sla de verbinding met een externe database op.
+De federated Audience Composition staat de Klant toe om publiek van de derdegegevenspakhuizen te bouwen en te verrijken en het publiek in Adobe Experience Platform in te voeren.
 
+Leer hoe u de verbinding met uw externe database op deze pagina kunt maken, configureren, testen en opslaan.
 
+## Ondersteunde databases {#supported-db}
 
-Ondersteunde externe databases:
+Met Federated Audience Composition kunt u verbinding maken met de volgende databases:
 
 * Amazon Redshift
 * Azure synapse
