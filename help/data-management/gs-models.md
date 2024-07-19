@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,6 @@ U krijgt toegang tot het venster waarin u de schema&#39;s, het publiek en de kop
 ![](assets/datamodel_created.png){zoomable="yes"}
 
 ![](assets/datamodel_schemas.png){zoomable="yes"}
+
+### Koppelingen maken {#data-model-links}
 
