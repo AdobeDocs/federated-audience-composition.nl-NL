@@ -3,10 +3,10 @@ audience: end-user
 title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 Een schema is een object in de toepassing dat definieert hoe de gegevens aan databasetabellen zijn gekoppeld.
 Een schema verwijst naar een tabel.
 
-## Hoe maakt u een schema? {#schema-create}
+## Een schema maken {#schema-create}
 
 Ga in de sectie **[!UICONTROL FEDERATED DATA]** naar de koppeling **[!UICONTROL Models]** . Daar vindt u de tab **[!UICONTROL Schema]** .
 Klik op de knop **[!UICONTROL Create schema]** .
@@ -62,14 +62,14 @@ Door de lijsten toe te voegen, zult u toegang tot hun gebieden hebben, en kunt e
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## Hoe te om een schema uit te geven? {#schema-edit}
+## Een schema bewerken {#schema-edit}
 
 Als u een schema wilt bewerken, klikt u op de naam van het schema in de map schemas. U hebt toegang tot de onderstaande pagina.
 Klik op de knop **[!UICONTROL Edit]** .
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## Hoe kan ik gegevens voorvertonen in een schema? {#schema-preview}
+## Gegevens voorvertonen in een schema {#schema-preview}
 
 Ga als volgt naar het tabblad **[!UICONTROL Data]** om een voorvertoning van de gegevens in de tabel weer te geven die door het schema wordt vertegenwoordigd.
 
@@ -79,7 +79,7 @@ U kunt het gegevensoverzicht wijzigen door op de knop **[!UICONTROL Configure co
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## Hoe te om een schema te schrappen? {#schema-delete}
+## Schema verwijderen {#schema-delete}
 
 Als u een schema wilt verwijderen, klikt u op **[!UICONTROL More]** en vervolgens op **[!UICONTROL Delete]** .
 

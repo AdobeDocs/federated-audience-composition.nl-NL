@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Leer meer over [ schema&#39;s ](../customer/schemas.md).
 
 Leer meer over [ publiek ](../customer/audiences.md).
 
-## Hoe kan ik een gegevensmodel maken? {#data-model-create}
+## Een gegevensmodel maken {#data-model-create}
 
 Ga in de sectie **[!UICONTROL FEDERATED DATA]** naar de koppeling **[!UICONTROL Models]** . Daar vindt u de tab **[!UICONTROL Data model]** .
 
