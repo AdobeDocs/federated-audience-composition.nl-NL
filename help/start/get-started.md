@@ -2,9 +2,9 @@
 title: Aan de slag met Federatieve Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1381'
 ht-degree: 1%
 
 ---
@@ -35,22 +35,14 @@ Met Adobe Federated Audience Composition kunt u Adobe Experience Platform-soorte
 
 Belangrijkste stappen:
 
-* **Configuratie**
+1. **Integratie van Gegevens**: Breng gegevens van diverse bronnen samen, en voeg hen in een verenigde dataset samen. Leer hoe te om Adobe Experience Platform te verbinden apps en uw entrepot van ondernemingsgegevens, gesteunde gegevensbestanden, en hoe te om hen te vormen zijn gedetailleerd in [ deze sectie ](../connections/federated-db.md).
 
-   1. Connect Adobe Experience Platform en uw zakelijke gegevenspaket.
-De volgende databases worden ondersteund: Snowflake, Google Big Query, Azure synapse, Redshift.
-Leer meer in [ deze pagina ](../connections/federated-db.md)
-   1. Maak schema&#39;s om te selecteren welke gegevens toegankelijk moeten zijn vanuit de gebruikersinterface.
-Leer meer in [ deze pagina ](../customer/schemas.md)
-   1. Maak koppelingen voor uw datamodel.
-Leer meer in [ deze pagina ](../data-management/gs-models.md)
+2. **Modellering van Gegevens**: Ontwerp en creeer gegevensmodellen en schema&#39;s die de structuur, de verhoudingen, en de beperkingen van de gegevens bepalen. Leer meer over schema&#39;s in [ deze pagina ](../customer/schemas.md). Leer hoe te om verbindingen voor uw datamodel in [ tot stand te brengen deze pagina ](../data-management/gs-models.md).
 
-* **stel publiek** samen
+3. **Transformatie van Gegevens**: Pas de technieken van de gegevensmanipulatie toe om het formaat, de structuur, of de waarden van gegevenselementen te wijzigen om hen compatibel of geschikt voor specifieke analyse of toepassingen te maken.
 
-   1. Ontwerp en voer composities uit om een publiek te maken.
-Leer meer in [ deze pagina ](../compositions/gs-compositions.md)
-   1. Bestaande doelgroepen bijwerken of opnieuw gebruiken via het Adobe Experience Platform Audience-portaal en -bestemmingen.
-Leer meer in [ deze pagina ](../connections/destinations.md)
+4. **Gebruik van Gegevens**: Creeer, orkestel en bouw publiek. Leer hoe te om publiek in [ samen te stellen deze pagina ](../compositions/gs-compositions.md). U kunt bestaande doelgroepen ook bijwerken of opnieuw gebruiken via het Adobe Experience Platform Audience-portaal en de Doelen. Leer meer in [ deze pagina ](../connections/destinations.md)
+
 
 ## Veelgestelde vragen {#faq}
 
