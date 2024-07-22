@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1344'
 ht-degree: 2%
 
 ---
@@ -33,13 +33,133 @@ Leer hoe u de verbinding met uw externe database op deze pagina kunt maken, conf
 
 ## Ondersteunde databases {#supported-db}
 
-Met Federated Audience Composition kunt u verbinding maken met de volgende databases:
+Met Federated Audience Composition kunt u verbinding maken met de volgende databases. De configuratie voor elke database wordt hieronder beschreven.
 
-* Amazon Redshift
-* Azure synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+* [Amazon Redshift](#amazon-redshift)
+* [Azure synapse](#azure-synapse-redshift)
+* [Google Big Query](#google-big-query)
+* [Snowflake](#snowflake)
+* [Vertica Analytics](#vertica-analytics)
+
+## Amazon Redshift {#amazon-redshift}
+
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Amazon Redshift te configureren.
+
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
+
+1. Klik op **[!UICONTROL Add federated database]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
+
+1. Selecteer Amazon Opnieuw verschuiven in de vervolgkeuzelijst **[!UICONTROL Type]** .
+
+   ![](assets/federated_database_6.png)
+
+1. Configureer de Amazon Redshift-verificatie-instellingen:
+
+   * **[!UICONTROL Server]**: voeg de naam van DNS toe.
+
+   * **[!UICONTROL Account]**: voeg de gebruikersnaam toe.
+
+   * **[!UICONTROL Password]**: voeg het accountwachtwoord toe.
+
+   * **[!UICONTROL Database]**: naam van de database indien niet opgegeven in DSN. Deze kan leeg worden gelaten, indien opgegeven in de DSN
+
+   * **[!UICONTROL Working schema]**: naam van uw werkschema. [Meer informatie](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
+
+## Opnieuw azure synapsen {#azure-synapse-redshift}
+
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Redshift te configureren.
+
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
+
+1. Klik op **[!UICONTROL Add federated database]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
+
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Type]** de optie Azure synapse opnieuw verschuiven.
+
+   ![](assets/federated_database_4.png)
+
+1. Configureer de verificatie-instellingen voor opnieuw toewijzen van Azure synapse:
+
+   * **[!UICONTROL Server]**: voer de URL van de Azure synapse server in.
+
+   * **[!UICONTROL Account]**: voer de gebruikersnaam in.
+
+   * **[!UICONTROL Password]**: voer het accountwachtwoord in.
+
+   * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
+
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
+
+| Optie | Beschrijving |
+|:-:|:-:|
+| Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL doc ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (de koorden van de verbinding van het voorbeeld n°8) |
+
+
+## Google Big Query {#google-big-query}
+
+Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google Big Query te configureren.
+
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
+
+1. Klik op **[!UICONTROL Add federated database]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
+
+1. Selecteer Google Big Query in de vervolgkeuzelijst **[!UICONTROL Type]** .
+
+   ![](assets/federated_database_3.png)
+
+1. Configureer de Google Big Query-verificatie-instellingen:
+
+   * **[!UICONTROL Service account]**: voer de e-mail van uw **[!UICONTROL Service account]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+
+   * **[!UICONTROL Project]**: voer de naam van de **[!UICONTROL Project]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+   * **[!UICONTROL Dataset]**: voer de naam van de **[!UICONTROL Dataset]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/bigquery/docs/datasets-intro).
+
+   * **[!UICONTROL Key file Path]**: upload het sleutelbestand naar de server. Alleen .json-bestanden worden geaccepteerd.
+
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
+
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
+
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
+
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
+
+| Optie | Beschrijving |
+|:-:|:-:|
+| ProxyType | Het type proxy dat wordt gebruikt om verbinding te maken met BigQuery via ODBC- en SDK-connectors. </br> HTTP (gebrek), http_no_tunnel, socks4 en socks5 worden momenteel gesteund. |
+| ProxyHost | Hostnaam of IP-adres waar de proxy kan worden bereikt. |
+| ProxyPort | Poortnummer waarop de proxy wordt uitgevoerd, bijvoorbeeld 8080 |
+| ProxyUid | Gebruikersnaam voor de geverifieerde proxy |
+| ProxyPwd | Wachtwoord ProxyUid |
+| bqpath | Dit is alleen van toepassing voor bulkload (Cloud SDK). </br> Als u wilt voorkomen dat de PATH-variabele wordt gebruikt of als de Google-cloud-sdk-map naar een andere locatie moet worden verplaatst, kunt u met deze optie het exacte pad naar de SDK-binmap van de cloud op de server opgeven. |
+| GCloudConfigName | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> De Google Cloud SDK gebruikt configuraties om gegevens in BigQuery-tabellen te laden. In de configuratie met de naam `accfda` worden de parameters voor het laden van de gegevens opgeslagen. Met deze optie kunnen gebruikers echter een andere naam voor de configuratie opgeven. |
+| GCloudDefaultConfigName | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> De actieve Google Cloud SDK-configuratie kan niet worden verwijderd zonder de actieve tag eerst over te brengen naar een nieuwe configuratie. Deze tijdelijke configuratie is nodig om de hoofdconfiguratie voor het laden van gegevens opnieuw te maken. De standaardnaam voor de tijdelijke configuratie is `default` . Indien nodig kunt u deze naam wijzigen. |
+| GCloudRecreateConfig | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> Wanneer dit op `false` is ingesteld, probeert het mechanisme voor bulkladen de Google Cloud SDK-configuraties niet opnieuw te maken, te verwijderen of te wijzigen. In plaats daarvan worden gegevens geladen met behulp van de bestaande configuratie op de computer. Deze functie is nuttig wanneer andere bewerkingen afhankelijk zijn van Google Cloud SDK-configuraties. </br> Als de gebruiker deze motoroptie inschakelt zonder de juiste configuratie, geeft het mechanisme voor het laden van grote hoeveelheden een waarschuwingsbericht weer: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` . Om verdere fouten te voorkomen, zal het dan aan het gebruiken van het standaard ODBC de bulkladingsmechanisme van het Tussenvoegsel van de Serie terugkeren. |
+
 
 ## Snowflake {#snowflake}
 
@@ -92,89 +212,6 @@ De connector ondersteunt de volgende opties:
 | chunkSize | Hiermee bepaalt u de bestandsgrootte van het segment voor bulksloader. Standaard ingesteld op 128 MB. Kan worden aangepast voor een betere prestatie, wanneer gebruikt met bulkThreads. Meer tegelijkertijd actieve threads betekenen betere prestaties. <br> voor meer op dit, verwijs naar [ documentatie van de Snowflake ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
 | StageName | Naam van het vooraf ingestelde interne werkgebied. Het wordt gebruikt in bulk lading in plaats van het creëren van een nieuwe tijdelijke fase. |
 
-## Google Big Query {#google-big-query}
-
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google Big Query te configureren.
-
-1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
-
-1. Klik op **[!UICONTROL Add federated database]**.
-
-   ![](assets/federated_database_1.png)
-
-1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
-
-1. Selecteer Google Big Query in de vervolgkeuzelijst **[!UICONTROL Type]** .
-
-   ![](assets/federated_database_3.png)
-
-1. Configureer de Google Big Query-verificatie-instellingen:
-
-   * **[!UICONTROL Service account]**: voer de e-mail van uw **[!UICONTROL Service account]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
-
-   * **[!UICONTROL Project]**: voer de naam van de **[!UICONTROL Project]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
-
-   * **[!UICONTROL Dataset]**: voer de naam van de **[!UICONTROL Dataset]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/bigquery/docs/datasets-intro).
-
-   * **[!UICONTROL Key file Path]**: upload het sleutelbestand naar de server. Alleen .json-bestanden worden geaccepteerd.
-
-   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
-
-1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
-
-1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
-
-1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
-
-| Optie | Beschrijving |
-|:-:|:-:|
-| ProxyType | Het type proxy dat wordt gebruikt om verbinding te maken met BigQuery via ODBC- en SDK-connectors. </br> HTTP (gebrek), http_no_tunnel, socks4 en socks5 worden momenteel gesteund. |
-| ProxyHost | Hostnaam of IP-adres waar de proxy kan worden bereikt. |
-| ProxyPort | Poortnummer waarop de proxy wordt uitgevoerd, bijvoorbeeld 8080 |
-| ProxyUid | Gebruikersnaam voor de geverifieerde proxy |
-| ProxyPwd | Wachtwoord ProxyUid |
-| bqpath | Dit is alleen van toepassing voor bulkload (Cloud SDK). </br> Als u wilt voorkomen dat de PATH-variabele wordt gebruikt of als de Google-cloud-sdk-map naar een andere locatie moet worden verplaatst, kunt u met deze optie het exacte pad naar de SDK-binmap van de cloud op de server opgeven. |
-| GCloudConfigName | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> De Google Cloud SDK gebruikt configuraties om gegevens in BigQuery-tabellen te laden. In de configuratie met de naam `accfda` worden de parameters voor het laden van de gegevens opgeslagen. Met deze optie kunnen gebruikers echter een andere naam voor de configuratie opgeven. |
-| GCloudDefaultConfigName | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> De actieve Google Cloud SDK-configuratie kan niet worden verwijderd zonder de actieve tag eerst over te brengen naar een nieuwe configuratie. Deze tijdelijke configuratie is nodig om de hoofdconfiguratie voor het laden van gegevens opnieuw te maken. De standaardnaam voor de tijdelijke configuratie is `default` . Indien nodig kunt u deze naam wijzigen. |
-| GCloudRecreateConfig | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> Wanneer dit op `false` is ingesteld, probeert het mechanisme voor bulkladen de Google Cloud SDK-configuraties niet opnieuw te maken, te verwijderen of te wijzigen. In plaats daarvan worden gegevens geladen met behulp van de bestaande configuratie op de computer. Deze functie is nuttig wanneer andere bewerkingen afhankelijk zijn van Google Cloud SDK-configuraties. </br> Als de gebruiker deze motoroptie inschakelt zonder de juiste configuratie, geeft het mechanisme voor het laden van grote hoeveelheden een waarschuwingsbericht weer: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` . Om verdere fouten te voorkomen, zal het dan aan het gebruiken van het standaard ODBC de bulkladingsmechanisme van het Tussenvoegsel van de Serie terugkeren. |
-
-## Opnieuw azure synapsen {#azure-synapse-redshift}
-
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Redshift te configureren.
-
-1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
-
-1. Klik op **[!UICONTROL Add federated database]**.
-
-   ![](assets/federated_database_1.png)
-
-1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
-
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Type]** de optie Azure synapse opnieuw verschuiven.
-
-   ![](assets/federated_database_4.png)
-
-1. Configureer de verificatie-instellingen voor opnieuw toewijzen van Azure synapse:
-
-   * **[!UICONTROL Server]**: voer de URL van de Azure synapse server in.
-
-   * **[!UICONTROL Account]**: voer de gebruikersnaam in.
-
-   * **[!UICONTROL Password]**: voer het accountwachtwoord in.
-
-   * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
-
-   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
-
-1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
-
-1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
-
-1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
-
-| Optie | Beschrijving |
-|:-:|:-:|
-| Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL doc ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (de koorden van de verbinding van het voorbeeld n°8) |
 
 ## Vertica Analytics {#vertica-analytics}
 
@@ -218,36 +255,3 @@ De connector ondersteunt de volgende opties:
 |---|---|
 | TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de Campaign Classic-app-server wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
 
-## Amazon Redshift {#amazon-redshift}
-
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Amazon Redshift te configureren.
-
-1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
-
-1. Klik op **[!UICONTROL Add federated database]**.
-
-   ![](assets/federated_database_1.png)
-
-1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
-
-1. Selecteer Amazon Opnieuw verschuiven in de vervolgkeuzelijst **[!UICONTROL Type]** .
-
-   ![](assets/federated_database_6.png)
-
-1. Configureer de Amazon Redshift-verificatie-instellingen:
-
-   * **[!UICONTROL Server]**: voeg de naam van DNS toe.
-
-   * **[!UICONTROL Account]**: voeg de gebruikersnaam toe.
-
-   * **[!UICONTROL Password]**: voeg het accountwachtwoord toe.
-
-   * **[!UICONTROL Database]**: naam van de database indien niet opgegeven in DSN. Deze kan leeg worden gelaten, indien opgegeven in de DSN
-
-   * **[!UICONTROL Working schema]**: naam van uw werkschema. [Meer informatie](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
-
-1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
-
-1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
-
-1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
