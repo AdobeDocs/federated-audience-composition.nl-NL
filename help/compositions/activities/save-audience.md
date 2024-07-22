@@ -3,9 +3,9 @@ audience: end-user
 title: De publieksactiviteit Opslaan gebruiken
 description: Leer hoe u de publieksactiviteit Opslaan gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Volg deze stappen om **te vormen sparen publiek** activiteit:
    ![](../assets/save-audience.png)
 
 1. Geef het label op van het publiek dat u wilt maken.
+
+   >[!IMPORTANT]
+   >
+   >Het label van het publiek moet uniek zijn binnen de huidige sandbox. Het mag niet hetzelfde label hebben als een bestaand publiek.
 
 1. Klik **toevoegen de Toewijzing van het publiek** dan de bron en doelpublieksgebieden kiezen:
 
