@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen hen.
 
-Leer meer over [ schema&#39;s ](../customer/schemas.md).
+Leer meer over [ schema&#39;s ](../customer/schemas.md#schema-start).
 
 Leer meer over [ publiek ](../customer/audiences.md).
 
@@ -61,3 +61,16 @@ U krijgt toegang tot het venster waarin u de schema&#39;s, het publiek en de kop
 
 ### Koppelingen maken {#data-model-links}
 
+Het creëren van verbindingen tussen lijsten van uw datamodel kan met 2 manieren worden gedaan:
+- Klik rechtstreeks in het menu **[!UICONTROL Create link]** van een tabel
+- Klik op de knop **[!UICONTROL Create links]** en kies de twee tabellen
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Vul het opgegeven formulier in om de koppeling te definiëren:
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+Alle koppelingen die voor het datamodel zijn gedefinieerd, worden als volgt weergegeven:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
