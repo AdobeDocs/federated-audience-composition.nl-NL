@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen 
 
 Leer meer over [ schema&#39;s ](../customer/schemas.md#schema-start).
 
-Leer meer over [ publiek ](../customer/audiences.md).
+Leer meer over [ publiek ](../start/audiences.md).
 
 ## Een gegevensmodel maken {#data-model-create}
 

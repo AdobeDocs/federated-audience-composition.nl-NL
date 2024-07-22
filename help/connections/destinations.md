@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Soorten publiek naar compositie van Adobe Federated Audience verzenden
-description: Leer hoe u Adobe Experience Platform-publiek naar Federated Audience Composition verzendt
+title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
+description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform naar Adobe Federale Audience Composition verzenden {#connect-aep-fac}
+# Het Adobe Experience Platform-publiek verrijken met externe gegevens {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Een doel maken"
 >abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Connect to destination]** om uw configuratie te valideren."
 
-Adobe Experience Platform staat u toe om over publiek van het Portaal van het Publiek naar Adobe Federated Audience Composition te verzenden. Op deze manier kunt u bestaande doelgroepen gebruiken voor composities en deze combineren met gegevens uit uw externe databases om nieuwe doelgroepen te maken of bestaande doelgroepen bij te werken.
+Adobe Experience Platform staat naadloze integratie van publiek van het Portaal van het Publiek aan uw externe gegevensbestanden toe gebruikend de Adobe Federated bestemming van de Samenstelling van het Publiek. Op deze manier kunt u bestaande doelgroepen gebruiken voor composities en ze verrijken of verfijnen met gegevens uit uw externe databases om nieuwe doelgroepen te maken of bestaande doelgroepen bij te werken.
 
-Hiertoe moet u een nieuwe verbinding in Adobe Experience Platform instellen met de bestemming Adobe Federated Audience Composition. U kunt een planner gebruiken om een bepaald publiek bij regelmatige frequenties te verzenden, kies welke gebieden met het publiek, zoals IDs te verzenden om de gegevens te verzoenen. Als u het beheer- en privacybeleid hebt toegepast op uw publiek, worden deze gegevens bewaard en teruggestuurd naar de portal voor het publiek nadat het publiek is bijgewerkt.
+Hiertoe moet u een nieuwe verbinding in Adobe Experience Platform instellen met de bestemming Adobe Federated Audience Composition. U kunt een planner gebruiken om een bepaald publiek bij regelmatige frequenties te verzenden, specifieke te omvatten attributen, zoals IDs voor gegevensverzoening selecteren. Als u het beheer- en privacybeleid hebt toegepast op uw publiek, worden deze gegevens bewaard en teruggestuurd naar de portal voor het publiek nadat het publiek is bijgewerkt.
+
+Bijvoorbeeld, als u de scores van het klantenkrediet in uw gegevenspakhuis opslaat en een publiek van Adobe Experience Platform heeft dat klanten richt in een specifiek product binnen de laatste twee maanden wordt geinteresseerd, kunt u dit publiek verfijnen dat op creditscores gebruikend de Federated bestemming van de Samenstelling van de Publiek wordt gebaseerd. Dit proces staat u toe om het publiek te filtreren om slechts profielen met hoge creditscores te omvatten zonder gevoelige gegevens van de creditscore van uw gegevenspakhuis over te brengen.
 
 De belangrijkste stappen om Adobe Experience Platform-publiek naar de Adobe Federated Audience Composition te sturen zijn:
 
