@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 2%
 
 Een schema is een representatie van een tabel in uw database. Het is een object in de toepassing dat definieert hoe de gegevens aan databasetabellen zijn gekoppeld.
 
-Door een schema te creëren, zult u uw lijst in FAC kunnen manipuleren:
+Door een schema te creëren, zult u een vertegenwoordiging van uw lijst in FAC kunnen manipuleren:
+
 - Geef deze een vriendelijke naam en beschrijving om het begrip voor de gebruiker te vereenvoudigen
 - Bepaal de zichtbaarheid van elk veld op basis van het werkelijke gebruik ervan
 - Selecteer zijn primaire sleutel, om schema&#39;s tussen hen te verbinden, zoals nodig in het [ gegevensmodel ](../data-management/gs-models.md#data-model-start)
@@ -70,6 +71,7 @@ Door de tabellen toe te voegen, waarvoor u het schema wilt maken, hebt u toegang
 ![](assets/schema_fields.png){zoomable="yes"}
 
 Voor elke lijst, kunt u:
+
 - naam van schema-label wijzigen
 - een beschrijving toevoegen
 - Wijzig de naam van alle velden en bepaal de zichtbaarheid ervan.
@@ -91,6 +93,7 @@ Klik op de knop **[!UICONTROL Edit]** .
 ![](assets/schema_edit.png){zoomable="yes"}
 
 U hebt toegang tot dezelfde mogelijkheid als wanneer u het schema maakt:
+
 - naam van schema-label wijzigen
 - een beschrijving toevoegen
 - Wijzig de naam van alle velden en bepaal de zichtbaarheid ervan.
