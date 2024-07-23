@@ -2,10 +2,10 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '136'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 9%
 + Aan de slag met Federatieve Audience Composition {#start}
    + [Wat is Federated Audience Composition](start/get-started.md)
    + [Werken met het publiek](start/audiences.md)
+   + [Veelgestelde vragen](start/faq.md)
 + Configuratiestappen {#config}
    + [Verbindingen maken en beheren](connections/connections.md)
    + [Configureer uw gefedereerde databases](connections/federated-db.md)
