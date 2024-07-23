@@ -3,9 +3,9 @@ audience: end-user
 title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
 description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >title="Een doel maken"
 >abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Connect to destination]** om uw configuratie te valideren."
 
-Adobe Experience Platform staat naadloze integratie van publiek van het Portaal van het Publiek aan uw externe gegevensbestanden toe gebruikend de Adobe Federated bestemming van de Samenstelling van het Publiek. Op deze manier kunt u bestaande doelgroepen gebruiken voor composities en ze verrijken of verfijnen met gegevens uit uw externe databases om nieuwe doelgroepen te maken of bestaande doelgroepen bij te werken.
+Adobe Experience Platform staat naadloze integratie van publiek van het Portaal van het Publiek aan uw externe gegevensbestanden toe gebruikend de **bestemming van de Samenstelling van de Samenstelling van het Publiek 0} Federated van de Adobe.** Op deze manier kunt u bestaande doelgroepen gebruiken voor composities en ze verrijken of verfijnen met behulp van gegevens uit uw externe databases om nieuwe doelgroepen te maken.
 
 Hiertoe moet u een nieuwe verbinding in Adobe Experience Platform instellen met de bestemming Adobe Federated Audience Composition. U kunt een planner gebruiken om een bepaald publiek bij regelmatige frequenties te verzenden, specifieke te omvatten attributen, zoals IDs voor gegevensverzoening selecteren. Als u het beheer- en privacybeleid hebt toegepast op uw publiek, worden deze gegevens bewaard en teruggestuurd naar de portal voor het publiek nadat het publiek is bijgewerkt.
 

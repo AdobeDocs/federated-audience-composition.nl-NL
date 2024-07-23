@@ -3,9 +3,9 @@ audience: end-user
 title: Gebruik de het publieksactiviteit van de Bouwstijl
 description: Leer hoe u de gebruikersactiviteit van Build gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,10 @@ ht-degree: 1%
 >title="Activiteit voor publiek opbouwen"
 >abstract="**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de samenstelling zal ingaan."
 
-**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de samenstelling zal ingaan.
+**bouwt publieksactiviteit** toestaat u om het publiek te bepalen dat de samenstelling zal ingaan. Om de publieksbevolking te bepalen, kunt u:
 
-Om de publieksbevolking te bepalen, kunt u:
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* Selecteer een Adobe Experience Platform-publiek.
-* Bouw een nieuw publiek met de bouwer van de vraagmodelleur door het filtreren criteria te bepalen en te combineren.
-
-**bouwt publieksactiviteit** aan het begin van de samenstelling of na een andere activiteit. Om het even welke activiteit kan na **worden geplaatst bouwt publiek**.
+* Selecteer een bestaand Adobe Experience Platform-publiek.
+* Creeer een nieuw publiek met de vraagmodeler door het filtreren criteria te bepalen en te combineren.
 
 ## Vorm de het publieksactiviteit van de Bouwstijl {#build-audience-configuration}
 
