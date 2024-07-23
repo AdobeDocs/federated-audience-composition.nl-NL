@@ -3,7 +3,7 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Wat zit er in een compositie? {#gs-composition-inside}
 
-De Federale Samenstelling van Gegevens verstrekt een visueel canvas dat u toestaat om publiek tot stand te brengen door diverse activiteiten (gespleten, verrijkt, etc.) te gebruiken.
+Federated Audience Composition biedt een visueel canvas dat u in staat stelt een publiek te maken door gebruik te maken van verschillende activiteiten (splitsen, verrijken, enz.).
 
 Het compositiediagram is een weergave van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 

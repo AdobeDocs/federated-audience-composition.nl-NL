@@ -2,10 +2,10 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 11%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 11%
 # Federale documentatie van Audience Composition {#using}
 
 + [Federale documentatie van Audience Composition](home.md)
++ [Aanvullende informatie](start/release-notes.md)
 + Aan de slag met Federatieve Audience Composition {#start}
-   + [Aan de slag](start/get-started.md)
-   + [Aanvullende informatie](start/release-notes.md)
+   + [Wat is Federated Audience Composition](start/get-started.md)
    + [Werken met het publiek](start/audiences.md)
 + Configuratiestappen {#config}
    + [Verbindingen maken en beheren](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 11%
       + [Schema&#39;s maken en configureren](customer/schemas.md)
       + [Uw gegevensmodellen configureren](data-management/gs-models.md)
    + [Het Adobe Experience Platform-publiek verrijken met externe gegevens](connections/destinations.md)
-+ Composities {#compositions}
++ Soorten publiek samenstellen {#compositions}
    + [Aan de slag met composities](compositions/gs-compositions.md)
    + Uw eerste compositie maken en uitvoeren {#create-composition}
       + [Belangrijkste beginselen voor het creëren van compositie](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 11%
    + [Expressies bewerken](query/expression-editor.md)
 + Audittrail {#audit-trail}
    + [Uw databases controleren](admin/audit-trail.md)
-+ [&lt; Terug naar Adobe Experience Platform-documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)

@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Audittrail
 description: Leer hoe u uw databases kunt controleren met de audittrail
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 De mogelijkheden van het audittrail verstrekken een gedetailleerd en chronologisch verslag van alle acties en gebeurtenissen die aan uw milieu in real time zijn gemaakt
 
-De functie **[!UICONTROL Audit trail]** registreert constant een gedetailleerd logboek van acties en gebeurtenissen die binnen de instantie van de Samenstelling van Gegevens van de Adobe in real time plaatsvinden. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
+De functie **[!UICONTROL Audit trail]** registreert constant een gedetailleerd logboek van acties en gebeurtenissen die binnen de instantie van de Samenstelling van de Adobe Federated in real time plaatsvinden. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
 
 +++ Meer informatie over beschikbare entiteiten van het audittrail
 
-* **Source de auditspoor van het Schema** staat u toe om activiteiten en recente wijzigingen te controleren die aan uw schema&#39;s binnen de instantie van de Samenstelling van Gegevens van de Adobe worden aangebracht.
+* **het de controlespoor van het Schema van Source** staat u toe om activiteiten en recente wijzigingen te controleren die aan uw schema&#39;s binnen de Adobe Federated instantie van de Samenstelling van het Publiek worden aangebracht.
 
   Voor gedetailleerde informatie over schema&#39;s, verwijs naar deze [ pagina ](../customer/schemas.md).
 
@@ -40,7 +40,7 @@ De functie **[!UICONTROL Audit trail]** registreert constant een gedetailleerd l
 
   Voor meer informatie over werkschema&#39;s, verwijs naar deze [ pagina ](../compositions/gs-compositions.md).
 
-* **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in de instantie van de Samenstelling van Gegevens van de Adobe worden aangebracht.
+* **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in de instantie van de Samenstelling van het publiek van de Adobe worden aangebracht.
 
   Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../connections/federated-db.md).
 
