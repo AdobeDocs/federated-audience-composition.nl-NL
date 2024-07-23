@@ -3,9 +3,9 @@ audience: end-user
 title: Gebruik de het publieksactiviteit van de Bouwstijl
 description: Leer hoe u de gebruikersactiviteit van Build gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -45,8 +45,11 @@ Voer de volgende stappen uit om uw eigen publiek te maken:
 
 1. Selecteer **tot publiek** leiden.
 1. Kies het **Schema**, die ook als het richten dimensie wordt bekend. Met het schema kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, operator, abonnees, enzovoort. Standaard is het schema geselecteerd bij de ontvangers.
+
+   ![](../assets/build-audience-create.png)
+
 1. Klik **verdergaan**.
-1. Gebruik de vraagmodeler om uw vraag te bepalen. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
+1. Gebruik de vraagmodeler om uw vraag te bepalen dan bevestig. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
 >[!TAB Doelgroep lezen]
 
@@ -54,9 +57,16 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 1. Selecteer **Gelezen publiek**.
 1. Klik **verdergaan**.
+
+   ![](../assets/build-audience-read.png)
+
 1. Selecteer uw publiek.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>**produceert een uitgaande overgang** optie staat u toe om een uitgaande overgang toe te voegen die aan het eind van de uitvoering van de activiteit zal worden geactiveerd als de publiekspopulatie leeg is.
 
 <!--
 ## Examples{#build-audience-examples}
