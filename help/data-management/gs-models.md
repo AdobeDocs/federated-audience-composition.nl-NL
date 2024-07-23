@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -62,6 +62,7 @@ U krijgt toegang tot het venster waarin u de schema&#39;s, het publiek en de kop
 ### Koppelingen maken {#data-model-links}
 
 Het creëren van verbindingen tussen lijsten van uw datamodel kan met 2 manieren worden gedaan:
+
 - Klik rechtstreeks in het menu **[!UICONTROL Create link]** van een tabel
 - Klik op de knop **[!UICONTROL Create links]** en kies de twee tabellen
 

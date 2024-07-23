@@ -3,7 +3,7 @@ audience: end-user
 title: Verbindingen met Federale Databases maken en beheren
 description: Leer hoe te om verbindingen met Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 5%
@@ -27,6 +27,7 @@ Als u het type selecteert, hebt u toegang tot andere eigenschappen die u wilt in
 ![](assets/connections_details.png){zoomable="yes"}
 
 Afhankelijk van het type van uw gegevensbestand, leer in de verbindingen onder de informatie u aan opstelling de verbinding nodig hebt:
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [Azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google Big Query](federated-db.md#google-big-query)
