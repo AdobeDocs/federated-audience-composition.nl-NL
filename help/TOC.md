@@ -2,9 +2,9 @@
 user-guide-title: Federale compositie publiek
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: Federale compositie publiek
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: fdc057b751aac18a6b27bbaa2997fc7994566092
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '136'
 ht-degree: 11%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 11%
 + Aan de slag met Federatieve Audience Composition {#start}
    + [Aan de slag](start/get-started.md)
    + [Aanvullende informatie](start/release-notes.md)
+   + [Werken met het publiek](start/audiences.md)
 + Configuratiestappen {#config}
    + [Verbindingen maken en beheren](connections/connections.md)
    + [Configureer uw gefedereerde databases](connections/federated-db.md)
    + Gegevensmodellen en schema&#39;s {#datamodel}
       + [Schema&#39;s maken en configureren](customer/schemas.md)
       + [Uw gegevensmodellen configureren](data-management/gs-models.md)
-   + [Werken met het publiek](customer/audiences.md)
-   + [Soorten publiek naar compositie van Adobe Federated Audience verzenden](connections/destinations.md)
+   + [Het Adobe Experience Platform-publiek verrijken met externe gegevens](connections/destinations.md)
 + Composities {#compositions}
    + [Aan de slag met composities](compositions/gs-compositions.md)
    + Uw eerste compositie maken en uitvoeren {#create-composition}
