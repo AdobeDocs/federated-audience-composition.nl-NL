@@ -3,13 +3,13 @@ audience: end-user
 title: De afstemmingsactiviteit gebruiken
 description: Leer hoe u de verzoeningsactiviteit kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
-
 
 # Afstemming {#reconciliation}
 
@@ -37,7 +37,7 @@ De **Verzoening** activiteit staat u toe om het verband tussen de gegevens in he
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-De **Verzoening** activiteit staat u toe om niet geïdentificeerde gegevens met bestaande middelen te verbinden. De verzoeningsverrichting impliceert dat de gegevens u zich aansluit bij reeds in het gegevensbestand zijn. Als u bijvoorbeeld informatie over aankopen wilt afstemmen waarin wordt aangegeven welk product is aangeschaft, op welk tijdstip, door welke client, enzovoort, moeten het product en de client al in de database aanwezig zijn.
+Hierdoor kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De verzoeningsverrichting impliceert dat de gegevens u zich aansluit bij reeds in het gegevensbestand zijn. Als u bijvoorbeeld informatie over aankopen wilt afstemmen waarin wordt aangegeven welk product is aangeschaft, op welk tijdstip, door welke client, enzovoort, moeten het product en de client al in de database aanwezig zijn.
 
 ## De afstemmingsactiviteit configureren {#reconciliation-configuration}
 

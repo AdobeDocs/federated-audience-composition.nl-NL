@@ -3,13 +3,13 @@ audience: end-user
 title: De activiteit Splitsen gebruiken
 description: Leer hoe u de activiteit Splitsen gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
-
 
 # Splitsen {#split}
 
@@ -96,9 +96,7 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
 1. Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Schakel hiertoe de optie **[!UICONTROL Generate complement]** in.
 
-   >[!NOTE]
-   >
-   >Met de optie **[!UICONTROL Generate all subsets in the same table]** kunt u alle subsets groeperen in één uitvoerovergang.
+1. Met de optie **[!UICONTROL Generate all subsets in the same table]** kunt u alle subsets groeperen in één uitvoerovergang.
 
 1. Met de optie **[!UICONTROL Enable overlapping of output populations]** kunt u populaties beheren die tot verschillende subsets behoren:
 

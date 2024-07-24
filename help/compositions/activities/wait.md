@@ -3,10 +3,11 @@ audience: end-user
 title: De wachttijd-activiteit gebruiken
 description: Leer hoe u de wachtfunctie gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 59857bd2-2a0b-4c97-ba4e-048dfd9af8f2
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 30%
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 30%
 >title="Wachtactiviteit"
 >abstract="**wacht** activiteit wordt gebruikt om de overgang van een activiteit aan een andere te vertragen."
 
-**wacht** activiteit staat een bepaalde hoeveelheid tijd toe om tussen twee activiteiten over te gaan die worden uitgevoerd. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
+**wacht** activiteit staat een bepaalde hoeveelheid tijd toe om tussen twee activiteiten over te gaan die worden uitgevoerd.
 
 ## Configuratie{#wait-configuration}
 
@@ -29,4 +30,4 @@ Volg deze stappen om **te vormen wachten** activiteit:
 
 1. Selecteer de tijdeenheid op het **gebied van Punten**: seconden, notulen, uren, dagen.
 
-
+   ![](../assets/wait.png)
