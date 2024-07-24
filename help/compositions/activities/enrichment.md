@@ -3,13 +3,13 @@ audience: end-user
 title: De verrijkingsactiviteit gebruiken
 description: Leer hoe u de verrijkingsactiviteit kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
-
 
 # Verrijking {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 0%
 >title="Verrijkingsgegevens"
 >abstract="Selecteer de gegevens die u wilt gebruiken om uw compositie te verrijken. U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van het schema, dat ook als het richten van afmeting wordt bekend, of een inzamelingsverbinding, die een verbinding met een 1-N kardinaliteit tussen lijsten is."
 
-De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gefedereerde gegevensbestand te verbeteren. Het wordt doorgaans gebruikt in composities na segmentatieactiviteiten.
+De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gefedereerde gegevensbestand te verbeteren. Het wordt algemeen gebruikt in een samenstelling na segmentatieactiviteiten.
+
+Als u een verbinding aan de Federatieve bestemming van de Samenstelling van Gegevens hebt gevormd, kunt u de activiteit van de Verrijking gebruiken om gegevens te verrijken die Adobe Experience Platform met attributen van uw extern gegevensbestand komen. [ Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken ](../../connections/destinations.md)
 
 Verrijkingsgegevens kunnen worden verkregen:
 
@@ -78,16 +80,17 @@ Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## Voorbeelden {#example}
+<!--
+## Examples {#example}
 
-### Enkel verrijkingskenmerk {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedatum. Voer de volgende stappen uit:
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. Klik binnen het **gebied van Attributen**.
-1. Selecteer een eenvoudig veld in het schema. Dit wordt ook wel de doeldimensie genoemd. In het voorbeeld ziet u de geboortedatum.
-1. Klik **bevestigen**.
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
