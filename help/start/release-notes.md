@@ -2,13 +2,13 @@
 title: Nieuwe functies in Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Aanvullende informatie {#rn-new}
 
@@ -29,6 +29,8 @@ In plaats van gegevensreeksen en/of publiek in Adobe Experience Platform op te n
 Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek in [ deze pagina ](get-started.md), en in [ Veelgestelde Vragen ](get-started.md#faq).
 
 ## Toegang tot Federale Audience Composition {#fac-access}
+
+Voor Federated Audience Composition zijn Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer Premiere- of Ultimate-pakketten vereist.
 
 Er zijn geen specifieke toestemmingen voor de Samenstelling van het Publiek Federated. De enige vereiste om toegang tot dit vermogen te hebben is de Federated Audience Composition toe:voegen-op te kopen.
 
