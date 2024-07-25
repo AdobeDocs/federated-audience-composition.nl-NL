@@ -3,9 +3,10 @@ audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
+source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -75,3 +76,7 @@ Vul het opgegeven formulier in om de koppeling te definiëren:
 Alle koppelingen die voor het datamodel zijn gedefinieerd, worden als volgt weergegeven:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+## Een gegevensmodel maken in video {#data-model-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432020)
