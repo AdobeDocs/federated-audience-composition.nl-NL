@@ -2,13 +2,13 @@
 title: Veelgestelde vragen
 description: Veelgestelde vragen
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
 
 ---
-
 
 # Veelgestelde vragen {#faq}
 
@@ -71,7 +71,7 @@ Federated Audience Composition bewaart geen fysieke kopie van de gegevens. De fr
 
 Bijvoorbeeld:
 
-* In het geval van een Segmentatie van het Publiek, wordt het publiek gecreeerd in uw pakhuis, en u kunt de Samenstelling van de Publiek van de Federatie voor extra samenstellingstaken en gegevensmanipulatie gebruiken alvorens het resulterende publiek en de bijbehorende attributen via het Portaal van de Publiek van Adobe Experience Platform te publiceren. De publieksdefinitie en de bijbehorende kenmerken komen naar Adobe Experience Platform.
+* In het geval van een Making van het Publiek, wordt het publiek gecreeerd in uw pakhuis, en u kunt de Samenstelling van de Publiek van de Federatie voor extra samenstellingstaken en gegevensmanipulatie gebruiken alvorens het resulterende publiek en de bijbehorende attributen via het Portaal van de Publiek van Adobe Experience Platform te publiceren. De publieksdefinitie en de bijbehorende kenmerken komen naar Adobe Experience Platform.
 De huidige gegevensvervaldatum voor extern gegenereerde doelgroepen is 30 dagen. Deze gegevensvervaldatum vermindert de hoeveelheid overtollige gegevens die binnen een organisatie worden opgeslagen. Nadat de gegevensvervalperiode overgaat, is de bijbehorende dataset nog zichtbaar binnen de datasetinventaris, maar u kunt niet het publiek activeren en de profieltelling zal als nul tonen. Leer meer in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for) {target="_blank"}.
 
 * In het geval van een Publiek Verrijking, is het uitgangspunt een bestaand publiek van Adobe Experience Platform. Hier kunnen twee scenario&#39;s worden bekeken:
@@ -79,7 +79,7 @@ De huidige gegevensvervaldatum voor extern gegenereerde doelgroepen is 30 dagen.
    1. Verfijn het bestaande publiek van Adobe Experience Platform dat op extra attributen wordt gebaseerd die in uw gegevenspakje bestaan. U hebt bijvoorbeeld een publiek met klanten die de afgelopen twee maanden belangstelling hebben getoond voor een bepaald product op de website. U wilt dit publiek nu nemen en het verder segmenteren gebruikend de Samenstelling van de Publiek Federated om slechts klanten te omvatten die een hoge creditscore hebben. De creditscore wordt als gevoelig beschouwd en de individuele punten van de creditscore worden niet over van het gegevenspakhuis gekopieerd.
 +++
 
-+++Als de gegevens voor de Segmentatie van het Publiek en de gebruikspatronen van de Verrijking van de Publiek niet worden voortgeduurd, hoe wordt het tijdelijk opgeslagen?
++++Als de gegevens voor de Aanmaak van de Publiek en de Verrijking van de Publiek gebruikspatronen niet worden voortgeduurd, hoe wordt het tijdelijk opgeslagen?
 
 De resulterende gegevens van het Publiek blijven niet eindeloos in Adobe Experience Platform of in Federated Audience Composition voortbestaan. Het wordt niet langer bewaard dan nodig is voor uw gebruiksgeval. De publiekskenmerken die als onderdeel van de payload voor het publiek worden geïntroduceerd, blijven alleen behouden als onderdeel van de publieksdefinitie. De duur van persistentie is gebaseerd op TTL voor om het even welk publiek, gebrek is 30 dagen.
 
