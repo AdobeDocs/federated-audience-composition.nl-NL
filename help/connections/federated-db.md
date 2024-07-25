@@ -4,7 +4,7 @@ title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
 | Optie | Beschrijving |
-|:-:|:-:|
+|---|---|
 | Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL doc ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (de koorden van de verbinding van het voorbeeld n°8) |
 
 
@@ -150,7 +150,7 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
 | Optie | Beschrijving |
-|:-:|:-:|
+|---|---|
 | ProxyType | Het type proxy dat wordt gebruikt om verbinding te maken met BigQuery via ODBC- en SDK-connectors. </br> HTTP (gebrek), http_no_tunnel, socks4 en socks5 worden momenteel gesteund. |
 | ProxyHost | Hostnaam of IP-adres waar de proxy kan worden bereikt. |
 | ProxyPort | Poortnummer waarop de proxy wordt uitgevoerd, bijvoorbeeld 8080 |
