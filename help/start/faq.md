@@ -3,9 +3,9 @@ title: Veelgestelde vragen
 description: Veelgestelde vragen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Hieronder volgt een lijst met veelgestelde vragen over Federated Audience Compos
 
 +++Wat zijn de toestemmingen die worden vereist om tot de Federatieve Samenstelling van het Publiek toegang te hebben?
 
-Er zijn geen specifieke toestemmingen voor de Samenstelling van het Publiek Federated. De enige vereiste om toegang tot dit vermogen te hebben is de Federated Audience Composition toe:voegen-op te kopen.
+Voor Federated Audience Composition zijn Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer Premiere- of Ultimate-pakketten vereist. Er zijn geen specifieke toestemmingen voor de Samenstelling van het Publiek Federated. De enige vereiste om toegang tot dit vermogen te hebben is de Federated Audience Composition toe:voegen-op te kopen.
 
 +++
 
@@ -61,7 +61,7 @@ Ja, zodra verbonden, Federated Audience Composition kan worden gebruikt om alle 
 
 +++Is er tijdelijke opslag in de Federated Audience Composition?
 
-Nee, Federated Audience Composition slaat alleen metagegevens (schemabeschrijvingen) op. Er worden geen klantgegevens doorgestuurd. De de uitvoerstroom van het Publiek wordt gedaan direct van het Portaal van het Publiek van Adobe Experience Platform (via [ Bestemming ](../connections/destinations.md)) aan het klantengegevensbestand. De creatie en updatestroom wordt gedaan direct van uw gegevensopslaggegevensbestand aan het Portaal van de Publiek van Adobe Experience Platform.
+Nee, Federated Audience Composition slaat alleen metagegevens (schemabeschrijvingen) op. Er worden geen klantgegevens doorgestuurd. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ De huidige gegevensvervaldatum voor extern gegenereerde doelgroepen is 30 dagen.
 
 * In het geval van een Publiek Verrijking, is het uitgangspunt een bestaand publiek van Adobe Experience Platform. Hier kunnen twee scenario&#39;s worden bekeken:
    1. Breng extra attributen van de publiekslading van het gefedereerde gegevenspakhuis: in dit geval, zullen de extra attributen die worden toegevoegd als deel van deze publieksdefinitie overkomen. De vervaldatum van gegevens voor extern gegenereerde doelgroepen is gelijk aan de hierboven beschreven vervaldatum, 30 dagen.
-   1. Verfijn het bestaande publiek van Adobe Experience Platform dat op extra attributen wordt gebaseerd die in uw gegevenspakje bestaan. U hebt bijvoorbeeld een publiek met klanten die de afgelopen twee maanden belangstelling hebben getoond voor een bepaald product op de website. U wilt dit publiek nu nemen en het verder segmenteren gebruikend de Samenstelling van de Publiek Federated om slechts klanten te omvatten die een hoge creditscore hebben. De creditscore wordt als gevoelig beschouwd en de individuele punten van de creditscore worden niet over van het gegevenspakhuis gekopieerd.
+   1. Verfijn het bestaande publiek van Adobe Experience Platform dat op extra attributen wordt gebaseerd die in uw gegevenspakje bestaan. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++Als de gegevens voor de Aanmaak van de Publiek en de Verrijking van de Publiek gebruikspatronen niet worden voortgeduurd, hoe wordt het tijdelijk opgeslagen?
