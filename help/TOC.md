@@ -2,15 +2,15 @@
 user-guide-title: Experience Platform-Federatieve Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform-Federatieve Audience Composition
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: a56ae63a7f8da28dce0ba4f1be8d0d650477ec2f
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 11%
 
 ---
 
 
-# Federale documentatie van Audience Composition {#using}
+# Experience Platform Federated Audience Composition-documentatie {#using}
 
 + [Federale documentatie van Audience Composition](home.md)
 + [Aanvullende informatie](start/release-notes.md)
