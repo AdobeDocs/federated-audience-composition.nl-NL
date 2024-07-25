@@ -3,13 +3,13 @@ audience: end-user
 title: De publieksactiviteit Opslaan gebruiken
 description: Leer hoe u de publieksactiviteit Opslaan gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # Doelgroep opslaan {#save-audience}
 
@@ -62,7 +62,13 @@ Volg deze stappen om **te vormen sparen publiek** activiteit:
    * **Primair identiteitsgebied**: Selecteer het gebied om de profielen te gebruiken te identificeren. Bijvoorbeeld zijn e-mailadres of telefoonnummer.
    * **Identiteitsnaamruimte**: Selecteer namespace aan gebruik om de profielen, d.w.z. het type van gegevens te identificeren om als identificatiesleutel te gebruiken. Bijvoorbeeld, als het e-mailadres als primair identiteitsgebied is geselecteerd, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
-Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform, en toegankelijk gemaakt in het **Publiek** menu. Het gemaakte publiek bevat alle velden die zijn geselecteerd in de sectie Audience Mappings (Toewijzingen publiek). U kunt het publiek activeren naar elk doel dat door Adobe Experience Platform wordt ondersteund.
+## Open uw publiek in Adobe Experience Platform {#access-audience}
+
+Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in Adobe het Platform van Gegevens van de Klant in real time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
+
+Het gemaakte publiek bevat alle velden die zijn geselecteerd in de sectie Audience Mappings (Toewijzingen publiek). U kunt het publiek activeren naar elk doel dat door Adobe Experience Platform wordt ondersteund.
+
+[ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
 
 <!--
 
