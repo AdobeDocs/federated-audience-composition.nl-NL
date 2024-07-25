@@ -4,15 +4,14 @@ title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met gegevensmodellen {#data-model}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
@@ -46,37 +45,38 @@ Leer meer over [ publiek ](../start/audiences.md).
 
 ## Een gegevensmodel maken {#data-model-create}
 
-Ga in de sectie **[!UICONTROL FEDERATED DATA]** naar de koppeling **[!UICONTROL Models]** . Daar vindt u de tab **[!UICONTROL Data model]** .
+Ga als volgt te werk om een gegevensmodel te maken:
 
-![](assets/datamodel_create.png){zoomable="yes"}
+1. Ga in de sectie **[!UICONTROL FEDERATED DATA]** naar de koppeling **[!UICONTROL Models]** en blader naar de tab **[!UICONTROL Data model]** .
 
-Als u op de knop **[!UICONTROL Create data model]** klikt, kunt u het gegevensmodel een naam geven en op de knop **[!UICONTROL Create]** klikken.
+   ![](assets/datamodel_create.png){zoomable="yes"}
 
-![](assets/datamodel_name.png){zoomable="yes"}
+1. Klik op de knop **[!UICONTROL Create data model]** om de naam van het gegevensmodel te definiëren en klik op de knop **[!UICONTROL Create]** .
 
-U krijgt toegang tot het venster waarin u de schema&#39;s, het publiek en de koppelingen van uw gegevensmodel kunt toevoegen.
+   ![](assets/datamodel_name.png){zoomable="yes"}
 
-![](assets/datamodel_created.png){zoomable="yes"}
+1. Voeg vervolgens de schema&#39;s, het publiek en de koppelingen van uw gegevensmodel toe.
 
-![](assets/datamodel_schemas.png){zoomable="yes"}
+   ![](assets/datamodel_schemas.png){zoomable="yes"}
 
 ### Koppelingen maken {#data-model-links}
 
-Het creëren van verbindingen tussen lijsten van uw datamodel kan met 2 manieren worden gedaan:
+Ga als volgt te werk om koppelingen tot stand te brengen tussen tabellen in uw datamodel:
 
-- Klik rechtstreeks in het menu **[!UICONTROL Create link]** van een tabel
-- Klik op de knop **[!UICONTROL Create links]** en kies de twee tabellen
+1. Klik op het menu **[!UICONTROL Create link]** van een van de tabellen of klik op de knop **[!UICONTROL Create links]** en kies de twee tabellen:
 
-![](assets/datamodel_createlinks.png){zoomable="yes"}
+   ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-Vul het opgegeven formulier in om de koppeling te definiëren:
+1. Vul het opgegeven formulier in om de koppeling te definiëren.
 
-![](assets/datamodel_link.png){zoomable="yes"}
+   ![](assets/datamodel_link.png){zoomable="yes"}
 
-Alle koppelingen die voor het datamodel zijn gedefinieerd, worden als volgt weergegeven:
+   Alle koppelingen die voor uw datamodel zijn gedefinieerd, worden hieronder weergegeven:
 
-![](assets/datamodel_alllinks.png){zoomable="yes"}
+   ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## Een gegevensmodel maken in video {#data-model-video}
+## Video {#data-model-video}
+
+Leer hoe u een gegevensmodel maakt in deze video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)
