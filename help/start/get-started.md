@@ -3,7 +3,7 @@ title: Aan de slag met Federatieve Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 1%
@@ -22,13 +22,13 @@ Door marketing-vriendschappelijke UI, creeer segmentregels die uw gegevenspaket 
 
 In deze versie zijn twee gebruiksgevallen beschikbaar: Audience Creation en Audience Enrichment.
 
-![ diagram ](assets/fac-use-cases.png){zoomable="yes"}
+![ diagram ](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Belangrijkste stappen {#gs-steps}
 
 Met Adobe Federated Audience Composition kunt u Adobe Experience Platform-soorten publiek rechtstreeks vanuit uw database maken en bijwerken, zonder dat er iets hoeft te worden ingevoerd.
 
-![ diagram ](assets/steps-diagram.png){zoomable="yes"}
+![ diagram ](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 Belangrijkste stappen:
 
