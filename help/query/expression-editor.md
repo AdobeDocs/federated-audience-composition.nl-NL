@@ -3,20 +3,17 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in vraagmodeler te bouwen.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
+source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 52%
+source-wordcount: '2058'
+ht-degree: 53%
 
 ---
 
 # Expressies bewerken {#expression}
 
 Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken waarmee u de waarden kunt bewerken die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals datums, tekenreeksen, numerieke velden, sorteren, enzovoort.
-
->[!IMPORTANT]
->
->De sectie hieronder verstrekt informatie over hoe te met de uitdrukkingsredacteur te werken om regels te bouwen. Onthoud dat de syntaxis die wordt gebruikt om regels te bouwen verschilt van de syntaxis die wordt gebruikt om personalisatie toe te voegen.
 
 ## Werken met de expressie-editor {#edit}
 
