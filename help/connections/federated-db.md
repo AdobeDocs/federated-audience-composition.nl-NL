@@ -3,9 +3,10 @@ audience: end-user
 title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 2%
 >title="Gegevens van gefederaliseerde database"
 >abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Test connection]** om uw configuratie te valideren."
 
-De federated Audience Composition staat de Klant toe om publiek van de derdegegevenspakhuizen te bouwen en te verrijken en het publiek in Adobe Experience Platform in te voeren.
+Met Experience Platform Federated Audience Composition kan de Klant een publiek opbouwen en verrijken vanuit de gegevensopslagruimten van derden en het publiek naar Adobe Experience Platform importeren.
 
 Leer hoe u de verbinding met uw externe database op deze pagina kunt maken, configureren, testen en opslaan.
 
@@ -254,4 +255,3 @@ De connector ondersteunt de volgende opties:
 | Optie | Beschrijving |
 |---|---|
 | TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de Campaign Classic-app-server wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
-

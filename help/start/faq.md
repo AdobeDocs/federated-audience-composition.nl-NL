@@ -1,18 +1,18 @@
 ---
 title: Veelgestelde vragen
-description: Veelgestelde vragen
+description: Veelgestelde vragen over Adobe Experience Platform Federated Audience Composition
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 2%
+source-wordcount: '836'
+ht-degree: 1%
 
 ---
 
 # Veelgestelde vragen {#faq}
 
-Hieronder volgt een lijst met veelgestelde vragen over Federated Audience Composition. Een globale FAQ is ook beschikbaar voor de Dienst van de Segmentatie van Adobe Experience Platform in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq) {target="_blank"}.
+Hieronder volgt een lijst met veelgestelde vragen over Adobe Experience Platform Federated Audience Composition. Een globale FAQ is ook beschikbaar voor de Dienst van de Segmentatie van Adobe Experience Platform in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq) {target="_blank"}.
 
 
 +++Wat zijn de toestemmingen die worden vereist om tot de Federatieve Samenstelling van het Publiek toegang te hebben?

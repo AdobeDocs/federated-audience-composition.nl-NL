@@ -1,11 +1,11 @@
 ---
-title: Nieuwe functies in Federated Audience Composition
+title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,12 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->* Federated Audience Composition is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
+>Adobe Experience Platform Federated Audience Composition is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid).
 >
->* Voor nu, is de eigenschap niet beschikbaar voor klanten die het **toe:voegen-op aanbieden van het Schild van de Gezondheidszorg** hebben gekocht. [ leer meer ](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) {target="_blank"}
 
+Federated Audience Composition is een add-on mogelijkheid waarmee bedrijven flexibele en uitgebreide toegang krijgen tot datacenters van bedrijven om een publiek samen te stellen met behulp van kritische bedrijfsgegevenssets en ervaringen op het gebied van energiemerken en actuele ervaringen. Met deze nieuwe benadering, als a [ Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
-De federated Audience Composition staat ondernemingen toe om gegevens voor beter gebruik over diverse gebruiksgevallen samen te stellen. Met deze nieuwe benadering, als a [ Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} gebruiker, kunt u datasets van uw bestaand gegevenspakhuis direct federeren om het publiek en de attributen van Adobe Experience Platform allen in één systeem te verrijken.
-
-De Federatieve Samenstelling van het Publiek is toe:voegen-op biedt een flexibele toegang en een uitgebreid bereik in de opslagplaatsen van bedrijfsgegevens aan macht verpersoonlijking gebruiksgevallen.
-In plaats van gegevensreeksen en/of publiek in Adobe Experience Platform op te nemen, kunt u Federated Audience Composition nu gebruiken om het volume van gegevens te verminderen die van uw gegevenspakhuis in Adobe Experience Platform worden gekopieerd door specifieke publiek en attributen uit het pakhuis te trekken die voor bepaalde segmentatie of activeringsgebruiksgevallen nodig zijn, en ervoor te zorgen dat de gevoelige gegevens niet buiten het pakhuis worden voortgeduurd.
+Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen. 
 
 Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek in [ deze pagina ](get-started.md), en in [ Veelgestelde Vragen ](get-started.md#faq).
 
@@ -41,6 +38,8 @@ Er zijn geen specifieke toestemmingen voor de Samenstelling van het Publiek Fede
 
 ## Vereisten en geleiders {#fac-guardrails}
 
+* Federated Audience Composition is compatibel met Privacy &amp; Security Shield en kan in alle hoekpunten worden gebruikt, behalve in de gezondheidszorg. Federated Audience Composition kan momenteel geen licentie krijgen voor klanten die gezondheidsgegevens willen invoeren. [ leer meer ](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) {target="_blank"}
+
 * Uw IP adressen moeten aan de lijst van gewenste personen worden toegevoegd om toegang tot uw gegevenspakje toe te laten en Federated de Samenstelling van het Publiek te gebruiken. Neem contact op met uw Adobe als u uw IP-adressen aan de lijst van gewenste personen wilt toevoegen.
 
-* De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in de [ documentatie van Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) {target="_blank"}.
+* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) worden vermeld {target="_blank"} zijn op dit toe:voegen-op van toepassing.

@@ -3,13 +3,13 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
-
 
 # Belangrijkste beginselen voor het creëren van compositie {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Wat zit er in een compositie? {#gs-composition-inside}
 
-Federated Audience Composition biedt een visueel canvas dat u in staat stelt een publiek te maken door gebruik te maken van verschillende activiteiten (splitsen, verrijken, enz.).
+Experience Platform Federated Audience Composition biedt een visueel canvas dat u in staat stelt een publiek te maken door verschillende activiteiten (splitsen, verrijken, enz.) te benutten.
 
 Het compositiediagram is een weergave van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 

@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform - Federatieve pagina Compositiedocumentatie publiek
+title: Startpagina Adobe Experience Platform Federal Audience Composition
 description: Dit is het artikeloverzicht.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 4%
 
 ---
-
 
 # Federatieve documentatie over compositie van publiek  {#fac-home}
 
 Welkom bij de documentatie van Adobe Experience Platform Federated Audience Composition.
 
-Federated Audience Composition biedt Adobe Real-Time CDP- en Adobe Journey Optimizer-gebruikers flexibiliteit en efficiëntie voor gegevensbeheer. Met Federated Audience Composition, kunt u tot uw entrepot van ondernemingsgegevens toegang hebben gebruikend een marktetervriendelijke UI om publiek en hefboomwerkings datasets in de werkschema&#39;s van Adobe Experience Platform te bouwen zonder het voortbestaan onderliggende ondernemingsgegevens. Dit helpt u gegevensbeweging te verminderen wanneer het toegang tot van gegevenspakhuizen voor ervaringsgebruiksgevallen.
+Experience Platform Federated Audience Composition biedt Adobe Real-Time CDP- en Adobe Journey Optimizer-gebruikers flexibiliteit en efficiëntie bij gegevensbeheer. Met Federated Audience Composition, kunt u tot uw entrepot van ondernemingsgegevens toegang hebben gebruikend een marktetervriendelijke UI om publiek en hefboomwerkings datasets in de werkschema&#39;s van Adobe Experience Platform te bouwen zonder het voortbestaan onderliggende ondernemingsgegevens. Dit helpt u gegevensbeweging te verminderen wanneer het toegang tot van gegevenspakhuizen voor ervaringsgebruiksgevallen.
 
 >[!BEGINTABS]
 
@@ -30,7 +30,7 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB  stel een publiek  samen]
+>[!TAB  stel een publiek ] samen
 
 Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om composities te maken en uw publiek te maken.
 
@@ -74,5 +74,3 @@ Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om compositie
 ## Aanvullende bronnen  {#additional-resources}
 
 [ de Documentatie van Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) {target="_blank"} - [ Poortdocumentatie van het Poort van het publiek van de Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard) {target="_blank"} - [ Tutorials ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition) {target="_blank"}
-
-
