@@ -4,9 +4,9 @@ title: Werken met het publiek
 description: Leer hoe u met het publiek kunt werken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 58cbd9c38bbeab1fb8a18cbb30de282ed798ffb0
+source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ Experience Platform Federated de Samenstelling van het Publiek staat u toe [ sam
 
 U kunt deze doelgroepen vervolgens activeren op elk doel dat door Adobe Experience Platform wordt ondersteund.
 
-### Het creëren van het publiek gebruikend samenstellingen {#creation}
+## Het creëren van het publiek gebruikend samenstellingen {#creation}
 
 Als u een publiek wilt maken met de compositie Federated Audience, moet u een compositie maken die een **[!UICONTROL Save audience]** -activiteit bevat. Deze activiteit staat u toe om het publiek in het Portaal van de Publiek op te slaan, en gebieden van uw externe gegevensbestanden te selecteren om in het publiek te omvatten. [ Leer hoe te om sparen publieksactiviteit ](../compositions/activities/save-audience.md) te vormen
 
-Het publiek dat met Adobe wordt gecreeerd Federated de Compositie van Gegevens omvat alle gebieden die in **worden geselecteerd {!UICONTROL sparen publiek}** activiteit, en wordt opgeslagen in het Portaal van het Publiek naast alle publiek van Adobe Experience Platform.
+Het publiek dat wordt gemaakt met behulp van Adobe Federated Data Composition bevat alle velden die zijn geselecteerd in de **[!UICONTROL Save audience]** -activiteit en wordt opgeslagen in het Poort Publiek naast alle Adobe Experience Platform-doelgroepen.
 
 Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in Adobe het Platform van Gegevens van de Klant in real time en/of Adobe Journey Optimizer.
 
