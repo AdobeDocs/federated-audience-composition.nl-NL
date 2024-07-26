@@ -4,10 +4,10 @@ title: Aan de slag met Federale Databases
 description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 2%
+source-wordcount: '1445'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,11 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 
    * **[!UICONTROL Database]**: naam van de database indien niet opgegeven in DSN. Deze kan leeg worden gelaten, indien opgegeven in de DSN
 
-   * **[!UICONTROL Working schema]**: naam van uw werkschema. [Meer informatie](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Working schema]**: naam van het databaseschema dat moet worden gebruikt voor werktabellen. [Meer informatie](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >U kunt om het even welk schema van het gegevensbestand, met inbegrip van schema&#39;s gebruiken die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemming hebt om met dit schema te verbinden.
 
 1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
 
@@ -188,7 +192,11 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 
    * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
 
-   * **[!UICONTROL Working schema]** (optioneel): voer de naam van het werkschema in.
+   * **[!UICONTROL Working schema]** (optioneel): voer de naam in van het databaseschema dat u wilt gebruiken voor werktabellen.
+
+     >[!NOTE]
+     >
+     >U kunt om het even welk schema van het gegevensbestand, met inbegrip van schema&#39;s gebruiken die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemming hebt om met dit schema te verbinden.
 
    * **[!UICONTROL Private key]**: klik op het veld **[!UICONTROL Private key]** om de .pem-bestanden in de map met landinstellingen te selecteren.
 
@@ -240,7 +248,11 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 
    * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
 
-   * **[!UICONTROL Working schema]** (optioneel): voer de naam van het werkschema in.
+   * **[!UICONTROL Working schema]** (optioneel): voer de naam in van het databaseschema dat u wilt gebruiken voor werktabellen.
+
+     >[!NOTE]
+     >
+     >U kunt om het even welk schema van het gegevensbestand, met inbegrip van schema&#39;s gebruiken die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemming hebt om met dit schema te verbinden.
 
    * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
 
