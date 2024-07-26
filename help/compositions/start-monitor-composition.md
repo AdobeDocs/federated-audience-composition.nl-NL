@@ -3,13 +3,13 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
-
 
 # Uw compositie starten en controleren {#start-monitor}
 
@@ -28,7 +28,7 @@ U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele
 In samenstellingen worden gegevens die van de ene activiteit naar de andere worden vervoerd via overgangen opgeslagen in een tijdelijke werktabel. Deze gegevens kunnen voor elke overgang worden weergegeven. Selecteer hiertoe een overgang om de eigenschappen ervan in de rechterkant van het scherm te openen.
 
 * Klik op **[!UICONTROL Preview schema]** om het schema van de werktabel weer te geven.
-* Klik op **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden verzonden.
+* Klik op **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden verzonden. Deze optie is alleen beschikbaar als de optie **[!UICONTROL Keep the result of interim populations between two executions]** is ingeschakeld. [Meer informatie](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 
