@@ -4,7 +4,7 @@ title: De verrijkingsactiviteit gebruiken
 description: Leer hoe u de verrijkingsactiviteit kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gefedereerde gegevensbestand te verbeteren. Het wordt algemeen gebruikt in een samenstelling na segmentatieactiviteiten.
 
-Als u een verbinding aan de Federatieve bestemming van de Samenstelling van Gegevens hebt gevormd, kunt u de activiteit van de Verrijking gebruiken om gegevens te verrijken die Adobe Experience Platform met attributen van uw extern gegevensbestand komen. [ Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken ](../../connections/destinations.md)
+Als u een verbinding aan de Federatieve bestemming van de Samenstelling van het Publiek hebt gevormd, kunt u de activiteit van de Verrijking gebruiken om gegevens te verrijken die Adobe Experience Platform met attributen van uw extern gegevensbestand komen. [ Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken ](../../connections/destinations.md)
 
 Verrijkingsgegevens kunnen worden verkregen:
 

@@ -3,7 +3,7 @@ audience: end-user
 title: De planningsactiviteit gebruiken
 description: Leer hoe u de planningsactiviteit gebruikt
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 De **planner** activiteit is de controle **activiteit van de a** Stroom. Het staat u toe om te plannen wanneer de samenstelling wordt begonnen. Deze activiteit moet worden beschouwd als een geplande start. Het kan slechts als eerste activiteit van de samenstelling worden gebruikt.
 
-Als u een verbinding aan de Federated bestemming van de Samenstelling van Gegevens hebt gevormd, kunt u deze activiteit gebruiken om over het publiek van Adobe Experience Platform bij regelmatige frequenties te verzenden. [ Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken ](../../connections/destinations.md)
+Als u een verbinding aan de Federated bestemming van de Samenstelling van het Publiek hebt gevormd, kunt u deze activiteit gebruiken om over het publiek van Adobe Experience Platform bij regelmatige frequenties te verzenden. [ Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken ](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 
