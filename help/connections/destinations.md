@@ -4,9 +4,9 @@ title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
 description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform staat naadloze integratie van publiek van het Portaal 
 
 Hiertoe moet u een nieuwe verbinding in Adobe Experience Platform instellen met de bestemming Adobe Federated Audience Composition. U kunt een planner gebruiken om een bepaald publiek bij regelmatige frequenties te verzenden, specifieke te omvatten attributen, zoals IDs voor gegevensverzoening selecteren. Als u het beheer- en privacybeleid hebt toegepast op uw publiek, worden deze gegevens bewaard en teruggestuurd naar de portal voor het publiek nadat het publiek is bijgewerkt.
 
-Bijvoorbeeld, als u de scores van het klantenkrediet in uw gegevenspakhuis opslaat en een publiek van Adobe Experience Platform heeft dat klanten richt in een specifiek product binnen de laatste twee maanden wordt geinteresseerd, kunt u dit publiek verfijnen dat op creditscores gebruikend de Federated bestemming van de Samenstelling van de Publiek wordt gebaseerd. Dit proces staat u toe om het publiek te filtreren om slechts profielen met hoge creditscores te omvatten zonder gevoelige gegevens van de creditscore van uw gegevenspakhuis over te brengen.
+Bijvoorbeeld, laten wij zeggen u koopinformatie in uw gegevenspakhuis opslaat en een publiek van Adobe Experience Platform heeft gericht op klanten die in de laatste twee maanden in een specifiek product geïnteresseerd zijn. Gebruikend de Federatieve bestemming van de Samenstelling van de Publiek, kunt u:
+
+* Verfijn het publiek op basis van aankoopgegevens. U kunt het publiek bijvoorbeeld filteren op klanten die alleen een aankoop van meer dan 150$ hebben gedaan.
+* Vergroot het publiek met velden die betrekking hebben op aankopen, zoals de productnaam en het aangekochte aantal.
 
 De belangrijkste stappen om Adobe Experience Platform-publiek naar de Adobe Federated Audience Composition te sturen zijn:
 
