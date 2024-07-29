@@ -30,7 +30,7 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB  stel een publiek ] samen
+>[!TAB  stel een publiek samen]
 
 Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om composities te maken en uw publiek te maken.
 
