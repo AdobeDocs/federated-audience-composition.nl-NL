@@ -2,9 +2,9 @@
 title: Access Federal Audience Composition
 description: Leer hoe u Federated Audience Composition kunt openen.
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Als bijvoorbeeld een nieuwe sandbox met de naam &quot;fac-test&quot; wordt geact
 
 ## IP-aanbieding toestaan {#ip}
 
-Uw IP adressen moeten aan de lijst van gewenste personen worden toegevoegd om toegang tot uw gegevenspakje toe te laten en Federated de Samenstelling van het Publiek te gebruiken. Neem contact op met uw Adobe als u uw IP-adressen aan de lijst van gewenste personen wilt toevoegen.
+Om Federated Audience Composition veilig toe te laten om tot uw gegevensbestanden toegang te hebben, contacteer uw vertegenwoordiger van de Adobe om de IP adressen van de servers van de Samenstelling van de Federatieve Publiek te krijgen die tot hen zullen toegang hebben.
+
+Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Federatieve Samenstelling van het Publiek te verlenen.&quot;
 
 ## Afbeeldingen en beperkingen {#fac-guardrails}
 
