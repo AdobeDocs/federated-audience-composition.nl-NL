@@ -4,9 +4,9 @@ title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,17 @@ Ga als volgt te werk om koppelingen tot stand te brengen tussen tabellen in uw d
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   Alle koppelingen die voor uw datamodel zijn gedefinieerd, worden hieronder weergegeven:
+   **Kardinaliteit**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N: één instantie van de brontabel kan meerdere overeenkomende instanties van de doeltabel hebben, maar één instantie van de doeltabel kan maximaal één overeenkomende instantie van de brontabel hebben.
+
+   * N-1: één instantie van de doeltabel kan meerdere overeenkomende instanties van de brontabel hebben, maar één instantie van de brontabel kan maximaal één overeenkomende instantie van de doeltabel hebben.
+
+   * 1-1: één instantie van de brontabel kan maximaal één overeenkomende instantie van de doeltabel hebben.
+
+Alle koppelingen die voor uw datamodel zijn gedefinieerd, worden hieronder weergegeven:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## Video {#data-model-video}
 
