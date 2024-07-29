@@ -4,9 +4,9 @@ title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,19 @@ ht-degree: 0%
 
 ## Wat is een gegevensmodel? {#data-model-start}
 
-Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen hen.
+Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen hen. Het wordt gebruikt om publiek met gegevensbestandgegevens te verbinden.
 
 Leer meer over [ schema&#39;s ](../customer/schemas.md#schema-start).
 
 Leer meer over [ publiek ](../start/audiences.md).
+
+U ziet bijvoorbeeld onder een weergave van een gegevensmodel de tabellen met hun naam en de koppelingen daartussen.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+In Federated Audience Composition, is het mogelijk om vele gegevensmodellen tot stand te brengen.
+
+Het maken van deze bestanden is gebaseerd op het gebruiksgeval: u kiest de benodigde tabellen en u koppelt deze aan uw behoeften.
 
 ## Een gegevensmodel maken {#data-model-create}
 
