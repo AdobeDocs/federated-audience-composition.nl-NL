@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Aan de slag met Federale Databases
-description: Leer hoe te om uw Federale Gegevensbestanden tot stand te brengen en te beheren
+title: Aan de slag met gefederaliseerde databases
+description: Leer hoe u uw gefederaliseerde databases maakt en beheert
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1439'
 ht-degree: 1%
 
 ---
 
-# Aan de slag met Federale Databases {#federated-db}
+# Aan de slag met gefederaliseerde databases {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Federale databases"
->abstract="De bestaande verbindingen aan Federale Gegevensbestanden zijn vermeld in dit scherm. Klik op de knop **[!UICONTROL Add federated database]** om een nieuwe verbinding te maken."
+>abstract="Bestaande verbindingen met gefederaliseerde databases worden in dit scherm weergegeven. Klik op de knop **[!UICONTROL Add federated database]** om een nieuwe verbinding te maken."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -44,7 +44,7 @@ Met Federated Audience Composition kunt u verbinding maken met de volgende datab
 
 ## Amazon Redshift {#amazon-redshift}
 
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Amazon Redshift te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Amazon Redshift te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -82,7 +82,7 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 
 ## Opnieuw azure synapsen {#azure-synapse-redshift}
 
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Redshift te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Redshift te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -121,7 +121,7 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 
 ## Google Big Query {#google-big-query}
 
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google Big Query te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google Big Query te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -168,7 +168,7 @@ Verdeelde databases gebruiken om informatie te verwerken die in een externe data
 
 ## Snowflake {#snowflake}
 
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Snowflake te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Snowflake te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -214,7 +214,7 @@ De connector ondersteunt de volgende opties:
 |---|---|
 | werkschema | Databaseschema dat moet worden gebruikt voor werktabellen |
 | entrepot | Naam van het standaardentrepot aan gebruik. De standaardinstelling van de gebruiker wordt hierdoor genegeerd. |
-| TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de Campaign Classic-app-server wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | Standaard leeg, wat betekent dat de toepassingenserver van de systeemtijdzone wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | WEEK_START, sessieparameter. Standaard ingesteld op 0. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | USE_CACHED_RESULTS sessieparameter. Standaard ingesteld op TRUE. Deze optie kan worden gebruikt om Snowflake caching resultaten onbruikbaar te maken. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Het aantal draden dat moet worden gebruikt voor bulksgewijs laden van Snowflaken, meer threads betekenen betere prestaties voor grotere bulkladingen. Standaard ingesteld op 1. Het aantal kan, afhankelijk van het aantal van de machindraad worden aangepast. |
@@ -224,7 +224,7 @@ De connector ondersteunt de volgende opties:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Verdeelde databases gebruiken om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Vertica analytics te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Vertica analytics te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -266,4 +266,4 @@ De connector ondersteunt de volgende opties:
 
 | Optie | Beschrijving |
 |---|---|
-| TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de Campaign Classic-app-server wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
+| TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de toepassingsserver wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
