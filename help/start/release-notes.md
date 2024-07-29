@@ -3,10 +3,10 @@ title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: '188'
+ht-degree: 1%
 
 ---
 
@@ -23,23 +23,7 @@ Federated Audience Composition is een add-on mogelijkheid waarmee bedrijven flex
 
 Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen. 
 
-Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek in [ deze pagina ](get-started.md), en in [ Veelgestelde Vragen ](get-started.md#faq).
+Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek in [ deze pagina ](get-started.md) en in [ Veelgestelde Vragen ](get-started.md#faq).
 
-## Toegang tot Federale Audience Composition {#fac-access}
+De gedetailleerde informatie over de eerste vereisten om tot Verbond van de Samenstellingen van het Publiek en de huidige guardrails toegang te hebben, verwijst naar [ deze pagina ](access-prerequisites.md).
 
-Voor Federated Audience Composition zijn Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer Premiere- of Ultimate-pakketten vereist.
-
-Er zijn geen specifieke toestemmingen voor de Samenstelling van het Publiek Federated. De enige vereiste om toegang tot dit vermogen te hebben is de Federated Audience Composition toe:voegen-op te kopen.
-
->[!AVAILABILITY]
->
->Nadat u het welkomstbericht via e-mail van de Adobe hebt ontvangen, kan het nog een paar uur duren voordat de interface wordt bijgewerkt en de functies die voor u beschikbaar zijn.
->
-
-## Vereisten en geleiders {#fac-guardrails}
-
-* Federated Audience Composition is compatibel met Privacy &amp; Security Shield en kan in alle hoekpunten worden gebruikt, behalve in de gezondheidszorg. Federated Audience Composition kan momenteel geen licentie krijgen voor klanten die gezondheidsgegevens willen invoeren. [ leer meer ](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) {target="_blank"}
-
-* Uw IP adressen moeten aan de lijst van gewenste personen worden toegevoegd om toegang tot uw gegevenspakje toe te laten en Federated de Samenstelling van het Publiek te gebruiken. Neem contact op met uw Adobe als u uw IP-adressen aan de lijst van gewenste personen wilt toevoegen.
-
-* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) worden vermeld {target="_blank"} zijn op dit toe:voegen-op van toepassing.
