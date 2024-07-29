@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Aan de slag met gefederaliseerde databases
-description: Leer hoe u uw gefederaliseerde databases maakt en beheert
+title: Vorm uw Federale gegevensbestanden
+description: Leer hoe te om uw Federale gegevensbestanden te vormen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1458'
 ht-degree: 1%
 
 ---
 
-# Aan de slag met gefederaliseerde databases {#federated-db}
+# Vorm uw Federale gegevensbestanden {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 Met Experience Platform Federated Audience Composition kan de Klant een publiek opbouwen en verrijken vanuit de gegevensopslagruimten van derden en het publiek naar Adobe Experience Platform importeren.
 
-Leer hoe u de verbinding met uw externe database op deze pagina kunt maken, configureren, testen en opslaan.
+Leer hoe te om, de verbinding aan uw extern gegevensbestand in [ te creëren te vormen, te testen en te bewaren deze pagina ](connections.md). U vindt onder de lijst met ondersteunde databases en de gedetailleerde instellingen die voor elk van deze databases moeten worden geconfigureerd.
 
 ## Ondersteunde databases {#supported-db}
 
@@ -68,7 +68,7 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
    * **[!UICONTROL Database]**: naam van de database indien niet opgegeven in DSN. Deze kan leeg worden gelaten, indien opgegeven in de DSN
 
-   * **[!UICONTROL Working schema]**: naam van het databaseschema dat moet worden gebruikt voor werktabellen. [Meer informatie](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Working schema]**: naam van het databaseschema dat moet worden gebruikt voor werktabellen. Leer meer in [ documentatie van Amazon ](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html) {target="_blank"}
 
      >[!NOTE]
      >
@@ -116,7 +116,7 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 | Optie | Beschrijving |
 |---|---|
-| Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL doc ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (de koorden van de verbinding van het voorbeeld n°8) |
+| Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL documentatie van Microsoft ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) {target="_blank"} (de verbindingskoorden van het Voorbeeld n°8) |
 
 
 ## Google Big Query {#google-big-query}
@@ -137,11 +137,11 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Configureer de Google Big Query-verificatie-instellingen:
 
-   * **[!UICONTROL Service account]**: voer de e-mail van uw **[!UICONTROL Service account]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+   * **[!UICONTROL Service account]**: voer de e-mail van uw **[!UICONTROL Service account]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/iam/docs/creating-managing-service-accounts) {target="_blank"}.
 
-   * **[!UICONTROL Project]**: voer de naam van de **[!UICONTROL Project]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+   * **[!UICONTROL Project]**: voer de naam van de **[!UICONTROL Project]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/resource-manager/docs/creating-managing-projects) {target="_blank"}.
 
-   * **[!UICONTROL Dataset]**: voer de naam van de **[!UICONTROL Dataset]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/bigquery/docs/datasets-intro).
+   * **[!UICONTROL Dataset]**: voer de naam van de **[!UICONTROL Dataset]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/bigquery/docs/datasets-intro) {target="_blank"}.
 
    * **[!UICONTROL Key file Path]**: upload het sleutelbestand naar de server. Alleen .json-bestanden worden geaccepteerd.
 
@@ -214,11 +214,11 @@ De connector ondersteunt de volgende opties:
 |---|---|
 | werkschema | Databaseschema dat moet worden gebruikt voor werktabellen |
 | entrepot | Naam van het standaardentrepot aan gebruik. De standaardinstelling van de gebruiker wordt hierdoor genegeerd. |
-| TimeZoneName | Standaard leeg, wat betekent dat de toepassingenserver van de systeemtijdzone wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | WEEK_START, sessieparameter. Standaard ingesteld op 0. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | USE_CACHED_RESULTS sessieparameter. Standaard ingesteld op TRUE. Deze optie kan worden gebruikt om Snowflake caching resultaten onbruikbaar te maken. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| TimeZoneName | Standaard leeg, wat betekent dat de toepassingenserver van de systeemtijdzone wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone) {target="_blank"}. |
+| WeekStart | WEEK_START, sessieparameter. Standaard ingesteld op 0. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start) {target="_blank"}. |
+| UseCachedResult | USE_CACHED_RESULTS sessieparameter. Standaard ingesteld op TRUE. Deze optie kan worden gebruikt om Snowflake caching resultaten onbruikbaar te maken. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html) {target="_blank"}. |
 | bulkThreads | Het aantal draden dat moet worden gebruikt voor bulksgewijs laden van Snowflaken, meer threads betekenen betere prestaties voor grotere bulkladingen. Standaard ingesteld op 1. Het aantal kan, afhankelijk van het aantal van de machindraad worden aangepast. |
-| chunkSize | Hiermee bepaalt u de bestandsgrootte van het segment voor bulksloader. Standaard ingesteld op 128 MB. Kan worden aangepast voor een betere prestatie, wanneer gebruikt met bulkThreads. Meer tegelijkertijd actieve threads betekenen betere prestaties. <br> voor meer op dit, verwijs naar [ documentatie van de Snowflake ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | Hiermee bepaalt u de bestandsgrootte van het segment voor bulksloader. Standaard ingesteld op 128 MB. Kan worden aangepast voor een betere prestatie, wanneer gebruikt met bulkThreads. Meer tegelijkertijd actieve threads betekenen betere prestaties. <br> voor meer op dit, verwijs naar [ documentatie van de Snowflake ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html) {target="_blank"}. |
 | StageName | Naam van het vooraf ingestelde interne werkgebied. Het wordt gebruikt in bulk lading in plaats van het creëren van een nieuwe tijdelijke fase. |
 
 

@@ -4,9 +4,9 @@ title: De activiteit Splitsen gebruiken
 description: Leer hoe u de activiteit Splitsen gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ De **Gesplitste** activiteit staat u toe om inkomende populaties in veelvoudige 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Overlappende uitvoerpopulaties inschakelen"
->abstract="Met de optie **[!UICONTROL Enable overlapping of output populations]** kunt u populaties beheren die tot verschillende subsets behoren. Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria. Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. Adobe Campaign raadt aan exclusieve criteria te hanteren."
+>abstract="Met de optie **[!UICONTROL Enable overlapping of output populations]** kunt u populaties beheren die tot verschillende subsets behoren. Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria. Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. "
 
 Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
@@ -101,7 +101,7 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
 1. Met de optie **[!UICONTROL Enable overlapping of output populations]** kunt u populaties beheren die tot verschillende subsets behoren:
 
    * Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria.
-   * Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. Adobe Campaign raadt aan exclusieve criteria te hanteren.
+   * Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. De beste manier is om een exclusief criterium te hanteren.
 
 De activiteit wordt nu gevormd. Bij uitvoering wordt de populatie opgesplitst in de verschillende subgroepen, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
 
