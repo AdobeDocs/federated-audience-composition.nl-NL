@@ -4,7 +4,7 @@ title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 2%
@@ -41,7 +41,7 @@ ht-degree: 2%
 >abstract="U kunt de schema&#39;s filteren op basis van hun bron. Selecteer één of verscheidene Federale Gegevensbestanden om hun schema&#39;s te tonen."
 
 
-## Wat is een schema? {#schema-start}
+## Wat is een schema {#schema-start}
 
 Een schema is een representatie van een tabel in uw database. Het is een object in de toepassing dat definieert hoe de gegevens aan databasetabellen zijn gekoppeld.
 

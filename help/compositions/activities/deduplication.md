@@ -3,13 +3,13 @@ audience: end-user
 title: De deduplicatieactiviteit gebruiken
 description: Leer hoe u de deduplicatieactiviteit gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 20%
+ht-degree: 4%
 
 ---
-
 
 # Deduplicatie {#deduplication}
 
@@ -47,13 +47,13 @@ Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren
 
    ![](../assets/deduplication.png)
 
-1. Selecteer in de sectie **[!UICONTROL Deduplication settings]** het aantal unieke **[!UICONTROL Duplicates to keep]** . De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
+1. Selecteer in de sectie **[!UICONTROL Deduplication settings]** het aantal unieke **[!UICONTROL Duplicates to keep]** . De standaardwaarde voor dit gebied is **1**. De waarde **0** staat u toe om alle duplicaten te houden.
 
    Stel bijvoorbeeld dat records A en B worden beschouwd als duplicaten van record Y en dat een record C wordt beschouwd als duplicaat van record Z:
 
-   * Als de waarde van het veld 1 is: alleen de records Y en Z blijven behouden.
-   * Als de waarde van het veld 0 is: alle records blijven behouden.
-   * Als de waarde van het veld 2 is: de records C en Z blijven behouden en twee records van A, B en Y blijven behouden, bij toeval of afhankelijk van de daarna geselecteerde deduplicatiemethode.
+   * Als de waarde van het gebied **1** is: slechts worden de verslagen van Y en van Z bewaard.
+   * Als de waarde van het gebied **0** is: alle verslagen worden gehouden.
+   * Als de waarde van het gebied **2** is: de verslagen C en Z worden gehouden en twee verslagen van A, B, en Y worden gehouden, toevallig of afhankelijk van de daarna geselecteerde deduplicatiemethode.
 
 1. Selecteer de **[!UICONTROL Deduplication method]** die u wilt gebruiken:
 

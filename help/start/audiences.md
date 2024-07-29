@@ -4,9 +4,9 @@ title: Werken met het publiek
 description: Leer hoe u met het publiek kunt werken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Het publiek dat wordt gemaakt met behulp van Adobe Federated Data Composition be
 
 Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in Adobe het Platform van Gegevens van de Klant in real time en/of Adobe Journey Optimizer.
 
-U kunt deze soorten publiek activeren op elk doel dat door Adobe Experience Platform wordt ondersteund. [ leren hoe te met bestemmingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home) te werken
+U kunt deze soorten publiek activeren op elk doel dat door Adobe Experience Platform wordt ondersteund. Leer hoe te met bestemmingen in [ Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home) te werken {target="_blank"}
 
 >[!NOTE]
 >
@@ -39,6 +39,6 @@ Op het tabblad **[!UICONTROL Browse]** worden alle bestaande soorten publiek wee
 
 ![](assets/audiences-list.png)
 
-Voor meer informatie over hoe te met publiek in Adobe Experience Platform te werken, verwijs naar [ Poortdocumentatie van het Poortpubliek van het Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+Voor meer informatie over hoe te om met publiek in Adobe Experience Platform te werken, verwijs naar [ Poortdocumentatie van het Poort van het Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

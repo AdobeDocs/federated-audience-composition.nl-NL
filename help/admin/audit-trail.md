@@ -3,9 +3,10 @@ audience: end-user
 title: Aan de slag met Audittrail
 description: Leer hoe u uw databases kunt controleren met de audittrail
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -52,7 +53,7 @@ Ga als volgt te werk om het exemplaar **[!UICONTROL Audit trail]** te openen:
 
 1. Selecteer **[!UICONTROL Audit trail]** onder het menu **[!UICONTROL Federated data]** .
 
-1. Het venster **[!UICONTROL Audit trail]** wordt geopend met de lijst met entiteiten. Adobe Campaign Web User Interface controleert het maken, bewerken en verwijderen van acties voor workflows, opties, leveringen en schema&#39;s.
+1. Het venster **[!UICONTROL Audit trail]** wordt geopend met de lijst met entiteiten. De federated Audience Composition controleert creeert, uitgeeft en schrapt acties voor werkschema&#39;s, opties, leveringen en schema&#39;s.
 
    ![](assets/audit_trail.png)
 

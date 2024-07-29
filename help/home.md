@@ -3,7 +3,7 @@ title: Startpagina Adobe Experience Platform Federal Audience Composition
 description: Federated Audience Composition add-on documentatie
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 01ecc3abb201f241c68ee2a0ce9c0f4f0a50fad7
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB  stel een publiek samen]
+>[!TAB  stel een publiek ] samen
 
 Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om composities te maken en uw publiek te maken.
 
@@ -58,7 +58,7 @@ Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om compositie
     </div>
     </td>
     <td>
-    <a href="start/get-started.md#faq"><img src="assets/do-not-localize/start-faq.png"></a>
+    <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
     <div><strong> Veelgestelde Veelgestelde Vragen </strong><br/> Veelgestelde Veelgestelde Vragen over de Samenstelling van het Publiek Federated.</div>
     </td>
   </tr>
@@ -66,7 +66,7 @@ Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om compositie
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/get-started.md#faq"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 

@@ -4,7 +4,7 @@ title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 >abstract="Voer het label van het gegevensmodel in."
 
 
-## Wat is een gegevensmodel? {#data-model-start}
+## Wat is een gegevensmodel {#data-model-start}
 
 Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen hen. Het wordt gebruikt om publiek met gegevensbestandgegevens te verbinden.
 

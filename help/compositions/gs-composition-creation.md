@@ -4,7 +4,7 @@ title: Composities maken
 description: Leer hoe u composities maakt
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >title="Compositie-eigenschappen"
 >abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de compositie te maken en geef een label op. Vouw de sectie EXTRA OPTIONS uit om meer instellingen te configureren, zoals de interne naam van de compositie, de map, de tijdzone en de supervisorgroep. Het wordt hoogst geadviseerd om een supervisorgroep te selecteren zodat de exploitanten worden gealarmeerd als een fout voorkomt."
 
-## Wat zit er in een compositie? {#gs-composition-inside}
+## Wat zit er in een compositie {#gs-composition-inside}
 
 Experience Platform Federated Audience Composition biedt een visueel canvas dat u in staat stelt een publiek te maken door verschillende activiteiten (splitsen, verrijken, enz.) te benutten.
 

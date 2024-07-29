@@ -1,19 +1,17 @@
 ---
-title: Access Federal Audience Composition
-description: Leer hoe u Federated Audience Composition kunt openen.
+title: Vereisten en instructies voor Federatieve Audience Composition
+description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
-# Access Federal Audience Composition {#fac-access}
+# Vereisten en geleiders {#fac-access}
 
-## Pakketten en invoegtoepassingen {#package}
-
-Voor Federated Audience Composition zijn Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer Premiere- of Ultimate-pakketten vereist. Om toegang te krijgen tot deze mogelijkheid, moet u de add-on van de Samenstelling van de Federatieve Publiek hebben gekocht.
+De Federatieve Samenstelling van het Publiek vereist Adobe Real-time Customer Data Platform en/of Adobe Journey Optimizer **eerste** of **Echte** pakketten. Om toegang te krijgen tot deze mogelijkheid, moet u de add-on van de Samenstelling van de Federatieve Publiek hebben gekocht.
 
 >[!AVAILABILITY]
 >

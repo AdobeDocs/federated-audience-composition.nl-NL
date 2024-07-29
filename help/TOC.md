@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform-Federatieve Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform-Federatieve Audience Composition
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 + [Aanvullende informatie](start/release-notes.md)
 + Aan de slag met Federatieve Audience Composition {#start}
    + [Wat is Federated Audience Composition](start/get-started.md)
-   + [Access Federal Audience Composition](start/access-prerequisites.md)
+   + [Vereisten en geleiders](start/access-prerequisites.md)
    + [Werken met het publiek](start/audiences.md)
    + [Veelgestelde vragen](start/faq.md)
 + Configuratiestappen {#config}

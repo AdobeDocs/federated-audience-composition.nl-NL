@@ -3,9 +3,9 @@ title: Aan de slag met Experience Platform Federated Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,11 @@ Belangrijkste stappen:
 
 <!-- Workflow + Workflow activities-->
 
-Zie Veelgestelde Vragen in [ deze pagina ](faq.md).
+
+Leer hoe te om tot de Verbond van de Auditie van het Publiek, guardrails en beperkingen in [ toegang te hebben deze pagina ](access-prerequisites.md).
+
+Zie ook vaak gestelde vragen in [ deze pagina ](faq.md).
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
