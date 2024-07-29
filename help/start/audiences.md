@@ -4,9 +4,9 @@ title: Werken met het publiek
 description: Leer hoe u met het publiek kunt werken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Experience Platform Federated de Samenstelling van het Publiek staat u toe [ samenstellingen ](../compositions/gs-compositions.md) tot stand te brengen, waar u hefboomwerking diverse activiteiten in een visueel canvas kunt om publiek tot stand te brengen en hen op te slaan in het Portaal van het Publiek van Adobe Experience Platform.
 
-U kunt deze doelgroepen vervolgens activeren op elk doel dat door Adobe Experience Platform wordt ondersteund.
+U kunt deze doelgroepen vervolgens activeren in Journey Optimizer of activeren naar een bestemming die wordt ondersteund door Adobe Experience Platform.
 
 ## Het creëren van het publiek gebruikend samenstellingen {#creation}
 

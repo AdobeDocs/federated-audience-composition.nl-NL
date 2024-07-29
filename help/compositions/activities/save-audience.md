@@ -4,9 +4,9 @@ title: De publieksactiviteit Opslaan gebruiken
 description: Leer hoe u de publieksactiviteit Opslaan gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Volg deze stappen om **te vormen sparen publiek** activiteit:
 
 Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in Adobe het Platform van Gegevens van de Klant in real time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
 
-Het gemaakte publiek bevat alle velden die zijn geselecteerd in de sectie Audience Mappings (Toewijzingen publiek). U kunt het publiek activeren naar elk doel dat door Adobe Experience Platform wordt ondersteund.
+Het gemaakte publiek bevat alle velden die zijn geselecteerd in de sectie Audience Mappings (Toewijzingen publiek). U kunt deze doelgroep in Journey Optimizer activeren of activeren naar een bestemming die wordt ondersteund door Adobe Experience Platform.
 
 [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
 

@@ -3,9 +3,10 @@ audience: end-user
 title: Aan de slag met composities
 description: Leer hoe u begint met composities
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 ## Wat is een compositie {#what}
 
-Met de Adobe Audience Composition kunt u composities maken, waarbij u verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken in een visueel canvas om een publiek te maken. Als dit eenmaal is gedaan, worden de resulterende doelgroepen samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen ze worden benut in bestemmingen als Journey Optimizer om klanten als doel in te stellen. [ leer hoe te met publiek ](../start/audiences.md) werken
+Met de Adobe Audience Composition kunt u composities maken, waarbij u verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken in een visueel canvas om een publiek te maken. Als dit eenmaal is gebeurd, worden de resulterende doelgroepen samen met het bestaande publiek in Adobe Experience Platform opgeslagen en kunnen ze in Adobe Experience Platform-bestemmingen en Adobe Journey Optimizer worden gebruikt om klanten als doelgroep aan te wijzen. [ leer hoe te met publiek ](../start/audiences.md) werken
 
 ![](assets/composition-example.png)
 
