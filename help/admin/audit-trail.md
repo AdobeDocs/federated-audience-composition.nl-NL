@@ -1,26 +1,26 @@
 ---
 audience: end-user
-title: Aan de slag met Audittrail
-description: Leer hoe u uw databases kunt controleren met de audittrail
+title: Audit trail
+description: Leer hoe acties en gebeurtenissen zijn geregistreerd en toegankelijk in het audittrail
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 3%
 
 ---
 
-# Aan de slag met Audittrail {#audit-trail}
+# Audit trail {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Audit trail"
->abstract="De mogelijkheden van het audittrail verstrekken een gedetailleerd en chronologisch verslag van alle acties en gebeurtenissen die aan uw milieu in real time zijn gemaakt."
+>abstract="De audittrailcapaciteit verstrekt een gedetailleerd en chronologisch verslag van alle acties en gebeurtenissen die aan uw milieu van de Samenstelling van het Publiek van Adobe Experience Platform Federated in real time zijn gemaakt."
 
 De mogelijkheden van het audittrail verstrekken een gedetailleerd en chronologisch verslag van alle acties en gebeurtenissen die aan uw milieu in real time zijn gemaakt
 
-De functie **[!UICONTROL Audit trail]** registreert constant een gedetailleerd logboek van acties en gebeurtenissen die binnen de instantie van de Samenstelling van de Adobe Federated in real time plaatsvinden. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
+De eigenschap **[!UICONTROL Audit trail]** registreert constant een gedetailleerd logboek van acties en gebeurtenissen die binnen de instantie van de Samenstelling van de Adobe Federated in real time plaatsvinden. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
 
 +++ Meer informatie over beschikbare entiteiten van het audittrail
 

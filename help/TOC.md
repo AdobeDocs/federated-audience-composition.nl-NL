@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform-Federatieve Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform-Federatieve Audience Composition
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '145'
+ht-degree: 12%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 10%
    + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
    + [Uw eerste query samenstellen](query/build-query.md)
    + [Expressies bewerken](query/expression-editor.md)
-+ Audittrail {#audit-trail}
-   + [Uw databases controleren](admin/audit-trail.md)
++ [Audit trail](admin/audit-trail.md)
