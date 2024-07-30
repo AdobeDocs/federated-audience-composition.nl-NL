@@ -2,7 +2,7 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Als bijvoorbeeld een nieuwe sandbox met de naam &quot;fac-test&quot; wordt geact
 
 Om Federated Audience Composition veilig toe te laten om tot uw gegevensbestanden toegang te hebben, contacteer uw vertegenwoordiger van de Adobe om de IP adressen van de servers van de Samenstelling van de Federatieve Publiek te krijgen die tot hen zullen toegang hebben.
 
-Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Federatieve Samenstelling van het Publiek te verlenen.&quot;
+Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Federatieve Samenstelling van het Publiek te verlenen.
 
 ## Afbeeldingen en beperkingen {#fac-guardrails}
 
