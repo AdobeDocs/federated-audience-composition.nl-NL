@@ -4,15 +4,14 @@ title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
 
 # Aan de slag met schema&#39;s {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 2%
 >title="Brondatabase selecteren om te filteren"
 >abstract="U kunt de schema&#39;s filteren op basis van hun bron. Selecteer één of verscheidene Federale Gegevensbestanden om hun schema&#39;s te tonen."
 
-
 ## Wat is een schema {#schema-start}
 
 Een schema is een representatie van een tabel in uw database. Het is een object in de toepassing dat definieert hoe de gegevens aan databasetabellen zijn gekoppeld.
@@ -50,6 +48,10 @@ Door een schema te creëren, kunt u een vertegenwoordiging van uw lijst in de Sa
 * Geef deze een vriendelijke naam en beschrijving om het begrip voor de gebruiker te vereenvoudigen
 * De zichtbaarheid van elk veld bepalen op basis van het werkelijke gebruik ervan
 * Selecteer zijn primaire sleutel, om schema&#39;s tussen hen te verbinden, zoals nodig in het [ gegevensmodel ](../data-management/gs-models.md#data-model-start)
+
+>[!IMPORTANT]
+>
+>Het wordt aanbevolen voor elke sandbox afzonderlijke, gefederaliseerde databaseschema&#39;s te gebruiken.
 
 ## Een schema maken {#schema-create}
 
