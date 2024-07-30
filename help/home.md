@@ -3,7 +3,7 @@ title: Startpagina Adobe Experience Platform Federal Audience Composition
 description: Federated Audience Composition add-on documentatie
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB  stel een publiek samen]
+>[!TAB  stel een publiek ] samen
 
 Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om composities te maken en uw publiek te maken.
 
@@ -69,7 +69,6 @@ Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om compositie
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
-
 
 ## Aanvullende bronnen  {#additional-resources}
 
