@@ -4,9 +4,9 @@ title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1500'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,8 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
      >[!NOTE]
      >
      >U kunt om het even welk schema van het gegevensbestand, met inbegrip van schema&#39;s gebruiken die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemming hebt om met dit schema te verbinden.
+     >
+     >**afzonderlijke werkende schema&#39;s** moeten worden gebruikt wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand.
 
 1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
 
@@ -197,6 +199,8 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
      >[!NOTE]
      >
      >U kunt om het even welk schema van het gegevensbestand, met inbegrip van schema&#39;s gebruiken die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemming hebt om met dit schema te verbinden.
+     >
+     >**afzonderlijke werkende schema&#39;s** moeten worden gebruikt wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand.
 
    * **[!UICONTROL Private key]**: klik op het veld **[!UICONTROL Private key]** om de .pem-bestanden in de map met landinstellingen te selecteren.
 
@@ -253,6 +257,8 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
      >[!NOTE]
      >
      >U kunt om het even welk schema van het gegevensbestand, met inbegrip van schema&#39;s gebruiken die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemming hebt om met dit schema te verbinden.
+     >
+     >**afzonderlijke werkende schema&#39;s** moeten worden gebruikt wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand.
 
    * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
 

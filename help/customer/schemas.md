@@ -4,9 +4,9 @@ title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
@@ -48,10 +48,6 @@ Door een schema te creëren, kunt u een vertegenwoordiging van uw lijst in de Sa
 * Geef deze een vriendelijke naam en beschrijving om het begrip voor de gebruiker te vereenvoudigen
 * De zichtbaarheid van elk veld bepalen op basis van het werkelijke gebruik ervan
 * Selecteer zijn primaire sleutel, om schema&#39;s tussen hen te verbinden, zoals nodig in het [ gegevensmodel ](../data-management/gs-models.md#data-model-start)
-
->[!IMPORTANT]
->
->Het wordt aanbevolen voor elke sandbox afzonderlijke, gefederaliseerde databaseschema&#39;s te gebruiken.
 
 ## Een schema maken {#schema-create}
 
