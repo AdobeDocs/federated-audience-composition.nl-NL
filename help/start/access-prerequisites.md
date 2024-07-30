@@ -2,9 +2,9 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
+source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 
 ## Afbeeldingen en beperkingen {#fac-guardrails}
 
-* Het gebruik van Federated Audience Composition is momenteel niet beschikbaar met het Healthcare Shield and Privacy and Security Shield.
+* De Federatieve Samenstelling van het Publiek is momenteel niet beschikbaar aan klanten [ die gezondheidsgegevens ](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) nemen {target="_blank"} en aan de klanten van de Privacy en van het Veiligheidsschild van Adobe Journey Optimizer. [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
