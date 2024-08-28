@@ -4,7 +4,7 @@ title: De afstemmingsactiviteit gebruiken
 description: Leer hoe u de verzoeningsactiviteit kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -37,7 +37,7 @@ De **Verzoening** activiteit staat u toe om het verband tussen de gegevens in he
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Hierdoor kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De verzoeningsverrichting impliceert dat de gegevens u zich aansluit bij reeds in het gegevensbestand zijn. Als u bijvoorbeeld informatie over aankopen wilt afstemmen waarin wordt aangegeven welk product is aangeschaft, op welk tijdstip, door welke client, enzovoort, moeten het product en de client al in de database aanwezig zijn.
+Hierdoor kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De verzoeningsverrichting impliceert dat de gegevens u zich aansluit bij reeds in het gegevensbestand zijn. Als u bijvoorbeeld de aankoopgegevens wilt afstemmen met het product dat u hebt gekocht, op welk tijdstip, op welke client enzovoort, moeten het product en de client al in de database aanwezig zijn.
 
 ## De afstemmingsactiviteit configureren {#reconciliation-configuration}
 
@@ -64,7 +64,7 @@ Hierdoor kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Afstemmingskenmerk"
->abstract="Selecteer het kenmerk dat u wilt gebruiken om gegevens op elkaar af te stemmen en om te bevestigen."
+>abstract="Selecteer het kenmerk dat u wilt gebruiken om gegevens met elkaar te verzoenen en bevestig de gegevens."
 
 Volg deze stappen om de **Verzoening** activiteit te vormen:
 
@@ -87,7 +87,7 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 
       ![](../assets/reconciliation-advanced.png)
 
-1. U kunt gegevens filtreren om het gebruiken van te verzoenen **creeer filterknoop**. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie.
+1. U kunt gegevens filtreren om het gebruiken van **te combineren filter** knoop creëren. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie.
 
 Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Om onverenigde gegevens te verwijderen, desactiveer **houden unconiled gegevens** optie.
 
