@@ -3,7 +3,7 @@ title: Aan de slag met Experience Platform Federated Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
+source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 1%
@@ -34,11 +34,11 @@ Door marketing-vriendschappelijke UI, creeer segmentregels die uw gegevenspaket 
 
 In deze versie zijn twee gebruiksgevallen beschikbaar:
 
-1. Het Maken van het publiek: Bouw nieuw publiek van ondernemingsdatasets zonder onderliggende gegevens te kopiëren en die publiek met prebuilt bestemmingen te activeren. &#x200B;
+1. Het Maken van het publiek: Bouw nieuw publiek van ondernemingsdatasets zonder onderliggende gegevens te kopiëren en die publiek met prebuilt bestemmingen te activeren.
 
 1. Verrijking van het publiek: Verrijken bestaand publiek in Adobe Experience Platform door samengestelde publieksgegevens te gebruiken die van het entrepot van ondernemingsgegevens zijn gefedereerd. Deze gegevens blijven niet behouden in Adobe Experience Platform-klantprofielen.
 
-![ diagram ](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![ diagram ](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Belangrijkste stappen {#gs-steps}
 
@@ -50,11 +50,11 @@ Belangrijkste stappen:
 
 1. **Integratie van Gegevens**: Breng gegevens van diverse bronnen samen, en voeg hen in een verenigde dataset samen. Leer hoe te om Adobe Experience Platform te verbinden apps en uw entrepot van ondernemingsgegevens, gesteunde gegevensbestanden, en hoe te om hen te vormen zijn gedetailleerd in [ deze sectie ](../connections/federated-db.md).
 
-2. **Modellering van Gegevens**: Ontwerp en creeer gegevensmodellen en schema&#39;s die de structuur, de verhoudingen, en de beperkingen van de gegevens bepalen. Leer meer over schema&#39;s in [ deze pagina ](../customer/schemas.md). Leer hoe te om verbindingen voor uw datamodel in [ tot stand te brengen deze pagina ](../data-management/gs-models.md).
+1. **Modellering van Gegevens**: Ontwerp en creeer gegevensmodellen en schema&#39;s die de structuur, de verhoudingen, en de beperkingen van de gegevens bepalen. Leer meer over schema&#39;s in [ deze pagina ](../customer/schemas.md). Leer hoe te om verbindingen voor uw datamodel in [ tot stand te brengen deze pagina ](../data-management/gs-models.md).
 
-3. **Transformatie van Gegevens**: Pas de technieken van de gegevensmanipulatie toe om het formaat, de structuur, of de waarden van gegevenselementen te wijzigen om hen compatibel of geschikt voor specifieke analyse of toepassingen te maken.
+1. **Transformatie van Gegevens**: Pas de technieken van de gegevensmanipulatie toe om het formaat, de structuur, of de waarden van gegevenselementen te wijzigen om hen compatibel of geschikt voor specifieke analyse of toepassingen te maken.
 
-4. **Gebruik van Gegevens**: Creeer, orkestel en bouw publiek. Leer hoe te om publiek in [ samen te stellen deze pagina ](../compositions/gs-compositions.md). U kunt bestaande doelgroepen ook bijwerken of opnieuw gebruiken via het Adobe Experience Platform Audience-portaal en de Doelen. Leer meer in [ deze pagina ](../connections/destinations.md)
+1. **Gebruik van Gegevens**: Creeer, orkestel en bouw publiek. Leer hoe te om publiek in [ samen te stellen deze pagina ](../compositions/gs-compositions.md). U kunt bestaande doelgroepen ook bijwerken of opnieuw gebruiken via het Adobe Experience Platform Audience-portaal en de Doelen. Leer meer in [ deze pagina ](../connections/destinations.md)
 
 >[!NOTE]
 >
