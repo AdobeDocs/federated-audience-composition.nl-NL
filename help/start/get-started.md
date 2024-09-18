@@ -3,7 +3,7 @@ title: Aan de slag met Experience Platform Federated Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 1%
@@ -38,7 +38,7 @@ In deze versie zijn twee gebruiksgevallen beschikbaar:
 
 1. Verrijking van het publiek: Verrijken bestaand publiek in Adobe Experience Platform door samengestelde publieksgegevens te gebruiken die van het entrepot van ondernemingsgegevens zijn gefedereerd. Deze gegevens blijven niet behouden in Adobe Experience Platform-klantprofielen.
 
-![ diagram ](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
+![ diagram ](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Belangrijkste stappen {#gs-steps}
 
