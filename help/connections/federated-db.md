@@ -4,9 +4,9 @@ title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Leer hoe te om, de verbinding aan uw extern gegevensbestand in [ te creëren te 
 Met Federated Audience Composition kunt u verbinding maken met de volgende databases. De configuratie voor elke database wordt hieronder beschreven.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure synapse](#azure-synapse-redshift)
+* [Azure synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
-## Opnieuw azure synapsen {#azure-synapse-redshift}
+## Azure synapse Analytics {#azure-synapse}
 
-Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Redshift te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Analytics te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -94,11 +94,11 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Type]** de optie Azure synapse opnieuw verschuiven.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Type]** de optie Azure synapse Analytics.
 
    ![](assets/federated_database_4.png)
 
-1. Configureer de verificatie-instellingen voor opnieuw toewijzen van Azure synapse:
+1. Configureer de verificatie-instellingen voor Azure synapse Analytics:
 
    * **[!UICONTROL Server]**: voer de URL van de Azure synapse server in.
 
