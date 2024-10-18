@@ -4,7 +4,7 @@ title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
 description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Een doel maken"
->abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Connect to destination]** om uw configuratie te valideren."
+>abstract="Ga de montages in om met het nieuwe Federated gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Connect to destination]** om uw configuratie te valideren."
 
 Adobe Experience Platform staat naadloze integratie van publiek van het Portaal van het Publiek met uw externe gegevensbestanden toe gebruikend de **Adobe Federated bestemming van de Samenstelling van het Publiek**. Met deze integratie kunt u bestaande doelgroepen gebruiken voor composities en ze verrijken of verfijnen met gegevens uit uw externe databases om nieuwe doelgroepen te maken.
 

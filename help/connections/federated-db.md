@@ -4,7 +4,7 @@ title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 1%
@@ -21,12 +21,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Federale database-eigenschappen"
->abstract="Ga de naam van het nieuwe Federatieve Gegevensbestand in, en selecteer zijn type."
+>abstract="Ga de naam van het nieuwe Federated gegevensbestand in, en selecteer zijn type."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Gegevens van gefederaliseerde database"
->abstract="Ga de montages in om met het nieuwe Federatieve Gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Test connection]** om uw configuratie te valideren."
+>abstract="Ga de montages in om met het nieuwe Federated gegevensbestand te verbinden. Gebruik de knop **[!UICONTROL Test connection]** om uw configuratie te valideren."
 
 Met Experience Platform Federated Audience Composition kan de Klant een publiek opbouwen en verrijken vanuit de gegevensopslagruimten van derden en het publiek naar Adobe Experience Platform importeren.
 

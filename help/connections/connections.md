@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Verbindingen met Federale Databases maken en beheren
-description: Leer hoe te om verbindingen met Federale Gegevensbestanden tot stand te brengen en te beheren
+title: Verbindingen met gefederaliseerde databases maken en beheren
+description: Leer hoe u verbindingen met Federale databases maakt en beheert
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Ga als volgt te werk om een verbinding met uw database in te stellen:
 
 1. Blader naar de sectie **[!UICONTROL FEDERATED DATA]** links in de track.
 
-1. Klik in de koppeling **[!UICONTROL Federated Databases]** op de knop **[!UICONTROL Add federated database]** .
+1. Klik in de koppeling **[!UICONTROL Federated databases]** op de knop **[!UICONTROL Add federated database]** .
 
    ![](assets/connections_list.png){zoomable="yes"}
 
@@ -47,6 +47,6 @@ Ga als volgt te werk om een verbinding met uw database in te stellen:
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 
-   Er is een overzicht beschikbaar van uw Federated Database-verbinding, zoals hieronder wordt getoond:
+   Een overzicht van uw Federated gegevensbestandverbinding is beschikbaar, zoals hieronder getoond:
 
    ![](assets/connections_overview.png){zoomable="yes"}

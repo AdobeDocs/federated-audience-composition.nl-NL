@@ -4,7 +4,7 @@ title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -37,7 +37,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Brondatabase selecteren om te filteren"
->abstract="U kunt de schema&#39;s filteren op basis van hun bron. Selecteer één of verscheidene Federale Gegevensbestanden om hun schema&#39;s te tonen."
+>abstract="U kunt de schema&#39;s filteren op basis van hun bron. Selecteer één of verscheidene Federated gegevensbestanden om hun schema&#39;s te tonen."
 
 ## Wat is een schema {#schema-start}
 
