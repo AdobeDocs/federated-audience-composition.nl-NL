@@ -3,9 +3,9 @@ title: Aan de slag met Experience Platform Federated Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '933'
 ht-degree: 3%
 
 ---
@@ -119,3 +119,31 @@ Zie ook vaak gestelde vragen in [ deze pagina ](faq.md).
 >id="dc_orchestration_build_audience_dimension"
 >title="Doeldimensie selecteren"
 >abstract="Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel voor e-mails en SMS geselecteerd in de ingebouwde tabel Ontvangers. Voor pushberichten is de standaarddoeldimensie Subscriber-toepassingen."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="Profiel opslaan"
+>abstract="Profiel opslaan"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Profiel selecteren AEP-schema opslaan"
+>abstract="Profiel selecteren AEP-schema opslaan"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="Profiel AEP-schemalijst opslaan"
+>abstract="Profiel AEP-schemalijst opslaan"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="Profiel AEP-schemakenmerk opslaan"
+>abstract="Profiel AEP-schemakenmerk opslaan"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="Veld profiel selecteren primaire identificatie opslaan"
+>abstract="Veld profiel selecteren primaire identificatie opslaan"
