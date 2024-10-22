@@ -4,29 +4,16 @@ title: De incrementele queryactiviteit gebruiken
 description: Leer hoe te om de Incrementele vraagactiviteit te gebruiken
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 17%
+source-wordcount: '521'
+ht-degree: 15%
 
 ---
 
 # Incrementele query {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="Incrementele query"
->abstract="De **Incrementele vraag** activiteit staat u toe om het gegevensbestand te vragen gebruikend de modelleerling van de Vraag. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="Incrementele querygeschiedenis"
->abstract="Incrementele querygeschiedenis"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="Incrementele query verwerkte gegevens"
->abstract="Incrementele query verwerkte gegevens"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 De **Incrementele vraag** activiteit staat u toe om het gegevensbestand op een geplande basis te vragen. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen.
 
