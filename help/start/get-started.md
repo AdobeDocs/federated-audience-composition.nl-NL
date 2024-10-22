@@ -3,10 +3,10 @@ title: Aan de slag met Experience Platform Federated Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 1%
+source-wordcount: '887'
+ht-degree: 3%
 
 ---
 
@@ -86,3 +86,36 @@ Zie ook vaak gestelde vragen in [ deze pagina ](faq.md).
 >id="dc_federated_database_create_link"
 >title="Een koppeling maken"
 >abstract="Geef de koppelingsinstellingen op."
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="Incrementele query"
+>abstract="De **Incrementele vraag** activiteit staat u toe om het gegevensbestand te vragen gebruikend de modelleerling van de Vraag. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="Incrementele querygeschiedenis"
+>abstract="Incrementele querygeschiedenis"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="Incrementele query verwerkte gegevens"
+>abstract="Incrementele query verwerkte gegevens"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="Incrementele querymodus"
+>abstract="Met de incrementele query kunt u dezelfde query meerdere keren uitvoeren door de resultaten van vorige uitvoeringen voor elke nieuwe uitvoering uit te sluiten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="Incrementele querymodus"
+>abstract="Met de incrementele query kunt u dezelfde query meerdere keren uitvoeren door alleen de resultaten in aanmerking te nemen als het datumveld later is dan of gelijk is aan de laatste uitvoeringsdatum van de incrementele query-activiteit."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="Doeldimensie selecteren"
+>abstract="Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel voor e-mails en SMS geselecteerd in de ingebouwde tabel Ontvangers. Voor pushberichten is de standaarddoeldimensie Subscriber-toepassingen."
