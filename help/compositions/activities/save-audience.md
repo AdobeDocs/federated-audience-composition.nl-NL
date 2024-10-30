@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: De publieksactiviteit Opslaan gebruiken
-description: Leer hoe u de publieksactiviteit Opslaan gebruikt
+title: Doelgroepactiviteit opslaan gebruiken
+description: Leer hoe u de doelgroepactiviteit Opslaan gebruikt
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primair identiteitsveld"
 >abstract="Selecteer de primaire identiteit die u voor profielen wilt gebruiken."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Meer informatie in de documentatie bij Experience Platforms"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Meer informatie in de documentatie van het Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
@@ -37,11 +37,15 @@ ht-degree: 0%
 
 **sparen publiek** activiteit staat u toe om een nieuw publiek van de bevolking tot stand te brengen die stroomopwaarts in een samenstelling wordt verwerkt. Het gecreeerde publiek wordt toegevoegd aan de lijst van het publiek van Adobe Experience Platform, en beschikbaar gemaakt via het **publiek** menu. [ leer hoe te met publiek ](../../start/audiences.md) werken
 
-Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde samenstelling te berekenen, door hen in herbruikbaar publiek om te zetten. Verbind het met andere het richten activiteiten zoals a **bouwt publiek** of a **combineer** activiteit.
+Deze activiteit wordt voornamelijk gebruikt om bevolkingsgroepen in dezelfde samenstelling te laten berekenen door ze om te zetten in herbruikbare doelgroepen. Verbind het met andere het richten activiteiten zoals a **het publiek van de Bouw** of a **combineer** activiteit.
 
-## Vorm sparen publieksactiviteit {#save-audience-configuration}
+>[!IMPORTANT]
+>
+>De **sparen activiteit van het Publiek** vereist een profiel-toegelaten schema en dataset. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
-Volg deze stappen om **te vormen sparen publiek** activiteit:
+## Configureer de activiteit voor het opslaan van het publiek {#save-audience-configuration}
+
+Volg deze stappen om **te vormen sparen doelgroepactiviteit**:
 
 1. Voeg a **sparen publiek** activiteit aan uw samenstelling toe.
 
@@ -60,9 +64,9 @@ Volg deze stappen om **te vormen sparen publiek** activiteit:
 1. Selecteer de primaire identiteit en naamruimte die u wilt gebruiken om de doelprofielen in de database te identificeren:
 
    * **Primair identiteitsgebied**: Selecteer het gebied om de profielen te gebruiken te identificeren. Bijvoorbeeld zijn e-mailadres of telefoonnummer.
-   * **Identiteitsnaamruimte**: Selecteer namespace aan gebruik om de profielen, d.w.z. het type van gegevens te identificeren om als identificatiesleutel te gebruiken. Bijvoorbeeld, als het e-mailadres als primair identiteitsgebied is geselecteerd, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
+   * **Identiteitsnaamruimte**: Selecteer namespace om de profielen te gebruiken te identificeren, d.w.z. het type van gegevens als identificatiesleutel te gebruiken. Bijvoorbeeld, als het e-mailadres als primair identiteitsgebied is geselecteerd, zou de identiteitsnamespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
-## Open uw publiek in Adobe Experience Platform {#access-audience}
+## Toegang tot je doelgroep in Adobe Experience Platform {#access-audience}
 
 Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in Adobe het Platform van Gegevens van de Klant in real time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
 

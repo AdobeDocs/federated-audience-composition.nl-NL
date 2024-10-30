@@ -4,9 +4,9 @@ title: Composities maken
 description: Leer hoe u composities maakt
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,13 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 
    ![](assets/composition-create.png)
 
-1. Geef in de sectie **[!UICONTROL Properties]** een label voor de compositie op en klik op **[!UICONTROL Create]** .
+1. Geef in de sectie **[!UICONTROL Properties]** een label voor uw compositie op en selecteer een gegevensmodel. Alleen de schema&#39;s die aan dit gegevensmodel zijn gekoppeld, zijn beschikbaar in de activiteiten van uw compositie.
 
-1. Het compositicanvas wordt weergegeven. U kunt uw samenstelling nu vormen door zo vele activiteiten toe te voegen zoals nodig om uw behoeften aan te passen alvorens het uit te voeren:
+   ![](assets/composition-select-schema.png)
 
-   * [Leer hoe u activiteiten kunt ordenen](#action-activities)
+1. Klik op **[!UICONTROL Create]**. Het compositicanvas wordt weergegeven. U kunt nu uw compositie configureren door zoveel activiteiten toe te voegen als nodig zijn om aan uw behoeften te voldoen voordat u deze uitvoert:
+
+   * [Leer hoe je activiteiten orkestreert](#action-activities)
    * [ leer hoe te om een samenstelling te beginnen en te controleren ](#save)
 
 ## Vorm de montages van de samenstelling {#settings}
@@ -39,13 +41,13 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
->title="Samenstellingssegmentatie"
->abstract="Door gebrek, slechts worden de het werk lijsten van de laatste uitvoering van de samenstelling gehouden. U kunt deze optie inschakelen om werktabellen bij te houden voor testdoeleinden. Het moet **slechts** op ontwikkeling of het opvoeren milieu&#39;s worden gebruikt. Het mag nooit worden gecontroleerd in een productieomgeving."
+>title="Compositiesegmentatie"
+>abstract="Standaard worden alleen de werktabellen van de laatste uitvoering van de compositie bewaard. U kunt deze optie inschakelen om werktabellen te behouden voor testdoeleinden. Het moet **slechts** op ontwikkeling of het opvoeren milieu&#39;s worden gebruikt. Het mag nooit worden gecontroleerd in een productieomgeving."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="Instellingen voor foutbeheer"
->abstract="In deze sectie kunt u definiëren hoe u fouten tijdens de uitvoering kunt beheren. U kunt ervoor kiezen het proces te pauzeren, een bepaald aantal fouten te negeren of de uitvoering van de compositie te stoppen."
+>abstract="In deze sectie kunt u definiëren hoe u fouten tijdens de uitvoering kunt beheren. U kunt ervoor kiezen om het proces te pauzeren, een bepaald aantal fouten te negeren of de compositie-uitvoering te stoppen."
 
 Wanneer het toegang hebben tot van een samenstelling, kunt u tot geavanceerde montages toegang hebben die u, bijvoorbeeld, toestaan om te bepalen hoe de samenstelling zich in het geval van fout zou moeten gedragen. Voor toegang tot deze extra opties klikt u op de knop **[!UICONTROL Settings]** in de bovenste sectie van het scherm voor het maken van composities.
 
@@ -55,13 +57,13 @@ De beschikbare instellingen zijn als volgt:
 
 * **[!UICONTROL Label]**: wijzig het label van de compositie.
 
-* **[!UICONTROL Keep the result of interim populations between two executions]**: Door gebrek, slechts worden de het werk lijsten van de laatste uitvoering van de samenstelling gehouden. De werktabellen van vorige uitvoeringen worden door een technische samenstelling gezuiverd, die dagelijks loopt.
+* **[!UICONTROL Keep the result of interim populations between two executions]**: Door gebrek, slechts worden de het werk lijsten van de laatste uitvoering van de samenstelling gehouden. De werktabellen van vorige uitvoeringen worden leeggemaakt door een technische samenstelling, die op een dagbasis loopt.
 
-  Als deze optie wordt toegelaten, zullen het werken lijsten worden gehouden zelfs nadat de samenstelling is uitgevoerd. U kunt het voor testende doeleinden gebruiken en daarom moet **slechts** op ontwikkeling of het opvoeren milieu&#39;s worden gebruikt. Het mag nooit in een productiesamenstelling worden gecontroleerd.
+  Als deze optie is ingeschakeld, worden werktabellen behouden, zelfs nadat de compositie is uitgevoerd. U kunt het voor het testen doeleinden gebruiken en daarom moet **slechts** op ontwikkeling of het opvoeren milieu&#39;s worden gebruikt. Het mag nooit worden gecontroleerd in een productiesamenstelling.
 
-* **[!UICONTROL Error management]**: met deze optie kunt u de handelingen definiëren die moeten worden uitgevoerd als een compositieactiviteit fouten bevat. Er zijn drie mogelijke opties:
+* **[!UICONTROL Error management]**: Met deze optie kunt u de handelingen definiëren die moeten worden uitgevoerd als een compositieactiviteit fouten bevat. Er zijn drie mogelijke opties:
 
-   * **[!UICONTROL Suspend the process]**: De compositie wordt automatisch gepauzeerd en de status verandert in **[!UICONTROL Failed]** . Nadat het probleem is opgelost, hervat u de compositie met de knoppen **[!UICONTROL Resume]** .
+   * **[!UICONTROL Suspend the process]**: De compositie wordt automatisch gepauzeerd en de status verandert in **[!UICONTROL Failed]** . Zodra het probleem is opgelost, hervat u de compositie met de **[!UICONTROL Resume]** -knoppen.
    * **[!UICONTROL Ignore]**: De status van de taak die de fout heeft veroorzaakt, verandert in **[!UICONTROL Failed]** , maar de compositie behoudt de status **[!UICONTROL Started]** .
    * **[!UICONTROL Abort the process]**: De compositie wordt automatisch gestopt en de status wordt gewijzigd in **[!UICONTROL Failed]** . Zodra de kwestie wordt opgelost, begin de samenstelling opnieuw gebruikend de **[!UICONTROL Start]** knoop.
 

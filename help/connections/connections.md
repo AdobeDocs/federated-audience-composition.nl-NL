@@ -4,9 +4,9 @@ title: Verbindingen met gefederaliseerde databases maken en beheren
 description: Leer hoe u verbindingen met Federale databases maakt en beheert
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 6191b9849200723d00398644d038af5b082e7964
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '208'
 ht-degree: 3%
 
 ---
@@ -40,12 +40,13 @@ Ga als volgt te werk om een verbinding met uw database in te stellen:
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Databricks](federated-db.md#databricks)
 
 1. Klik op de knop **[!UICONTROL Test connection]** en op de knop **[!UICONTROL Deploy functions]** nadat u de details hebt ingevuld.
 
-1. Voltooi het maken van de verbinding door op de knop **[!UICONTROL Save]** te klikken.
-
    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. Voltooi het maken van de verbinding door op de knop **[!UICONTROL Save]** te klikken.
 
    Een overzicht van uw Federated gegevensbestandverbinding is beschikbaar, zoals hieronder getoond:
 
