@@ -4,9 +4,9 @@ title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '500'
 ht-degree: 2%
 
 ---
@@ -91,9 +91,9 @@ Voer de onderstaande stappen uit om schema&#39;s te maken in Federated Audience 
 
 ## Een schema bewerken {#schema-edit}
 
-Een schema bewerken:
+Voer de volgende stappen uit om een schema te bewerken:
 
-1. Klik op de naam van het schema in de map schemas.
+1. Klik op de naam van het schema in de lijst.
 
 1. Klik op de knop **[!UICONTROL Edit]** .
 
@@ -102,6 +102,7 @@ Een schema bewerken:
    U kunt tot de zelfde opties toegang hebben zoals wanneer [ creërend een schema ](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## Gegevens voorvertonen in een schema {#schema-preview}
 
@@ -114,6 +115,16 @@ Klik op de koppeling **[!UICONTROL Calculate]** om een voorvertoning weer te gev
 Klik op de knop **[!UICONTROL Configure columns]** om de gegevensweergave te wijzigen.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## Een schema vernieuwen {#schema-refresh}
+
+Tabellen in een gefederaliseerde database kunnen worden bijgewerkt, toegevoegd of verwijderd. In dergelijke gevallen moet u het schema in Adobe Experience Platform vernieuwen om het uit te lijnen met de meest recente wijzigingen. Om dit uit te voeren, klik de drie punten naast de naam van het schema om bij te werken en te selecteren **verfrissen schema**.
+
+U kunt de schemadefinitie ook bijwerken wanneer het uitgeven van het.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## Schema verwijderen {#schema-delete}
 
