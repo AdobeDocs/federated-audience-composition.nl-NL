@@ -4,16 +4,16 @@ title: Verbindingen met gefederaliseerde databases maken en beheren
 description: Leer hoe u verbindingen met Federale databases maakt en beheert
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 6191b9849200723d00398644d038af5b082e7964
+source-git-commit: ef72fe2c94c0dc9eb0432d092a6e4f01de8b9845
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '215'
 ht-degree: 3%
 
 ---
 
 # Verbindingen maken {#connections-fdb}
 
-Met Experience Platform Federated Audience Composition kan de Klant een publiek opbouwen en verrijken vanuit de gegevensopslagruimten van derden en het publiek naar Adobe Experience Platform importeren.
+Met Experience Platform Federated Audience Composition kan de Klant een publiek opbouwen en verrijken vanuit de gegevensopslagruimten van derden en het publiek naar Adobe Experience Platform importeren. De gesteunde gegevensopslagplaatsen zijn vermeld in [ deze sectie ](../start/access-prerequisites.md#supported-systems).
 
 Als u met uw gefedereerde database en Adobe Experience Platform wilt werken, moet u eerst een verbinding tot stand brengen. Deze verbinding wordt ingesteld in een speciale gebruikersinterface die beschikbaar is in de Adobe Experience Platform-gebruikersinterface, zoals beschreven op deze pagina.
 
@@ -37,10 +37,10 @@ Ga als volgt te werk om een verbinding met uw database in te stellen:
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Databricks](federated-db.md#databricks)
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Databricks](federated-db.md#databricks)
 
 1. Klik op de knop **[!UICONTROL Test connection]** en op de knop **[!UICONTROL Deploy functions]** nadat u de details hebt ingevuld.
 
