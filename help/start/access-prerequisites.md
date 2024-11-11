@@ -2,10 +2,11 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +17,19 @@ De Federatieve Samenstelling van het Publiek vereist Adobe Real-time Customer Da
 >[!AVAILABILITY]
 >
 >Nadat u het welkomstbericht via e-mail van de Adobe hebt ontvangen, kan het nog een paar uur duren voordat de interface wordt bijgewerkt en de functies die voor u beschikbaar zijn.
+
+## Ondersteunde systemen {#supported-systems}
+
+De Federatieve Samenstelling van de Publiek steunt de volgende wolkenpakhuizen:
+
+* Amazon Redshift
+* Azure synapse
+* Databricks
+* Google Big Query
+* Snowflake
+* Vertica Analytics
+
+Leer hoe te om een verbinding met deze systemen in [ tot stand te brengen deze pagina ](../connections/connections.md).
 
 ## Machtigingen {#permissions}
 
