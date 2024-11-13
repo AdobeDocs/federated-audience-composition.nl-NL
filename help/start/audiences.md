@@ -2,11 +2,10 @@
 audience: end-user
 title: Werken met het publiek
 description: Leer hoe u met het publiek kunt werken
-badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---

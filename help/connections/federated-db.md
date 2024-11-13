@@ -1,21 +1,20 @@
 ---
 audience: end-user
 title: Vorm uw Federale gegevensbestanden
-description: Leer hoe u uw Federated-databases configureert
-badge: label="Beperkte beschikbaarheid" type="Informative"
+description: Leer hoe te om uw Federale gegevensbestanden te vormen
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1751'
 ht-degree: 1%
 
 ---
 
-# Uw Federated-databases configureren {#federated-db}
+# Vorm uw Federale gegevensbestanden {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Federated-databases"
+>title="Federale databases"
 >abstract="Bestaande verbindingen met gefederaliseerde databases worden in dit scherm weergegeven. Klik op de knop **[!UICONTROL Add federated database]** om een nieuwe verbinding te maken."
 
 >[!CONTEXTUALHELP]
@@ -81,11 +80,11 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
 
-1. Als uw configuratie klaar is, klikt u op **[!UICONTROL Add]** om uw Federale database te maken.
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
 ## Azure synapse Analytics {#azure-synapse}
 
-Gebruik Federated databases om informatie te verwerken die is opgeslagen in een externe database. Volg de onderstaande stappen om toegang tot Azure synapse Analytics te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Analytics te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -101,7 +100,7 @@ Gebruik Federated databases om informatie te verwerken die is opgeslagen in een 
 
 1. Configureer de verificatie-instellingen voor Azure synapse Analytics:
 
-   * **[!UICONTROL Server]**: voer de URL van de Azure synapse-server in.
+   * **[!UICONTROL Server]**: voer de URL van de Azure synapse server in.
 
    * **[!UICONTROL Account]**: voer de gebruikersnaam in.
 
@@ -123,9 +122,9 @@ Gebruik Federated databases om informatie te verwerken die is opgeslagen in een 
 
 ## Google Big Query {#google-big-query}
 
-Gebruik Federated-databases om informatie te verwerken die is opgeslagen in een externe database. Volg de onderstaande stappen om toegang tot Google Big Query te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google Big Query te configureren.
 
-1. Selecteer **[!UICONTROL Federated databases]** in het **[!UICONTROL Federated data]** menu .
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
 1. Klik op **[!UICONTROL Add federated database]**.
 
@@ -163,9 +162,9 @@ Gebruik Federated-databases om informatie te verwerken die is opgeslagen in een 
 | ProxyUid | Gebruikersnaam voor de geverifieerde proxy |
 | ProxyPwd | Wachtwoord ProxyUid |
 | bqpath | Dit is alleen van toepassing voor bulkload (Cloud SDK). </br> Als u wilt voorkomen dat de PATH-variabele wordt gebruikt of als de Google-cloud-sdk-map naar een andere locatie moet worden verplaatst, kunt u met deze optie het exacte pad naar de SDK-binmap van de cloud op de server opgeven. |
-| GCloudConfigName | Dit is alleen van toepassing vanaf versie 7.3.4 en alleen voor bulksgewijs laden (Cloud SDK).</br> De Google Cloud SDK gebruikt configuraties om gegevens in BigQuery-tabellen te laden. De benoemde `accfda` configuratie slaat de parameters op voor het laden van de gegevens. Met deze optie kunnen gebruikers echter een andere naam opgeven voor de configuratie. |
-| GCloudDefaultConfigName | Merk op dat dit van toepassing is met ingang van versie 7.3.4 en alleen voor bulkload (Cloud SDK).</br> De actieve Google Cloud SDK-configuratie kan niet worden verwijderd zonder de actieve tag eerst over te brengen naar een nieuwe configuratie. Deze tijdelijke configuratie is nodig om de hoofdconfiguratie voor het laden van gegevens opnieuw te maken. De standaardnaam voor de tijdelijke configuratie is `default` . Indien nodig kunt u deze naam wijzigen. |
-| GCloudRecreateConfig | Merk op dat dit van toepassing is met ingang van versie 7.3.4 en alleen voor bulkload (Cloud SDK).</br> Als dit is ingesteld op `false` , probeert het mechanisme voor het laden van grote hoeveelheden niet de Google Cloud SDK-configuraties opnieuw te maken, te verwijderen of te wijzigen. In plaats daarvan worden de gegevens geladen met behulp van de bestaande configuratie op de computer. Deze functie is waardevol wanneer andere bewerkingen afhankelijk zijn van Google Cloud SDK-configuraties. </br> Als de gebruiker deze motoroptie inschakelt zonder de juiste configuratie, geeft het mechanisme voor het laden van grote hoeveelheden een waarschuwingsbericht weer: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` . Om verdere fouten te voorkomen, zal het dan aan het gebruiken van het standaard ODBC de bulkladingsmechanisme van het Tussenvoegsel van de Serie terugkeren. |
+| GCloudConfigName | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> De Google Cloud SDK gebruikt configuraties om gegevens in BigQuery-tabellen te laden. In de configuratie met de naam `accfda` worden de parameters voor het laden van de gegevens opgeslagen. Met deze optie kunnen gebruikers echter een andere naam voor de configuratie opgeven. |
+| GCloudDefaultConfigName | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> De actieve Google Cloud SDK-configuratie kan niet worden verwijderd zonder de actieve tag eerst over te brengen naar een nieuwe configuratie. Deze tijdelijke configuratie is nodig om de hoofdconfiguratie voor het laden van gegevens opnieuw te maken. De standaardnaam voor de tijdelijke configuratie is `default` . Indien nodig kunt u deze naam wijzigen. |
+| GCloudRecreateConfig | Dit is alleen van toepassing vanaf versie 7.3.4 en voor bulkload (Cloud SDK).</br> Wanneer dit op `false` is ingesteld, probeert het mechanisme voor bulkladen de Google Cloud SDK-configuraties niet opnieuw te maken, te verwijderen of te wijzigen. In plaats daarvan worden gegevens geladen met behulp van de bestaande configuratie op de computer. Deze functie is nuttig wanneer andere bewerkingen afhankelijk zijn van Google Cloud SDK-configuraties. </br> Als de gebruiker deze motoroptie inschakelt zonder de juiste configuratie, geeft het mechanisme voor het laden van grote hoeveelheden een waarschuwingsbericht weer: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` . Om verdere fouten te voorkomen, zal het dan aan het gebruiken van het standaard ODBC de bulkladingsmechanisme van het Tussenvoegsel van de Serie terugkeren. |
 
 ## Snowflake {#snowflake}
 
@@ -174,7 +173,7 @@ Gebruik Federated-databases om informatie te verwerken die is opgeslagen in een 
 >De veilige toegang tot uw extern gegevenspakhuis van de Snowflake door privé verbinding wordt gesteund. Uw Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van uw Federated Audience Composition. Neem contact op met uw Adobe voor hulp bij het instellen van een veilige toegang tot uw Snowflake-account.
 >
 
-Gebruik Federated databases om informatie te verwerken die is opgeslagen in een externe database. Volg de onderstaande stappen om toegang tot Snowflake te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Snowflake te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -208,11 +207,11 @@ Gebruik Federated databases om informatie te verwerken die is opgeslagen in een 
 
    * **[!UICONTROL Private key]**: klik op het veld **[!UICONTROL Private key]** om de .pem-bestanden in de map met landinstellingen te selecteren.
 
-   * **[!UICONTROL Options]**: De connector ondersteunt de opties in de onderstaande tabel.
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
 
-1. Selecteer de **[!UICONTROL Test the connection]** optie om uw configuratie te controleren.
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
 
-1. Klik op **[!UICONTROL Deploy functions]** de knop om de functies te maken.
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
 
 1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
@@ -224,22 +223,22 @@ De connector ondersteunt de volgende opties:
 | entrepot | Naam van het standaardentrepot aan gebruik. De standaardinstelling van de gebruiker wordt hierdoor genegeerd. |
 | TimeZoneName | Standaard leeg, wat betekent dat de toepassingenserver van de systeemtijdzone wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone) {target="_blank"}. |
 | WeekStart | WEEK_START, sessieparameter. Standaard ingesteld op 0. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start) {target="_blank"}. |
-| UseCachedResult | USE_CACHED_RESULTS, sessieparameter. Standaard ingesteld op TRUE. U kunt deze optie gebruiken om de resultaten van in cache Snowflaken uit te schakelen. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html) {target="_blank"}. |
+| UseCachedResult | USE_CACHED_RESULTS sessieparameter. Standaard ingesteld op TRUE. Deze optie kan worden gebruikt om Snowflake caching resultaten onbruikbaar te maken. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html) {target="_blank"}. |
 | bulkThreads | Het aantal draden dat moet worden gebruikt voor bulksgewijs laden van Snowflaken, meer threads betekenen betere prestaties voor grotere bulkladingen. Standaard ingesteld op 1. Het aantal kan, afhankelijk van het aantal van de machindraad worden aangepast. |
 | chunkSize | Hiermee bepaalt u de bestandsgrootte van het segment voor bulksloader. Standaard ingesteld op 128 MB. Kan worden aangepast voor een betere prestatie, wanneer gebruikt met bulkThreads. Meer tegelijkertijd actieve threads betekenen betere prestaties. <br> voor meer op dit, verwijs naar [ documentatie van de Snowflake ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html) {target="_blank"}. |
 | StageName | Naam van het vooraf ingestelde interne werkgebied. Het wordt gebruikt in bulk lading in plaats van het creëren van een nieuwe tijdelijke fase. |
 
 ## Vertica Analytics {#vertica-analytics}
 
-Gebruik Federated-databases om informatie te verwerken die is opgeslagen in een externe database. Volg de onderstaande stappen om toegang tot Vertica Analytics te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Vertica analytics te configureren.
 
-1. Selecteer **[!UICONTROL Federated databases]** in het **[!UICONTROL Federated data]** menu .
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
 1. Klik op **[!UICONTROL Add federated database]**.
 
    ![](assets/federated_database_1.png)
 
-1. Voer een in **[!UICONTROL Name]** uw Federate-database in.
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
 1. Selecteer Vertica analytics in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
@@ -253,7 +252,7 @@ Gebruik Federated-databases om informatie te verwerken die is opgeslagen in een 
 
    * **[!UICONTROL Password]**: voeg het accountwachtwoord toe.
 
-   * **[!UICONTROL Database]** (optioneel): voer de naam van uw database in als deze niet in de DSN is opgegeven.
+   * **[!UICONTROL Database]** (optioneel): voer de naam van de database in als deze niet in de DSN is opgegeven.
 
    * **[!UICONTROL Working schema]** (optioneel): voer de naam in van het databaseschema dat u wilt gebruiken voor werktabellen.
 
@@ -289,15 +288,15 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-1. Selecteer Databricks in het **[!UICONTROL Type]** keuzemenu.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Type]** de optie Databases.
 
    ![](assets/databricks-config.png)
 
-1. Configureer de Databricks-verificatie-instellingen:
+1. Vorm de de authentificatiemontages van Databases:
 
-   * **[!UICONTROL Server]**: Voeg de naam van uw Databricks-server toe.
+   * **[!UICONTROL Server]**: voeg de naam van uw gegevensbestanden toe.
 
-   * **[!UICONTROL HTTP path]**: Voeg het pad toe naar uw cluster of magazijn. [ leer meer ](https://docs.databricks.com/en/integrations/compute-details.html) {target="_blank"}
+   * **[!UICONTROL HTTP path]**: voeg de weg aan uw Cluster of Warehouse toe. [ leer meer ](https://docs.databricks.com/en/integrations/compute-details.html) {target="_blank"}
 
    * **[!UICONTROL Password]**: voeg het toegangstoken van de account toe. [ leer meer ](https://docs.databricks.com/en/dev-tools/auth/pat.html) {target="_blank"}
 
@@ -323,7 +322,7 @@ De connector ondersteunt de volgende opties:
 
 | Optie | Beschrijving |
 |---|---|
-| TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de toepassingsserver wordt gebruikt. U kunt deze optie gebruiken om de TIMEZONE-sessieparameter af te dwingen. |
+| TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de toepassingsserver wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
 
 <!--Not for October release
 

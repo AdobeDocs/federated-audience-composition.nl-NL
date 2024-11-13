@@ -1,11 +1,10 @@
 ---
 title: Startpagina Adobe Experience Platform Federal Audience Composition
 description: Federated Audience Composition add-on documentatie
-badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '230'
 ht-degree: 4%
 
 ---
@@ -30,9 +29,9 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB  stel een publiek samen]
+>[!TAB  stel een publiek ] samen
 
-Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om composities te maken en uw publiek te maken.
+Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstellingen te bouwen en uw publiek te creëren.
 
 [![afbeelding](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -54,7 +53,7 @@ Voeg en vorm activiteiten (Gesplitst, Verrijking, Vraag, enz.) toe om compositie
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong> stel een publiek </strong><br/> samen en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) om composities te maken en uw eerste gefedereerde publiek te maken.
+    <div><strong> stel een publiek </strong><br/> samen en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) om samenstellingen te bouwen en uw eerste gefedereerde publiek tot stand te brengen.
     </div>
     </td>
     <td>

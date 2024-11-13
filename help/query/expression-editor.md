@@ -2,11 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in vraagmodeler te bouwen.
-badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2056'
 ht-degree: 53%
 
 ---
