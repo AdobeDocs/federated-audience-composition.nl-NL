@@ -2,16 +2,26 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 2%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
 # Aanvullende informatie {#rn-new}
 
 [!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
+
+## Release van november 1924 {#fac-24-11}
+
+### Verbeteringen {#fac-24-11-improvements}
+
+Deze release gaat vergezeld van de onderstaande verbetering.
+
+* **IP adres lijst van gewenste personen**
+
+  Wanneer u een gefederaliseerde database toevoegt in de Adobe Experience Platform-gebruikersinterface, kunt u nu rechtstreeks de IP-adressen weergeven die zijn gekoppeld aan de instanties van de Federatieve compositie van het publiek. Dit laat u toe om deze IPs gemakkelijk te kopiëren en te machtigen om met uw gegevensbestand voor betere veiligheid en flexibiliteit te verbinden. [Meer informatie](../connections/connections.md)
 
 ## Release oktober 1924 {#fac-24-10}
 
