@@ -3,7 +3,7 @@ audience: end-user
 title: Verbindingen met gefederaliseerde databases maken en beheren
 description: Leer hoe u verbindingen met Federale databases maakt en beheert
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 2%
@@ -47,9 +47,9 @@ Ga als volgt te werk om een verbinding met uw database in te stellen:
 
    Klik IP van de lijst om het in uw systeem te kopiëren en dit IP te machtigen om met uw gegevensbestand te verbinden.
 
->[!NOTE]
->
->Om Federated Audience Composition voor een bepaald gegevensbestand te gebruiken, moet u alle IP adressen verbonden aan dat gegevensbestand lijsten van gewenste personen.
+   >[!NOTE]
+   >
+   >Om Federated Audience Composition voor een bepaald gegevensbestand te gebruiken, moet u alle IP adressen verbonden aan dat gegevensbestand lijsten van gewenste personen.
 
 1. Klik op de knop **[!UICONTROL Test connection]** en op de knop **[!UICONTROL Deploy functions]** nadat u de details hebt ingevuld.
 
