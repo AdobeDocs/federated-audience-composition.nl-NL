@@ -2,9 +2,9 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 8d498adf9f8998639e39f8f98de098682f828628
+source-git-commit: d26fa10fa7e28c1515a625e2e0b10a000aa2d7d5
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '311'
 ht-degree: 3%
 
 ---
@@ -50,7 +50,7 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 
 ## Afbeeldingen en beperkingen {#fac-guardrails}
 
-* De Federatieve Samenstelling van het Publiek is momenteel niet beschikbaar aan klanten [ die gezondheidsgegevens ](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) nemen {target="_blank"} en aan de klanten van de Privacy en van het Veiligheidsschild van Adobe Journey Optimizer. [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}.
+* De Federatieve Samenstelling van het Publiek is momenteel niet beschikbaar aan klanten [ die gezondheidsgegevens ](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) {target="_blank"}<!-- and to Adobe Journey Optimizer Privacy and Security Shield customers--> opnemen. [ leer meer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) {target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
