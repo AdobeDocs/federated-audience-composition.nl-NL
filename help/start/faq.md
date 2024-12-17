@@ -2,9 +2,9 @@
 title: Veelgestelde vragen
 description: Veelgestelde vragen over Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Hieronder volgt een lijst met veelgestelde vragen over Adobe Experience Platform
 
 +++Wat zijn de toestemmingen die worden vereist om tot de Federatieve Samenstelling van het Publiek toegang te hebben?
 
-Voor Federated Audience Composition zijn Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer Premiere- of Ultimate-pakketten vereist. U moet ook de Federated Audience Composition add-on hebben aangeschaft.
+Voor Federated Audience Composition zijn Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer Prime- of Ultimate-pakketten vereist. U moet ook de Federated Audience Composition add-on hebben aangeschaft.
 
 Als u Federated Audience Composition wilt gebruiken, moet elke gebruiker worden toegevoegd aan een specifiek profiel dat voor elke sandbox is gemaakt. Voor meer informatie, verwijs naar de ](access-prerequisites.md) pagina van de Samenstelling van het Publiek van de 1} Verbond van de Toegang.[
 
@@ -79,12 +79,26 @@ De resulterende gegevens van het Publiek blijven niet eindeloos in Adobe Experie
 
 +++Kan ik een aangepast geüpload publiek verwijderen?
 
-Nee, in de huidige versie kunt u het aangepaste geüploade publiek niet verwijderen.—>
+Nee, in de huidige versie kunt u het aangepaste geüploade publiek niet verwijderen.
 
 +++
 
 +++Als ik gegevens uit veelvoudige bronnen combineer, hoe verbinden wij ons bij de gegevens? Gebruiken we de identiteitsdienst?
 
 Nee, de identiteitsservice wordt niet gebruikt tijdens een samenstelling. De gegevens tussen de verschillende bronnen die in de compositie worden gebruikt, worden samengevoegd via door de gebruiker gedefinieerde logica (zoals uitgedrukt in het onderliggende model), bijvoorbeeld CRM-id, gebruikersaccountnummer enz. U moet de identiteit selecteren die als herkenningsteken in het publiek voor selectie in uw gegevenspakhuis wordt gebruikt. Voor een resulterend publiek van de Samenstelling van de Publiek Federated, moet u de identiteit namespace voor de identiteit in de resulterende dataset identificeren.
+
++++
+
++++Hoe worden de voorkeur van de klantentoestemming voor extern geproduceerd publiek die in de Samenstelling van het Federale Publiek wordt ingevoerd gerespecteerd?
+
+Aangezien de klantengegevens van veelvoudige kanalen worden gevangen, staat het identiteit stitching en verenigingsbeleid deze gegevens toe om in één enkel Real-Time Profiel van de Klant te worden geconsolideerd. Informatie over de voorkeuren voor toestemming van klanten wordt opgeslagen en geëvalueerd op profielniveau.
+
+Downstream Real-Time CDP- en Journey Optimizer-doelen controleren elk profiel op voorkeuren voor toestemming voordat dit wordt geactiveerd. De toestemmingsinformatie van elk profiel wordt vergeleken met de toestemmingsvereisten voor een bepaalde bestemming. Als het profiel niet aan de vereisten voldoet, wordt dat profiel niet verzonden naar een bestemming.
+
+Wanneer een extern publiek in Federated Audience Composition wordt opgenomen, wordt het in overeenstemming gebracht met bestaande profielen gebruikend een primaire identiteitskaart zoals e-mail of ECID. Als gevolg daarvan zal het bestaande beleid inzake instemming gedurende de hele activering van kracht blijven.
+
+>[!NOTE]
+>
+>Aangezien de payload-variabelen niet in het profiel maar in het datumpomeer worden opgeslagen, moet u geen informatie over de toestemming opnemen in extern gegenereerde soorten publiek. Gebruik in plaats daarvan andere Adobe Experience Platform-invoerkanalen waar profielgegevens worden geïmporteerd.
 
 +++
