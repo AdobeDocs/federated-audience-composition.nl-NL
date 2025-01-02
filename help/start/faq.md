@@ -2,9 +2,9 @@
 title: Veelgestelde vragen
 description: Veelgestelde vragen over Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -88,17 +88,18 @@ Nee, in de huidige versie kunt u het aangepaste geüploade publiek niet verwijde
 Nee, de identiteitsservice wordt niet gebruikt tijdens een samenstelling. De gegevens tussen de verschillende bronnen die in de compositie worden gebruikt, worden samengevoegd via door de gebruiker gedefinieerde logica (zoals uitgedrukt in het onderliggende model), bijvoorbeeld CRM-id, gebruikersaccountnummer enz. U moet de identiteit selecteren die als herkenningsteken in het publiek voor selectie in uw gegevenspakhuis wordt gebruikt. Voor een resulterend publiek van de Samenstelling van de Publiek Federated, moet u de identiteit namespace voor de identiteit in de resulterende dataset identificeren.
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++Hoe worden de voorkeur van de klantentoestemming voor extern geproduceerd publiek die in de Samenstelling van het Federale Publiek wordt ingevoerd gerespecteerd?
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-Aangezien de klantengegevens van veelvoudige kanalen worden gevangen, staat het identiteit stitching en verenigingsbeleid deze gegevens toe om in één enkel Real-Time Profiel van de Klant te worden geconsolideerd. Informatie over de voorkeuren voor toestemming van klanten wordt opgeslagen en geëvalueerd op profielniveau.
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-Downstream Real-Time CDP- en Journey Optimizer-doelen controleren elk profiel op voorkeuren voor toestemming voordat dit wordt geactiveerd. De toestemmingsinformatie van elk profiel wordt vergeleken met de toestemmingsvereisten voor een bepaalde bestemming. Als het profiel niet aan de vereisten voldoet, wordt dat profiel niet verzonden naar een bestemming.
-
-Wanneer een extern publiek in Federated Audience Composition wordt opgenomen, wordt het in overeenstemming gebracht met bestaande profielen gebruikend een primaire identiteitskaart zoals e-mail of ECID. Als gevolg daarvan zal het bestaande beleid inzake instemming gedurende de hele activering van kracht blijven.
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->Aangezien de payload-variabelen niet in het profiel maar in het datumpomeer worden opgeslagen, moet u geen informatie over de toestemming opnemen in extern gegenereerde soorten publiek. Gebruik in plaats daarvan andere Adobe Experience Platform-invoerkanalen waar profielgegevens worden geïmporteerd.
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
