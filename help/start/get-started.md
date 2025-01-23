@@ -2,9 +2,9 @@
 title: Aan de slag met Experience Platform Federated Audience Composition
 description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '946'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 De federatieve Samenstelling van het Publiek is een toe:voegen-op vermogen voor [ Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} dat u toestaat om publiek van uw derdegegevenspakhuizen te bouwen en te verrijken en het publiek in Adobe Experience Platform in te voeren. De Federatieve Samenstelling van het Publiek brengt een gemakkelijke en krachtige oplossing om uw entrepot van ondernemingsgegevens direct binnen Adobe Real-time Customer Data Platform en/of Adobe Journey Optimizer te verbinden, en vragen op de lijsten van uw gegevenspakhuis uit te voeren.
 
 Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag, zoals Amazon Redshift, Azure synapse Analytics en meer. De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie. De gesteunde platforms zijn vermeld in [ deze pagina ](../connections/federated-db.md#supported-db).
+
+>[!INFO]
+>
+>Volg deze [ stap voor stap gids ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) om te leren hoe te om publiek tot stand te brengen gebruikend de Federale Samenstelling van het Publiek.
 
 ## Mogelijkheden {#rn-capabilities}
 
