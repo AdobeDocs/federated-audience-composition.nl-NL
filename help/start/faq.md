@@ -2,9 +2,9 @@
 title: Veelgestelde vragen
 description: Veelgestelde vragen over Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ De resulterende gegevens van het Publiek blijven niet eindeloos in Adobe Experie
 
 +++
 
-+++Kan ik een aangepast geüpload publiek verwijderen?
++++Kan ik een publiek verwijderen?
 
-Nee, in de huidige versie kunt u het aangepaste geüploade publiek niet verwijderen.
+Nee, in de huidige versie kunt u geen publiek met een federatieve doelgroep verwijderen.
 
 +++
 
