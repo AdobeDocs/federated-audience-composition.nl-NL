@@ -2,10 +2,10 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 3%
+source-wordcount: '257'
+ht-degree: 5%
 
 ---
 
@@ -36,9 +36,7 @@ Wanneer u de add-on Federatieve Audience Composition aanschaft, hebt u recht op 
 
 ## Machtigingen {#permissions}
 
-Wanneer u de add-on Federated Audience Composition aanschaft, wordt voor elke actieve sandbox op dat moment een productprofiel gemaakt. Dit productprofiel wordt gecreeerd in de Admin Console onder **Adobe Experience Platform** productkaart en volgt deze noemende overeenkomst: `ACP_FAC - <<SandboxName>> - admin.` om tot de Federatieve Samenstelling van de Publiek voor een specifieke zandbak toegang te hebben, moeten de gebruikers aan het productprofiel worden toegevoegd dat voor die zandbak wordt gecreeerd.
-
-Als bijvoorbeeld een nieuwe sandbox met de naam &quot;fac-test&quot; wordt geactiveerd, wordt een overeenkomstig productprofiel &quot;ACP_FAC - fac-test - admin&quot; gemaakt. Gebruikers moeten aan dit productprofiel worden toegevoegd om Federated Audience Composition met deze sandbox te kunnen benaderen.
+Als u Federated Audience Composition wilt openen, moeten gebruikers worden toegevoegd aan het sandbox-specifieke productprofiel dat bij de aankoop wordt gemaakt en moet aan hen de machtiging **[!UICONTROL Manage Federated Data]** worden toegewezen. [Meer informatie](feature-access.md)
 
 ## IP-aanbieding toestaan {#ip}
 

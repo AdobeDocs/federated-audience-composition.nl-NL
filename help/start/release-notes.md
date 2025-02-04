@@ -2,16 +2,23 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
+source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '555'
+ht-degree: 2%
 
 ---
 
 # Aanvullende informatie {#rn-new}
 
 [!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
+
+
+## Bijwerken februari &#39;25 {#fac-25-01}
+
+Beginnend de versie van Februari, [!DNL Federated Audience Composition] is toegankelijk slechts aan gebruikers die **zijn verleend beheert Federale Gegevens** toestemming.
+Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [ gedetailleerde documentatie ](feature-access.md).
+
 
 ## Release van november 1924 {#fac-24-11}
 
