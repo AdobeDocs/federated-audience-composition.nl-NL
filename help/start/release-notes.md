@@ -2,9 +2,9 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
+source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '588'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 2%
 
 ## Bijwerken februari &#39;25 {#fac-25-01}
 
-Beginnend de versie van Februari, [!DNL Federated Audience Composition] is toegankelijk slechts aan gebruikers die **zijn verleend beheert Federale Gegevens** toestemming.
-Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [ gedetailleerde documentatie ](feature-access.md).
+Beginnend de versie van februari, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die **wordt verleend leidt Federatieve Gegevens** toestemming.
 
+We raden gebruikers aan contact op te nemen met de beheerders om deze machtiging aan hun rol toe te voegen en de gebruikersinterface van [!DNL Federated Audience Composition] te blijven gebruiken.
+
+Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [ gedetailleerde documentatie ](feature-access.md).
 
 ## Release van november 1924 {#fac-24-11}
 
