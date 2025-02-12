@@ -1,7 +1,8 @@
 ---
 title: Access Federal Audience Composition
 description: Meer informatie over de vereiste machtigingen voor Federated Audience Composition
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 ## Toegang tot sandboxen beheren {#access-sandboxes}
 
-Wanneer u de add-on Federated Audience Composition aanschaft, wordt voor elke actieve sandbox op dat moment een productprofiel gemaakt. Dit productprofiel wordt gecreeerd in de Admin Console onder **Adobe Experience Platform** productkaart en volgt deze noemende overeenkomst: `ACP_FAC - <<SandboxName>> - admin.` om tot de Federatieve Samenstelling van de Publiek voor een specifieke zandbak toegang te hebben, moeten de gebruikers aan het productprofiel worden toegevoegd dat voor die zandbak wordt gecreeerd.
+Wanneer u de add-on Federated Audience Composition aanschaft, wordt voor elke actieve sandbox op dat moment een productprofiel gemaakt. Dit productprofiel wordt gecreeerd in Admin Console onder **Adobe Experience Platform** productkaart en volgt deze noemende overeenkomst: `ACP_FAC - <<SandboxName>> - admin.` om tot de Federatieve Samenstelling van de Publiek voor een specifieke zandbak toegang te hebben, moeten de gebruikers aan het productprofiel worden toegevoegd dat voor die zandbak wordt gecreeerd.
 
 Als bijvoorbeeld een nieuwe sandbox met de naam &quot;fac-test&quot; wordt geactiveerd, wordt een overeenkomstig productprofiel &quot;ACP_FAC - fac-test - admin&quot; gemaakt. Gebruikers moeten aan dit productprofiel worden toegevoegd om Federated Audience Composition met deze sandbox te kunnen benaderen.
 
@@ -20,7 +21,7 @@ Als bijvoorbeeld een nieuwe sandbox met de naam &quot;fac-test&quot; wordt geact
 
 >[!AVAILABILITY]
 >
->Machtigingen zijn beschikbaar als onderdeel van de release van februari.
+>Machtigingen zijn beschikbaar als onderdeel van de release van maart.
 
 Om tot **Federated de Samenstelling van het Publiek** toegang te hebben, moet u eerst ervoor zorgen dat **Federatieve Gegevens** toestemming beheert aan de aangewezen rollen wordt toegewezen. Deze rollen moeten dan aan gebruikers worden toegewezen die toegang tot **Federated de Samenstelling van het Publiek** nodig hebben.
 
@@ -53,5 +54,3 @@ Deze rol toewijzen aan nieuwe gebruikers:
 1. Voer de naam of het e-mailadres van de gebruiker in of selecteer een van de beschikbare lijsten. Klik op **[!UICONTROL Save]** als u klaar bent.
 
 De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
-
-
