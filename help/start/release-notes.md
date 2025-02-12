@@ -2,7 +2,7 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
+source-git-commit: 81ac7595196aeff30f1d09d66779ca4392f7bb19
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ## Bijwerken februari &#39;25 {#fac-25-01}
 
-Beginnend de versie van februari, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die **wordt verleend leidt Federatieve Gegevens** toestemming.
+Beginnende Maart versie, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die de **hebben gekregen leiden Federatieve Gegevens** toestemming.
 
 We raden gebruikers aan contact op te nemen met de beheerders om deze machtiging aan hun rol toe te voegen en de gebruikersinterface van [!DNL Federated Audience Composition] te blijven gebruiken.
 
@@ -49,7 +49,7 @@ Met deze nieuwe release is Federated Audience Composition nu compatibel met de h
 
 * **Steun voor veilige toegang tot Snowflake door AWS PrivateLink**
 
-  De veilige toegang tot uw extern gegevenspakhuis van de Snowflake door privé verbinding wordt nu gesteund. Uw Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van uw Federated Audience Composition. Neem contact op met uw Adobe voor hulp bij het instellen van een veilige toegang tot uw Snowflake-account. [Meer informatie](../connections/federated-db.md#snowflake)
+  Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt nu ondersteund. Je Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van je Federated Audience Composition. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account. [Meer informatie](../connections/federated-db.md#snowflake)
 
 * **Amazon Redshift Serverless steun**
 
@@ -69,7 +69,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 ## Release van 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-Federated Audience Composition is een add-on mogelijkheid waarmee bedrijven flexibele en uitgebreide toegang krijgen tot datacenters van bedrijven om een publiek samen te stellen met behulp van kritische bedrijfsgegevenssets en ervaringen op het gebied van energiemerken en actuele ervaringen. Met deze nieuwe benadering, als [ Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
+Federated Audience Composition is een add-on mogelijkheid waarmee bedrijven flexibele en uitgebreide toegang krijgen tot datacenters van bedrijven om een publiek samen te stellen met behulp van kritische bedrijfsgegevenssets en ervaringen op het gebied van energiemerken en actuele ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
 Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen. 
 
