@@ -1,11 +1,11 @@
 ---
-user-guide-title: Experience Platform-Federatieve Audience Composition
+user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
-breadcrumb-title: Experience Platform-Federatieve Audience Composition
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+breadcrumb-title: Experience Platform Federated Audience Composition
+source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 12%
+source-wordcount: '154'
+ht-degree: 11%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 12%
    + [Configureer uw gefedereerde databases](connections/federated-db.md)
    + Gegevensmodellen en schema&#39;s {#datamodel}
       + [Schema&#39;s maken en configureren](customer/schemas.md)
+      + [Uw gegevensmodellen configureren (bèta)](data-management/gs-models-beta.md)
       + [Uw gegevensmodellen configureren](data-management/gs-models.md)
    + [Het Adobe Experience Platform-publiek verrijken met externe gegevens](connections/destinations.md)
 + Soorten publiek samenstellen {#compositions}
