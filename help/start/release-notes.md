@@ -2,7 +2,7 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Deze release wordt geleverd met de onderstaande wijzigingen.
 
-* **de steun van de Verbindingen van Microsoft**
+* **de Steun van de Stof van Microsoft**
 
   U kunt nu verbindingen met Microsoft Fabric-databases tot stand brengen via Federated Audience Composition. [Meer informatie](../connections/federated-db.md)
 

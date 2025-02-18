@@ -3,9 +3,9 @@ audience: end-user
 title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -331,9 +331,6 @@ De connector ondersteunt de volgende opties:
 
 ## Microsoft Fabric {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid).
 
 Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Microsoft Fabric te configureren.
 
