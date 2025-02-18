@@ -3,9 +3,9 @@ audience: end-user
 title: Verbindingen met gefederaliseerde databases maken en beheren
 description: Leer hoe u verbindingen met Federale databases maakt en beheert
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,12 @@ Ga als volgt te werk om een verbinding met uw database in te stellen:
    De configuratie-instellingen zijn afhankelijk van het type database. Blader hieronder naar de koppelingen voor toegang tot de gegevens die u nodig hebt om de verbinding in te stellen:
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
-   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Databricks](federated-db.md#databricks)
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. Selecteer voor elke ondersteunde database de knop **[!UICONTROL Server IP]** . De lijst van alle IPs verbonden aan uw Federated de instanties van de Samenstelling van de Publiek tonen.
 

@@ -2,9 +2,9 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
+source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -12,6 +12,36 @@ ht-degree: 3%
 # Aanvullende informatie {#rn-new}
 
 [!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
+
+## Release van februari &#39;25 {#fac-25-2}
+
+Deze release wordt geleverd met de onderstaande wijzigingen.
+
+* **de steun van de Verbindingen van Microsoft**
+
+  U kunt nu verbindingen met Microsoft Fabric-databases tot stand brengen via Federated Audience Composition. [Meer informatie](../connections/federated-db.md)
+
+* **Amazon Redshift de steun van het Spectrum**
+
+  Amazon Redshift-spectrum wordt nu ondersteund voor Amazon Redshift-databaseverbindingen. [Meer informatie](../connections/federated-db.md#amazon-redshift)
+
+* **Verbeterde Ervaring van de Aanmaak van het Schema**
+
+  Het proces voor het maken van schema&#39;s is verbeterd via een bijgewerkte gebruikersinterface die intuïtiever en eenvoudiger te navigeren is. Deze verbeteringen bieden gegevensgebruikers een vloeiender en efficiëntere manier om gegevensmodellen te ontwikkelen. [Meer informatie](../customer/schemas.md)
+
+* **Steun van de Verrijking van de Publiek voor Gegevensbestanden**
+
+  U kunt Gegevensbestanden in de Gelezen stroom van het Publiek nu gebruiken, toelatend activiteit voor gegevensbestanden Databricks en toestaand het om als nieuwe bestemming worden opgesteld. [Meer informatie](../connections/destinations.md)
+
+<!--
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+-->
 
 ## Release van november 1924 {#fac-24-11}
 

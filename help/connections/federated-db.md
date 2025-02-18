@@ -3,9 +3,9 @@ audience: end-user
 title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1914'
 ht-degree: 1%
 
 ---
@@ -36,17 +36,18 @@ Leer hoe te om, de verbinding aan uw extern gegevensbestand in [ te creëren te 
 Met Federated Audience Composition kunt u verbinding maken met de volgende databases. De configuratie voor elke database wordt hieronder beschreven.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure synapse Analytics](#azure-synapse)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Alleen Amazon Redshift en Amazon Redshift Serverless worden ondersteund.
+>Alleen Amazon Redshift AWS, Amazon Redshift Spectrum en Amazon Redshift Serverless worden ondersteund.
 
 Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Amazon Redshift te configureren.
 
@@ -86,9 +87,9 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
 
-## Azure synapse Analytics {#azure-synapse}
+## Azure Synapse Analytics {#azure-synapse}
 
-Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure synapse Analytics te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Azure Synapse Analytics te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -98,13 +99,13 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Type]** de optie Azure synapse Analytics.
+1. Selecteer Azure Synapse Analytics in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
    ![](assets/federated_database_4.png)
 
-1. Configureer de verificatie-instellingen voor Azure synapse Analytics:
+1. Configureer de Azure Synapse Analytics-verificatie-instellingen:
 
-   * **[!UICONTROL Server]**: voer de URL van de Azure synapse server in.
+   * **[!UICONTROL Server]**: voer de URL van de Azure Synapse-server in.
 
    * **[!UICONTROL Account]**: voer de gebruikersnaam in.
 
@@ -174,7 +175,7 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 >[!NOTE]
 >
->De veilige toegang tot uw extern gegevenspakhuis van de Snowflake door privé verbinding wordt gesteund. Uw Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van uw Federated Audience Composition. Neem contact op met uw Adobe voor hulp bij het instellen van een veilige toegang tot uw Snowflake-account.
+>Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt ondersteund. Je Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van je Federated Audience Composition. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account.
 >
 
 Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Snowflake te configureren.
@@ -191,7 +192,7 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
    ![](assets/federated_database_2.png)
 
-1. Configureer de instellingen voor Snowflake-verificatie:
+1. Configureer de Snowflake-verificatie-instellingen:
 
    * **[!UICONTROL Server]**: voer uw servernaam in.
 
@@ -227,14 +228,14 @@ De connector ondersteunt de volgende opties:
 | entrepot | Naam van het standaardentrepot aan gebruik. De standaardinstelling van de gebruiker wordt hierdoor genegeerd. |
 | TimeZoneName | Standaard leeg, wat betekent dat de toepassingenserver van de systeemtijdzone wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone) {target="_blank"}. |
 | WeekStart | WEEK_START, sessieparameter. Standaard ingesteld op 0. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start) {target="_blank"}. |
-| UseCachedResult | USE_CACHED_RESULTS sessieparameter. Standaard ingesteld op TRUE. Deze optie kan worden gebruikt om Snowflake caching resultaten onbruikbaar te maken. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html) {target="_blank"}. |
-| bulkThreads | Het aantal draden dat moet worden gebruikt voor bulksgewijs laden van Snowflaken, meer threads betekenen betere prestaties voor grotere bulkladingen. Standaard ingesteld op 1. Het aantal kan, afhankelijk van het aantal van de machindraad worden aangepast. |
-| chunkSize | Hiermee bepaalt u de bestandsgrootte van het segment voor bulksloader. Standaard ingesteld op 128 MB. Kan worden aangepast voor een betere prestatie, wanneer gebruikt met bulkThreads. Meer tegelijkertijd actieve threads betekenen betere prestaties. <br> voor meer op dit, verwijs naar [ documentatie van de Snowflake ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html) {target="_blank"}. |
+| UseCachedResult | USE_CACHED_RESULTS sessieparameter. Standaard ingesteld op TRUE. U kunt deze optie gebruiken om Snowflake-resultaten in cache uit te schakelen. <br> voor meer op dit, verwijs naar [ deze pagina ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html) {target="_blank"}. |
+| bulkThreads | Het aantal threads dat moet worden gebruikt voor Snowflake bulksgewijs loader: meer threads betekenen betere prestaties voor grotere bulkladingen. Standaard ingesteld op 1. Het aantal kan, afhankelijk van het aantal van de machindraad worden aangepast. |
+| chunkSize | Hiermee bepaalt u de bestandsgrootte van het segment voor bulksloader. Standaard ingesteld op 128 MB. Kan worden aangepast voor een betere prestatie, wanneer gebruikt met bulkThreads. Meer tegelijkertijd actieve threads betekenen betere prestaties. <br> voor meer op dit, verwijs naar [ documentatie van Snowflake ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html) {target="_blank"}. |
 | StageName | Naam van het vooraf ingestelde interne werkgebied. Het wordt gebruikt in bulk lading in plaats van het creëren van een nieuwe tijdelijke fase. |
 
 ## Vertica Analytics {#vertica-analytics}
 
-Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Vertica analytics te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Vertica Analytics te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -244,11 +245,11 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-1. Selecteer Vertica analytics in de vervolgkeuzelijst **[!UICONTROL Type]** .
+1. Selecteer Vertica Analytics in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
    ![](assets/federated_database_5.png)
 
-1. Configureer de instellingen voor Vertica analytics-verificatie:
+1. Configureer de Vertica Analytics-verificatie-instellingen:
 
    * **[!UICONTROL Server]**: voeg de URL van de [!DNL Vertica Analytics] -server toe.
 
@@ -328,45 +329,45 @@ De connector ondersteunt de volgende opties:
 |---|---|
 | TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de toepassingsserver wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+>Microsoft Fabric is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid).
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Microsoft Fabric te configureren.
 
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
-1. Click **[!UICONTROL Add federated database]**.
+1. Klik op **[!UICONTROL Add federated database]**.
 
-    ![](assets/federated_database_1.png)
+   ![](assets/federated_database_1.png)
 
-1. Enter a **[!UICONTROL Name]** to your Federate database.
+1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+1. Selecteer Microsoft Fabric in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
-    ![](assets/microsoft-config.png)
+   ![](assets/microsoft-config.png)
 
-1. Configure the Microsoft Fabric authentication settings:
+1. Configureer de Microsoft Fabric-verificatie-instellingen:
 
-    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+   * **[!UICONTROL Server]**: voer de URL van de Microsoft Fabric-server in.
 
-    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+   * **[!UICONTROL Application ID]**: voer uw Microsoft Fabric-toepassings-id in.
 
-    * **[!UICONTROL Client secret]**: Enter your Client secret.
+   * **[!UICONTROL Client secret]**: voer uw clientgeheim in.
 
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+   * **[!UICONTROL Options]**: De connector ondersteunt de opties die in de onderstaande tabel worden beschreven.
 
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+1. Klik op **[!UICONTROL Server IPs]** om de server-IP&#39;s te selecteren die u wilt autoriseren.
 
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+1. Selecteer de optie **[!UICONTROL Test the connection]** om uw configuratie te verifiëren.
 
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+1. Klik op de knop **[!UICONTROL Deploy functions]** om de functies te maken.
 
-| Option   |  Description |
+1. Zodra uw configuratie wordt gedaan, klik **[!UICONTROL Add]** om uw Federale gegevensbestand tot stand te brengen.
+
+| Optie | Beschrijving |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+| Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL documentatie van Microsoft ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) {target="_blank"} (de verbindingskoorden van het Voorbeeld n°8) |
+
