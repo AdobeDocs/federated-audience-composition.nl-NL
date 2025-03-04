@@ -1,11 +1,11 @@
 ---
 title: Startpagina Adobe Experience Platform Federal Audience Composition
-description: Federated Audience Composition add-on documentatie
+description: Federale documentatie van Audience Composition
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 10705adefc4bf195ab67b36533265c9e3228e188
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '229'
+ht-degree: 4%
 
 ---
 
@@ -71,4 +71,4 @@ Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstelli
 
 ## Aanvullende bronnen  {#additional-resources}
 
-[ de Documentatie van Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) {target="_blank"} - [ Poortdocumentatie van het Poort van het publiek van de Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard) {target="_blank"} - [ Tutorials ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition) {target="_blank"}
+[ de Documentatie van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) {target="_blank"} - [ Poortdocumentatie van het Poort van het publiek van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard) {target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition) {target="_blank"}

@@ -1,19 +1,19 @@
 ---
 title: Aan de slag met Experience Platform Federated Audience Composition
-description: Leer wat Adobe Federated Audience Composition is en hoe u deze in Adobe Experience Platform kunt gebruiken
+description: Meer informatie over Adobe Federated Audience Composition en hoe u deze in Adobe Experience Platform kunt gebruiken
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '945'
 ht-degree: 3%
 
 ---
 
 # Aan de slag met Federatieve Audience Composition {#gs-fac}
 
-De federatieve Samenstelling van het Publiek is een toe:voegen-op vermogen voor [ Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} dat u toestaat om publiek van uw derdegegevenspakhuizen te bouwen en te verrijken en het publiek in Adobe Experience Platform in te voeren. De Federatieve Samenstelling van het Publiek brengt een gemakkelijke en krachtige oplossing om uw entrepot van ondernemingsgegevens direct binnen Adobe Real-time Customer Data Platform en/of Adobe Journey Optimizer te verbinden, en vragen op de lijsten van uw gegevenspakhuis uit te voeren.
+De Federatieve Samenstelling van het Publiek is beschikbaar voor [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} milieu&#39;s. Zo kunt u een publiek opbouwen en verrijken vanuit uw externe gegevensopslagruimten en het publiek importeren in Adobe Experience Platform. De Federatieve Samenstelling van het Publiek brengt een gemakkelijke en krachtige oplossing om uw entrepot van ondernemingsgegevens direct binnen Adobe Real-Time Customer Data Platform en/of Adobe Journey Optimizer te verbinden, en vragen op de lijsten van uw gegevenspakhuis uit te voeren.
 
-Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag, zoals Amazon Redshift, Azure synapse Analytics en meer. De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie. De gesteunde platforms zijn vermeld in [ deze pagina ](../connections/federated-db.md#supported-db).
+Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag, zoals Amazon Redshift, Azure Synapse Analytics en meer. De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie. De gesteunde platforms zijn vermeld in [ deze pagina ](../connections/federated-db.md#supported-db).
 
 >[!INFO]
 >
@@ -61,7 +61,7 @@ Belangrijkste stappen:
 
 >[!NOTE]
 >
->Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in Adobe het Platform van Gegevens van de Klant in real time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
+>Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
 
 ## Meer informatie {#learn}
 
@@ -138,8 +138,8 @@ Zie ook vaak gestelde vragen in [ deze pagina ](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Profiel AEP-schemalijst opslaan"
->abstract="Profiel AEP-schemalijst opslaan"
+>title="Profiel AEP-schema opslaan"
+>abstract="Profiel AEP-schema opslaan"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"

@@ -2,27 +2,27 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '256'
 ht-degree: 5%
 
 ---
 
 # Vereisten en geleiders {#fac-access}
 
-De federated Samenstelling van het Publiek vereist Adobe Real-time Customer Data Platform en/of Adobe Journey Optimizer **Prime** of **Ultimate** pakketten. Om toegang te krijgen tot deze mogelijkheid, moet u de add-on van de Samenstelling van de Federatieve Publiek hebben gekocht.
+De federated Samenstelling van het Publiek vereist Adobe Real-Time Customer Data Platform en/of Adobe Journey Optimizer **Prime** of **Ultimate** pakketten. Om toegang te krijgen tot deze mogelijkheid, moet u de add-on van de Samenstelling van de Federatieve Publiek hebben gekocht.
 
 >[!AVAILABILITY]
 >
->Nadat u het welkomstbericht via e-mail van de Adobe hebt ontvangen, kan het nog een paar uur duren voordat de interface wordt bijgewerkt en de functies die voor u beschikbaar zijn.
+>Nadat u het welkomstbericht van Adobe hebt ontvangen, kan het nog een paar uur duren voordat de interface is bijgewerkt en er functies beschikbaar zijn voor u.
 
 ## Ondersteunde systemen {#supported-systems}
 
 De Federatieve Samenstelling van de Publiek steunt de volgende wolkenpakhuizen:
 
 * Amazon Redshift
-* Azure synapse
+* Azure Synapse
 * Databricks
 * Google Big Query
 * Snowflake
@@ -32,7 +32,7 @@ Leer hoe te om een verbinding met deze systemen in [ tot stand te brengen deze p
 
 ## Sandboxes
 
-Wanneer u de add-on Federatieve Audience Composition aanschaft, hebt u recht op twee sandboxen. Neem contact op met uw Adobe voor aanvullende sandboxinrichtingsverzoeken.
+Wanneer u Federated Audience Composition aanschaft, hebt u recht op twee sandboxen. Neem contact op met uw Adobe-vertegenwoordiger voor aanvullende aanvragen voor sandboxprovisioning.
 
 ## Machtigingen {#permissions}
 
@@ -51,4 +51,4 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) worden vermeld {target="_blank"} zijn op dit toe:voegen-op van toepassing.
+* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) worden vermeld {target="_blank"} zijn op de Federatieve Samenstelling van het Publiek van toepassing.

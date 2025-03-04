@@ -2,9 +2,9 @@
 title: Veelgestelde vragen
 description: Veelgestelde vragen over Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Hieronder volgt een lijst met veelgestelde vragen over Adobe Experience Platform
 
 +++Wat zijn de toestemmingen die worden vereist om tot de Federatieve Samenstelling van het Publiek toegang te hebben?
 
-Voor Federated Audience Composition zijn Adobe Real-time Customer Data Platform- en Adobe Journey Optimizer Prime- of Ultimate-pakketten vereist. U moet ook de Federated Audience Composition add-on hebben aangeschaft.
+Voor Federated Audience Composition zijn Adobe Real-Time Customer Data Platform- en Adobe Journey Optimizer Prime- of Ultimate-pakketten vereist. U moet ook Federated Audience Composition hebben aangeschaft.
 
 Als u Federated Audience Composition wilt gebruiken, moet elke gebruiker worden toegevoegd aan een specifiek profiel dat voor elke sandbox is gemaakt. Voor meer informatie, verwijs naar de ](access-prerequisites.md) pagina van de Samenstelling van het Publiek van de 1} Verbond van de Toegang.[
 
