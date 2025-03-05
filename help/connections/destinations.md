@@ -3,9 +3,9 @@ audience: end-user
 title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
 description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ De belangrijkste stappen om Adobe Experience Platform-publiek naar Adobe Federat
    * Snowflake
    * Vertica Analytics
    * Databricks
+   * Microsoft Fabric
 
 1. Selecteer **[!UICONTROL Federated database]** waarmee u verbinding wilt maken en klik op **[!UICONTROL Next]** .
 
