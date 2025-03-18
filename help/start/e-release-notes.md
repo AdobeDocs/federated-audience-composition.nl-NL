@@ -3,9 +3,9 @@ title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 3%
 
 ## Release van maart 1925 {#fac-25-3}
 
-Deze release gaat vergezeld van de onderstaande verbetering.
+### Verbeteringen {#fac-25-3-improvements}
+
+Deze release bevat de onderstaande verbeteringen.
 
 * {de toestemmingen van de Samenstelling van het 0} Federatieve publiek ****
 
@@ -34,7 +36,7 @@ Deze release gaat vergezeld van de onderstaande verbetering.
 
   Federated Audience Composition ondersteunt nu de export van grote doelgroepen, waarbij bestanden tot 20 GB kunnen worden verwerkt.
 
-### Compatibiliteit {#fac-25.3-compat}
+### Compatibiliteit {#fac-25-3-compat}
 
 * **Verbinding van Gegevensbestanden**
 
