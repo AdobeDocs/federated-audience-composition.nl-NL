@@ -3,9 +3,10 @@ title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '844'
 ht-degree: 3%
 
 ---
@@ -28,13 +29,11 @@ Deze release bevat de onderstaande verbeteringen.
 
   Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [ gedetailleerde documentatie ](feature-access.md).
 
-* **de mening van het ModelCanvas van Gegevens**
+<!--
+* **Data model Canvas view**
 
-  De mening van het Canvas voor de sectie van de Modellen van Gegevens verbetert de ervaring door de visualisatie van gegevensmodellen en hun verbindingen in een canvaslay-out, naast de bestaande tabelmening toe te laten. [Meer informatie](../data-management/gs-models.md)
-
-* **de uitvoer van het publiek**
-
-  Federated Audience Composition ondersteunt nu de export van grote doelgroepen, waarbij bestanden tot 20 GB kunnen worden verwerkt.
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **AI Medewerker**
 
@@ -45,7 +44,7 @@ Deze release bevat de onderstaande verbeteringen.
 * **Verbinding van Gegevensbestanden**
 
   Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek nu privé verbindingsconnectiviteit voor Databricks gegevensbestandverbindingen.
-Het maakt ook veilige verbindingen mogelijk met databases die worden gehost op Amazon Web Services (AWS) en Azure. [Meer informatie](../connections/federated-db.md#databricks)
+Het maakt ook veilige verbindingen mogelijk met Databricks-databases die worden gehost op Amazon Web Services (AWS) en Microsoft Azure. [Meer informatie](../connections/federated-db.md#databricks)
 
 * **Steun voor B2B CDP Klanten**
 
@@ -53,7 +52,7 @@ Het maakt ook veilige verbindingen mogelijk met databases die worden gehost op A
 
 * **veilige verbinding van Snowflake**
 
-  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor beveiligde privékoppelingsverbindingen met Snowflake-databases die worden gehost op Azure. [Meer informatie](../connections/federated-db.md#snowflake)
+  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige verbindingen met privékoppelingen naar Snowflake-databases die worden gehost op Microsoft Azure. [Meer informatie](../connections/federated-db.md#snowflake)
 
 ## Release van februari &#39;25 {#fac-25-2}
 
@@ -129,5 +128,3 @@ Federated Audience Composition richt zich op de groeiende vraag naar markten voo
 Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek in [ deze pagina ](get-started.md) en in [ Veelgestelde Vragen ](faq.md).
 
 De gedetailleerde informatie over de eerste vereisten om tot Verbond van de Samenstellingen van het Publiek en de huidige guardrails toegang te hebben, verwijst naar [ deze pagina ](access-prerequisites.md).
-
-
