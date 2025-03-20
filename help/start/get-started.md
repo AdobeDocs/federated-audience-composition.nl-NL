@@ -2,9 +2,9 @@
 title: Aan de slag met Experience Platform Federated Audience Composition
 description: Meer informatie over Adobe Federated Audience Composition en hoe u deze in Adobe Experience Platform kunt gebruiken
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -132,11 +132,6 @@ Zie ook vaak gestelde vragen in [ deze pagina ](faq.md).
 >abstract="Profiel opslaan"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Profiel selecteren AEP-schema opslaan"
->abstract="Profiel selecteren AEP-schema opslaan"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Profiel AEP-schema opslaan"
 >abstract="Profiel AEP-schema opslaan"
@@ -147,6 +142,16 @@ Zie ook vaak gestelde vragen in [ deze pagina ](faq.md).
 >abstract="Profiel AEP-schemakenmerk opslaan"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Veld profiel selecteren primaire identificatie opslaan"
->abstract="Veld profiel selecteren primaire identificatie opslaan"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="Veld voor primaire identificatie selecteren"
+>abstract="Veld voor primaire identificatie voor profielen."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP-gegevensset"
+>abstract="Selecteer de AEP-gegevensset die u wilt gebruiken voor profielen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Profiel selecteren AEP-schema opslaan"
+>abstract="Selecteer het AEP-schema dat u wilt gebruiken voor profielen."
