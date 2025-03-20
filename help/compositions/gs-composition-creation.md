@@ -15,11 +15,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Compositie-eigenschappen"
->abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de compositie te maken en geef een label op. Vouw de sectie EXTRA OPTIONS uit om meer instellingen te configureren, zoals de interne naam van de compositie, de map, de tijdzone en de supervisorgroep. Het wordt hoogst geadviseerd om een supervisorgroep te selecteren zodat de exploitanten worden gealarmeerd als een fout voorkomt."
+>abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de compositie te maken en geef een label op. Vouw de sectie ADDITIONAL OPTIONS uit om meer instellingen te configureren, zoals de interne naam van de compositie, de map, de tijdzone en de supervisorgroep. Het wordt hoogst geadviseerd om een supervisorgroep te selecteren zodat de exploitanten worden gealarmeerd als een fout voorkomt."
 
 ## Wat zit er in een compositie {#gs-composition-inside}
 
-Experience Platform Federated Audience Composition biedt een visueel canvas dat u in staat stelt een publiek te maken door verschillende activiteiten (splitsen, verrijken, enz.) te benutten.
+Experience Platform Federated Audience Composition biedt een visueel canvas dat u in staat stelt een publiek te maken door gebruik te maken van verschillende activiteiten (splitsen, verrijken, enz.).
 
 Het compositiediagram is een weergave van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
