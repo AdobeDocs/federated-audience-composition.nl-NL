@@ -2,9 +2,9 @@
 title: Veelgestelde vragen
 description: Veelgestelde vragen over Adobe Experience Platform Federated Audience Composition
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,18 @@ Nee, in de huidige versie kunt u geen publiek met een federatieve doelgroep verw
 Nee, de identiteitsservice wordt niet gebruikt tijdens een samenstelling. De gegevens tussen de verschillende bronnen die in de compositie worden gebruikt, worden samengevoegd via door de gebruiker gedefinieerde logica (zoals uitgedrukt in het onderliggende model), bijvoorbeeld CRM-id, gebruikersaccountnummer enz. U moet de identiteit selecteren die als herkenningsteken in het publiek voor selectie in uw gegevenspakhuis wordt gebruikt. Voor een resulterend publiek van de Samenstelling van de Publiek Federated, moet u de identiteit namespace voor de identiteit in de resulterende dataset identificeren.
 
 +++
+
++++Hoe te om privacyverzoeken met de Samenstelling van het Federale Publiek tot stand te brengen en te beheren?
+
+U kunt individuele verzoeken om toegang tot en verwijdering van klantgegevens uit de Adobe Federated Audience Composition op twee manieren verzenden:
+
+* Door Adobe Experience Platform **UI van Privacy Service**. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) {target="_blank"}
+* Door Adobe Experience Platform **Privacy Service API**. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview) {target="_blank"}
+
+Alle stappen om **toegangsverzoeken** tot stand te brengen en te beheren en **verzoeken** schrappen zijn gedetailleerd in de [ documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) {target="_blank"}.
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 

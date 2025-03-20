@@ -3,9 +3,9 @@ audience: end-user
 title: Audit trail
 description: Leer hoe acties en gebeurtenissen zijn geregistreerd en toegankelijk in het audittrail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '324'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,7 @@ ht-degree: 3%
 >title="Audit trail"
 >abstract="De audittrailcapaciteit verstrekt een gedetailleerd en chronologisch verslag van alle acties en gebeurtenissen die aan uw milieu van de Samenstelling van het Publiek van Adobe Experience Platform Federated in real time zijn gemaakt."
 
-De mogelijkheden van het audittrail verstrekken een gedetailleerd en chronologisch verslag van alle acties en gebeurtenissen die aan uw milieu in real time zijn gemaakt
-
-De eigenschap **[!UICONTROL Audit trail]** registreert constant een gedetailleerd logboek van acties en gebeurtenissen die binnen de instantie van de Samenstelling van de Adobe Federated in real time plaatsvinden. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
+De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logboek op van acties en gebeurtenissen die in real-time plaatsvinden in de instantie van de Adobe Federated Composition. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
 
 +++ Meer informatie over beschikbare entiteiten van het audittrail
 
@@ -40,7 +38,7 @@ De eigenschap **[!UICONTROL Audit trail]** registreert constant een gedetailleer
 
   Voor meer informatie over werkschema&#39;s, verwijs naar deze [ pagina ](../compositions/gs-compositions.md).
 
-* **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in de instantie van de Samenstelling van het publiek van de Adobe worden aangebracht.
+* **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in de instantie van de Samenstelling van het publiek van Adobe worden aangebracht.
 
   Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../connections/federated-db.md).
 

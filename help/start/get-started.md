@@ -2,9 +2,9 @@
 title: Aan de slag met Experience Platform Federated Audience Composition
 description: Meer informatie over Adobe Federated Audience Composition en hoe u deze in Adobe Experience Platform kunt gebruiken
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1095'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,24 @@ Belangrijkste stappen:
 >[!NOTE]
 >
 >Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
+
+## Bestuur, privacy en veiligheid {#governance-privacy-security}
+
+### Privacyverzoeken {#gov-privacy-requests}
+
+Nadat u een compositie hebt gemaakt, worden de resulterende doelgroepen opgeslagen in Adobe Experience Platform.
+
+U kunt privacyverzoeken om tot profielgegevens toegang te hebben en/of te schrappen die aan deze publiek door Adobe Experience Platform **Privacy Service** beantwoorden, die a [ gebruikersinterface ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) {target="_blank"} en [ RESTful API ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview) {target="_blank"} verstrekt om u te helpen verzoeken van klantengegevens beheren.
+
+>[!NOTE]
+>
+>Voor meer informatie over Privacy Service, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) {target="_blank"}.
+
+U kunt individuele verzoeken tot stand brengen en beheren om tot klantengegevens van de Compositie van de Federatieve Audience van Adobe toegang te hebben en te schrappen. De stappen om **toegangsverzoeken** voor te leggen en **verzoeken** schrappen zijn gedetailleerd in de [ documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) {target="_blank"}.
+
+### Audit trail {#gov-audit-trail}
+
+De mogelijkheden van het audittrail verstrekken een gedetailleerd en chronologisch verslag van alle acties en gebeurtenissen die aan uw milieu in real time zijn gemaakt. [Meer informatie](../admin/audit-trail.md)
 
 ## Meer informatie {#learn}
 
