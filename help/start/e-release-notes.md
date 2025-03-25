@@ -4,9 +4,9 @@ description: Nieuwste updates en opmerkingen bij de release
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
+source-git-commit: 36b2d003800d5b737634cb36ca6a66944d433d8f
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '800'
 ht-degree: 3%
 
 ---
@@ -33,18 +33,19 @@ Deze release bevat de onderstaande verbeteringen.
 * **Data model Canvas view**
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
-
-* **AI Medewerker**
-
-  De AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen en operationele inzichten voor uw specifieke omgeving kunt krijgen. Het is beschikbaar in verscheidene producten door Adobe Experience Cloud, met inbegrip van Federated Audience Composition.
 
 ### Compatibiliteit {#fac-25-3-compat}
 
 * **Verbinding van Gegevensbestanden**
 
   Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek nu privé verbindingsconnectiviteit voor Databricks gegevensbestandverbindingen.
-Het maakt ook veilige verbindingen mogelijk met Databricks-databases die worden gehost op Amazon Web Services (AWS) en Microsoft Azure. [Meer informatie](../connections/federated-db.md#databricks)
+Het laat ook veilige verbindingen aan gegevensbestanden toe die op Amazon Web Services (AWS) worden ontvangen. [Meer informatie](../connections/federated-db.md#databricks)
 
 * **Steun voor B2B CDP Klanten**
 
