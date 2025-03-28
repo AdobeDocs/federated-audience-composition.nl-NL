@@ -3,9 +3,9 @@ audience: end-user
 title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1953'
 ht-degree: 1%
 
 ---
@@ -175,7 +175,7 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 >[!NOTE]
 >
->Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt ondersteund. Je Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van je Federated Audience Composition. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account.
+>Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt ondersteund. Je Snowflake-account moet worden gehost op Amazon Web Services (AWS) of Azure en zich in dezelfde regio bevinden als je Federated Audience Composition-omgeving. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account.
 >
 
 Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Snowflake te configureren.
@@ -282,6 +282,10 @@ De schakelaar steunt de volgende optie:
 | TimeZoneName | Standaard leeg, wat betekent dat de systeemtijdzone van de toepassingsserver wordt gebruikt. De optie kan worden gebruikt om de TIMEZONE-sessieparameter te forceren. |
 
 ## Databricks {#databricks}
+
+>[!NOTE]
+>
+>De veilige toegang tot uw extern gegevenspakhuis van Gegevensbestanden door privé verbinding wordt gesteund. Dit omvat veilige verbindingen met Databricks-databases die worden gehost op Amazon Web Services (AWS) via privékoppelingen en databases die worden gehost op Microsoft Azure via VPN. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang.
 
 Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot databases te configureren.
 

@@ -2,9 +2,9 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '811'
 ht-degree: 3%
 
 ---
@@ -12,6 +12,46 @@ ht-degree: 3%
 # Aanvullende informatie {#rn-new}
 
 [!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
+
+## Release van maart 1925 {#fac-25-3}
+
+### Verbeteringen {#fac-25-3-improvements}
+
+Deze release bevat de onderstaande verbeteringen.
+
+* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek ****
+
+  Beginnende Maart versie, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die de **hebben gekregen leiden Federatieve Gegevens** toestemming.
+
+  We raden gebruikers aan contact op te nemen met de beheerders om deze machtiging aan hun rol toe te voegen en de gebruikersinterface van [!DNL Federated Audience Composition] te blijven gebruiken.
+
+  Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [ gedetailleerde documentatie ](feature-access.md).
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### Compatibiliteit {#fac-25-3-compat}
+
+* **Verbinding van Gegevensbestanden**
+
+  Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek nu privé verbindingsconnectiviteit voor Databricks gegevensbestandverbindingen.
+Dit omvat veilige verbindingen met Databricks-databases die worden gehost op Amazon Web Services (AWS) via privékoppelingen en databases die worden gehost op Microsoft Azure via VPN. [Meer informatie](../connections/federated-db.md#databricks)
+
+* **Steun voor B2B CDP Klanten**
+
+  Federated Audience Composition is nu beschikbaar voor klanten van het Customer Data Platform (CDP) van de Klant van zaken-aan-Zaken (B2B) voor op mensen-gebaseerde publieksgebruiksgevallen.
+
+* **veilige verbinding van Snowflake**
+
+  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige verbindingen met privékoppelingen naar Snowflake-databases die worden gehost op Microsoft Azure. [Meer informatie](../connections/federated-db.md#snowflake)
 
 ## Release van februari &#39;25 {#fac-25-2}
 
@@ -32,16 +72,6 @@ Deze release wordt geleverd met de onderstaande wijzigingen.
 * **Steun van de Verrijking van de Publiek voor Gegevensbestanden**
 
   U kunt Gegevensbestanden in de Gelezen stroom van het Publiek nu gebruiken, toelatend activiteit voor gegevensbestanden Databricks en toestaand het om als nieuwe bestemming worden opgesteld. [Meer informatie](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## Release van november 1924 {#fac-24-11}
 
@@ -92,9 +122,8 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) {target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
-Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen. 
+Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen.
 
 Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek in [ deze pagina ](get-started.md) en in [ Veelgestelde Vragen ](faq.md).
 
 De gedetailleerde informatie over de eerste vereisten om tot Verbond van de Samenstellingen van het Publiek en de huidige guardrails toegang te hebben, verwijst naar [ deze pagina ](access-prerequisites.md).
-

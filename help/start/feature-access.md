@@ -2,11 +2,9 @@
 title: Access Federal Audience Composition
 description: Meer informatie over de vereiste machtigingen voor Federated Audience Composition
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -20,10 +18,6 @@ Wanneer u Adobe Experience Platform Federated Audience Composition aanschaft, wo
 Als bijvoorbeeld een nieuwe sandbox met de naam &quot;fac-test&quot; wordt geactiveerd, wordt een overeenkomstig productprofiel &quot;ACP_FAC - fac-test - admin&quot; gemaakt. Gebruikers moeten aan dit productprofiel worden toegevoegd om Federated Audience Composition met deze sandbox te kunnen benaderen.
 
 ## Toegang tot Federale Audience-compositie beheren
-
->[!AVAILABILITY]
->
->Machtigingen zijn beschikbaar als onderdeel van de release van maart.
 
 Om tot **Federated de Samenstelling van het Publiek** toegang te hebben, moet u eerst ervoor zorgen dat **Federatieve Gegevens** toestemming beheert aan de aangewezen rollen wordt toegewezen. Deze rollen moeten dan aan gebruikers worden toegewezen die toegang tot **Federated de Samenstelling van het Publiek** nodig hebben.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
 description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -60,11 +60,15 @@ De belangrijkste stappen om Adobe Experience Platform-publiek naar Adobe Federat
 
    ![](assets/destination-activate.png)
 
-1. Selecteer het gewenste publiek dat u wilt verzenden en klik op **[!UICONTROL Next]** .
+1. Selecteer het gewenste publiek dat u wilt verzenden.
 
-1. Configureer de bestandsnaam en een exportschema voor de geselecteerde doelgroep(en).
+1. Selecteer het pictogram ![](assets/do-not-localize/Smock_Edit_18_N.svg) om uw exportschema te bewerken.
 
    ![](assets/destination-schedule.png)
+
+1. Definieer de exportopties voor het bestand. Als u het publiek sneller wilt activeren, selecteert u de optie **[!UICONTROL After segment evaluation]** om de activeringstaak te activeren direct nadat de dagelijkse batchsegmentatietaak Platform is voltooid.
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

@@ -2,9 +2,9 @@
 title: Aan de slag met Experience Platform Federated Audience Composition
 description: Meer informatie over Adobe Federated Audience Composition en hoe u deze in Adobe Experience Platform kunt gebruiken
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1146'
 ht-degree: 3%
 
 ---
@@ -30,6 +30,8 @@ Federated Audience Composition breidt de waarde van Real-Time CDP en Journey Opt
 * Minimaliseer gegevensbeweging en duplicatie: maak een publiek op van gegevenssets die in een bedrijfsgegevenspakhuis wonen zonder onderliggende gegevens te kopiëren om handelingsprofielen en publiek te beheren.
 
 * Maak gebruik van één systeem voor ervaren workflows: zorg dat ingeslikte en gefedereerde doelgroepen in Adobe Experience Platform worden gekruld en dat uitgaande ervaringen op alle kanalen worden gecoördineerd.
+
+* B2C en B2B CDP klanten kunnen nu hefboomwerking Federated Audience Composition om op mensen-gebaseerd publiek te bouwen door gegevens van gesteunde opslag van ondernemingsgegevens te integreren. Bovendien kunnen ze bestaande, op mensen gebaseerde AEP-doelgroepen verrijken door de relevante kenmerken die beschikbaar zijn in het Enterprise Data Store op te nemen, waardoor hun publieksprofielen voor meer persoonlijke en doelgerichte betrokkenheid worden verbeterd.
 
 ## Gebruiksscenario’s {#rn-uc}
 

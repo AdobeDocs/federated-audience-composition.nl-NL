@@ -2,10 +2,10 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 5%
+source-wordcount: '300'
+ht-degree: 4%
 
 ---
 
@@ -27,12 +27,25 @@ De Federatieve Samenstelling van de Publiek steunt de volgende wolkenpakhuizen:
 * Google Big Query
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 Leer hoe te om een verbinding met deze systemen in [ tot stand te brengen deze pagina ](../connections/connections.md).
 
 ## Sandboxes
 
 Wanneer u Federated Audience Composition aanschaft, hebt u recht op twee sandboxen. Neem contact op met uw Adobe-vertegenwoordiger voor aanvullende aanvragen voor sandboxprovisioning.
+
+Voer de onderstaande stappen uit om de lijst met actieve sandboxen voor Federatieve Audience weer te geven:
+
+1. Via Federated Audience Composition opent u het menu **[!UICONTROL License usage]** onder **[!UICONTROL Administration]** .
+
+1. Klik op het pictogram ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) van **[!UICONTROL Total volume of data egress]** om toegang te krijgen tot de eigenschappen van uw sandbox.
+
+   ![](assets/sandbox_1.png)
+
+1. Informatie over de sandbox wordt weergegeven in de keuzelijst Eigenschappen.
+
+   ![](assets/sandbox_2.png)
 
 ## Machtigingen {#permissions}
 
@@ -52,3 +65,7 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) worden vermeld {target="_blank"} zijn op de Federatieve Samenstelling van het Publiek van toepassing.
+
+<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
+-->
+
