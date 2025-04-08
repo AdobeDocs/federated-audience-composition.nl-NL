@@ -3,7 +3,7 @@ audience: end-user
 title: Audit trail
 description: Leer hoe acties en gebeurtenissen zijn geregistreerd en toegankelijk in het audittrail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logboek op van acties en gebeurtenissen die in real-time plaatsvinden in de instantie van de Adobe Federated Composition. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
 
-+++ Meer informatie over beschikbare entiteiten van het audittrail
++++ Meer informatie over beschikbare entiteiten in het audittrail
 
 * **het de controlespoor van het Schema van Source** staat u toe om activiteiten en recente wijzigingen te controleren die aan uw schema&#39;s binnen de Adobe Federated instantie van de Samenstelling van het Publiek worden aangebracht.
 

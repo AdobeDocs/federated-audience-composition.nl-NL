@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe te met vraagmodeler te werken
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -26,7 +26,7 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
 | **bepaalt publiek**: Specificeer de bevolking u in uw samenstellingen wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **pas activiteiten** aan: pas regels binnen samenstellingsactiviteiten, zoals **Splitsen** en **Verzoening** toe, om met uw specifieke vereisten te richten. [ Leer meer op samenstellingsactiviteiten ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **pas activiteiten** aan: pas regels binnen samenstellingsactiviteiten, zoals **Splitsen** en **Verzoening** toe, om met uw specifieke vereisten te richten. [ leer meer over samenstellingsactiviteiten ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Query-modellerinterface {#interface}
 

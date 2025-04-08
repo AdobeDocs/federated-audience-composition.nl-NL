@@ -1,7 +1,7 @@
 ---
 title: Werken met de AI Assistant
 description: Leer hoe u de AI Assistant gebruikt
-source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Klik op het pictogram op de bovenste balk om de AI-assistent te openen. De AI-as
 
 >[!CAUTION]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Leer meer over de overeenkomst in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) {target="_blank"}.
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Leer meer over de overeenkomst op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Federated Audience Composition hebt u toegang tot productkennisvragen met betrekking tot Adobe-concepten die betrekking hebben op verschillende aspecten van het proces. Voorbeelden van dergelijke vragen zijn:
 
@@ -39,4 +39,4 @@ Een vraag stellen:
 
 1. Gebruik de duim omhoog of duim neer om het antwoord te schatten.
 
-Leren hoe te om AI Medewerker te gebruiken, zie voorbeelddoelstellingen u met de AI Medewerker kunt verwezenlijken, en leren hoe de AI Medewerker werkt, naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) {target="_blank"} verwijzen.
+Leren hoe te om AI Medewerker te gebruiken, zie voorbeelddoelstellingen u met de Medewerker AI kunt verwezenlijken, en leren hoe de AI Medewerker werkt, naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} verwijzen.

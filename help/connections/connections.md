@@ -3,7 +3,7 @@ audience: end-user
 title: Verbindingen met gefederaliseerde databases maken en beheren
 description: Leer hoe u verbindingen met Federale databases maakt en beheert
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Ga als volgt te werk om een verbinding met uw database in te stellen:
 
    ![](assets/connections_name.png){zoomable="yes"}
 
-   Als u het type selecteert, hebt u toegang tot andere eigenschappen om deze in te vullen. Leer meer hier over de gesteunde gegevensbestanden in [ deze pagina ](federated-db.md).
+   Als u het type selecteert, hebt u toegang tot andere eigenschappen om deze in te vullen. Leer meer hier over de gesteunde gegevensbestanden op [ deze pagina ](federated-db.md).
 
    ![](assets/connections_details.png){zoomable="yes"}
 
