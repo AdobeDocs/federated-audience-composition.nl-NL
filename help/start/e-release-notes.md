@@ -4,9 +4,9 @@ description: Nieuwste updates en opmerkingen bij de release
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
+source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '967'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,34 @@ ht-degree: 3%
 # Aanvullende informatie {#rn-new}
 
 [!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## Release van april 1925 {#fac-25-4}
+
+### Verbeteringen {#fac-25-4-improvements}
+
+Deze release bevat de onderstaande verbeteringen.
+
+* **de mening van het ModelCanvas van Gegevens**
+
+  De mening van het Canvas voor de sectie van de Modellen van Gegevens verbetert de ervaring door de visualisatie van gegevensmodellen en hun verbindingen in een canvaslay-out, naast de bestaande tabelmening toe te laten. [Meer informatie](../data-management/gs-models.md)
+
+* **AI Medewerker**
+
+  AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen en operationele inzichten voor uw specifieke omgeving kunt krijgen. Het is beschikbaar in verscheidene producten door Adobe Experience Cloud, met inbegrip van Federated Audience Composition. [Meer informatie](../start/audiences.md)
+
+* **Naam van het Model van Gegevens**
+
+  Van het menu van het publiek, toont het **Verdeelde samenstellingen** lusje nu de Naam van het Model van Gegevens in plaats van identiteitskaart, die helderheid en algemene bruikbaarheid verbetert.
+
+* **Doelgroep**
+
+  In het menu Publiek wordt nu de naam of het label van het geselecteerde gegevensmodel weergegeven wanneer een gebruiker een gegevensmodel selecteert dat niet aan het gegevensmodel is gekoppeld.
+
+### Compatibiliteit {#fac-25-4-compat}
+
+* **veilige verbinding van Snowflake**
+
+  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige privékoppelingsverbindingen met Amazon Redshift-databases die worden gehost op Microsoft Azure. [Meer informatie](../connections/federated-db.md#amazon-redshift)
 
 ## Release van maart 1925 {#fac-25-3}
 
@@ -34,11 +62,11 @@ Deze release bevat de onderstaande verbeteringen.
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
-
 * **AI Assistant**
 
     AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
+
 
 ### Compatibiliteit {#fac-25-3-compat}
 
