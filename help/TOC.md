@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
+source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 12%
+source-wordcount: '159'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 + [Experience Platform Federated Audience Composition-documentatie](home.md)
 + [Aanvullende informatie](start/release-notes.md)
 + [Aanvullende informatie](start/e-release-notes.md)
-+ Aan de slag met Federatieve Audience Composition {#start}
++ Aan de slag met Federale Audience Composition {#start}
    + [Wat is Federated Audience Composition](start/get-started.md)
    + [Vereisten en geleiders](start/access-prerequisites.md)
    + [Access Federal Audience Composition](start/feature-access.md)
@@ -24,14 +24,15 @@ ht-degree: 12%
 + Configuratiestappen {#config}
    + [Verbindingen maken en beheren](connections/connections.md)
    + [Configureer uw gefedereerde databases](connections/federated-db.md)
-   + Gegevensmodellen en schema&#39;s {#datamodel}
+   + [FDA-rechtenmatrix](connections/fda-rights.md)
+   + Gegevensmodellen en -schema&#39;s{#datamodel}
       + [Schema&#39;s maken en configureren](customer/schemas.md)
       + [Uw gegevensmodellen configureren (bèta)](data-management/gs-models-beta.md)
       + [Uw gegevensmodellen configureren](data-management/gs-models.md)
    + [Het Adobe Experience Platform-publiek verrijken met externe gegevens](connections/destinations.md)
-+ Soorten publiek samenstellen {#compositions}
++ Doelgroep samenstellen {#compositions}
    + [Aan de slag met composities](compositions/gs-compositions.md)
-   + Uw eerste compositie maken en uitvoeren {#create-composition}
+   + Creeer en stel uw eerste samenstelling in werking {#create-composition}
       + [Belangrijkste beginselen voor het creëren van compositie](compositions/gs-composition-creation.md)
       + [De compositie maken en configureren](compositions/create-composition.md)
       + [Orchestraten](compositions/orchestrate-activities.md)
