@@ -33,7 +33,7 @@ Merk op dat slechts de beheerders de capaciteit hebben om toestemmingen toe te w
 
    ![](assets/access_fda_2.png)
 
-1. Voeg het **Verdeelde 1} middel van Gegevens {toe, dan uitgezocht **[!UICONTROL Manage Federated Data]**van het drop-down menu.**
+1. Voeg het **Verdeelde 1&rbrace; middel van Gegevens &lbrace;toe, dan uitgezocht &#x200B;** [!UICONTROL Manage Federated Data]&#x200B;**van het drop-down menu.**
 
    ![](assets/access_fda_3.png)
 

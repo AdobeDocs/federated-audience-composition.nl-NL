@@ -33,7 +33,7 @@ Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities opene
 
 Als u de lijst wilt verfijnen en eenvoudig de gewenste compositie wilt zoeken, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
-U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de **[!UICONTROL Configure column] **s knoop en voeg of verwijder de gewenste outputkolommen toe.
+U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de **[!UICONTROL Configure column] &#x200B;** s knoop en voeg of verwijder de gewenste outputkolommen toe.
 
 ![](assets/compositions-columns.png)
 

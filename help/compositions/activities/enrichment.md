@@ -57,7 +57,7 @@ Zodra de verrijkingsgegevens aan de samenstelling zijn toegevoegd, kan het in de
 
 ## De verrijkingsactiviteit configureren {#enrichment-configuration}
 
-Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
+Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vormen:**
 
 1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
 1. Voeg een **Verrijking** activiteit toe.

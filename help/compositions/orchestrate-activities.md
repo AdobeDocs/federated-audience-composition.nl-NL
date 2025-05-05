@@ -72,6 +72,6 @@ U kunt:
 
   In de sectie **[!UICONTROL Initialization script]** kunt u variabelen initialiseren of eigenschappen van activiteiten wijzigen. Klik op de knop **[!UICONTROL Edit code]** en typ het codefragment dat u wilt uitvoeren. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd.
 
-+++
+  +++
 
-* Heb toegang tot de Logboeken en de taken van de activiteit ****.
+* Heb toegang tot de Logboeken en de taken van de activiteit **&#x200B;**.

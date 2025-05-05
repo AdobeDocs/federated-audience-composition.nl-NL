@@ -42,7 +42,7 @@ Volg deze gemeenschappelijke stappen beginnen de **te vormen combineren** activi
 
 1. Voeg meerdere activiteiten toe om minstens twee verschillende uitvoeringstakken te vormen.
 
-1. Voeg a **** activiteit aan om het even welke vorige takken combineren.
+1. Voeg a **&#x200B;**&#x200B;activiteit aan om het even welke vorige takken combineren.
 
 1. Selecteer het segmentatietype: [ Vereniging ](#union), [ Intersectie ](#intersection) of [ Uitsluiting ](#exclusion), en klik **gaat** verder.
 

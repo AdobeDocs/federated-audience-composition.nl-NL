@@ -24,7 +24,7 @@ U kunt twee typen elementen toevoegen:
 
 * **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [ Leer hoe te met exploitanten ](#filtering) te werken
 
-  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**intekende die in New York **OF**San Francisco* leven.
+  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**&#x200B;intekende die in New York **OF**&#x200B;San Francisco* leven.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -77,7 +77,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    | leuk | Net als de Contains-operator. Hiermee kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) zoals &#39;Jon%s&#39;. Hier wordt het jokerteken gebruikt als een joker om de naam Jones te vinden, mocht de operator de ontbrekende letter tussen de &#39;n&#39; en &#39;s&#39; vergeten hebben. |
    | Niet leuk | Net als de Contains-operator. Hiermee kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) houdt niet van &#39;Smi%h&#39;. Hier worden de ontvangers met de achternaam &#39;Smi%h&#39; niet geretourneerd. |
 
-+++
+   +++
 
 1. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Klik hiertoe op de knop **[!UICONTROL Edit expression]** . [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 

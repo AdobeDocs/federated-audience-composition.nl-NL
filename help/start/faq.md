@@ -18,7 +18,7 @@ Hieronder volgt een lijst met veelgestelde vragen over Adobe Experience Platform
 
 Voor Federated Audience Composition zijn Adobe Real-Time Customer Data Platform- en Adobe Journey Optimizer Prime- of Ultimate-pakketten vereist. U moet ook Federated Audience Composition hebben aangeschaft.
 
-Als u Federated Audience Composition wilt gebruiken, moet elke gebruiker worden toegevoegd aan een specifiek profiel dat voor elke sandbox is gemaakt. Voor meer informatie, verwijs naar de ](access-prerequisites.md) pagina van de Samenstelling van het Publiek van de 1} Verbond van de Toegang.[
+Als u Federated Audience Composition wilt gebruiken, moet elke gebruiker worden toegevoegd aan een specifiek profiel dat voor elke sandbox is gemaakt. Voor meer informatie, verwijs naar de [&#128279;](access-prerequisites.md) pagina van de Samenstelling van het Publiek van de 1&rbrace; Verbond van de Toegang.
 
 +++
 

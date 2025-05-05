@@ -29,7 +29,7 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB  stel een publiek ] samen
+>[!TAB stel een publiek  samen]
 
 Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstellingen te bouwen en uw publiek te creëren.
 
@@ -48,7 +48,7 @@ Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstelli
     </td>
     <td>
     <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div></strong><br/> de gegevens van het publiek van 0} {voorbereidingen treffen en in kaart brengen uw gegevens in een douane en verlengbaar gegevensmodel.<strong>
+    <div></strong><br/> de gegevens van het publiek van 0&rbrace; &lbrace;voorbereidingen treffen en in kaart brengen uw gegevens in een douane en verlengbaar gegevensmodel.<strong>
     </div>
     </td>
     <td>
@@ -71,4 +71,4 @@ Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstelli
 
 ## Aanvullende bronnen  {#additional-resources}
 
-[ de Documentatie van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) {target="_blank"} - [ Poortdocumentatie van het Poort van het publiek van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard) {target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition) {target="_blank"}
+[ de Documentatie van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"}  - [ Poortdocumentatie van het Poort van het publiek van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"}  - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"} 
