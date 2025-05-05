@@ -2,16 +2,16 @@
 title: Aan de slag met Experience Platform Federated Audience Composition
 description: Meer informatie over Adobe Federated Audience Composition en hoe u deze in Adobe Experience Platform kunt gebruiken
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1112'
 ht-degree: 3%
 
 ---
 
 # Aan de slag met Federatieve Audience Composition {#gs-fac}
 
-De Federatieve Samenstelling van het Publiek is beschikbaar voor [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} en [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} milieu&#39;s. Zo kunt u een publiek opbouwen en verrijken vanuit uw externe gegevensopslagruimten en het publiek importeren in Adobe Experience Platform. De Federatieve Samenstelling van het Publiek brengt een gemakkelijke en krachtige oplossing om uw entrepot van ondernemingsgegevens direct binnen Adobe Real-Time Customer Data Platform en/of Adobe Journey Optimizer te verbinden, en vragen op de lijsten van uw gegevenspakhuis uit te voeren.
+De Federatieve Samenstelling van het Publiek is beschikbaar voor [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} en [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} milieu&#39;s. Zo kunt u een publiek opbouwen en verrijken vanuit uw externe gegevensopslagruimten en het publiek importeren in Adobe Experience Platform. De Federatieve Samenstelling van het Publiek brengt een gemakkelijke en krachtige oplossing om uw entrepot van ondernemingsgegevens direct binnen Adobe Real-Time Customer Data Platform en/of Adobe Journey Optimizer te verbinden, en vragen op de lijsten van uw gegevenspakhuis uit te voeren.
 
 Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag, zoals Amazon Redshift, Azure Synapse Analytics en meer. De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie. De gesteunde platforms zijn vermeld op [ deze pagina ](../connections/federated-db.md#supported-db).
 
@@ -42,6 +42,8 @@ In deze versie zijn twee gebruiksgevallen beschikbaar:
 1. Het Maken van het publiek: Bouw nieuw publiek van ondernemingsdatasets zonder onderliggende gegevens te kopiëren en die publiek met prebuilt bestemmingen te activeren.
 
 1. Verrijking van het publiek: Verrijken bestaand publiek in Adobe Experience Platform door samengestelde publieksgegevens te gebruiken die van het entrepot van ondernemingsgegevens zijn gefedereerd. Deze gegevens blijven niet behouden in Adobe Experience Platform-klantprofielen.
+
+1. Profielverrijking: verrijkt Adobe Experience Platform-profielen door gegevens van externe opslagplaatsen te federaliseren, zodat u klantprofielen kunt verbeteren met extra kenmerken en inzichten.
 
 ![ diagram ](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Zie ook vaak gestelde vragen op [ deze pagina ](faq.md).
 >title="Doeldimensie selecteren"
 >abstract="Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel voor e-mails en SMS geselecteerd in de ingebouwde tabel Ontvangers. Voor pushberichten is de standaarddoeldimensie Subscriber-toepassingen."
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="Profiel opslaan"
->abstract="Profiel opslaan"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="Profiel AEP-schema opslaan"
->abstract="Profiel AEP-schema opslaan"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="Profiel AEP-schemakenmerk opslaan"
->abstract="Profiel AEP-schemakenmerk opslaan"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Veld voor primaire identificatie selecteren"
->abstract="Veld voor primaire identificatie voor profielen."
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP-gegevensset"
->abstract="Selecteer de AEP-gegevensset die u wilt gebruiken voor profielen."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Profiel selecteren AEP-schema opslaan"
->abstract="Selecteer het AEP-schema dat u wilt gebruiken voor profielen."

@@ -3,9 +3,9 @@ audience: end-user
 title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -45,9 +45,11 @@ Met Federated Audience Composition kunt u verbinding maken met de volgende datab
 
 ## Amazon Redshift {#amazon-redshift}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Alleen Amazon Redshift AWS, Amazon Redshift Spectrum en Amazon Redshift Serverless worden ondersteund.
+>* Alleen Amazon Redshift AWS, Amazon Redshift Spectrum en Amazon Redshift Serverless worden ondersteund.
+>
+>* Beveiligde toegang tot uw externe Amazon Redshift-databases via de privékoppeling wordt ondersteund.
 
 Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Amazon Redshift te configureren.
 

@@ -2,10 +2,10 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 5%
+source-wordcount: '327'
+ht-degree: 4%
 
 ---
 
@@ -66,6 +66,6 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 
 * De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
 
-<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
--->
+* Federated Audience Composition biedt ondersteuning voor het exporteren van grote doelgroepen, met bestanden van meer dan 1 GB. Voor optimale prestaties is de maximale aanbevolen bestandsgrootte maximaal 20 GB.
+
 

@@ -2,16 +2,104 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 3%
+source-wordcount: '1128'
+ht-degree: 5%
 
 ---
 
 # Aanvullende informatie {#rn-new}
 
 [!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## Release van april 1925 {#fac-25-4}
+
+### Nieuwe functies {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Canvasweergave gegevensmodel - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De mening van het Canvas voor de sectie van de Modellen van Gegevens verbetert de ervaring door de visualisatie van gegevensmodellen en hun verbindingen in een canvaslay-out, naast de bestaande tabelmening toe te laten. </p>
+<p>Gegevensmodel met de weergave Canvas is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren.</p>
+<p>Raadpleeg de <a href="../data-management/gs-models.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant-ondersteuning voor productkennis</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen en operationele inzichten voor uw specifieke omgeving kunt krijgen. Het is beschikbaar in verscheidene producten door Adobe Experience Cloud, met inbegrip van Federated Audience Composition.</p>
+<p>Raadpleeg de <a href="../start/ai-assistant.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Profielactiviteit opslaan</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> Federated Audience Composition biedt nu ondersteuning voor het gebruiksgeval voor profielverrijking, zodat klanten bestaande Experience Platform-profielen kunnen verbeteren met gegevens uit hun externe gegevenspakhuizen.
+</p>
+<p>Raadpleeg de <a href="../compositions/activities/save-profiles.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#fac-25-4-improvements}
+
+Deze release bevat de onderstaande verbeteringen.
+
+* **Naam van het Model van Gegevens**
+
+  Van het menu van het publiek, toont het **Verdeelde samenstellingen** lusje nu de Naam van het Model van Gegevens in plaats van identiteitskaart, die helderheid en algemene bruikbaarheid verbetert.
+
+* **Doelgroep**
+
+  In het menu Publiek wordt nu de naam of het label van het geselecteerde gegevensmodel weergegeven wanneer een gebruiker een gegevensmodel selecteert dat niet aan het gegevensmodel is gekoppeld.
+
+* **de Grote uitvoer van publiek**
+
+  Federated Audience Composition biedt nu ondersteuning voor het exporteren van grote doelgroepen, met bestanden van meer dan 1 GB.
+
+* **sparen publieksactiviteit**
+
+  Een nota is toegevoegd aan **sparen de activiteit van het Publiek**, herinnerend gebruikers om met een gegevensbeheerder samen te werken om governancelabels op nieuwe die schema&#39;s en datasets toe te passen tijdens publieksverwezenlijking en verrijking worden gecreeerd.
+  [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### Compatibiliteit {#fac-25-4-compat}
+
+* **Amazon herverschuift veilige verbinding**
+
+  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige verbindingen met persoonlijke koppelingen naar Amazon Redshift-databases. [Meer informatie](../connections/federated-db.md#amazon-redshift)
+
+* **Google Grote Vraag**
+
+  Met deze nieuwe versie, steunt de Federatieve Samenstelling van de Publiek veilige verbindingen van VPN aan de Gegevensbestanden van de Vraag van Google Big. [Meer informatie](../connections/federated-db.md#google-big-query)
 
 ## Release van maart 1925 {#fac-25-3}
 

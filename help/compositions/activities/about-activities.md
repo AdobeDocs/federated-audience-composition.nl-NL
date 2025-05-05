@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met activiteiten
 description: Leer hoe u met activiteiten kunt werken
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -31,7 +31,7 @@ In Federated Audience Composition, kunt u samenstellingen tot stand brengen gebr
 ## Stroombeheeractiviteiten
 
 * [ EN-sluit zich aan ](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een samenstelling.
-* **Eind** : Merk grafisch het eind van een samenstelling. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
+* **Eind**: Merk grafisch het eind van een samenstelling. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
 * [ Fork ](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
 * [ Planner ](scheduler.md): Plan wanneer de samenstelling begonnen wordt.
 * [ wacht ](wait.md): Onderbreek tijdelijk uitvoering van een deel van een samenstelling.

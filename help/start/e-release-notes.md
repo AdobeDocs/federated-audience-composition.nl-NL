@@ -4,9 +4,9 @@ description: Nieuwste updates en opmerkingen bij de release
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '978'
 ht-degree: 3%
 
 ---
@@ -73,7 +73,7 @@ Deze release bevat de onderstaande verbeteringen.
 * **Verbinding van Gegevensbestanden**
 
   Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek nu privé verbindingsconnectiviteit voor Databricks gegevensbestandverbindingen.
-Het laat ook veilige verbindingen aan gegevensbestanden toe die op Amazon Web Services (AWS) worden ontvangen. [Meer informatie](../connections/federated-db.md#databricks)
+Dit omvat veilige verbindingen met Databricks-databases die worden gehost op Amazon Web Services (AWS) via privékoppelingen en databases die worden gehost op Microsoft Azure via VPN. [Meer informatie](../connections/federated-db.md#databricks)
 
 * **Steun voor B2B CDP Klanten**
 

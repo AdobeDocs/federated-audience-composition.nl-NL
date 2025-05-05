@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '161'
 ht-degree: 13%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 13%
    + [Vereisten en geleiders](start/access-prerequisites.md)
    + [Access Federal Audience Composition](start/feature-access.md)
    + [Werken met het publiek](start/audiences.md)
+   + [Werken met de AI Assistant](start/ai-assistant.md)
    + [Veelgestelde vragen](start/faq.md)
 + Configuratiestappen {#config}
    + [Verbindingen maken en beheren](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 13%
    + [FDA-rechtenmatrix](connections/fda-rights.md)
    + Gegevensmodellen en -schema&#39;s{#datamodel}
       + [Schema&#39;s maken en configureren](customer/schemas.md)
-      + [Uw gegevensmodellen configureren (bèta)](data-management/gs-models-beta.md)
       + [Uw gegevensmodellen configureren](data-management/gs-models.md)
    + [Het Adobe Experience Platform-publiek verrijken met externe gegevens](connections/destinations.md)
 + Doelgroep samenstellen {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 13%
       + [Vertakking](compositions/activities/fork.md)
       + [Afstemming](compositions/activities/reconciliation.md)
       + [Doelgroep opslaan](compositions/activities/save-audience.md)
+      + [Profielen opslaan](compositions/activities/save-profiles.md)
       + [Planner](compositions/activities/scheduler.md)
       + [Splitsen](compositions/activities/split.md)
       + [Wachten](compositions/activities/wait.md)

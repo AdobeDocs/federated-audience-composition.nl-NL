@@ -3,9 +3,9 @@ audience: end-user
 title: De afstemmingsactiviteit gebruiken
 description: Leer hoe u de verzoeningsactiviteit kunt gebruiken
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 
    1. Om attributen te gebruiken om gegevens te combineren, selecteer de **Eenvoudige attributen** optie dan **toevoegen regel** knoop.
-   1. Selecteer de **Source** en **3} gebieden van de Bestemming {voor de verzoening.** Het **Source** gebied. Het **gebied van de Bestemming** beantwoordt aan de gebieden van het geselecteerde schema.
+   1. Selecteer de **Source** en **3} gebieden van de Bestemming {voor de verzoening.** Het **gebied van de Bestemming** beantwoordt aan de gebieden van het geselecteerde schema.
 
       De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Bijvoorbeeld, selecteer de **E-mail** gebieden om profielen te dedupliceren die op hun e-mailadres worden gebaseerd.
 
