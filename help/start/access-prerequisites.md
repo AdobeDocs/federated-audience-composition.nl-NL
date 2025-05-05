@@ -59,12 +59,12 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 
 ## Afbeeldingen en beperkingen {#fac-guardrails}
 
-* De Federatieve Samenstelling van het Publiek is momenteel niet beschikbaar aan klanten [ die gezondheidsgegevens ](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} opnemen. [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* De Federatieve Samenstelling van het Publiek is momenteel niet beschikbaar aan klanten [ die gezondheidsgegevens ](https://experienceleague.adobe.com/nl/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} opnemen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
-* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
+* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/nl/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
+* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
 
 * Federated Audience Composition biedt ondersteuning voor het exporteren van grote doelgroepen, met bestanden van meer dan 1 GB. Voor optimale prestaties is de maximale aanbevolen bestandsgrootte maximaal 20 GB.
 
