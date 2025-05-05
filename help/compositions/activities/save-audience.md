@@ -26,23 +26,23 @@ ht-degree: 1%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primair identiteitsveld"
 >abstract="Selecteer de primaire identiteit die u voor profielen wilt gebruiken."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Meer informatie in de documentatie van Experience Platform"
+>additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Meer informatie in de documentatie van Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Naamruimte identiteit"
 >abstract="Selecteer de naamruimte die u wilt gebruiken voor profielen."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Meer informatie in de documentatie van Experience Platform"
+>additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces" text="Meer informatie in de documentatie van Experience Platform"
 
 **sparen publiek** activiteit staat u toe om een nieuw publiek van de bevolking tot stand te brengen die stroomopwaarts in een samenstelling wordt verwerkt. Het gecreeerde publiek wordt toegevoegd aan de lijst van het publiek van Adobe Experience Platform, en beschikbaar gemaakt via het **publiek** menu. [ leer hoe te met publiek ](../../start/audiences.md) werken
 
 Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde samenstelling te berekenen, door hen in herbruikbaar publiek om te zetten. Verbind het met andere het richten activiteiten zoals a **bouwt publiek** of a **combineer** activiteit.
 
-De **[!UICONTROL Save Audience]** activiteit produceert een nieuw publieksschema en een dataset. Nadat het publiek wordt gecreeerd, gelieve met uw beheerder te coördineren om de aangewezen etiketten van het gegevensbeheer toe te wijzen. [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+De **[!UICONTROL Save Audience]** activiteit produceert een nieuw publieksschema en een dataset. Nadat het publiek wordt gecreeerd, gelieve met uw beheerder te coördineren om de aangewezen etiketten van het gegevensbeheer toe te wijzen. [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->**sparen de activiteit van het Publiek** vereist een profiel-toegelaten schema en dataset. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>**sparen de activiteit van het Publiek** vereist een profiel-toegelaten schema en dataset. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Vorm sparen publieksactiviteit {#save-audience-configuration}
 
@@ -69,11 +69,11 @@ Volg deze stappen om **te vormen sparen publiek** activiteit:
 
 ## Open uw publiek in Adobe Experience Platform {#access-audience}
 
-Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 Het gemaakte publiek bevat alle velden die zijn geselecteerd in de sectie Audience Mappings (Toewijzingen publiek). U kunt deze doelgroep in Journey Optimizer activeren of activeren naar een bestemming die wordt ondersteund door Adobe Experience Platform.
 
-[ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
