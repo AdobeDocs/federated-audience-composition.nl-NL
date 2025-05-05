@@ -71,4 +71,4 @@ Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstelli
 
 ## Aanvullende bronnen  {#additional-resources}
 
-[ de Documentatie van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"}  - [ Poortdocumentatie van het Poort van het publiek van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"}  - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"} 
+[ de Documentatie van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home){target="_blank"}  - [ Poortdocumentatie van het Poort van het publiek van Adobe ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"}  - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/nl/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"} 

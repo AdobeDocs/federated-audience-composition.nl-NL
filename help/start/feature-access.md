@@ -49,4 +49,4 @@ Deze rol toewijzen aan nieuwe gebruikers:
 
 1. Voer de naam of het e-mailadres van de gebruiker in of selecteer een van de beschikbare lijsten. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
