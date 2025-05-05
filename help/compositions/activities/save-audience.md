@@ -3,10 +3,10 @@ audience: end-user
 title: De publieksactiviteit Opslaan gebruiken
 description: Leer hoe u de publieksactiviteit Opslaan gebruikt
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 0%
+source-wordcount: '506'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,8 @@ ht-degree: 0%
 
 Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde samenstelling te berekenen, door hen in herbruikbaar publiek om te zetten. Verbind het met andere het richten activiteiten zoals a **bouwt publiek** of a **combineer** activiteit.
 
+De **[!UICONTROL Save Audience]** activiteit produceert een nieuw publieksschema en een dataset. Nadat het publiek wordt gecreeerd, gelieve met uw beheerder te coördineren om de aangewezen etiketten van het gegevensbeheer toe te wijzen. [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
 >[!IMPORTANT]
 >
 >**sparen de activiteit van het Publiek** vereist een profiel-toegelaten schema en dataset. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
@@ -67,11 +69,11 @@ Volg deze stappen om **te vormen sparen publiek** activiteit:
 
 ## Open uw publiek in Adobe Experience Platform {#access-audience}
 
-Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
+Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer. Het wordt toegankelijk gemaakt in het **publiek** menu. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 Het gemaakte publiek bevat alle velden die zijn geselecteerd in de sectie Audience Mappings (Toewijzingen publiek). U kunt deze doelgroep in Journey Optimizer activeren of activeren naar een bestemming die wordt ondersteund door Adobe Experience Platform.
 
-[ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) {target="_blank"}
+[ leer meer in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
