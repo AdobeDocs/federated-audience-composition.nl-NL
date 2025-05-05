@@ -74,7 +74,7 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 
    1. Om attributen te gebruiken om gegevens te combineren, selecteer de **Eenvoudige attributen** optie dan **toevoegen regel** knoop.
-   1. Selecteer de **Source** en **3} gebieden van de Bestemming {voor de verzoening.** Het **gebied van de Bestemming** beantwoordt aan de gebieden van het geselecteerde schema.
+   1. Selecteer de **Source** en **3&rbrace; gebieden van de Bestemming &lbrace;voor de verzoening.** Het **gebied van de Bestemming** beantwoordt aan de gebieden van het geselecteerde schema.
 
       De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Bijvoorbeeld, selecteer de **E-mail** gebieden om profielen te dedupliceren die op hun e-mailadres worden gebaseerd.
 

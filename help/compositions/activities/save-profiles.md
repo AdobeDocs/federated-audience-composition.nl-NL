@@ -57,7 +57,7 @@ Volg deze stappen om **te vormen sparen profielen** activiteit:
 
 1. Als u extra gegevensattributen wilt met elkaar in overeenstemming brengen, **voegt attributen** toe.
 
-   Dan, specificeer het **Source** gebied (externe gegevens) en het **3} gebied van de Bestemming {(schemagebied) voor elk attribuut u wilt in kaart brengen.**
+   Dan, specificeer het **Source** gebied (externe gegevens) en het **3&rbrace; gebied van de Bestemming &lbrace;(schemagebied) voor elk attribuut u wilt in kaart brengen.**
 
    ![](../assets/save-profile-3.png)
 
