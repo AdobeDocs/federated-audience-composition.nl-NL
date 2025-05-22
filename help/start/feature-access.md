@@ -2,9 +2,9 @@
 title: Access Federal Audience Composition
 description: Meer informatie over de vereiste machtigingen voor Federated Audience Composition
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
+source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Als bijvoorbeeld een nieuwe sandbox met de naam &quot;fac-test&quot; wordt geact
 
 ## Toegang tot Federale Audience-compositie beheren
 
-Om tot **Federated de Samenstelling van het Publiek** toegang te hebben, moet u eerst ervoor zorgen dat **Federatieve Gegevens** toestemming beheert aan de aangewezen rollen wordt toegewezen. Deze rollen moeten dan aan gebruikers worden toegewezen die toegang tot **Federated de Samenstelling van het Publiek** nodig hebben.
+Om tot **Federated de Samenstelling van het Publiek** toegang te hebben, moet u eerst ervoor zorgen dat u de vereiste toestemmingen toewijst om tot verschillende aspecten van de Samenstelling van het Publiek toegang te hebben Federated. Deze rollen moeten dan aan gebruikers worden toegewezen die toegang tot **Federated de Samenstelling van het Publiek** nodig hebben.
 
 Merk op dat slechts de beheerders de capaciteit hebben om toestemmingen toe te wijzen.
 
@@ -29,24 +29,46 @@ Merk op dat slechts de beheerders de capaciteit hebben om toestemmingen toe te w
 
    ![](assets/access_fda_1.png)
 
-1. Klik op **[!UICONTROL Edit]** om de machtigingen voor uw rol te wijzigen.
+1. Selecteer **[!UICONTROL Edit]** om de machtigingen voor uw rol te wijzigen.
 
    ![](assets/access_fda_2.png)
 
-1. Voeg het **Verdeelde 1&rbrace; middel van Gegevens &lbrace;toe, dan uitgezocht &#x200B;** [!UICONTROL Manage Federated Data]&#x200B;**van het drop-down menu.**
+1. Voeg de vereiste machtigingen voor de gebruiker toe. U kunt de volgende toestemmingen voor toegang tot de Samenstelling van de Publiek toevoegen:
 
-   ![](assets/access_fda_3.png)
+   | Machtiging | Beschrijving |
+   | ---------- | ----------- |
+   | Federale gegevens beheren | Gebruik deze toestemming om alle aspecten van de Samenstelling van de Publiek te beheren Federated. Met deze machtiging worden Federale database beheren, Federaal schema beheren, Federaal gegevensmodel beheren en Federale composities beheren overgeërfd. |
+   | Federale database beheren | Gebruik deze machtiging om uw verbindingen met gefederaliseerde databases toe te voegen, weer te geven, bij te werken en te verwijderen. |
+   | Federale database weergeven | Gebruik deze toestemming om uw verbindingen aan gefederaliseerde gegevensbestanden te bekijken. |
+   | Federaal schema beheren | Met deze machtiging kunt u schema&#39;s maken, weergeven, bijwerken, verwijderen en vernieuwen. |
+   | Federale schemagegevens weergeven | Gebruik deze machtiging om het gegevenstabblad weer te geven in de schemasectie. |
+   | Federaal schema weergeven | Gebruik deze machtiging om de schematabellen weer te geven. |
+   | Federaal gegevensmodel beheren | Met deze machtiging kunt u gegevensmodellen maken, weergeven, bijwerken en verwijderen. |
+   | Federaal gegevensmodel weergeven | Gebruik deze machtiging om de gegevensmodellen weer te geven. |
+   | Federation Audit Trail weergeven | Gebruik deze toestemming om het controlespoor voor de Samenstelling van de Publiek te bekijken Federated. |
+   | Federale composities beheren | Met deze machtiging kunt u gefedereerde composities maken, weergeven, bijwerken en verwijderen. |
+   | Federale composities weergeven | Gebruik deze machtiging om gefedereerde composities weer te geven. |
 
-1. Klik op **[!UICONTROL Save]** als u de benodigde wijzigingen hebt aangebracht.
+   ![](assets/permissions.png)
+
+1. Selecteer **[!UICONTROL Save]** als u de benodigde wijzigingen hebt aangebracht.
 
 Om het even welke gebruikers die reeds aan deze rol worden toegewezen zullen hun toestemmingen automatisch bijgewerkt hebben en toegang tot de Samenstelling van het Federale publiek.
 
 Deze rol toewijzen aan nieuwe gebruikers:
 
-1. Navigeer naar het tabblad **[!UICONTROL Users]** in het dashboard Rol en klik op **[!UICONTROL Add Users]** .
+1. Navigeer naar het tabblad **[!UICONTROL Users]** in het dashboard Rol en selecteer **[!UICONTROL Add Users]** .
 
    ![](assets/access_fda_4.png)
 
-1. Voer de naam of het e-mailadres van de gebruiker in of selecteer een van de beschikbare lijsten. Klik op **[!UICONTROL Save]** als u klaar bent.
+1. Voer de naam of het e-mailadres van de gebruiker in of selecteer een van de beschikbare lijsten. Selecteer vervolgens **[!UICONTROL Save]** .
 
-De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+Alternatief, kunt u één van de reeds bestaande rollen aan de gebruikers toewijzen, afhankelijk van welke toestemmingen zij hebben vereist. Voor meer informatie bij het toewijzen van reeds bestaande rollen aan een gebruiker, gelieve te lezen de [ gids bij het beheren van gebruikers voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+| Rolnaam | Machtigingen |
+| --------- | ----------- |
+| FAC-gegevensbeheer | <ul><li>Federale composities beheren</li><li>Federale databases weergeven</li><li>Federale schema&#39;s weergeven</li><li>Federale schemagegevens weergeven</li><li>Gedetailleerde gegevensmodellen weergeven</li></ul> |
+| FAC-compositiemanagers | <ul><li>Federale composities beheren</li></ul> |
+| FAC-beheerders | <ul><li>Federale gegevens beheren</li></ul> |
+
+De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).

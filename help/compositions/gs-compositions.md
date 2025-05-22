@@ -3,18 +3,27 @@ audience: end-user
 title: Aan de slag met composities
 description: Leer hoe u begint met composities
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met composities {#compositions}
 
+>[!AVAILABILITY]
+>
+>Voor toegang tot composities hebt u een van de volgende machtigingen nodig:
+>
+>- **beheer Federale Samenstellingen**
+>- **Mening Federatieve Samenstellingen**
+>
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ Gids van de Samenstelling van de Publiek van de Toegang Federatieve ](/help/start/feature-access.md).
+
 ## Wat is een compositie {#what}
 
-Met de Adobe Audience Composition kunt u composities maken, waarbij u verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken in een visueel canvas om een publiek te maken. Als dit eenmaal is gebeurd, worden de resulterende doelgroepen samen met het bestaande publiek in Adobe Experience Platform opgeslagen en kunnen ze in Adobe Experience Platform-bestemmingen en Adobe Journey Optimizer worden gebruikt om klanten als doelgroep aan te wijzen. [ leer hoe te met publiek ](../start/audiences.md) werken
+Met Adobe Audience Composition kunt u composities maken, waarbij u verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken in een visueel canvas om een publiek te maken. Als dit eenmaal is gebeurd, worden de resulterende doelgroepen samen met het bestaande publiek in Adobe Experience Platform opgeslagen en kunnen ze in Adobe Experience Platform-bestemmingen en Adobe Journey Optimizer worden gebruikt om klanten als doelgroep aan te wijzen. [ leer hoe te met publiek ](../start/audiences.md) werken
 
 ![](assets/composition-example.png)
 
@@ -33,7 +42,7 @@ Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities opene
 
 Als u de lijst wilt verfijnen en eenvoudig de gewenste compositie wilt zoeken, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
-U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de **[!UICONTROL Configure column] &#x200B;** s knoop en voeg of verwijder de gewenste outputkolommen toe.
+U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de **[!UICONTROL Configure column] **s knoop en voeg of verwijder de gewenste outputkolommen toe.
 
 ![](assets/compositions-columns.png)
 

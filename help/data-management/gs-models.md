@@ -2,20 +2,25 @@
 audience: end-user
 title: Aan de slag met gegevensmodellen
 description: Leer hoe u begint met gegevensmodellen
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
+
 
 # Aan de slag met gegevensmodellen {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->Gegevensmodel met de weergave Canvas is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren.
+>Voor toegang tot gegevensmodellen hebt u een van de volgende machtigingen nodig:
+>
+>- **beheer Federated Gegevensmodel**
+>- **Bekijk het Verbond Model van Gegevens**
+>
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ Gids van de Samenstelling van de Publiek van de Toegang Federatieve ](/help/start/feature-access.md).
 
 ## Wat is een gegevensmodel {#data-model-start}
 
@@ -45,7 +50,9 @@ Ga als volgt te werk om een gegevensmodel te maken:
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Klik op **[!UICONTROL Add Audiences]** om de doelgroepen te definiëren.
+1. Bovendien kunt u een publiek toevoegen aan uw gegevensmodel. Selecteer **[!UICONTROL Add Audiences]** om de doelgroepen te definiëren.
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. Vestig verbindingen tussen lijsten in uw gegevensmodel om nauwkeurige gegevensverhoudingen te verzekeren. [Meer informatie](#data-model-links)
 

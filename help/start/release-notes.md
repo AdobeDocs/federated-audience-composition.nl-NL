@@ -2,16 +2,48 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 5%
+source-wordcount: '1244'
+ht-degree: 4%
 
 ---
 
 # Aanvullende informatie {#rn-new}
 
-[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## Release mei &#39;25 {#fac-25-5}
+
+### Nieuwe functies {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Datamodel canvasweergave - Algemene beschikbaarheid</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Het gegevensmodel met de weergave Canvas is nu beschikbaar voor alle klanten!</p>
+<p>De mening van het Canvas voor de sectie van de Modellen van Gegevens verbetert de ervaring door de visualisatie van gegevensmodellen en hun verbindingen in een canvaslay-out, naast de bestaande tabelmening toe te laten. </p>
+<p>Voor meer informatie over de mening van het canvas, te lezen gelieve het <a href="../data-management/gs-models.md"> overzicht van gegevensmodellen </a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#fac-25-5-improvements}
+
+Deze release bevat de volgende verbeteringen.
+
+* **Rol Gebaseerd Toegangsbeheer**
+
+  Vanaf de release van mei ondersteunt [!DNL Federated Audience Composition] nieuwe korrelige machtigingen voor toegangsbeheer. Gebruikers kunnen deze machtigingen toewijzen aan gebruikersrollen voor een nauwkeurigere toegang tot [!DNL Federated Audience Composition] .
+
+  Om meer over de nieuwe toestemmingen te leren, te lezen gelieve de [ Verdeelden de toegangsgids van de Samenstelling van de Auditie ](feature-access.md).
 
 ## Release van april 1925 {#fac-25-4}
 
@@ -89,7 +121,7 @@ Deze release bevat de onderstaande verbeteringen.
 * **sparen publieksactiviteit**
 
   Een nota is toegevoegd aan **sparen de activiteit van het Publiek**, herinnerend gebruikers om met een gegevensbeheerder samen te werken om governancelabels op nieuwe die schema&#39;s en datasets toe te passen tijdens publieksverwezenlijking en verrijking worden gecreeerd.
-  [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/user-guide)
+  [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibiliteit {#fac-25-4-compat}
 
@@ -107,7 +139,7 @@ Deze release bevat de onderstaande verbeteringen.
 
 Deze release bevat de onderstaande verbeteringen.
 
-* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek **&#x200B;**
+* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek ****
 
   Beginnende Maart versie, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die de **hebben gekregen leiden Federatieve Gegevens** toestemming.
 
@@ -208,7 +240,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 ## Release van 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
+De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
 Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen.
 

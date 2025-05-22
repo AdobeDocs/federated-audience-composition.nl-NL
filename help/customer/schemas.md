@@ -3,14 +3,23 @@ audience: end-user
 title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
 
 # Aan de slag met schema&#39;s {#schemas}
+
+>[!AVAILABILITY]
+>
+>Voor toegang tot schema&#39;s hebt u een van de volgende machtigingen nodig:
+>
+>-**Beheer Verbond Schema**
+>-**Bekijk Verbond Schema**
+>
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ Gids van de Samenstelling van de Publiek van de Toegang Federatieve ](/help/start/feature-access.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"

@@ -3,14 +3,22 @@ audience: end-user
 title: Audit trail
 description: Leer hoe acties en gebeurtenissen zijn geregistreerd en toegankelijk in het audittrail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '352'
 ht-degree: 3%
 
 ---
 
 # Audit trail {#audit-trail}
+
+>[!AVAILABILITY]
+>
+>Om tot het auditspoor toegang te hebben, zult u de volgende toestemming nodig hebben:
+>
+>-**Spoor van de Controle van de Mening**
+>
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ Gids van de Samenstelling van de Publiek van de Toegang Federatieve ](/help/start/feature-access.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"

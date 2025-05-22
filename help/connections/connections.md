@@ -3,14 +3,23 @@ audience: end-user
 title: Verbindingen met gefederaliseerde databases maken en beheren
 description: Leer hoe u verbindingen met Federale databases maakt en beheert
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
 # Verbindingen maken {#connections-fdb}
+
+>[!AVAILABILITY]
+>
+>Voor toegang tot verbindingen hebt u een van de volgende machtigingen nodig:
+>
+>- **beheer Federated Gegevensbestand**
+>- **Mening Federated Gegevensbestand**
+>
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ Gids van de Samenstelling van de Publiek van de Toegang Federatieve ](/help/start/feature-access.md).
 
 Met Experience Platform Federated Audience Composition kan de Klant een publiek opbouwen en verrijken vanuit de gegevensopslagruimten van derden en het publiek naar Adobe Experience Platform importeren. De gesteunde gegevensopslagplaatsen zijn vermeld in [ deze sectie ](../start/access-prerequisites.md#supported-systems).
 
