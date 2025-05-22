@@ -63,7 +63,7 @@ Deze rol toewijzen aan nieuwe gebruikers:
 
 1. Voer de naam of het e-mailadres van de gebruiker in of selecteer een van de beschikbare lijsten. Selecteer vervolgens **[!UICONTROL Save]** .
 
-Alternatief, kunt u één van de reeds bestaande rollen aan de gebruikers toewijzen, afhankelijk van welke toestemmingen zij hebben vereist. Voor meer informatie bij het toewijzen van reeds bestaande rollen aan een gebruiker, gelieve te lezen de [ gids bij het beheren van gebruikers voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+Alternatief, kunt u één van de reeds bestaande rollen aan de gebruikers toewijzen, afhankelijk van welke toestemmingen zij hebben vereist. Voor meer informatie bij het toewijzen van reeds bestaande rollen aan een gebruiker, gelieve te lezen de [ gids bij het beheren van gebruikers voor een productprofiel ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users).
 
 | Rolnaam | Machtigingen |
 | --------- | ----------- |
@@ -71,4 +71,4 @@ Alternatief, kunt u één van de reeds bestaande rollen aan de gebruikers toewij
 | FAC-compositiemanagers | <ul><li>Federale composities beheren</li></ul> |
 | FAC-beheerders | <ul><li>Federale gegevens beheren</li></ul> |
 
-De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
