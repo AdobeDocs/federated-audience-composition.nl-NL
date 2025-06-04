@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 13%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 13%
    + [Access Federal Audience Composition](start/feature-access.md)
    + [Werken met het publiek](start/audiences.md)
    + [Werken met de AI Assistant](start/ai-assistant.md)
+   + [Privacy en beveiliging](start/privacy-security.md)
    + [Veelgestelde vragen](start/faq.md)
 + Configuratiestappen {#config}
    + [Verbindingen maken en beheren](connections/connections.md)
