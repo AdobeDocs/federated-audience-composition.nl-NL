@@ -63,7 +63,7 @@ Deze rol toewijzen aan nieuwe gebruikers:
 
 1. Voer de naam of het e-mailadres van de gebruiker in of selecteer een van de beschikbare lijsten. Selecteer vervolgens **[!UICONTROL Save]** .
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
@@ -71,4 +71,4 @@ Deze rol toewijzen aan nieuwe gebruikers:
 | FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
 | FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
-De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
