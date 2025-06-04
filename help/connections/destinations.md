@@ -3,9 +3,9 @@ audience: end-user
 title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
 description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ De belangrijkste stappen om Adobe Experience Platform-publiek naar Adobe Federat
 
    * Amazon Redshift
    * Azure Synapse Analytics
-   * Google Big Query
+   * Google BigQuery
    * Snowflake
    * Vertica Analytics
    * Databricks
@@ -50,7 +50,7 @@ De belangrijkste stappen om Adobe Experience Platform-publiek naar Adobe Federat
 
 1. In de sectie **[!UICONTROL Alerts]** kunt u waarschuwingen inschakelen voor het ontvangen van meldingen over de status van de gegevensstroom naar uw bestemming.
 
-   Voor meer informatie over alarm, zie de documentatie van Adobe Experience Platform over [ het intekenen aan bestemmingsalarm gebruikend UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/alerts){target="_blank"} 
+   Voor meer informatie over alarm, zie de documentatie van Adobe Experience Platform over [ het intekenen aan bestemmingsalarm gebruikend UI ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. In de stap **[!UICONTROL Governance policy & enforcement actions]** kunt u het beleid voor gegevensbeheer definiëren en ervoor zorgen dat de gebruikte gegevens voldoen wanneer een publiek wordt verstuurd en geactiveerd.
 
@@ -74,10 +74,10 @@ De belangrijkste stappen om Adobe Experience Platform-publiek naar Adobe Federat
    >
    >De gedetailleerde informatie over hoe te om programma en filenames te vormen is beschikbaar in de volgende secties van de documentatie van Adobe Experience Platform:
    >
-   >* [ de publieksuitvoer van het Programma ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"} 
-   >* [ vorm dossiernamen ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"} 
+   >* [ de publieksuitvoer van het Programma ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [ vorm dossiernamen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Selecteer in de stap **[!UICONTROL Mapping]** welke kenmerk- en identiteitsvelden u wilt exporteren voor uw publiek of doelgroepen. Voor meer informatie, bekijk de [ toewijzingsstap ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}  in de documentatie van Adobe Experience Platform.
+1. Selecteer in de stap **[!UICONTROL Mapping]** welke kenmerk- en identiteitsvelden u wilt exporteren voor uw publiek of doelgroepen. Voor meer informatie, bekijk de [ toewijzingsstap ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in de documentatie van Adobe Experience Platform.
 
    ![](assets/destination-attributes.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Vorm uw Federale gegevensbestanden
 description: Leer hoe te om uw Federale gegevensbestanden te vormen
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1961'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Met Federated Audience Composition kunt u verbinding maken met de volgende datab
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google Big Query](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,9 +127,9 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 |---|---|
 | Verificatie | Type van authentificatie die door de schakelaar wordt gesteund. Huidige ondersteunde waarde: ActiveDirectoryMSI. Voor meer informatie, verwijs naar [ SQL documentatie van Microsoft ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (de verbindingskoorden van het Voorbeeld n°8) |
 
-## Google Big Query {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
-Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google Big Query te configureren.
+Gebruik gefederaliseerde databases om informatie te verwerken die in een externe database is opgeslagen. Voer de onderstaande stappen uit om toegang tot Google BigQuery te configureren.
 
 1. Selecteer **[!UICONTROL Federated databases]** onder het menu **[!UICONTROL Federated data]** .
 
@@ -139,11 +139,11 @@ Gebruik gefederaliseerde databases om informatie te verwerken die in een externe
 
 1. Voer een **[!UICONTROL Name]** in voor uw Federale database.
 
-1. Selecteer Google Big Query in de vervolgkeuzelijst **[!UICONTROL Type]** .
+1. Selecteer Google BigQuery in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
    ![](assets/federated_database_3.png)
 
-1. Configureer de Google Big Query-verificatie-instellingen:
+1. Configureer de Google BigQuery-verificatie-instellingen:
 
    * **[!UICONTROL Service account]**: voer de e-mail van uw **[!UICONTROL Service account]** in. Voor meer informatie over dit, verwijs naar [ de documentatie van de Wolk van Google ](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
