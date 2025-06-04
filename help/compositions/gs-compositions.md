@@ -17,7 +17,7 @@ ht-degree: 0%
 >Voor toegang tot composities hebt u een van de volgende machtigingen nodig:
 >
 >- **beheer Federale Samenstellingen**
->>- **Mening Federatieve Samenstellingen**
+>&#x200B;>- **Mening Federatieve Samenstellingen**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ Gids van de Samenstelling van de Publiek van de Toegang Federatieve ](/help/start/feature-access.md).
 
@@ -42,7 +42,7 @@ Vanuit dit scherm kunt u nieuwe composities maken en bestaande composities opene
 
 Als u de lijst wilt verfijnen en eenvoudig de gewenste compositie wilt zoeken, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
-U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de **[!UICONTROL Configure column] **s knoop en voeg of verwijder de gewenste outputkolommen toe.
+U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om dit te doen, klik de **[!UICONTROL Configure column] &#x200B;** s knoop en voeg of verwijder de gewenste outputkolommen toe.
 
 ![](assets/compositions-columns.png)
 
@@ -50,10 +50,10 @@ U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Om 
 
 Composities kunnen meerdere statussen hebben:
 
-* **[!UICONTROL Draft]**: De compositie is gemaakt en opgeslagen.
-* **[!UICONTROL In progress]**: De compositie is uitgevoerd en wordt momenteel uitgevoerd.
-* **[!UICONTROL Stopped]**: De uitvoering van de compositie is voltooid en is gestopt.
-* **[!UICONTROL Paused]**: De uitvoering van de compositie is gepauzeerd.
-* **[!UICONTROL Erroneous]**: er is een fout opgetreden tijdens het uitvoeren van de compositie. Open de compositie en open de logboeken en de taken om de fout te identificeren en op te lossen.
+&#x200B;* **[!UICONTROL Draft]**: De compositie is gemaakt en opgeslagen.
+&#x200B;* **[!UICONTROL In progress]**: De compositie is uitgevoerd en wordt momenteel uitgevoerd.
+&#x200B;* **[!UICONTROL Stopped]**: De uitvoering van de compositie is voltooid en is gestopt.
+&#x200B;* **[!UICONTROL Paused]**: De uitvoering van de compositie is gepauzeerd.
+&#x200B;* **[!UICONTROL Erroneous]**: er is een fout opgetreden tijdens het uitvoeren van de compositie. Open de compositie en open de logboeken en de taken om de fout te identificeren en op te lossen.
 
 De gedetailleerde informatie over hoe te om een samenstelling te beginnen en te controleren is beschikbaar in [ deze sectie ](../compositions/start-monitor-composition.md).
