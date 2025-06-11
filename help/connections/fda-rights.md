@@ -1,42 +1,43 @@
 ---
 title: Machtigingen voor toegang tot een externe database
-description: Meer informatie over specifieke rechten voor elke database-engine
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+description: Leer over welke toestemmingen u tot taken op elke gegevensbestandmotor moet toegang hebben en uitvoeren
+exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
+source-git-commit: 530a8709a67fabec1a36e1661b922f3e9a9e6996
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
-# FDA Rights Matrix {#fda-rights}
+# FDA-matrix (Federated Data Access) {#fda-rights}
 
-In de onderstaande tabel worden de vereiste databaserechten voor elk systeem beschreven, zodat gebruikers bewerkingen op externe databases kunnen uitvoeren via FDA.
+De volgende lijst schetst de vereiste gegevensbestandtoestemmingen voor elk systeem, latend u verrichtingen op externe gegevensbestanden door gefederaliseerde gegevenstoegang (FDA) uitvoeren.
 
 |   | Snowflake | Opnieuw | Google BigQuery | Databricks |
 |:-:|:-:|:-:|:-:|:-:|
-| **Verbindend met ver gegevensbestand** | GEBRUIK OP WAREHOUSE, GEBRUIK OP DATABASE EN GEBRUIK OP SCHEMA-privileges | Een gebruiker maken die is gekoppeld aan de AWS-account | Creeer een de dienstrekening en verlenen belangrijkste toegang tot project | GEBRUIK CATALOG-bevoegdheden voor Catalog en CAN_USE-bevoegdheden voor SQL Warehouse |
-| **Creërend lijsten** | TABEL MAKEN OP SCHEMA-voorrecht | BEVOEGDHEID MAKEN | De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create en bigquery.tables.create toestemmingen | HET BEVOEGDHEID VAN HET SCHEMA VAN HET GEBRUIK EN CREËREN DE BEVOEGDHEID VAN DE TABEL |
-| **Creërend indexen** | N.v.t. | BEVOEGDHEID MAKEN | BigQuery ondersteunt alleen zoekindexen. De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create, bigquery.tables.getData en bigquery.tables.createIndex toestemmingen | N.v.t. |
-| **Creërend functies** | FUNCTIE MAKEN VOOR SCHEMA-BEVOEGDHEID | GEBRUIK OP TAALvoorrecht om externe pythonuscripts aan te roepen | De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create en bigquery.routines.create toestemmingen | FUNCTIE-bevoegdheden MAKEN |
-| **Creërend procedures** | N.v.t. | GEBRUIK OP TAALvoorrecht om externe pythonuscripts aan te roepen | De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create en bigquery.routines.create toestemmingen |  NVT |
-| **het Verwijderen van voorwerpen (lijsten, indexen, functies, procedures)** | Het object in eigendom hebben | Het object in eigendom of supergebruiker zijn | De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create, bigquery.routines.delete, bigquery.tables.delete en bigquery.tables.deleteIndex toestemmingen |
-| **de uitvoeringen van de Controle** | BEVOEGDHEID MONITOR voor het vereiste object | Geen bevoegdheid vereist om de opdracht EXPLAIN te gebruiken | monitoring.viewer, rol | CAN_VIEW-machtiging |
-| **het Schrijven gegevens** | INSERT- en/of UPDATE-bevoegdheden (afhankelijk van schrijfbewerking) | Rechten INVOEGEN en BIJWERKEN | De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create en bigquery.tables.updateData |  BEVOEGDHEID WIJZIGEN |
-| **Ladende gegevens in lijsten** | WERKGEBIED MAKEN OP SCHEMA, SELECTEREN en INVOEGEN in de rechten voor de doeltabel | SELECTEREN EN INVOEGEN, rechten | De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create, bigquery.tables.getData en bigquery.tables.updateData | privileges SELECTEREN en WIJZIGEN |
-| **Toegang tot cliëntgegevens** | SELECTEREN OP (TOEKOMSTIGE) TABLE(S)- OF WEERGAVEBEVOEGDHEDEN | SELECT, bevoegdheid | De rol die aan de dienstrekening wordt toegewezen moet bevatten: bigquery.jobs.create en bigquery.tables.getData voor lijsten of bigquery.dataViewer rol |  SELECT, bevoegdheid |
-| **Toegang tot meta-gegevens** | SELECTEER INFORMATIE_SCHEMA-SCHEMA-voorrecht | SELECT, bevoegdheid | bigquery.metadataViewer, rol |  SELECTEER INFORMATIE_SCHEMA-SCHEMA-voorrecht |
+| **Verbindend met ver gegevensbestand** | `USAGE ON WAREHOUSE` -, `USAGE ON DATABASE` - en `USAGE ON SCHEMA` -rechten | Een gebruiker maken die is gekoppeld aan de AWS-account | Creeer een de dienstrekening en verlenen belangrijkste toegang tot project | `USE CATALOG` machtiging voor Catalog en `CAN_USE` machtiging voor SQL Warehouse |
+| **Creërend lijsten** | `CREATE TABLE ON SCHEMA` privilege | `CREATE` machtiging | Rol die aan serviceaccount is toegewezen, moet de volgende machtigingen bevatten: `bigquery.jobs.create` en `bigquery.tables.create` | `USE SCHEMA` - en `CREATE TABLE` -machtigingen |
+| **Creërend indexen** | N.v.t. | `CREATE` machtiging | BigQuery ondersteunt alleen zoekindexen. De rol die aan het serviceaccount is toegewezen, moet de volgende machtigingen bevatten: `bigquery.jobs.create` , `bigquery.tables.getData` en `bigquery.tables.createIndex` | N.v.t. |
+| **Creërend functies** | `CREATE FUNCTION ON SCHEMA` privilege | `USAGE ON LANGUAGE plpythonu` toestemming om externe Python-scripts aan te roepen | De rol die aan serviceaccount is toegewezen, moet de volgende machtigingen bevatten: `bigquery.jobs.create` en `bigquery.routines.create` | `CREATE FUNCTION` machtiging |
+| **Creërend procedures** | N.v.t. | `USAGE ON LANGUAGE plpythonu` toestemming om externe Python-scripts aan te roepen | De rol die aan het serviceaccount is toegewezen, moet de volgende machtigingen bevatten: `bigquery.jobs.create` en `bigquery.routines.create` |  NVT |
+| **het Verwijderen van voorwerpen (lijsten, indexen, functies, procedures)** | Het object in eigendom hebben | Het object in eigendom of supergebruiker zijn | De rol die aan het serviceaccount is toegewezen, moet de volgende machtigingen bevatten: `bigquery.jobs.create` , `bigquery.routines.delete` , `bigquery.tables.delete` en `bigquery.tables.deleteIndex` | N.v.t. |
+| **de uitvoeringen van de Controle** | `MONITOR` -bevoegdheid voor het vereiste object | Er zijn geen machtigingen vereist om de opdracht `EXPLAIN` te gebruiken | `monitoring.viewer` rol | `CAN_VIEW` machtiging |
+| **het Schrijven gegevens** | `INSERT` en/of `UPDATE` bevoegdheden (afhankelijk van de schrijfbewerking) | `INSERT` - en `UPDATE` -machtigingen | De rol die aan het serviceaccount is toegewezen, moet het volgende bevatten: `bigquery.jobs.create` en `bigquery.tables.updateData` | `MODIFY` machtiging |
+| **Ladende gegevens in lijsten** | `CREATE STAGE ON SCHEMA` , `SELECT` en `INSERT` in de rechten voor de doeltabel | `SELECT` - en `INSERT` -machtigingen | De rol die aan het serviceaccount is toegewezen, moet het volgende bevatten: `bigquery.jobs.create` , `bigquery.tables.getData` en `bigquery.tables.updateData` | `SELECT` - en `MODIFY` -machtigingen |
+| **Toegang tot cliëntgegevens** | `SELECT on (FUTURE) TABLE(S)` of `VIEW(S)` privilege(s) | `SELECT` machtiging | De rol die aan het serviceaccount is toegewezen, moet het volgende bevatten: `bigquery.jobs.create` en `bigquery.tables.getData` for tables of de `bigquery.dataViewer` rol | `SELECT` machtiging |
+| **Toegang tot meta-gegevens** | `SELECT on INFORMATION_SCHEMA SCHEMA` privilege | `SELECT` machtiging | `bigquery.metadataViewer` rol |  `SELECT on INFORMATION_SCHEMA SCHEMA` machtiging |
 
 
 |   | Microsoft Fabric | Azure Synapse Analytics | Vertica |
 |:-:|:-:|:-:|:-:|
-| **Verbindend met ver gegevensbestand** | Leesmachtiging (standaard) | CONNECT-machtiging | Geen bevoegdheid vereist |
-| **Creërend lijsten** | CREEER LIJST OP DATABASE (pakhuis) EN VERANDERT OP SCHEMA | TABEL MAKEN, machtiging | CREËREN OP SCHEMA-voorrecht |
-| **Creërend indexen** | N.v.t. | ALTER-machtiging | N.v.t. |
-| **Creërend functies** | N.v.t. | FUNCTIE MAKEN, machtiging | CREËREN OP SCHEMA-voorrecht |
-| **Creërend procedures** | PROCEDURE INSTELLEN VOOR DATABASE (magazijn) EN VERANDEREN OP SCHEMA | TOESTEMMING VOOR PROCEDURE MAKEN | CREËREN OP SCHEMA-voorrecht |
-| **het Verwijderen van voorwerpen (lijsten, indexen, functies, procedures)** | ALTER OP SCHEMA | ALTER-machtiging | het bezit van het voorwerp of DROP voorrecht op voorwerp |
-| **de uitvoeringen van de Controle** | Workspace Contributor of hoger machtigingen (queryinghts.exec_Requests_history)  | CONTROLE-machtiging | Geen bevoegdheid vereist om instructie EXPLAIN te gebruiken |
-| **het Schrijven gegevens** | INVOEGEN en/of BIJWERKEN OP OBJECT | Machtigingen INVOEGEN en BIJWERKEN | Rechten INVOEGEN en BIJWERKEN |
-| **Ladende gegevens in lijsten** | SELECTEREN OP OBJECT en INVOEGEN OP OBJECT | TABLE MAKEN, UITVOEREN, SELECTEREN, INVOEGEN, BIJWERKEN, WIJZIGEN | INSERT-bevoegdheid op tafel, USAGE-bevoegdheid op schema |
-| **Toegang tot cliëntgegevens** | SELECTEREN OP OBJECT | machtiging SELECTEREN | SELECT, bevoegdheid |
-| **Toegang tot meta-gegevens** | SELECTEREN OP INFORMATIE_SCHEMA | Geen toestemming vereist om tabel te beschrijven | GEBRUIKEN OP SCHEMA, SELECTEREN OP TABLE en ook privileges op tables v_catalog.columns en v_catalog.view_columns |
+| **Verbindend met ver gegevensbestand** | Leesmachtiging (standaard) | `CONNECT` machtiging | Geen bevoegdheid vereist |
+| **Creërend lijsten** | `CREATE TABLE ON DATABASE` (magazijn) en `ALTER ON SCHEMA` | `CREATE TABLE` machtiging | `CREATE ON SCHEMA` privilege |
+| **Creërend indexen** | N.v.t. | `ALTER` machtiging | N.v.t. |
+| **Creërend functies** | N.v.t. | `CREATE FUNCTION` machtiging | `CREATE ON SCHEMA` privilege |
+| **Creërend procedures** | `CREATE PROCEDURE ON DATABASE` (magazijn) en `ALTER ON SCHEMA` | `CREATE PROCEDURE` machtiging | `CREATE ON SCHEMA` privilege |
+| **het Verwijderen van voorwerpen (lijsten, indexen, functies, procedures)** | `ALTER ON SCHEMA` | `ALTER` machtiging | Het object of de `DROP` -bevoegdheid in eigendom hebben van het object |
+| **de uitvoeringen van de Controle** | Workspace Contributor of hoger (`queryinsights.exec_requests_history`) | `CONTROL` machtiging | Geen bevoegdheid vereist voor het gebruik van de instructie `EXPLAIN` |
+| **het Schrijven gegevens** | `INSERT` en/of `UPDATE ON OBJECT` | `INSERT` - en `UPDATE` -machtigingen | `INSERT` en `UPDATE` privileges |
+| **Ladende gegevens in lijsten** | `SELECT ON OBJECT` en `INSERT ON OBJECT` | `CREATE TABLE` -, `EXECUTE` -, `SELECT` -, `INSERT` -, `UPDATE` - en `ALTER` -machtigingen | `INSERT` -bevoegdheid op tafel, `USAGE` -bevoegdheid op schema |
+| **Toegang tot cliëntgegevens** | `SELECT ON OBJECT` | `SELECT` machtiging | `SELECT` privilege |
+| **Toegang tot meta-gegevens** | `SELECT ON INFORMATION_SCHEMA` | Geen toestemming vereist om tabel te beschrijven | `USAGE ON SCHEMA` , `SELECT on TABLE` en ook rechten voor tabellen `v_catalog.columns` en `v_catalog.view_columns` |
