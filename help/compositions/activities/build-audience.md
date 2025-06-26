@@ -3,7 +3,7 @@ audience: end-user
 title: Gebruik de het publieksactiviteit van de Bouwstijl
 description: Leer hoe u de gebruikersactiviteit van Build gebruikt
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2c706e8c7d7d282f8ef2f00875608f06e35ffdf8
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Volg deze stappen om **te vormen bouwen publiek** activiteit:
 
 1. Voeg a **toe bouwt publiek** activiteit.
 1. Definieer een label.
-1. Geef op of u een audio wilt maken of een bestaande audio wilt selecteren.
+1. Geef op of u een publiek wilt maken of een bestaand publiek wilt selecteren.
 1. Configureer uw publiek door de stappen uit te voeren die in de onderstaande tabbladen worden beschreven.
 
 >[!BEGINTABS]

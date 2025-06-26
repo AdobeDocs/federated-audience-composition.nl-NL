@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 2%
 >Voor toegang tot schema&#39;s hebt u een van de volgende machtigingen nodig:
 >
 >-**Beheer Verbond Schema**
->-**Bekijk Verbond Schema**
+>>-**Bekijk Verbond Schema**
 >
->Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ Gids van de Samenstelling van de Publiek van de Toegang Federatieve ](/help/start/feature-access.md).
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 2%
 >id="dc_schema_create_schema_name"
 >title="Naam van het schema"
 >abstract="Voer de naam van het schema in."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

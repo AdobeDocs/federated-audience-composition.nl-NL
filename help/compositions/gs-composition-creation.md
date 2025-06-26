@@ -3,7 +3,7 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Experience Platform Federated Audience Composition biedt een visueel canvas dat 
 
 Het compositiediagram is een weergave van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
+![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 Elke compositie bevat:
 
