@@ -39,7 +39,7 @@ Federated Audience Composition biedt de gefederaliseerde gegevens die Adobe Expe
 
 ### Privacyservice {#privacy-service}
 
-Aangezien de Federatieve Samenstelling van het Publiek **** geen van de klantengegevens van om het even welke gegevenspakhuizen opslaat, kunt u Adobe Experience Platform Privacy Service gebruiken om aan de verzoeken van het gegevenssubject en van de gegevensschrapping te voldoen.
+Aangezien de Federatieve Samenstelling van het Publiek **&#x200B;**&#x200B;geen van de klantengegevens van om het even welke gegevenspakhuizen opslaat, kunt u Adobe Experience Platform Privacy Service gebruiken om aan de verzoeken van het gegevenssubject en van de gegevensschrapping te voldoen.
 
 Wanneer u bijvoorbeeld een publiek maakt met het blok met opslagactiviteit in het compositiescanvas, wordt het resulterende publiek als een extern publiek opgeslagen in het datumpeer in Experience Platform. Dit externe publiek wordt gemarkeerd met het naamveld en de naamruimte van de identiteit. Als gevolg hiervan kunt u Privacy Service gebruiken om die profielen met een extern publiek te openen en te verwijderen.
 
@@ -65,7 +65,7 @@ Voor meer informatie bij het toepassen van toestemmingen, te lezen gelieve [ bel
 
 ### Levenscyclus van gegevens {#data-lifecycle}
 
-Aangezien de Federatieve Samenstelling van het Publiek **** geen van de klantengegevens van om het even welke gegevenspakhuizen opslaat, kunt u Experience Platform gebruiken om de gegevenslevenscyclus te behandelen. Met het Geavanceerde Beheer van de Levenscyclus van Gegevens, kunt u uw gegevenslevenscyclus op zowel dataset als verslagniveau beheren.
+Aangezien de Federatieve Samenstelling van het Publiek **&#x200B;**&#x200B;geen van de klantengegevens van om het even welke gegevenspakhuizen opslaat, kunt u Experience Platform gebruiken om de gegevenslevenscyclus te behandelen. Met het Geavanceerde Beheer van de Levenscyclus van Gegevens, kunt u uw gegevenslevenscyclus op zowel dataset als verslagniveau beheren.
 
 Wanneer u bijvoorbeeld een publiek maakt met het blok met opslagactiviteit in het compositiescanvas, wordt het resulterende publiek als een extern publiek opgeslagen in het datumpeer in Experience Platform. Aangezien dit gegeven **niet** wordt opgeslagen in de Federatieve Samenstelling van het Publiek, worden de publieksgegevens en de overeenkomstige datasets automatisch geschrapt wanneer het publiek in het Portaal van het Publiek wordt geschrapt.
 
@@ -89,7 +89,7 @@ Voor meer informatie over hoe Adobe gegevensencryptie behandelt, te lezen geliev
 
 ### Door de klant beheerde sleutels {#customer-managed-keys}
 
-Met door de klant beheerde sleutels hebt u controle over uw gegevens doordat u uw eigen coderingssleutels kunt gebruiken om uw gegevens te coderen. Aangezien de Federatieve Samenstelling van het Publiek **** geen van de klantengegevens opslaat, kunt u klant beheerde sleutels op het resulterende publiek en de verrijking direct gebruiken, aangezien zij in het gegevenshoon op Experience Platform zullen worden opgeslagen.
+Met door de klant beheerde sleutels hebt u controle over uw gegevens doordat u uw eigen coderingssleutels kunt gebruiken om uw gegevens te coderen. Aangezien de Federatieve Samenstelling van het Publiek **&#x200B;**&#x200B;geen van de klantengegevens opslaat, kunt u klant beheerde sleutels op het resulterende publiek en de verrijking direct gebruiken, aangezien zij in het gegevenshoon op Experience Platform zullen worden opgeslagen.
 
 Voor meer informatie over klant beheerde sleutels, te lezen gelieve de [ klant beheerde sleutelgids ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
 
@@ -107,7 +107,7 @@ Voor meer informatie over toegangsbeheer in de Federatieve Samenstelling van het
 
 ### Gegevenslokalisatie {#data-localization}
 
-De federated Samenstelling van het publiek slaat **** geen klantengegevens op. Dientengevolge, moet u ervoor zorgen dat u **slechts** uw externe gegevensbestanden met het passende zandbakgebied verbindt om uw gegevens in het zelfde gebied te houden. Als u het gegevensbestand van een verschillend gebied met een zandbak verbindt, is Adobe **niet** verantwoordelijk voor gegevenslocalisatie.
+De federated Samenstelling van het publiek slaat **&#x200B;**&#x200B;geen klantengegevens op. Dientengevolge, moet u ervoor zorgen dat u **slechts** uw externe gegevensbestanden met het passende zandbakgebied verbindt om uw gegevens in het zelfde gebied te houden. Als u het gegevensbestand van een verschillend gebied met een zandbak verbindt, is Adobe **niet** verantwoordelijk voor gegevenslocalisatie.
 
 ## Volgende stappen {#next-steps}
 

@@ -69,7 +69,7 @@ Deze release bevat de onderstaande verbeteringen.
 
 Deze release bevat de onderstaande verbeteringen.
 
-* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek ****
+* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek **&#x200B;**
 
   Beginnende Maart versie, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die de **hebben gekregen leiden Federatieve Gegevens** toestemming.
 

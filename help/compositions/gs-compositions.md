@@ -17,7 +17,7 @@ ht-degree: 0%
 >Voor toegang tot composities hebt u een van de volgende machtigingen nodig:
 >
 >- **beheer Federale Samenstellingen**
->>- **Mening Federatieve Samenstellingen**
+>&#x200B;>- **Mening Federatieve Samenstellingen**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
