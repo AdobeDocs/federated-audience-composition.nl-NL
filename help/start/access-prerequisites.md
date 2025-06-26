@@ -59,6 +59,6 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 
 ## Afbeeldingen en beperkingen {#fac-guardrails}
 
-* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
+* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
 
 * Federated Audience Composition biedt ondersteuning voor het exporteren van grote doelgroepen, met bestanden van meer dan 1 GB. Voor optimale prestaties is de maximale aanbevolen bestandsgrootte maximaal 20 GB.

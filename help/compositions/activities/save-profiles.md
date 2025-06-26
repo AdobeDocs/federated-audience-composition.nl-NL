@@ -70,9 +70,9 @@ Deze activiteit wordt typisch gebruikt om klantenprofielen te verbeteren door ex
 
 >[!IMPORTANT]
 >
->**sparen Profielen** activiteit vereist een profiel-toegelaten schema en dataset. Leren hoe te om uw dataset toe te laten om profiel-toegelaten te zijn, te lezen gelieve de [ gids van de datasetgebruiker ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>**sparen Profielen** activiteit vereist een profiel-toegelaten schema en dataset. Leren hoe te om uw dataset toe te laten om profiel-toegelaten te zijn, te lezen gelieve de [ gids van de datasetgebruiker ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Bovendien, als de geselecteerde dataset **niet** toegelaten upsert heeft, zullen de gegevens van de profielen **worden vervangen**. Leren hoe te om upsert voor uw datasets toe te laten, te lezen gelieve [ toelaten upsert gids ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>Bovendien, als de geselecteerde dataset **niet** toegelaten upsert heeft, zullen de gegevens van de profielen **worden vervangen**. Leren hoe te om upsert voor uw datasets toe te laten, te lezen gelieve [ toelaten upsert gids ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Voer de volgende stappen uit om de **[!UICONTROL Save Profiles]** -activiteit te configureren:
 
