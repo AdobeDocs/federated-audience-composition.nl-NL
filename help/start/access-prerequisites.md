@@ -2,10 +2,10 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 4%
+source-wordcount: '363'
+ht-degree: 3%
 
 ---
 
@@ -57,8 +57,14 @@ Om Federated Audience Composition veilig toe te laten om tot uw gegevensbestande
 
 Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Federatieve Samenstelling van het Publiek te verlenen.
 
-## Afbeeldingen en beperkingen {#fac-guardrails}
+## Beleid samenvoegen {#merge-policies}
 
-* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
+Om de Verbond van het Publiek te gebruiken om publiek te produceren, moet u **** gebruiken a **timestamp geordend** samenvoegingsbeleid. Als uw publiek a **samenvoegbeleid van de a** datasetvoorkeur gebruikt, gelieve de Zorg van de Klant van Adobe te contacteren om te werk te gaan.
+
+Voor meer informatie over fusiebeleid, te lezen gelieve het [ overzicht van het samenvoegbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+
+## Afvoerkanalen en beperkingen {#fac-guardrails}
+
+* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
 
 * Federated Audience Composition biedt ondersteuning voor het exporteren van grote doelgroepen, met bestanden van meer dan 1 GB. Voor optimale prestaties is de maximale aanbevolen bestandsgrootte maximaal 20 GB.
