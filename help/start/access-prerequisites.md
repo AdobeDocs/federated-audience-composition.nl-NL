@@ -59,7 +59,7 @@ Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Fed
 
 ## Beleid samenvoegen {#merge-policies}
 
-Om de Verbond van het Publiek te gebruiken om publiek te produceren, moet u **** gebruiken a **timestamp geordend** samenvoegingsbeleid. Als uw publiek a **samenvoegbeleid van de a** datasetvoorkeur gebruikt, gelieve de Zorg van de Klant van Adobe te contacteren om te werk te gaan.
+Om de Verbond van het Publiek te gebruiken om publiek te produceren, moet u **&#x200B;**&#x200B;gebruiken a **timestamp geordend** samenvoegingsbeleid. Als uw publiek a **samenvoegbeleid van de a** datasetvoorkeur gebruikt, gelieve de Zorg van de Klant van Adobe te contacteren om te werk te gaan.
 
 Voor meer informatie over fusiebeleid, te lezen gelieve het [ overzicht van het samenvoegbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
