@@ -29,7 +29,7 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB  stel een publiek ] samen
+>[!TAB stel een publiek  samen]
 
 Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstellingen te bouwen en uw publiek te creëren.
 
@@ -48,7 +48,7 @@ Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstelli
     </td>
     <td>
     <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong> de gegevens van het publiek van 0} {voorbereidingen treffen en in kaart brengen uw gegevens in een douane en verlengbaar gegevensmodel.</strong><br/>
+    <div><strong> de gegevens van het publiek van 0&rbrace; &lbrace;voorbereidingen treffen en in kaart brengen uw gegevens in een douane en verlengbaar gegevensmodel.</strong><br/>
     </div>
     </td>
     <td>
@@ -63,7 +63,7 @@ Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstelli
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong> Veelgestelde vragen van 0} Veelgestelde vragen over de Samenstelling van het Publiek.</strong><br/></div>
+    <div><strong> Veelgestelde vragen van 0&rbrace; Veelgestelde vragen over de Samenstelling van het Publiek.</strong><br/></div>
     </td>
   </tr>
   <tr style="border: 0;">
