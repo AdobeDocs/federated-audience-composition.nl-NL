@@ -2,9 +2,9 @@
 title: Startpagina Adobe Experience Platform Federal Audience Composition
 description: Federale documentatie van Audience Composition
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '248'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ Maak, configureer, test en sla de verbinding met uw externe database op.
 
 [![afbeelding](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB stel een publiek  samen]
+>[!TAB  stel een publiek ] samen
 
 Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstellingen te bouwen en uw publiek te creëren.
 
@@ -48,27 +48,33 @@ Voeg en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) toe om samenstelli
     </td>
     <td>
     <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div></strong><br/> de gegevens van het publiek van 0&rbrace; &lbrace;voorbereidingen treffen en in kaart brengen uw gegevens in een douane en verlengbaar gegevensmodel.<strong>
+    <div><strong> de gegevens van het publiek van 0} {voorbereidingen treffen en in kaart brengen uw gegevens in een douane en verlengbaar gegevensmodel.</strong><br/>
     </div>
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong> stel een publiek </strong><br/> samen en vorm activiteiten (Splitsen, Verrijking, Vraag, enz.) om samenstellingen te bouwen en uw eerste gefedereerde publiek tot stand te brengen.
+    <div><strong> stel een publiek </strong><br/> samen en vorm activiteiten (zoals Gesplitst, Verrijking, of Vraag) om samenstellingen te bouwen en uw eerste gefedereerde publiek tot stand te brengen.
+    </div>
+    </td>
+    <td>
+    <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
+    <div><strong> de gevallen van het Gebruik </strong><br/> Gemeentelijke Samenstelling van het Publiek om publiek tot stand te brengen en te verrijken evenals profielgegevens te verrijken.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong> Veelgestelde Veelgestelde Vragen </strong><br/> Veelgestelde Veelgestelde Vragen over de Samenstelling van het Publiek Federated.</div>
+    <div><strong> Veelgestelde vragen van 0} Veelgestelde vragen over de Samenstelling van het Publiek.</strong><br/></div>
     </td>
   </tr>
   <tr style="border: 0;">
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/get-started.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
 ## Aanvullende bronnen  {#additional-resources}
 
-[ de Documentatie van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home){target="_blank"}  - [ Poortdocumentatie van het Poort van het publiek van Adobe ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"}  - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/nl/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"} 
+[ de Documentatie van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [ Poortdocumentatie van het Poort van het publiek van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [ Leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
