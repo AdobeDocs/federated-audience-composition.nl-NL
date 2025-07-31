@@ -3,7 +3,7 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -95,3 +95,4 @@ Beschikbare acties zijn:
 * **[!UICONTROL Stop]** Een compositie die wordt uitgevoerd en die vervolgens de status **[!UICONTROL Finished]** krijgt. De lopende bewerkingen worden indien mogelijk onderbroken. U kunt de compositie niet hervatten vanaf dezelfde plaats als waar deze is gestopt.
 
 * **[!UICONTROL Restart]**: stopt en start vervolgens een compositie opnieuw. In de meeste gevallen kunt u de toepassing sneller opnieuw starten, aangezien het stoppen een bepaalde hoeveelheid tijd in beslag neemt en de knop **[!UICONTROL Start]** alleen beschikbaar is wanneer de stop effectief is.
+
