@@ -73,7 +73,7 @@ De pop-up **[!UICONTROL Manage access]** wordt weergegeven. Op deze pagina, kunt
 | Gevoelige labels | Gevoelige labels (&quot;S&quot;-labels) worden gebruikt om u te categoriseren en/of om te bepalen of uw organisatie gevoelig is. |
 | Partnerecosysteemlabels | De etiketten van het Ecosysteem van de partner worden gebruikt om gegevens uit bronnen buiten uw organisatie te categoriseren. |
 
-Voor meer informatie over toegang en de etiketten van het gegevensbeheer, te lezen gelieve de [ verklarende woordenlijst van het het etiketetiket van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+Voor meer informatie over toegang en de etiketten van het gegevensbeheer, te lezen gelieve de [ verklarende woordenlijst van het het etiketetiket van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/reference).
 
 ## Volgende stappen
 
