@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 16%
+source-wordcount: '160'
+ht-degree: 17%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 16%
    + [Overzicht](./governance-privacy-security/home.md)
    + [Toegangsbeheer](governance-privacy-security/access-control.md)
 + Configuratiestappen {#config}
-   + [Verbindingen maken en beheren](connections/connections.md)
-   + [Configureer uw gefedereerde databases](connections/federated-db.md)
+   + [Overzicht van verbindingen](connections/home.md)
    + [FDA-rechtenmatrix](connections/fda-rights.md)
    + Gegevensmodellen en -schema&#39;s{#datamodel}
       + [Schema&#39;s maken en configureren](customer/schemas.md)

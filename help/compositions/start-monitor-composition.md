@@ -3,9 +3,9 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,22 @@ De historie wordt ingedeeld in verschillende tabbladen, die hieronder worden bes
 ![](assets/logs-tasks.png)
 
 Op alle tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filters toepassen en het zoekveld gebruiken om snel de gewenste informatie te zoeken.
+
+## Abonneren op waarschuwingen {#alerts}
+
+Daarnaast kunt u zich abonneren op waarschuwingen om meldingen te ontvangen als de uitvoering van uw gefedereerde compositie is geslaagd of mislukt.
+
+Om aan alarm in te tekenen, selecteer het ![ berichtpictogram ](/help/assets/icons/bell.png), dat door het ![ montagespictogram ](/help/assets/icons/settings.png) wordt gevolgd.
+
+![ zowel worden het bericht als de montagespictogrammen benadrukt.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+De pagina met instellingen voor meldingen wordt weergegeven. Selecteer op deze pagina **[!UICONTROL Experience Platform]** en kies de gewenste kanalen voor waarschuwingen. Selecteer **[!UICONTROL In-app]** als u de meldingen in de gebruikersinterface wilt weergeven.
+
+![ checkbox in-app wordt geselecteerd binnen de sectie van Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+Als **[!UICONTROL In-app]** is geselecteerd, krijgt u nu een melding voor het uitvoeren van composities.
+
+![ het alarm wordt getoond, tonend de samenstellingssuccessen en mislukkingen.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Opdrachten voor het uitvoeren van composities {#execution-commands}
 

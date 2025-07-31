@@ -2,7 +2,7 @@
 title: Vereisten en instructies voor Federatieve Audience Composition
 description: Ervaar vereisten, toestemmingen, en gidsen voor de Samenstelling van de Publiek van de Federatieve
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 3%
@@ -29,7 +29,7 @@ De Federatieve Samenstelling van de Publiek steunt de volgende wolkenpakhuizen:
 * Vertica Analytics
 * Microsoft Fabric
 
-Leer hoe te om een verbinding met deze systemen op [ tot stand te brengen deze pagina ](../connections/connections.md).
+Leer hoe te om een verbinding met deze systemen op [ tot stand te brengen deze pagina ](../connections/home.md).
 
 ## Sandboxes
 
@@ -53,18 +53,18 @@ Als u Federated Audience Composition wilt openen, moeten gebruikers worden toege
 
 ## IP-aanbieding toestaan {#ip}
 
-Om Federated Audience Composition veilig toe te laten om tot uw gegevensbestanden toegang te hebben, moet u de IP adressen van de servers van de Samenstelling van de Federatieve Publiek machtigen die tot hen zullen toegang hebben. Deze IP-adressen worden weergegeven wanneer u een gefedereerde database toevoegt in de gebruikersinterface van Adobe Experience Platform. [Meer informatie](../connections/connections.md)
+Om Federated Audience Composition veilig toe te laten om tot uw gegevensbestanden toegang te hebben, moet u de IP adressen van de servers van de Samenstelling van de Federatieve Publiek machtigen die tot hen zullen toegang hebben. Deze IP-adressen worden weergegeven wanneer u een gefedereerde database toevoegt in de gebruikersinterface van Adobe Experience Platform. [Meer informatie](../connections/home.md)
 
 Voeg deze IP adressen aan uw lijst van gewenste personen toe om toegang voor Federatieve Samenstelling van het Publiek te verlenen.
 
 ## Beleid samenvoegen {#merge-policies}
 
-Als uw publiek a **dataset belangrijkheid** fusiebeleid gebruikt, gelieve de Zorg van de Klant van Adobe te contacteren om de `Halos UPS` dataset aan uw fusiebeleid toe te voegen.
+Als uw zandbak de belangrijkheid van de a **dataset** samenvoegbeleid gebruikt, gelieve de Zorg van de Klant van Adobe te contacteren om de `Halos UPS` dataset aan uw fusiebeleid toe te voegen.
 
-Voor meer informatie over fusiebeleid, te lezen gelieve het [ overzicht van het samenvoegbeleid ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview).
+Voor meer informatie over fusiebeleid, te lezen gelieve het [ overzicht van het samenvoegbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 ## Afvoerkanalen en beperkingen {#fac-guardrails}
 
-* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
+* De rechten, de productbeperkingen en de prestatiegaranties die in de [ documentatie van Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} worden vermeld zijn op de Federatieve Samenstelling van het Publiek van toepassing.
 
 * Federated Audience Composition biedt ondersteuning voor het exporteren van grote doelgroepen, met bestanden van meer dan 1 GB. Voor optimale prestaties is de maximale aanbevolen bestandsgrootte maximaal 20 GB.

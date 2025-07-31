@@ -4,7 +4,7 @@ description: Nieuwste updates en opmerkingen bij de release
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Aanvullende informatie {#rn-new}
 
-[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Release juli 2025 {#fac-25-7}
 
@@ -73,7 +73,7 @@ Deze release bevat de onderstaande verbeteringen.
 
 * **veilige verbinding van Snowflake**
 
-  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige privékoppelingsverbindingen met Amazon Redshift-databases die worden gehost op Microsoft Azure. [Meer informatie](../connections/federated-db.md#amazon-redshift)
+  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige privékoppelingsverbindingen met Amazon Redshift-databases die worden gehost op Microsoft Azure. [Meer informatie](../connections/home.md#amazon-redshift)
 
 ## Release van maart 1925 {#fac-25-3}
 
@@ -81,7 +81,7 @@ Deze release bevat de onderstaande verbeteringen.
 
 Deze release bevat de onderstaande verbeteringen.
 
-* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek **&#x200B;**
+* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek ****
 
   Beginnende Maart versie, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die de **hebben gekregen leiden Federatieve Gegevens** toestemming.
 
@@ -105,7 +105,7 @@ Deze release bevat de onderstaande verbeteringen.
 * **Verbinding van Gegevensbestanden**
 
   Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek nu privé verbindingsconnectiviteit voor Databricks gegevensbestandverbindingen.
-Dit omvat veilige verbindingen met Databricks-databases die worden gehost op Amazon Web Services (AWS) via privékoppelingen en databases die worden gehost op Microsoft Azure via VPN. [Meer informatie](../connections/federated-db.md#databricks)
+Dit omvat veilige verbindingen met Databricks-databases die worden gehost op Amazon Web Services (AWS) via privékoppelingen en databases die worden gehost op Microsoft Azure via VPN. [Meer informatie](../connections/home.md#databricks)
 
 * **Steun voor B2B CDP Klanten**
 
@@ -113,7 +113,7 @@ Dit omvat veilige verbindingen met Databricks-databases die worden gehost op Ama
 
 * **veilige verbinding van Snowflake**
 
-  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige verbindingen met privékoppelingen naar Snowflake-databases die worden gehost op Microsoft Azure. [Meer informatie](../connections/federated-db.md#snowflake)
+  Met deze nieuwe release biedt Federated Audience Composition ondersteuning voor veilige verbindingen met privékoppelingen naar Snowflake-databases die worden gehost op Microsoft Azure. [Meer informatie](../connections/home.md#snowflake)
 
 ## Release van februari &#39;25 {#fac-25-2}
 
@@ -121,11 +121,11 @@ Deze release wordt geleverd met de onderstaande wijzigingen.
 
 * **de Steun van de Stof van Microsoft**
 
-  U kunt nu verbindingen met Microsoft Fabric-databases tot stand brengen via Federated Audience Composition. [Meer informatie](../connections/federated-db.md)
+  U kunt nu verbindingen met Microsoft Fabric-databases tot stand brengen via Federated Audience Composition. [Meer informatie](../connections/home.md)
 
 * **Amazon Redshift de steun van het Spectrum**
 
-  Amazon Redshift-spectrum wordt nu ondersteund voor Amazon Redshift-databaseverbindingen. [Meer informatie](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift-spectrum wordt nu ondersteund voor Amazon Redshift-databaseverbindingen. [Meer informatie](../connections/home.md#amazon-redshift)
 
 * **Verbeterde Ervaring van de Aanmaak van het Schema**
 
@@ -143,7 +143,7 @@ Deze release gaat vergezeld van de onderstaande verbetering.
 
 * **IP adres lijst van gewenste personen**
 
-  Wanneer u een gefederaliseerde database toevoegt in de Adobe Experience Platform-gebruikersinterface, kunt u nu rechtstreeks de IP-adressen weergeven die zijn gekoppeld aan de instanties van de Federatieve compositie van het publiek. Dit laat u toe om deze IPs gemakkelijk te kopiëren en te machtigen om met uw gegevensbestand voor betere veiligheid en flexibiliteit te verbinden. [Meer informatie](../connections/connections.md)
+  Wanneer u een gefederaliseerde database toevoegt in de Adobe Experience Platform-gebruikersinterface, kunt u nu rechtstreeks de IP-adressen weergeven die zijn gekoppeld aan de instanties van de Federatieve compositie van het publiek. Dit laat u toe om deze IPs gemakkelijk te kopiëren en te machtigen om met uw gegevensbestand voor betere veiligheid en flexibiliteit te verbinden. [Meer informatie](../connections/home.md)
 
 ## Release oktober 1924 {#fac-24-10}
 
@@ -158,11 +158,11 @@ Met deze nieuwe release is Federated Audience Composition nu compatibel met de h
 
 * **de steun van Gegevensbestanden**
 
-  U kunt verbindingen aan gegevensbestanden van Gegevensbestanden door de Samenstelling van de Publiek van de Federatieve nu vestigen. [Meer informatie](../connections/federated-db.md#databricks)
+  U kunt verbindingen aan gegevensbestanden van Gegevensbestanden door de Samenstelling van de Publiek van de Federatieve nu vestigen. [Meer informatie](../connections/home.md#databricks)
 
 * **Steun voor veilige toegang tot Snowflake door AWS PrivateLink**
 
-  Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt nu ondersteund. Je Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van je Federated Audience Composition. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account. [Meer informatie](../connections/federated-db.md#snowflake)
+  Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt nu ondersteund. Je Snowflake-account moet worden gehost op Amazon Web Services (AWS) en zich in dezelfde regio bevinden als de omgeving van je Federated Audience Composition. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account. [Meer informatie](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless steun**
 
@@ -182,7 +182,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 ## Release van 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
+De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
 Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen.
 

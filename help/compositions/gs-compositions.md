@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met composities
 description: Leer hoe u begint met composities
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >Voor toegang tot composities hebt u een van de volgende machtigingen nodig:
 >
 >- **beheer Federale Samenstellingen**
->&#x200B;>- **Mening Federatieve Samenstellingen**
+>>- **Mening Federatieve Samenstellingen**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
@@ -48,23 +48,23 @@ U kunt ook informatie weergeven over de composities, zoals de naam, de status, d
 
 U kunt leren hoe te om een samenstelling in het [ begin te beginnen of tegen te houden en samenstellingsgids ](./start-monitor-composition.md) te controleren.
 
-![ een lijst van A van de beschikbare samenstellingen wordt getoond.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![ een lijst van A van de beschikbare samenstellingen wordt getoond.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 Als u de lijst wilt verfijnen en de compositie wilt zoeken die u zoekt, kunt u de lijst doorzoeken en composities filteren op basis van de status of de laatste verwerkingsdatum.
 
 U kunt de lijst ook aanpassen door kolommen toe te voegen of te verwijderen. Selecteer hiertoe de knop **[!UICONTROL Configure columns]** en voeg de gewenste uitvoerkolommen toe of verwijder deze.
 
-![ A lijst van de beschikbare kolommen u aan composities kunt toevoegen doorbladert pagina wordt getoond.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![ A lijst van de beschikbare kolommen u aan composities kunt toevoegen doorbladert pagina wordt getoond.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Toegangslabels toepassen {#access-labels}
 
 Om toegangslabels op een specifieke samenstelling toe te passen, selecteer de samenstelling, die door **[!UICONTROL Manage access]** wordt gevolgd.
 
-![ de &quot;beheert toegang&quot;knoop wordt benadrukt binnen het samenstellingscanvas.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![ de &quot;beheert toegang&quot;knoop wordt benadrukt binnen het samenstellingscanvas.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 De pop-up **[!UICONTROL Manage access]** wordt weergegeven. Op deze pagina, kunt u de toepasselijke toegang en de etiketten van het gegevensbeheer op uw samenstelling toepassen.
 
-![ Beheert toegangspopover wordt getoond. Dit toont een lijst van alle beschikbare etiketten u op de samenstelling kunt toepassen.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![ Beheert toegangspopover wordt getoond. Dit toont een lijst van alle beschikbare etiketten u op de samenstelling kunt toepassen.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Type label | Beschrijving |
 | ---------- | ----------- |
@@ -73,7 +73,7 @@ De pop-up **[!UICONTROL Manage access]** wordt weergegeven. Op deze pagina, kunt
 | Gevoelige labels | Gevoelige labels (&quot;S&quot;-labels) worden gebruikt om u te categoriseren en/of om te bepalen of uw organisatie gevoelig is. |
 | Partnerecosysteemlabels | De etiketten van het Ecosysteem van de partner worden gebruikt om gegevens uit bronnen buiten uw organisatie te categoriseren. |
 
-Voor meer informatie over toegang en de etiketten van het gegevensbeheer, te lezen gelieve de [ verklarende woordenlijst van het het etiketetiket van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/reference).
+Voor meer informatie over toegang en de etiketten van het gegevensbeheer, te lezen gelieve de [ verklarende woordenlijst van het het etiketetiket van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
 
 ## Volgende stappen
 

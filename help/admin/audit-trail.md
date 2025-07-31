@@ -3,7 +3,7 @@ audience: end-user
 title: Audit trail
 description: Leer hoe acties en gebeurtenissen zijn geregistreerd en toegankelijk in het audittrail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -48,7 +48,7 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 * **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in de instantie van de Samenstelling van het publiek van Adobe worden aangebracht.
 
-  Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../connections/federated-db.md).
+  Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../connections/home.md).
 
 +++
 
@@ -56,7 +56,7 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 Ga als volgt te werk om het exemplaar **[!UICONTROL Audit trail]** te openen:
 
-1. Selecteer **[!UICONTROL Audit trail]** onder het menu **[!UICONTROL Federated data]** .
+1. Selecteer **[!UICONTROL Federated data]** onder het menu **[!UICONTROL Audit trail]** .
 
 1. Het venster **[!UICONTROL Audit trail]** wordt geopend met de lijst met entiteiten. De federated Audience Composition controleert creeert, uitgeeft en schrapt acties voor werkschema&#39;s, opties, leveringen en schema&#39;s.
 

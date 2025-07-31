@@ -2,13 +2,13 @@
 audience: end-user
 title: Source-activiteit gegevens wijzigen
 description: Leer hoe u de activiteit van de veranderingsgegevensbron kunt gebruiken om de gegevensbron te veranderen die door uw samenstelling wordt gebruikt, die meer flexibiliteit verstrekken in het beheren van uw gegevens in een samenstelling.
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
-
 
 # Databron wijzigen
 
@@ -22,12 +22,12 @@ Met de activiteit **[!UICONTROL Change data source]** kunt u de gegevensbron wij
 
 Nadat u een **[!UICONTROL Change data source]** -activiteit aan het canvas hebt toegevoegd, kunt u de gegevensbron voor de workflow definiëren.
 
-![ de gegevensbronoptie wordt benadrukt binnen de Federatieve werkruimte van de Samenstelling van de Publiek.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
+![ de gegevensbronoptie wordt benadrukt binnen de Federatieve werkruimte van de Samenstelling van de Publiek.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}
 
 | Source | Beschrijving |
 | ------ | ----------- |
-| FDA externe rekening | Een externe cloud-database die via Federated Audience Composition is verbonden met Adobe Campaign. |
+| FDA externe rekening | Een externe cloud-database die is verbonden met Federated Audience Composition. |
 
 Nadat u **[!UICONTROL FDA external account]** hebt geselecteerd, kunt u kiezen met welke externe account u verbinding wilt maken.
 
-![ popover het tonen van de externe rekeningsopties wordt getoond.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}{align="center"}
+![ popover het tonen van de externe rekeningsopties wordt getoond.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}

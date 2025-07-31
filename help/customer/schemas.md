@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 >Voor toegang tot schema&#39;s hebt u een van de volgende machtigingen nodig:
 >
 >-**Beheer Verbond Schema**
->&#x200B;>-**Bekijk Verbond Schema**
+>>-**Bekijk Verbond Schema**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
@@ -65,11 +65,11 @@ Door een schema te maken, kunt u een representatie van de tabel definiëren in d
 
 Voer de onderstaande stappen uit om schema&#39;s te maken in Federated Audience Composition:
 
-1. Open het menu **[!UICONTROL Models]** in de sectie **[!UICONTROL Federated Data]** . Blader naar het tabblad **[!UICONTROL Schema]** en klik op **[!UICONTROL Create schema]** .
+1. Open het menu **[!UICONTROL Federated Data]** in de sectie **[!UICONTROL Models]** . Blader naar het tabblad **[!UICONTROL Schema]** en klik op **[!UICONTROL Create schema]** .
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   Met deze stap hebt u toegang tot een nieuw scherm met een vervolgkeuzelijst waarin u de database(s) kunt vinden die zijn verbonden met uw omgeving. Leer meer over gegevensbestandverbinding in [ deze sectie ](../connections/connections.md#connections-fdb).
+   Met deze stap hebt u toegang tot een nieuw scherm met een vervolgkeuzelijst waarin u de database(s) kunt vinden die zijn verbonden met uw omgeving. Leer meer over gegevensbestandverbinding in [ deze sectie ](../connections/home.md#connections-fdb).
 
 1. Selecteer de brondatabase in de lijst en klik op **[!UICONTROL Next]** .
 
