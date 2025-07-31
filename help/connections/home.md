@@ -17,7 +17,7 @@ ht-degree: 1%
 >Voor toegang tot verbindingen hebt u een van de volgende machtigingen nodig:
 >
 >- **beheer Federated Gegevensbestand**
->>- **Mening Federated Gegevensbestand**
+>&#x200B;>- **Mening Federated Gegevensbestand**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
@@ -27,14 +27,14 @@ Met de Experience Platform Federated Audience Composition kunt u een publiek opb
 
 Als u met uw gefedereerde database en Adobe Experience Platform wilt werken, moet u eerst een verbinding tot stand brengen tussen de twee bronnen. Met Federated Audience Composition kunt u verbinding maken met de volgende databases.
 
-* Amazon Redshift
-* Azure Synapse Analytics
-* Databricks
-* Google BigQuery
-* Microsoft Fabric
-* Oracle
-* Snowflake
-* Vertica Analytics
+&#x200B;* Amazon Redshift
+&#x200B;* Azure Synapse Analytics
+&#x200B;* Databricks
+&#x200B;* Google BigQuery
+&#x200B;* Microsoft Fabric
+&#x200B;* Oracle
+&#x200B;* Snowflake
+&#x200B;* Vertica Analytics
 
 ## Verbinding maken {#create}
 
@@ -68,7 +68,7 @@ Nadat u Amazon Redshift hebt geselecteerd, kunt u de volgende details toevoegen:
 | Account | De gebruikersnaam van de account. |
 | Wachtwoord | Het wachtwoord van de account. |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
-| Werkschema | De naam van het schema van het gegevensbestand voor werklijsten te gebruiken. Meer informatie over deze eigenschap kan in de [ documentatie van het Schema van Amazon ](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} worden gevonden.<br/><br/>**Nota:** u kunt om het even welk schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Werkschema | De naam van het schema van het gegevensbestand voor werklijsten te gebruiken. Meer informatie over deze eigenschap kan in de [ documentatie van het Schema van Amazon ](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} worden gevonden.<br/><br/>**Nota:** u kunt om het even welk schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 
 >[!TAB  Analytics van Azure Synapse ]
 
@@ -96,7 +96,7 @@ Na het selecteren van Gegevensbestanden, kunt u de volgende details toevoegen:
 | HTTP-pad | De weg aan uw Cluster of Warehouse. Voor meer informatie over de weg, te lezen gelieve de [ documentatie van Gegevensbestanden over verbindingsdetails ](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Wachtwoord | Het toegangstoken voor de server van Gegevensbestanden. Voor meer informatie over deze waarde, te lezen gelieve de [ documentatie van Gegevensbestanden over persoonlijke toegangstokens ](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
 | Catalogus | De naam van de catalogus met databases. Voor meer informatie over catalogi in Gegevensbestanden, te lezen gelieve de [ documentatie van Gegevensbestanden over catalogi ](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
 Voor Databases kunt u de volgende aanvullende opties instellen:
@@ -177,7 +177,7 @@ Nadat u Snowflake hebt geselecteerd, kunt u de volgende gegevens toevoegen:
 | Gebruiker | De gebruikersnaam voor de account. |
 | Wachtwoord | Het wachtwoord voor de account. |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
-| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 | Persoonlijke sleutel | De persoonlijke sleutel voor uw databaseverbinding. U kunt een `.pem` -bestand uploaden vanaf uw lokale systeem. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
@@ -203,7 +203,7 @@ Nadat u Vertica Analytics hebt geselecteerd, kunt u de volgende gegevens toevoeg
 | Account | De gebruikersnaam van de account. |
 | Wachtwoord | Het wachtwoord van de account. |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
-| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
 Voor Vertica Analytics kunt u de volgende aanvullende opties instellen:
