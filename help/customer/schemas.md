@@ -17,7 +17,7 @@ ht-degree: 2%
 >Voor toegang tot schema&#39;s hebt u een van de volgende machtigingen nodig:
 >
 >-**Beheer Verbond Schema**
->>-**Bekijk Verbond Schema**
+>&#x200B;>-**Bekijk Verbond Schema**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 

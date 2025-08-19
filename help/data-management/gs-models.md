@@ -18,7 +18,7 @@ ht-degree: 0%
 >Voor toegang tot gegevensmodellen hebt u een van de volgende machtigingen nodig:
 >
 >- **beheer Federated Gegevensmodel**
->>- **Bekijk het Verbond Model van Gegevens**
+>&#x200B;>- **Bekijk het Verbond Model van Gegevens**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
@@ -80,11 +80,11 @@ Ga als volgt te werk als u koppelingen wilt maken tussen tabellen van uw gegeven
 
    **Kardinaliteit**
 
-   * **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
+   &#x200B;* **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
 
-   * **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-   * **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
    Als u meerdere verbindingskoppelingen wilt maken, selecteert u het plusteken. U kunt nu meerdere verbindingen maken tussen de schemavelden.
 
@@ -110,11 +110,11 @@ Ga als volgt te werk om koppelingen te maken tussen tabellen van uw gegevensmode
 
    **Kardinaliteit**
 
-   * **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
+   &#x200B;* **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
 
-   * **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-   * **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
 4. Alle koppelingen die in het gegevensmodel zijn gedefinieerd, worden als pijlen weergegeven in de canvasweergave. Selecteer een pijl tussen twee tabellen om details weer te geven, bewerkingen uit te voeren of verwijder de koppeling naar wens.
 
@@ -124,12 +124,12 @@ Ga als volgt te werk om koppelingen te maken tussen tabellen van uw gegevensmode
 
    ![](assets/datamodel-canvas-3.png)
 
-   * **[!UICONTROL Zoom in]**: vergroot het canvas om de details van uw gegevensmodel duidelijker te zien.
-   * **[!UICONTROL Zoom out]**: verklein de canvasgrootte voor een bredere weergave van uw gegevensmodel.
-   * **[!UICONTROL Fit view]**: pas het zoomniveau aan zodat alle schema&#39;s en/of doelgroepen in het zichtbare gebied passen.
-   * **[!UICONTROL Toggle interactivity]**: Schakel gebruikersinteractie met het canvas in of uit.
-   * **[!UICONTROL Filter]**: kies welk schema u wilt weergeven binnen het canvas.
-   * **[!UICONTROL Force auto layout]**: schema&#39;s en/of publiek automatisch rangschikken voor een betere organisatie.
+   &#x200B;* **[!UICONTROL Zoom in]**: vergroot het canvas om de details van uw gegevensmodel duidelijker te zien.
+   &#x200B;* **[!UICONTROL Zoom out]**: verklein de canvasgrootte voor een bredere weergave van uw gegevensmodel.
+   &#x200B;* **[!UICONTROL Fit view]**: pas het zoomniveau aan zodat alle schema&#39;s en/of doelgroepen in het zichtbare gebied passen.
+   &#x200B;* **[!UICONTROL Toggle interactivity]**: Schakel gebruikersinteractie met het canvas in of uit.
+   &#x200B;* **[!UICONTROL Filter]**: kies welk schema u wilt weergeven binnen het canvas.
+   &#x200B;* **[!UICONTROL Force auto layout]**: schema&#39;s en/of publiek automatisch rangschikken voor een betere organisatie.
 
 >[!ENDTABS]
 
