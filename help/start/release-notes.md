@@ -2,16 +2,78 @@
 title: Nieuw in Experience Platform Federated Audience Composition
 description: Nieuwste updates en opmerkingen bij de release
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 4%
+source-wordcount: '1704'
+ht-degree: 3%
 
 ---
 
 # Aanvullende informatie {#rn-new}
 
-[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## Release van augustus 1925 {#fac-25-8}
+
+### Nieuwe functies {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Ondersteuning voor samengestelde sleutels bij schemadetectie</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu kolommen combineren om een samengestelde sleutel voor uw schema te maken.</p>
+<p>Voor meer informatie over schema's, te lezen gelieve het <a href="../customer/schemas.md#create"> schema's overzicht </a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Meerdere verbindingen toevoegen aan een koppeling voor modellen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu meerdere verbindingen aan elkaar toevoegen in één koppeling voor uw modellen.</p>
+<p>Voor meer informatie over modellen, gelieve het <a href="../data-management/gs-models.md#create"> modellenoverzicht </a> te lezen.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#fac-25-8-improvements}
+
+Deze release bevat de volgende verbeteringen:
+
+* **Toegevoegde `StringAgg` functie**
+
+  U kunt nu de functie `StringAgg` voor Amazon Redshift Spectrum Databases gebruiken wanneer. gebruiken van de uitdrukkingsredacteur.
+
+* **`Replace`function**
+
+  De beschrijving en syntaxis van de functie `Replace` zijn in de documentatie verduidelijkt.
+
+### Compatibiliteit {#fac-25-8-compatibility}
+
+* **de gegevensbestanden van Azure Synapse**
+
+  U kunt nu veilig met de gegevensbestanden van Azure Synapse met PrivateLink of VPN verbinden. Neem contact op met de klantenservice van Adobe voor meer informatie.
+
+* **gegevensbestand van Oracle**
+
+  U kunt nu veilig verbinding maken met Oracle-databases. Neem contact op met de klantenservice van Adobe voor meer informatie.
+
+Voor meer informatie over de gesteunde gegevensbestanden in de Federatieve Samenstelling van de Auditie, te lezen gelieve het [ verbindingsoverzicht ](../connections/home.md).
 
 ## Release juli 1925 {#fac-25-7}
 
@@ -198,7 +260,7 @@ Deze release bevat de onderstaande verbeteringen.
 * **sparen publieksactiviteit**
 
   Een nota is toegevoegd aan **sparen de activiteit van het Publiek**, herinnerend gebruikers om met een gegevensbeheerder samen te werken om governancelabels op nieuwe die schema&#39;s en datasets toe te passen tijdens publieksverwezenlijking en verrijking worden gecreeerd.
-  [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/user-guide)
+  [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibiliteit {#fac-25-4-compat}
 
@@ -216,7 +278,7 @@ Deze release bevat de onderstaande verbeteringen.
 
 Deze release bevat de onderstaande verbeteringen.
 
-* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek **&#x200B;**
+* {de toestemmingen van de Samenstelling van het 0} Federatieve publiek ****
 
   Beginnende Maart versie, [!DNL Federated Audience Composition] zal beginnen de toegang van **Federated gegevensbeheer** en **Federated Composities** interfaces aan gebruiker af te dwingen die de **hebben gekregen leiden Federatieve Gegevens** toestemming.
 
@@ -305,7 +367,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 ## Release van 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
+De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
 Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen.
 

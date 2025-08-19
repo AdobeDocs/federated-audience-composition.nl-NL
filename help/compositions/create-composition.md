@@ -3,33 +3,35 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
-# De compositie maken en configureren {#create}
+# Creeer en vorm de samenstelling {#create}
 
 De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepalen en extra montages vormen indien nodig.
 
 ## De compositie maken {#create-the-composition}
 
-1. Open het menu **[!UICONTROL Audiences]** en selecteer de tab **[!UICONTROL Federated compositions]** .
+Als u een compositie wilt maken, selecteert u **[!UICONTROL Audiences]** in de sectie **[!UICONTROL Customer]** , gevolgd door de tab **[!UICONTROL Federated compositions]** .
 
-1. Klik op de knop **[!UICONTROL Create composition]**.
+AFBEELDING
 
-   ![](assets/composition-create.png)
+De pagina Bladeren met gefedereerde composities wordt weergegeven. Selecteer **[!UICONTROL Create composition]** om door te gaan met het maken van composities.
 
-1. Geef in de sectie **[!UICONTROL Properties]** een label voor de compositie op en selecteer een gegevensmodel. Slechts zullen de schema&#39;s verbonden aan dit gegevensmodel in de activiteiten van uw samenstelling beschikbaar zijn.
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+In de sectie **[!UICONTROL Properties]** geeft u een label voor de compositie op en selecteert u een gegevensmodel. Slechts zullen de schema&#39;s verbonden aan dit gegevensmodel in de activiteiten van uw samenstelling beschikbaar zijn.
 
-1. Klik op **[!UICONTROL Create]**. Het compositicanvas wordt weergegeven. U kunt uw samenstelling nu vormen door zo vele activiteiten toe te voegen zoals nodig om uw behoeften aan te passen alvorens het uit te voeren:
+![](assets/composition-select-schema.png)
 
-   * [Leer hoe u activiteiten kunt ordenen](orchestrate-activities.md)
-   * [ leer hoe te om een samenstelling te beginnen en te controleren ](start-monitor-composition.md)
+Selecteer **[!UICONTROL Create]**. Het compositicanvas wordt weergegeven. U kunt uw samenstelling nu vormen door zo vele activiteiten toe te voegen zoals nodig om uw behoeften aan te passen alvorens het uit te voeren:
+
+* [Leer hoe u activiteiten kunt ordenen](orchestrate-activities.md)
+* [ leer hoe te om een samenstelling te beginnen en te controleren ](start-monitor-composition.md)
 
 ## Vorm de montages van de samenstelling {#settings}
 
@@ -48,7 +50,9 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 >title="Instellingen voor foutbeheer"
 >abstract="In deze sectie kunt u definiëren hoe u fouten tijdens de uitvoering kunt beheren. U kunt ervoor kiezen het proces te pauzeren, een bepaald aantal fouten te negeren of de uitvoering van de compositie te stoppen."
 
-Wanneer het toegang hebben tot van een samenstelling, kunt u tot geavanceerde montages toegang hebben die u, bijvoorbeeld, toestaan om te bepalen hoe de samenstelling zich in het geval van fout zou moeten gedragen. Voor toegang tot deze extra opties klikt u op de knop **[!UICONTROL Settings]** in de bovenste sectie van het scherm voor het maken van composities.
+Wanneer het toegang hebben tot van een samenstelling, kunt u tot geavanceerde montages toegang hebben die u, bijvoorbeeld, toestaan om te bepalen hoe de samenstelling zich in het geval van fout zou moeten gedragen.
+
+Als u toegang wilt krijgen tot deze extra opties, selecteert u **[!UICONTROL Settings]** in de bovenste sectie van het scherm voor het maken van composities.
 
 ![](assets/composition-create-settings.png)
 

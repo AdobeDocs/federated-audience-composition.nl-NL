@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in vraagmodeler te bouwen.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2065'
 ht-degree: 53%
 
 ---
@@ -689,8 +689,8 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Vervangt alle voorkomen van een gespecificeerde koordwaarde met een andere koordwaarde.<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Vervangt alle voorkomen van een gespecificeerde koordwaarde (Koord 2) met een andere koordwaarde (Koord 3) binnen een koord (Koord 1).<br /> </td> 
+   <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
