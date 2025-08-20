@@ -3,9 +3,9 @@ audience: end-user
 title: Composities maken
 description: Leer hoe u composities maakt
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 
 Als u een compositie wilt maken, selecteert u **[!UICONTROL Audiences]** in de sectie **[!UICONTROL Customer]** , gevolgd door de tab **[!UICONTROL Federated compositions]** .
 
-AFBEELDING
+![ de weg om tot de Federatieve compositiesectie toegang te hebben wordt benadrukt.](assets/create/access-compositions.png)
 
 De pagina Bladeren met gefedereerde composities wordt weergegeven. Selecteer **[!UICONTROL Create composition]** om door te gaan met het maken van composities.
 

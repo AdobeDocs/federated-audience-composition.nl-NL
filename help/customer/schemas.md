@@ -3,10 +3,10 @@ audience: end-user
 title: Aan de slag met schema's
 description: Leer hoe u met schema's begint
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '560'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 >Voor toegang tot schema&#39;s hebt u een van de volgende machtigingen nodig:
 >
 >-**Beheer Verbond Schema**
->&#x200B;>-**Bekijk Verbond Schema**
+>>-**Bekijk Verbond Schema**
 >
 >Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
@@ -64,7 +64,7 @@ Door een schema te maken, kunt u een representatie van de tabel definiëren in d
 
 Selecteer **[!UICONTROL Models]** in de sectie **[!UICONTROL Federated Data]** om een schema te maken in Federated Audience Composition. Selecteer **[!UICONTROL Schema]** op het tabblad **[!UICONTROL Create schema]** .
 
-![](assets/schema_create.png){zoomable="yes"}
+![ Create schemaknoop wordt benadrukt binnen de sectie van de Samenstelling van het Publiek van de Federale.](assets/schema_create.png){zoomable="yes"}
 
 De pop-up **[!UICONTROL Select federated database]** wordt weergegeven. Op dit popover, kunt u het [ brongegevensbestand ](/help/connections/home.md) selecteren, dat door **[!UICONTROL Next]** wordt gevolgd.
 
@@ -77,7 +77,7 @@ De pop-up **[!UICONTROL Select federated database]** wordt weergegeven. Op dit p
 
 Elke geselecteerde tabel genereert een schema met de gekozen kolommen. Voor elke tabel kunt u het label van het schema wijzigen, een beschrijving toevoegen, de naam van het veldlabel wijzigen, de zichtbaarheid van het veldlabel instellen en de primaire sleutel van het schema selecteren.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Elke geselecteerde tabel genereert een schema met de gekozen kolommen. Voor elke
 
 Bovendien, kunt u een sleutel tot stand brengen die uit veelvoudige schemakolommen wordt samengesteld. Schakel **[!UICONTROL Use Composite Key]** in en markeer de toetsen die u als samengestelde toets wilt gebruiken.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 Nadat u de configuratie hebt voltooid, selecteert u **[!UICONTROL Done]** om het maken van het schema te voltooien.
 
