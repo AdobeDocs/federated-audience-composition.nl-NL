@@ -18,7 +18,7 @@ De eerste stap om een samenstelling tot stand te brengen moet zijn etiket bepale
 
 Als u een compositie wilt maken, selecteert u **[!UICONTROL Audiences]** in de sectie **[!UICONTROL Customer]** , gevolgd door de tab **[!UICONTROL Federated compositions]** .
 
-![ de weg om tot de Federatieve compositiesectie toegang te hebben wordt benadrukt.](assets/create/access-compositions.png)
+![&#x200B; de weg om tot de Federatieve compositiesectie toegang te hebben wordt benadrukt.](assets/create/access-compositions.png)
 
 De pagina Bladeren met gefedereerde composities wordt weergegeven. Selecteer **[!UICONTROL Create composition]** om door te gaan met het maken van composities.
 
@@ -31,7 +31,7 @@ In de sectie **[!UICONTROL Properties]** geeft u een label voor de compositie op
 Selecteer **[!UICONTROL Create]**. Het compositicanvas wordt weergegeven. U kunt uw samenstelling nu vormen door zo vele activiteiten toe te voegen zoals nodig om uw behoeften aan te passen alvorens het uit te voeren:
 
 * [Leer hoe u activiteiten kunt ordenen](orchestrate-activities.md)
-* [ leer hoe te om een samenstelling te beginnen en te controleren ](start-monitor-composition.md)
+* [&#x200B; leer hoe te om een samenstelling te beginnen en te controleren &#x200B;](start-monitor-composition.md)
 
 ## Vorm de montages van de samenstelling {#settings}
 

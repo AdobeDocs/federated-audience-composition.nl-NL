@@ -19,7 +19,7 @@ ht-degree: 7%
 
 De **planner** activiteit is de controle **activiteit van de a** Stroom. Het staat u toe om te plannen wanneer de samenstelling wordt begonnen. Deze activiteit moet worden beschouwd als een geplande start. Het kan slechts als eerste activiteit van de samenstelling worden gebruikt.
 
-Als u een verbinding aan de Federated bestemming van de Samenstelling van het Publiek hebt gevormd, kunt u deze activiteit gebruiken om over het publiek van Adobe Experience Platform bij regelmatige frequenties te verzenden. [ Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken ](../../connections/destinations.md)
+Als u een verbinding aan de Federated bestemming van de Samenstelling van het Publiek hebt gevormd, kunt u deze activiteit gebruiken om over het publiek van Adobe Experience Platform bij regelmatige frequenties te verzenden. [&#x200B; Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken &#x200B;](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

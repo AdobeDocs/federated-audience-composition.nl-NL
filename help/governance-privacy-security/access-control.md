@@ -66,7 +66,7 @@ Deze rol toewijzen aan nieuwe gebruikers:
 
 1. Voer de naam of het e-mailadres van de gebruiker in of selecteer een van de beschikbare lijsten. Selecteer vervolgens **[!UICONTROL Save]** .
 
-Alternatief, kunt u één van de reeds bestaande rollen aan de gebruikers toewijzen, afhankelijk van welke toestemmingen zij hebben vereist. Voor meer informatie bij het toewijzen van reeds bestaande rollen aan een gebruiker, gelieve te lezen de [ gids bij het beheren van gebruikers voor een productprofiel ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users).
+Alternatief, kunt u één van de reeds bestaande rollen aan de gebruikers toewijzen, afhankelijk van welke toestemmingen zij hebben vereist. Voor meer informatie bij het toewijzen van reeds bestaande rollen aan een gebruiker, gelieve te lezen de [&#x200B; gids bij het beheren van gebruikers voor een productprofiel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users).
 
 | Rolnaam | Machtigingen |
 | --------- | ----------- |
@@ -74,10 +74,10 @@ Alternatief, kunt u één van de reeds bestaande rollen aan de gebruikers toewij
 | FAC-compositiemanagers | <ul><li>Federale composities beheren</li></ul> |
 | FAC-beheerders | <ul><li>Federale gegevens beheren</li></ul> |
 
-De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+De gebruiker ontvangt vervolgens een e-mail met instructies om toegang te krijgen tot uw exemplaar. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 ## Toegang tot specifieke composities beheren
 
 U kunt toegang tot een specifieke samenstelling beheren door toegangslabels toe te passen.
 
-Voor meer informatie bij het toepassen van toegangslabels op een samenstelling, te lezen gelieve [ de sectie van toegangslabels ](/help/compositions/gs-compositions.md#access-labels) van de compositiegids toepassen.
+Voor meer informatie bij het toepassen van toegangslabels op een samenstelling, te lezen gelieve [&#x200B; de sectie van toegangslabels &#x200B;](/help/compositions/gs-compositions.md#access-labels) van de compositiegids toepassen.

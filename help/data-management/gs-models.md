@@ -20,7 +20,7 @@ ht-degree: 0%
 >- **beheer Federated Gegevensmodel**
 >&#x200B;>- **Bekijk het Verbond Model van Gegevens**
 >
->Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [&#x200B; gids van de toegangscontrole &#x200B;](/help/governance-privacy-security/access-control.md).
 
 ## Wat is een gegevensmodel {#data-model-start}
 
@@ -28,7 +28,7 @@ Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen 
 
 In Federated Audience Composition kunt u gegevensmodellen rechtstreeks in de Canvasweergave maken en beheren. Dit omvat het toevoegen van schema&#39;s en publiek, evenals het bepalen van de verbindingen tussen hen die op uw gebruiksgeval worden gebaseerd.
 
-Leer meer over [ schema&#39;s ](../customer/schemas.md#schema-start) en [ publiek ](../start/audiences.md).
+Leer meer over [&#x200B; schema&#39;s &#x200B;](../customer/schemas.md#schema-start) en [&#x200B; publiek &#x200B;](../start/audiences.md).
 
 U ziet bijvoorbeeld onder een weergave van een gegevensmodel de tabellen met hun naam en de koppelingen daartussen.
 
@@ -54,7 +54,7 @@ Ga als volgt te werk om een gegevensmodel te maken:
 
    ![](assets/datamodel-audiences.png){zoomable="yes"}
 
-5. Vestig verbindingen tussen lijsten in uw gegevensmodel om nauwkeurige gegevensverhoudingen te verzekeren. Voor meer informatie, lees [ tot de sectie van verbindingen ](#data-model-links) leidt.
+5. Vestig verbindingen tussen lijsten in uw gegevensmodel om nauwkeurige gegevensverhoudingen te verzekeren. Voor meer informatie, lees [&#x200B; tot de sectie van verbindingen &#x200B;](#data-model-links) leidt.
 
 6. Nadat u de configuratie hebt voltooid, selecteert u **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
@@ -70,7 +70,7 @@ Ga als volgt te werk om een gegevensmodel te maken:
 
 Ga als volgt te werk als u koppelingen wilt maken tussen tabellen van uw gegevensmodel op het tabblad tabelweergave:
 
-1. Selecteer het ![ drie puntenpictogram ](/help/assets/icons/more.png) dat door **[!UICONTROL Create link]** naast één van de lijst wordt gevolgd, of selecteer **[!UICONTROL Create links]** binnen de **[!UICONTROL Links]** sectie:
+1. Selecteer het ![&#x200B; drie puntenpictogram &#x200B;](/help/assets/icons/more.png) dat door **[!UICONTROL Create link]** naast één van de lijst wordt gevolgd, of selecteer **[!UICONTROL Create links]** binnen de **[!UICONTROL Links]** sectie:
 
    ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
@@ -88,7 +88,7 @@ Ga als volgt te werk als u koppelingen wilt maken tussen tabellen van uw gegeven
 
    Als u meerdere verbindingskoppelingen wilt maken, selecteert u het plusteken. U kunt nu meerdere verbindingen maken tussen de schemavelden.
 
-   ![ de plus knoop wordt benadrukt, die u laat een veelvoudige verbinden verbinding voor het model tot stand brengen.](assets/multi-join.png){zoomable="yes"}
+   ![&#x200B; de plus knoop wordt benadrukt, die u laat een veelvoudige verbinden verbinding voor het model tot stand brengen.](assets/multi-join.png){zoomable="yes"}
 
 Alle koppelingen die voor uw gegevensmodel zijn gedefinieerd, worden hieronder weergegeven:
 

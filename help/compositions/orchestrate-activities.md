@@ -20,7 +20,7 @@ In dit stadium van de configuratie, wordt het diagram getoond met een beginpicto
 
 Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten hangen van uw positie binnen het samenstellingsdiagram af. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw samenstelling beginnen door een publiek te richten, die de samenstellingsweg, montages een planner splitsen om de samenstellingsuitvoering te vertragen of a **te plaatsen wacht** activiteit om de samenstellingsuitvoering te vertragen. Anderzijds, na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen of het samenstellingsproces met de activiteiten van de stroomcontrole organiseren.
 
-Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
+Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [&#x200B; deze sectie &#x200B;](activities/about-activities.md).
 
 ![](assets/composition-create-add.png)
 

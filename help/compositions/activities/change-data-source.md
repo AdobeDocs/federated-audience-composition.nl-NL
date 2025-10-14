@@ -22,7 +22,7 @@ Met de activiteit **[!UICONTROL Change data source]** kunt u de gegevensbron wij
 
 Nadat u een **[!UICONTROL Change data source]** -activiteit aan het canvas hebt toegevoegd, kunt u de gegevensbron voor de workflow definiëren.
 
-![ de gegevensbronoptie wordt benadrukt binnen de Federatieve werkruimte van de Samenstelling van de Publiek.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}
+![&#x200B; de gegevensbronoptie wordt benadrukt binnen de Federatieve werkruimte van de Samenstelling van de Publiek.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}
 
 | Source | Beschrijving |
 | ------ | ----------- |
@@ -30,4 +30,4 @@ Nadat u een **[!UICONTROL Change data source]** -activiteit aan het canvas hebt 
 
 Nadat u **[!UICONTROL FDA external account]** hebt geselecteerd, kunt u kiezen met welke externe account u verbinding wilt maken.
 
-![ popover het tonen van de externe rekeningsopties wordt getoond.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}
+![&#x200B; popover het tonen van de externe rekeningsopties wordt getoond.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}

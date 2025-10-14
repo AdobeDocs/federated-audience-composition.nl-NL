@@ -26,7 +26,7 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
 | **bepaalt publiek**: Specificeer de bevolking u in uw samenstellingen wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **pas activiteiten** aan: pas regels binnen samenstellingsactiviteiten, zoals **Splitsen** en **Verzoening** toe, om met uw specifieke vereisten te richten. [ leer meer over samenstellingsactiviteiten ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **pas activiteiten** aan: pas regels binnen samenstellingsactiviteiten, zoals **Splitsen** en **Verzoening** toe, om met uw specifieke vereisten te richten. [&#x200B; leer meer over samenstellingsactiviteiten &#x200B;](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Query-modellerinterface {#interface}
 
@@ -36,7 +36,7 @@ De vraagmodeler verstrekt een centraal canvas waar u uw vraag bouwt, en een juis
 
 ### Het centrale canvas {#canvas}
 
-Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert die uw vraag opbouwen. [ Leer hoe te om een vraag ](build-query.md) te bouwen
+Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert die uw vraag opbouwen. [&#x200B; Leer hoe te om een vraag &#x200B;](build-query.md) te bouwen
 
 De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
 
@@ -48,4 +48,4 @@ De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de quer
 
 ### Het deelvenster Eigenschappen van regel {#rule-properties}
 
-Aan de rechterkant bevat het deelvenster **[!UICONTROL Rule properties]** informatie over de query. Het staat u toe om diverse handelingen uit te voeren om de vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. [ leer hoe te om uw vraag te controleren en te bevestigen ](build-query.md#check-and-validate-your-query)
+Aan de rechterkant bevat het deelvenster **[!UICONTROL Rule properties]** informatie over de query. Het staat u toe om diverse handelingen uit te voeren om de vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. [&#x200B; leer hoe te om uw vraag te controleren en te bevestigen &#x200B;](build-query.md#check-and-validate-your-query)

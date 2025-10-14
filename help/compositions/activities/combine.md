@@ -44,7 +44,7 @@ Volg deze gemeenschappelijke stappen beginnen de **te vormen combineren** activi
 
 1. Voeg a **&#x200B;**&#x200B;activiteit aan om het even welke vorige takken combineren.
 
-1. Selecteer het segmentatietype: [ Vereniging ](#union), [ Intersectie ](#intersection) of [ Uitsluiting ](#exclusion), en klik **gaat** verder.
+1. Selecteer het segmentatietype: [&#x200B; Vereniging &#x200B;](#union), [&#x200B; Intersectie &#x200B;](#intersection) of [&#x200B; Uitsluiting &#x200B;](#exclusion), en klik **gaat** verder.
 
    ![](../assets/combine.png)
 
@@ -79,7 +79,7 @@ In **combineer** activiteit, kunt u een **Intersection** vormen.
 
 Hiervoor voert u de volgende extra stappen uit:
 
-1. Selecteer het **Type van Verzoening** om te bepalen hoe de duplicaten worden behandeld. Zie [ Unie ](#union) sectie.
+1. Selecteer het **Type van Verzoening** om te bepalen hoe de duplicaten worden behandeld. Zie [&#x200B; Unie &#x200B;](#union) sectie.
 1. U kunt **controleren produceert complementaire** optie als u wenst om de resterende bevolking te verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
 
 ## Uitsluiting {#combine-exclusion}
@@ -113,7 +113,7 @@ Hiervoor moet u de volgende extra stappen volgen:
 1. In de **Reeksen om zich bij** sectie aan te sluiten, selecteer de **Primaire reeks** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
 
 1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Als u een doel wilt uitsluiten van een ander schema, moet dit doel worden geretourneerd naar hetzelfde schema als het hoofddoel. Om dit te doen, klik **een regel** in de **sectie van de Regels van de Uitsluiting** toevoegen en de voorwaarden van de schemaverandering specificeren. Afstemming van gegevens vindt plaats via een attribuut of een join-functie. <!-- pas compris-->
-1. U kunt **controleren produceert volledigheid** optie als u wenst om de resterende bevolking te verwerken. Zie de [ sectie van de Intersectie ](#intersection).
+1. U kunt **controleren produceert volledigheid** optie als u wenst om de resterende bevolking te verwerken. Zie de [&#x200B; sectie van de Intersectie &#x200B;](#intersection).
 
 <!--
 ## Examples{#combine-examples}

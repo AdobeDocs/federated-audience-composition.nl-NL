@@ -48,7 +48,7 @@ Voer de volgende stappen uit om uw eigen publiek te maken:
    ![](../assets/build-audience-create.png)
 
 1. Klik **verdergaan**.
-1. Gebruik de vraagmodeler om uw vraag te bepalen dan bevestig. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
+1. Gebruik de vraagmodeler om uw vraag te bepalen dan bevestig. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken
 
 >[!TAB Doelgroep lezen]
 

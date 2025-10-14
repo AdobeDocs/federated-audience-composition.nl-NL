@@ -13,7 +13,7 @@ ht-degree: 4%
 
 Nadat u een compositie hebt gemaakt, worden de resulterende doelgroepen opgeslagen in Adobe Experience Platform.
 
-U kunt privacyverzoeken om tot profielgegevens toegang te hebben en/of te schrappen die aan deze publiek door Adobe Experience Platform **Privacy Service** beantwoorden, die a [ gebruikersinterface ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL){target="_blank"}  en [ RESTful API ](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/overview){target="_blank"}  verstrekt om u te helpen verzoeken van klantengegevens beheren.
+U kunt privacyverzoeken om tot profielgegevens toegang te hebben en/of te schrappen die aan deze publiek door Adobe Experience Platform **Privacy Service** beantwoorden, die a [&#x200B; gebruikersinterface &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL){target="_blank"}  en [&#x200B; RESTful API &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/overview){target="_blank"}  verstrekt om u te helpen verzoeken van klantengegevens beheren.
 
 <!--With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
@@ -23,9 +23,9 @@ Privacy requests can be created and managed from the **[!UICONTROL Requests]** m
 
 >[!NOTE]
 >
->Voor meer informatie over Privacy Service, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"} .
+>Voor meer informatie over Privacy Service, verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"} .
 
-U kunt individuele verzoeken tot stand brengen en beheren om tot klantengegevens van de Compositie van de Federatieve Audience van Adobe toegang te hebben en te schrappen. De stappen om **toegangsverzoeken** voor te leggen en **verzoeken** schrappen zijn gedetailleerd in de [ documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/privacy){target="_blank"} .
+U kunt individuele verzoeken tot stand brengen en beheren om tot klantengegevens van de Compositie van de Federatieve Audience van Adobe toegang te hebben en te schrappen. De stappen om **toegangsverzoeken** voor te leggen en **verzoeken** schrappen zijn gedetailleerd in de [&#x200B; documentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/privacy){target="_blank"} .
 
 <!--## Manage individual data privacy requests {#data-privacy-requests}
 

@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # Aanvullende informatie {#rn-new}
 
-[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
 
 ## Release van augustus 1925 {#fac-25-8}
 
@@ -73,7 +73,7 @@ Deze release bevat de volgende verbeteringen:
 
   U kunt nu veilig verbinding maken met Oracle-databases. Neem contact op met de klantenservice van Adobe voor meer informatie.
 
-Voor meer informatie over de gesteunde gegevensbestanden in de Federatieve Samenstelling van de Auditie, te lezen gelieve het [ verbindingsoverzicht ](../connections/home.md).
+Voor meer informatie over de gesteunde gegevensbestanden in de Federatieve Samenstelling van de Auditie, te lezen gelieve het [&#x200B; verbindingsoverzicht &#x200B;](../connections/home.md).
 
 ## Release juli 1925 {#fac-25-7}
 
@@ -132,25 +132,25 @@ Deze release bevat de volgende verbeteringen:
 
   Federated Audience Composition zal eind juni beschikbaar zijn voor klanten van het Adobe Healthcare Shield voor het creëren van publiek, verrijking en het gebruik van profielverrijking.
 
-  Meer informatie over privacy en veiligheid in de Federatieve Samenstelling van het Publiek kan in het [ beheer van Gegevens, privacy, en veiligheidsgids ](/help/governance-privacy-security/home.md) worden gevonden.
+  Meer informatie over privacy en veiligheid in de Federatieve Samenstelling van het Publiek kan in het [&#x200B; beheer van Gegevens, privacy, en veiligheidsgids &#x200B;](/help/governance-privacy-security/home.md) worden gevonden.
 
 * **voorwerp-vlakke toegangsbeheer**
 
   Federated Audience Composition ondersteunt nu toegangsbeheer op objectniveau om toegangslabels toe te passen op de opgegeven composities.
 
-  Meer informatie over het gebruiken van objecten-vlakke toegangslabels kan in de [ compositiegids ](/help/compositions/gs-compositions.md) worden gevonden.
+  Meer informatie over het gebruiken van objecten-vlakke toegangslabels kan in de [&#x200B; compositiegids &#x200B;](/help/compositions/gs-compositions.md) worden gevonden.
 
 * **Standaardrollen**
 
   U kunt één van de standaardrollen nu gebruiken om gebruikerstoestemmingen voor de toegang van de Samenstelling van de Federatieve Publiek te beheren.
 
-  Meer informatie over de standaardrollen kan in de [ toegang Verbond gids van de Samenstelling van het Publiek ](/help/governance-privacy-security/access-control.md) worden gevonden.
+  Meer informatie over de standaardrollen kan in de [&#x200B; toegang Verbond gids van de Samenstelling van het Publiek &#x200B;](/help/governance-privacy-security/access-control.md) worden gevonden.
 
 * **Incrementele Updates in de gebruiksgevallen van de profielverrijking**
 
   De activiteit Profielen opslaan ondersteunt nu incrementele updates. Met stijgende updates, kunt u stijgende gegevens vragen en bijwerken terwijl het verrijken van profielen met gegevens van externe gegevenspakhuizen.
 
-  Meer informatie bij het gebruiken van sparen profielactiviteit kan in [ worden gevonden sparen de gids van de profielactiviteit ](/help/compositions/activities/save-profiles.md).
+  Meer informatie bij het gebruiken van sparen profielactiviteit kan in [&#x200B; worden gevonden sparen de gids van de profielactiviteit &#x200B;](/help/compositions/activities/save-profiles.md).
 
 ## Release mei &#39;25 {#fac-25-5}
 
@@ -182,7 +182,7 @@ Deze release bevat de volgende verbeteringen.
 
   Vanaf de release van mei ondersteunt [!DNL Federated Audience Composition] nieuwe korrelige machtigingen voor toegangsbeheer. Gebruikers kunnen deze machtigingen toewijzen aan gebruikersrollen voor een nauwkeurigere toegang tot [!DNL Federated Audience Composition] .
 
-  Om meer over de nieuwe toestemmingen te leren, te lezen gelieve de [ Verdeelden de toegangsgids van de Samenstelling van de Auditie ](/help/governance-privacy-security/access-control.md).
+  Om meer over de nieuwe toestemmingen te leren, te lezen gelieve de [&#x200B; Verdeelden de toegangsgids van de Samenstelling van de Auditie &#x200B;](/help/governance-privacy-security/access-control.md).
 
 ## Release van april 1925 {#fac-25-4}
 
@@ -260,7 +260,7 @@ Deze release bevat de onderstaande verbeteringen.
 * **sparen publieksactiviteit**
 
   Een nota is toegevoegd aan **sparen de activiteit van het Publiek**, herinnerend gebruikers om met een gegevensbeheerder samen te werken om governancelabels op nieuwe die schema&#39;s en datasets toe te passen tijdens publieksverwezenlijking en verrijking worden gecreeerd.
-  [ leer meer over de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/user-guide)
+  [&#x200B; leer meer over de etiketten van het gegevensgebruik &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibiliteit {#fac-25-4-compat}
 
@@ -284,7 +284,7 @@ Deze release bevat de onderstaande verbeteringen.
 
   We raden gebruikers aan contact op te nemen met de beheerders om deze machtiging aan hun rol toe te voegen en de gebruikersinterface van [!DNL Federated Audience Composition] te blijven gebruiken.
 
-  Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [ gedetailleerde documentatie ](/help/governance-privacy-security/access-control.md).
+  Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](/help/governance-privacy-security/access-control.md).
 
 ### Compatibiliteit {#fac-25-3-compat}
 
@@ -351,7 +351,7 @@ Met deze nieuwe release is Federated Audience Composition nu compatibel met de h
 
 * **Amazon Redshift Serverless steun**
 
-  Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek [ Amazon opnieuw verschuift Serverless ](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
+  Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek [&#x200B; Amazon opnieuw verschuift Serverless &#x200B;](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
 
 ### Verbeteringen {#fac-24-10-improvements}
 
@@ -367,10 +367,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 ## Release van 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
+De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [&#x200B; Adobe Real-Time Customer Data Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en/of [&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
 Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen.
 
-Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek op [ deze pagina ](get-started.md) en in [ Veelgestelde Vragen ](faq.md).
+Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek op [&#x200B; deze pagina &#x200B;](get-started.md) en in [&#x200B; Veelgestelde Vragen &#x200B;](faq.md).
 
-De gedetailleerde informatie over de eerste vereisten om tot Verbond van de Samenstellingen van het Publiek en de huidige guardrails toegang te hebben, verwijst naar [ deze pagina ](access-prerequisites.md).
+De gedetailleerde informatie over de eerste vereisten om tot Verbond van de Samenstellingen van het Publiek en de huidige guardrails toegang te hebben, verwijst naar [&#x200B; deze pagina &#x200B;](access-prerequisites.md).

@@ -82,7 +82,7 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Om andere attributen te gebruiken om gegevens te combineren, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie dan **creeer voorwaarden** knoop. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
+   1. Om andere attributen te gebruiken om gegevens te combineren, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie dan **creeer voorwaarden** knoop. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken
 
       ![](../assets/reconciliation-advanced.png)
 

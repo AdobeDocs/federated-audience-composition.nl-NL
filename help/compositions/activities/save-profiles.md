@@ -70,15 +70,15 @@ Deze activiteit wordt typisch gebruikt om klantenprofielen te verbeteren door ex
 
 >[!IMPORTANT]
 >
->**sparen Profielen** activiteit vereist een profiel-toegelaten schema en dataset. Leren hoe te om uw dataset toe te laten om profiel-toegelaten te zijn, te lezen gelieve de [ gids van de datasetgebruiker ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>**sparen Profielen** activiteit vereist een profiel-toegelaten schema en dataset. Leren hoe te om uw dataset toe te laten om profiel-toegelaten te zijn, te lezen gelieve de [&#x200B; gids van de datasetgebruiker &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Bovendien, als de geselecteerde dataset **niet** toegelaten upsert heeft, zullen de gegevens van de profielen **worden vervangen**. Leren hoe te om upsert voor uw datasets toe te laten, te lezen gelieve [ toelaten upsert gids ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/enable-upsert).
+>Bovendien, als de geselecteerde dataset **niet** toegelaten upsert heeft, zullen de gegevens van de profielen **worden vervangen**. Leren hoe te om upsert voor uw datasets toe te laten, te lezen gelieve [&#x200B; toelaten upsert gids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Voer de volgende stappen uit om de **[!UICONTROL Save Profiles]** -activiteit te configureren:
 
 1. Voeg een **[!UICONTROL Save Profiles]** activiteit aan uw samenstelling toe.
 
-   ![ sparen de knoop van Profielen wordt benadrukt binnen de activiteiten.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
+   ![&#x200B; sparen de knoop van Profielen wordt benadrukt binnen de activiteiten.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Geef het label op van de profielen die u wilt maken.
 
@@ -88,25 +88,25 @@ Voer de volgende stappen uit om de **[!UICONTROL Save Profiles]** -activiteit te
 
 1. Selecteer het Adobe Experience Platform-schema dat u wilt gebruiken.
 
-   ![ de beschikbare schema&#39;s worden getoond.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
+   ![&#x200B; de beschikbare schema&#39;s worden getoond.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
 1. Selecteer de dataset u de verrijking aan wilt bewaren.
 
-   ![ de datasetdropdown wordt benadrukt.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
+   ![&#x200B; de datasetdropdown wordt benadrukt.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
 1. Na het selecteren van de dataset, kunt u het primaire identiteitsgebied zien dat zal worden gebruikt om profielen in het gegevensbestand te identificeren.
 
 1. Selecteer **[!UICONTROL Add Fields]** om de primaire en vereiste identiteitsvelden toe te voegen.
 
-   ![ de Add knoop van Gebieden wordt benadrukt.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+   ![&#x200B; de Add knoop van Gebieden wordt benadrukt.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
 
    U kunt het **Source** gebied (externe gegevens) en het **gebied van de Bestemming** (schemagebied) voor elk attribuut specificeren u wilt in kaart brengen.
 
-   ![ Source en de gebieden van de Bestemming worden benadrukt, die waar tonen om de afbeelding tussen de gebieden ](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"} tot stand te brengen
+   ![&#x200B; Source en de gebieden van de Bestemming worden benadrukt, die waar tonen om de afbeelding tussen de gebieden &#x200B;](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"} tot stand te brengen
 
 1. U kunt ook de updatemodus voor de verrijking opgeven.
 
-   ![ de types van updatemodus worden getoond.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+   ![&#x200B; de types van updatemodus worden getoond.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
 
    | Modus Bijwerken | Beschrijving |
    | ----------- | ----------- |

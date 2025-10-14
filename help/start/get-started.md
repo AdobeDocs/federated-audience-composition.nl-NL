@@ -11,13 +11,13 @@ ht-degree: 3%
 
 # Aan de slag met Federatieve Audience Composition {#gs-fac}
 
-De Federatieve Samenstelling van het Publiek is beschikbaar voor [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} milieu&#39;s. Zo kunt u een publiek opbouwen en verrijken vanuit uw externe gegevensopslagruimten en het publiek importeren in Adobe Experience Platform. De Federatieve Samenstelling van het Publiek brengt een gemakkelijke en krachtige oplossing om uw entrepot van ondernemingsgegevens direct binnen Adobe Real-Time Customer Data Platform en/of Adobe Journey Optimizer te verbinden, en vragen op de lijsten van uw gegevenspakhuis uit te voeren.
+De Federatieve Samenstelling van het Publiek is beschikbaar voor [&#x200B; Adobe Real-Time Customer Data Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en [&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} milieu&#39;s. Zo kunt u een publiek opbouwen en verrijken vanuit uw externe gegevensopslagruimten en het publiek importeren in Adobe Experience Platform. De Federatieve Samenstelling van het Publiek brengt een gemakkelijke en krachtige oplossing om uw entrepot van ondernemingsgegevens direct binnen Adobe Real-Time Customer Data Platform en/of Adobe Journey Optimizer te verbinden, en vragen op de lijsten van uw gegevenspakhuis uit te voeren.
 
-Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag, zoals Amazon Redshift, Azure Synapse Analytics en meer. De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie. De gesteunde platforms zijn vermeld op [ deze pagina ](../connections/home.md#supported-db).
+Met Adobe Federated Audience Composition kunnen gebruikers van Adobe Experience Platform-apps toegang krijgen tot hun klantgegevens die zijn opgeslagen in hun gegevenspakhuizen en platforms voor cloudopslag, zoals Amazon Redshift, Azure Synapse Analytics en meer. De gegevens van de klant kunnen in veelvoudige gegevenspakhuizen leven en zijn nu onmiddellijk toegankelijk, zonder replicatie. De gesteunde platforms zijn vermeld op [&#x200B; deze pagina &#x200B;](../connections/home.md#supported-db).
 
 >[!INFO]
 >
->Volg deze [ stap voor stap gids ](https://experienceleague.adobe.com/nl/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) om te leren hoe te om publiek tot stand te brengen gebruikend de Federale Samenstelling van het Publiek.
+>Volg deze [&#x200B; stap voor stap gids &#x200B;](https://experienceleague.adobe.com/nl/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) om te leren hoe te om publiek tot stand te brengen gebruikend de Federale Samenstelling van het Publiek.
 
 ## Mogelijkheden {#rn-capabilities}
 
@@ -46,9 +46,9 @@ De federatieve Samenstelling van het Publiek steunt **drie** categorieën van ge
 * Profielverrijking: u kunt afzonderlijke klantkenmerken selecteren in uw gegevenspaket om Experience Platform-profielen te verbeteren. Met gefederaliseerde gegevens die aan deze profielen worden toegevoegd, kunt u betere krachtige ervaringen op het ogenblik die door binnenkomende klantensignalen worden teweeggebracht.
    * **Voorbeeld:** verrijkt een profiel van Experience Platform met informatie van het gefedereerde publiek. U kunt nu een site-bezoeker die tot de waardevolle, in het verleden gefedereerde kopers behoort, een doelaanbieding aanbieden die wordt geactiveerd door hun onsite gedrag.
 
-![ diagram ](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![&#x200B; diagram &#x200B;](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-Voor meer informatie over het gebruik van de Samenstelling van de Federatieve Audience van de Auditie gelieve te lezen [ Verfelijke whitepaper van de Samenstelling van het Publiek ](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
+Voor meer informatie over het gebruik van de Samenstelling van de Federatieve Audience van de Auditie gelieve te lezen [&#x200B; Verfelijke whitepaper van de Samenstelling van het Publiek &#x200B;](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Belangrijkste stappen {#gs-steps}
 
@@ -58,13 +58,13 @@ Met Adobe Federated Audience Composition kunt u Adobe Experience Platform-soorte
 
 Belangrijkste stappen:
 
-1. **Integratie van Gegevens**: Breng gegevens van diverse bronnen samen, en voeg hen in een verenigde dataset samen. Leer hoe te om Adobe Experience Platform te verbinden apps en uw entrepot van ondernemingsgegevens, gesteunde gegevensbestanden, en hoe te om hen te vormen zijn gedetailleerd in [ deze sectie ](../connections/home.md).
+1. **Integratie van Gegevens**: Breng gegevens van diverse bronnen samen, en voeg hen in een verenigde dataset samen. Leer hoe te om Adobe Experience Platform te verbinden apps en uw entrepot van ondernemingsgegevens, gesteunde gegevensbestanden, en hoe te om hen te vormen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../connections/home.md).
 
-1. **Modellering van Gegevens**: Ontwerp en creeer gegevensmodellen en schema&#39;s die de structuur, de verhoudingen, en de beperkingen van de gegevens bepalen. Leer meer over schema&#39;s op [ deze pagina ](../customer/schemas.md). Leer hoe te om verbindingen voor uw datamodel op [ tot stand te brengen deze pagina ](../data-management/gs-models.md).
+1. **Modellering van Gegevens**: Ontwerp en creeer gegevensmodellen en schema&#39;s die de structuur, de verhoudingen, en de beperkingen van de gegevens bepalen. Leer meer over schema&#39;s op [&#x200B; deze pagina &#x200B;](../customer/schemas.md). Leer hoe te om verbindingen voor uw datamodel op [&#x200B; tot stand te brengen deze pagina &#x200B;](../data-management/gs-models.md).
 
 1. **Transformatie van Gegevens**: Pas de technieken van de gegevensmanipulatie toe om het formaat, de structuur, of de waarden van gegevenselementen te wijzigen om hen compatibel of geschikt voor specifieke analyse of toepassingen te maken.
 
-1. **Gebruik van Gegevens**: Creeer, orkestel en bouw publiek. Leer hoe te om publiek op [ deze pagina ](../compositions/gs-compositions.md) samen te stellen. U kunt bestaande doelgroepen ook bijwerken of opnieuw gebruiken via het Adobe Experience Platform Audience-portaal en de Doelen. Leer meer op [ deze pagina ](../connections/destinations.md)
+1. **Gebruik van Gegevens**: Creeer, orkestel en bouw publiek. Leer hoe te om publiek op [&#x200B; deze pagina &#x200B;](../compositions/gs-compositions.md) samen te stellen. U kunt bestaande doelgroepen ook bijwerken of opnieuw gebruiken via het Adobe Experience Platform Audience-portaal en de Doelen. Leer meer op [&#x200B; deze pagina &#x200B;](../connections/destinations.md)
 
 >[!NOTE]
 >
@@ -76,13 +76,13 @@ Belangrijkste stappen:
 
 Nadat u een compositie hebt gemaakt, worden de resulterende doelgroepen opgeslagen in Adobe Experience Platform.
 
-U kunt privacyverzoeken om tot profielgegevens toegang te hebben en/of te schrappen die aan deze publiek door Adobe Experience Platform **Privacy Service** beantwoorden, die a [ gebruikersinterface ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL){target="_blank"} en [ RESTful API ](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/overview){target="_blank"} verstrekt om u te helpen verzoeken van klantengegevens beheren.
+U kunt privacyverzoeken om tot profielgegevens toegang te hebben en/of te schrappen die aan deze publiek door Adobe Experience Platform **Privacy Service** beantwoorden, die a [&#x200B; gebruikersinterface &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL){target="_blank"} en [&#x200B; RESTful API &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/overview){target="_blank"} verstrekt om u te helpen verzoeken van klantengegevens beheren.
 
 >[!NOTE]
 >
->Voor meer informatie over Privacy Service, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"}.
+>Voor meer informatie over Privacy Service, verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"}.
 
-U kunt individuele verzoeken tot stand brengen en beheren om tot klantengegevens van de Compositie van de Federatieve Audience van Adobe toegang te hebben en te schrappen. De stappen om **toegangsverzoeken** voor te leggen en **verzoeken** schrappen zijn gedetailleerd in de [ documentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/privacy){target="_blank"}.
+U kunt individuele verzoeken tot stand brengen en beheren om tot klantengegevens van de Compositie van de Federatieve Audience van Adobe toegang te hebben en te schrappen. De stappen om **toegangsverzoeken** voor te leggen en **verzoeken** schrappen zijn gedetailleerd in de [&#x200B; documentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Audit trail {#gov-audit-trail}
 
@@ -93,9 +93,9 @@ De mogelijkheden van het audittrail verstrekken een gedetailleerd en chronologis
 <!-- Workflow + Workflow activities-->
 
 
-Leer hoe te om tot de Samenstelling van het Publiek, guardrails en beperkingen op [ toegang te hebben deze pagina ](access-prerequisites.md).
+Leer hoe te om tot de Samenstelling van het Publiek, guardrails en beperkingen op [&#x200B; toegang te hebben deze pagina &#x200B;](access-prerequisites.md).
 
-Zie ook vaak gestelde vragen op [ deze pagina ](faq.md).
+Zie ook vaak gestelde vragen op [&#x200B; deze pagina &#x200B;](faq.md).
 
 
 >[!CONTEXTUALHELP]

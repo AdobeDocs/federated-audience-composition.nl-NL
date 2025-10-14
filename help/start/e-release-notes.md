@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Aanvullende informatie {#rn-new}
 
-[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
 
 ## Release juli 2025 {#fac-25-7}
 
@@ -87,7 +87,7 @@ Deze release bevat de onderstaande verbeteringen.
 
   We raden gebruikers aan contact op te nemen met de beheerders om deze machtiging aan hun rol toe te voegen en de gebruikersinterface van [!DNL Federated Audience Composition] te blijven gebruiken.
 
-  Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [ gedetailleerde documentatie ](/help/governance-privacy-security/access-control.md).
+  Leren hoe te om deze toestemming toe te wijzen, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](/help/governance-privacy-security/access-control.md).
 
 <!--
 * **Data model Canvas view**
@@ -166,7 +166,7 @@ Met deze nieuwe release is Federated Audience Composition nu compatibel met de h
 
 * **Amazon Redshift Serverless steun**
 
-  Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek [ Amazon opnieuw verschuift Serverless ](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
+  Met deze nieuwe versie, steunt de Federatieve Samenstelling van het Publiek [&#x200B; Amazon opnieuw verschuift Serverless &#x200B;](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
 
 ### Verbeteringen {#fac-24-10-improvements}
 
@@ -182,10 +182,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 ## Release van 24 juli - Federated Audience Composition (LA) {#fac-la}
 
-De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [ Adobe Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en/of [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
+De Federated Audience Composition voorziet ondernemingen van flexibele en uitgebreide toegang tot ondernemingsgegevensopslagplaatsen om publiek samen te stellen gebruikend kritieke ondernemingsdatasets en macht merkgeinitieerde en in-de-huidige ervaringen. Met deze nieuwe benadering, als [&#x200B; Adobe Real-Time Customer Data Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home){target="_blank"} en/of [&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} gebruiker, kunt u publieksgegevens van uw bestaand gegevenspakhuis direct federeren om het publiek van Adobe Experience Platform in één systeem te verrijken.
 
 Federated Audience Composition richt zich op de groeiende vraag naar markten voor ondernemingen die de flexibiliteit nodig hebben om een publiek samen te stellen met opslagdatasets. Hierdoor kunnen bedrijven de gegevensbeweging verminderen en tegelijkertijd kritieke publieksgegevens beschikbaar stellen aan marketingteams om te voldoen aan de vereisten voor gebruikssituaties en persoonlijke ervaringen.
 
-Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek op [ deze pagina ](get-started.md) en in [ Veelgestelde Vragen ](faq.md).
+Leer meer over de mogelijkheden van de Samenstelling van de Federale Publiek op [&#x200B; deze pagina &#x200B;](get-started.md) en in [&#x200B; Veelgestelde Vragen &#x200B;](faq.md).
 
-De gedetailleerde informatie over de eerste vereisten om tot Verbond van de Samenstellingen van het Publiek en de huidige guardrails toegang te hebben, verwijst naar [ deze pagina ](access-prerequisites.md).
+De gedetailleerde informatie over de eerste vereisten om tot Verbond van de Samenstellingen van het Publiek en de huidige guardrails toegang te hebben, verwijst naar [&#x200B; deze pagina &#x200B;](access-prerequisites.md).

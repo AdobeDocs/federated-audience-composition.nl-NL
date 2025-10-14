@@ -19,7 +19,7 @@ ht-degree: 1%
 >-**Beheer Verbond Schema**
 >&#x200B;>-**Bekijk Verbond Schema**
 >
->Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [&#x200B; gids van de toegangscontrole &#x200B;](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -54,7 +54,7 @@ Door een schema te maken, kunt u een representatie van de tabel definiëren in d
 
 * Geef deze een vriendelijke naam en beschrijving om het begrip voor de gebruiker te vereenvoudigen
 * De zichtbaarheid van elk veld bepalen op basis van het werkelijke gebruik ervan
-* Selecteer zijn primaire sleutel, om schema&#39;s tussen hen te verbinden, zoals nodig in het [ gegevensmodel ](../data-management/gs-models.md#data-model-start)
+* Selecteer zijn primaire sleutel, om schema&#39;s tussen hen te verbinden, zoals nodig in het [&#x200B; gegevensmodel &#x200B;](../data-management/gs-models.md#data-model-start)
 
 >[!CAUTION]
 >
@@ -64,16 +64,16 @@ Door een schema te maken, kunt u een representatie van de tabel definiëren in d
 
 Selecteer **[!UICONTROL Models]** in de sectie **[!UICONTROL Federated Data]** om een schema te maken in Federated Audience Composition. Selecteer **[!UICONTROL Schema]** op het tabblad **[!UICONTROL Create schema]** .
 
-![ Create schemaknoop wordt benadrukt binnen de sectie van de Samenstelling van het Publiek van de Federale.](assets/schema_create.png){zoomable="yes"}
+![&#x200B; Create schemaknoop wordt benadrukt binnen de sectie van de Samenstelling van het Publiek van de Federale.](assets/schema_create.png){zoomable="yes"}
 
-De pop-up **[!UICONTROL Select federated database]** wordt weergegeven. Op dit popover, kunt u het [ brongegevensbestand ](/help/connections/home.md) selecteren, dat door **[!UICONTROL Next]** wordt gevolgd.
+De pop-up **[!UICONTROL Select federated database]** wordt weergegeven. Op dit popover, kunt u het [&#x200B; brongegevensbestand &#x200B;](/help/connections/home.md) selecteren, dat door **[!UICONTROL Next]** wordt gevolgd.
 
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
 **Uitgezochte Lijst** popover verschijnt. Op deze popover, kunt u de lijsten selecteren die u wilt gebruiken om het schema tot stand te brengen.
 
-![ Uitgezochte Pop van de Lijst wordt getoond.](assets/select-table.png){zoomable="yes"}
+![&#x200B; Uitgezochte Pop van de Lijst wordt getoond.](assets/select-table.png){zoomable="yes"}
 
 Elke geselecteerde tabel genereert een schema met de gekozen kolommen. Voor elke tabel kunt u het label van het schema wijzigen, een beschrijving toevoegen, de naam van het veldlabel wijzigen, de zichtbaarheid van het veldlabel instellen en de primaire sleutel van het schema selecteren.
 
@@ -93,11 +93,11 @@ Nadat u de configuratie hebt voltooid, selecteert u **[!UICONTROL Done]** om het
 
 Om een schema uit te geven, selecteer uw eerder gecreeerd schema op de **Schema&#39;s** pagina.
 
-De pagina Schema-details wordt weergegeven. Selecteer het ![ potloodpictogram ](/help/assets/icons/edit.png) om het schema uit te geven.
+De pagina Schema-details wordt weergegeven. Selecteer het ![&#x200B; potloodpictogram &#x200B;](/help/assets/icons/edit.png) om het schema uit te geven.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-Op het **[!UICONTROL Edit schema]** venster, kunt u tot de zelfde opties toegang hebben en vormen zoals wanneer [ creërend een schema ](#schema-create).
+Op het **[!UICONTROL Edit schema]** venster, kunt u tot de zelfde opties toegang hebben en vormen zoals wanneer [&#x200B; creërend een schema &#x200B;](#schema-create).
 
 ![](assets/schema_edit_orders.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ Selecteer de knop **[!UICONTROL Configure columns]** om de gegevensweergave te w
 
 ## Een schema vernieuwen {#schema-refresh}
 
-Tabellen in een gefederaliseerde database kunnen worden bijgewerkt, toegevoegd of verwijderd. In dergelijke gevallen moet u het schema in Adobe Experience Platform vernieuwen om het uit te lijnen met de meest recente wijzigingen. Om dit uit te voeren, selecteer het ![ drie puntenpictogram ](/help/assets/icons/more.png) naast de naam van het schema dat door **[!UICONTROL Refresh schema]** wordt gevolgd.
+Tabellen in een gefederaliseerde database kunnen worden bijgewerkt, toegevoegd of verwijderd. In dergelijke gevallen moet u het schema in Adobe Experience Platform vernieuwen om het uit te lijnen met de meest recente wijzigingen. Om dit uit te voeren, selecteer het ![&#x200B; drie puntenpictogram &#x200B;](/help/assets/icons/more.png) naast de naam van het schema dat door **[!UICONTROL Refresh schema]** wordt gevolgd.
 
 U kunt de schemadefinitie ook bijwerken wanneer het uitgeven van het.
 
@@ -123,6 +123,6 @@ U kunt de schemadefinitie ook bijwerken wanneer het uitgeven van het.
 
 ## Schema verwijderen {#schema-delete}
 
-Om een schema te schrappen, selecteer het ![ drie puntenpictogram ](/help/assets/icons/more.png), dat door **[!UICONTROL Delete]** wordt gevolgd.
+Om een schema te schrappen, selecteer het ![&#x200B; drie puntenpictogram &#x200B;](/help/assets/icons/more.png), dat door **[!UICONTROL Delete]** wordt gevolgd.
 
 ![](assets/schema_delete.png){zoomable="yes"}
