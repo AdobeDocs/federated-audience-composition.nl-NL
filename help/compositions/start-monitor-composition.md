@@ -66,17 +66,17 @@ Op alle tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filters
 
 Daarnaast kunt u zich abonneren op waarschuwingen om meldingen te ontvangen als de uitvoering van uw gefedereerde compositie is geslaagd of mislukt.
 
-Om aan alarm in te tekenen, selecteer het ![ berichtpictogram ](/help/assets/icons/bell.png), dat door het ![ montagespictogram ](/help/assets/icons/settings.png) wordt gevolgd.
+Om aan alarm in te tekenen, selecteer het ![&#x200B; berichtpictogram &#x200B;](/help/assets/icons/bell.png), dat door het ![&#x200B; montagespictogram &#x200B;](/help/assets/icons/settings.png) wordt gevolgd.
 
-![ zowel worden het bericht als de montagespictogrammen benadrukt.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+![&#x200B; zowel worden het bericht als de montagespictogrammen benadrukt.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
 
 De pagina met instellingen voor meldingen wordt weergegeven. Selecteer op deze pagina **[!UICONTROL Experience Platform]** en kies de gewenste kanalen voor waarschuwingen. Selecteer **[!UICONTROL In-app]** als u de meldingen in de gebruikersinterface wilt weergeven.
 
-![ checkbox in-app wordt geselecteerd binnen de sectie van Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+![&#x200B; checkbox in-app wordt geselecteerd binnen de sectie van Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
 
 Als **[!UICONTROL In-app]** is geselecteerd, krijgt u nu een melding voor het uitvoeren van composities.
 
-![ het alarm wordt getoond, tonend de samenstellingssuccessen en mislukkingen.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
+![&#x200B; het alarm wordt getoond, tonend de samenstellingssuccessen en mislukkingen.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Opdrachten voor het uitvoeren van composities {#execution-commands}
 
