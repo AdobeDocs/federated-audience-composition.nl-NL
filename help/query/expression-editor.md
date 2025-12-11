@@ -3,10 +3,10 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in vraagmodeler te bouwen.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
+source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 53%
+source-wordcount: '4097'
+ht-degree: 5%
 
 ---
 
@@ -42,328 +42,321 @@ In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor he
 
 Met het gereedschap voor het bewerken van query&#39;s kunt u geavanceerde functies gebruiken om complexe filtering uit te voeren op basis van de gewenste resultaten en de typen gemanipuleerde gegevens. De volgende functies zijn beschikbaar:
 
-### Geaggregeerd
+<!-- ### Aggregate
 
-De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een reeks waarden.
+The aggregate functions are used to perform calculations on a set of values.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Avg </strong><br /> </td> 
-   <td> Keert het gemiddelde van een kolom van het aantaltype terug <br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Telling </strong><br /> </td> 
-   <td> Telt de niet-nulwaarden van een kolom <br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong> CountAll </strong><br /> </td> 
-   <td> Telt de teruggekeerde waarden (alle gebieden) <br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Countdifferent </strong><br /> </td> 
-   <td> Telt de duidelijke niet-krachteloze waarden van een kolom <br /> </td> 
-   <td> Countdifferent(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Max </strong><br /> </td> 
-   <td> Keert de maximumwaarde van een aantal, een koord, of een kolom van het datumtype terug <br /> </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong> Min </strong><br /> </td> 
-   <td> Keert de minimumwaarde van een aantal, een koord of een kolom van het datumtype terug <br /> </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> StdDev </strong><br /> </td> 
-   <td> Retourneert de standaardafwijking van een getal, tekenreeks of datumkolom <br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong> StringAgg </strong><br /> </td> 
-   <td> Keert de aaneenschakeling van de waarden van een koordtype kolom terug, die door het karakter in het tweede argument wordt gescheiden <br /> </td> 
-   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Som </strong><br /> </td> 
-   <td> Keert de som waarden van een aantal, een koord, of een kolom van het datumtype terug <br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
-  </tr> 
- </tbody> 
-</table>
+>[!BEGINTABS]
+
+>[!TAB Google BigQuery]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | -->
+
+<!-- 
+
+>[!TAB Databricks]
+
+Aggregate functions are not available.
+
+>[!TAB Fabric]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") |
+
+>[!TAB Redshift]
+
+Aggregate functions are not available. -->
+
+<!-- 
+
+>[!TAB Snowflake]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | -->
+
+<!-- 
+>[!TAB Vertica]
+
+Aggregate functions are not available. -->
+
+<!-- 
+>[!ENDTABS] 
+-->
 
 ### Datum
 
 De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal dagen toe aan een datum<br /> </td> 
-   <td> AddDays(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal uren toe aan een datum<br /> </td> 
-   <td> AddHours(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal minuten toe aan een datum<br /> </td> 
-   <td> AddMinutes(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal maanden toe aan een datum<br /> </td> 
-   <td> AddMonths(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal seconden toe aan een datum<br /> </td> 
-   <td> AddSeconds(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal jaren toe aan een datum<br /> </td> 
-   <td> AddYear(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong> ConvertNTZ </strong><br /> </td> 
-   <td> Converteert timestamp NTZ (timestamp zonder timezone) in TZ (timestamp met timezone) het toepassen van bepaalde zitting TZ <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;) <br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong> DateCmp </strong><br /> </td> 
-   <td> Twee datums vergelijken <br/> </td> 
-   <td> DateCmp (&lt;date&gt;,&lt;date&gt;) <br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> Keert de datum slechts (met tijd bij 00:00)* terug <br /> </td> 
-   <td> DateOnly(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> Retourneert het getal dat de dag van de datum vertegenwoordigt<br /> </td> 
-   <td> Day(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Keert het aantal van de dag in het jaar van de datum terug <br /> </td> 
-   <td> DayOfYear(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> Retourneert de datum die overeenkomt met de huidige datum min n dagen <br /> </td> 
-   <td> DaysAgo(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Retourneert de datum (geheel getal jjjjmmdd) die overeenkomt met de huidige datum minus n dagen <br /> </td> 
-   <td> DaysAgoInt(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> Aantal dagen tussen twee datums<br /> </td> 
-   <td> DaysDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> Retourneert de leeftijd in dagen van een datum<br /> </td> 
-   <td> DaysOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> Hiermee wordt de huidige systeemdatum van de server geretourneerd<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> Retourneert het uur van de datum<br /> </td> 
-   <td> Hour(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> Retourneert het aantal uren tussen twee datums<br /> </td> 
-   <td> HoursDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> Retourneert de minuten van de datum<br /> </td> 
-   <td> Minute(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> Retourneert het aantal minuten tussen twee datums<br /> </td> 
-   <td> MinutesDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> Retourneert het getal dat de maand van de datum vertegenwoordigt<br /> </td> 
-   <td> Month(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> Retourneert de datum die overeenkomt met de huidige datum minus n maanden<br /> </td> 
-   <td> MonthsAgo(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> Retourneert het aantal maanden tussen twee datums<br /> </td> 
-   <td> MonthsDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> Retourneert de leeftijd in maanden van een datum<br /> </td> 
-   <td> MonthsOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> Keert de oudste datum in een waaier terug <br /> </td> 
-   <td> Oudst (&lt;date, date&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> Retourneert de seconden van de datum<br /> </td> 
-   <td> Second(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> Retourneert het aantal seconden tussen twee datums<br /> </td> 
-   <td> SecondsDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal dagen van een datum af<br /> </td> 
-   <td> SubDays(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal uren van een datum af<br /> </td> 
-   <td> SubHours(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal aantal minuten van een datum af<br /> </td> 
-   <td> SubMinutes(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal maanden van een datum af<br /> </td> 
-   <td> SubMonths(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal seconden van een datum af<br /> </td> 
-   <td> SubSeconds(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal jaren van een datum af<br /> </td> 
-   <td> SubYears(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> Converteert een datum + tijd als datum<br /> </td> 
-   <td> ToDate(&lt;datum + tijd&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> Zet een tekenreeks om in een datum + tijd<br /> </td> 
-   <td> ToDateTime(&lt;tekenreeks&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong> ToTimestamp </strong><br /> </td> 
-   <td> Converteert een koord in timestamp <br /> </td> 
-   <td> ToTimestamp (&lt;string&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong> ToTimeZone </strong><br /> </td> 
-   <td> Converteer een datum + tijd naar tijdzone <br /> </td> 
-   <td> ToTimeZone (&lt;date&gt;,&lt;time zone&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> Rondt een datum+tijd af naar de dichtstbijzijnde seconde<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;aantal seconden&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> Rondt een datum + tijd af naar een bepaalde precisie die in seconden wordt uitgedrukt<br /> </td> 
-   <td> TruncDateTZ(&lt;datum&gt;, &lt;aantal seconden&gt;, &lt;tijdzone&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> Rondt een datum af naar het kwartaal<br /> </td> 
-   <td> TruncQuarter(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> Rondt het tijdsdeel af naar de dichtstbijzijnde seconde<br /> </td> 
-   <td> TruncTim (e&lt;date&gt;, &lt;number of seconds&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Rondt een datum af naar de week<br /> </td> 
-   <td> TruncWeek(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> Rondt een datum + tijd naar 1 januari van het jaar<br /> </td> 
-   <td> TruncYear(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Keert een aantal terug dat de dag in de week van de datum vertegenwoordigt (0=Maandag, 6=Zondag) <br /> </td> 
-   <td> WeekDay(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Year</strong><br /> </td> 
-   <td> Retourneert het getal dat het jaar van de datum vertegenwoordigt<br /> </td> 
-   <td> Year(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> Retourneert het getal dat het jaar en de maand van de datum vertegenwoordigt.<br /> </td> 
-   <td> YearAndMonth(&lt;datum&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong> YearAgo </strong><br /> </td> 
-   <td> Keert het aantal jaren tussen een bepaalde datum en de huidige datum terug <br /> </td> 
-   <td> YearAgo (&lt;date&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearDiff</strong><br /> </td> 
-   <td> Retourneert het aantal jaren tussen de twee datums<br /> </td> 
-   <td> YearsDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> Retourneert de leeftijd in jaren van een datum<br /> </td> 
-   <td> YearOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
-</table>
+>[!BEGINTABS]
+
+>[!TAB  Google BigQuery ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **AddYears** | Hiermee voegt u het opgegeven aantal jaren toe aan de opgegeven datumtijd. | AddYear(&lt;DATETIME>, &lt;NUMBER>) | AddYear (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **AddMonths** | Hiermee voegt u het opgegeven aantal maanden toe aan de opgegeven datumtijd. | AddMonths(&lt;DATETIME>, &lt;NUMBER>) | AddMonths (&quot;2019-12-25 15 :30: 00&quot;, 6) |
+| **AddDays** | Hiermee voegt u het opgegeven aantal dagen toe aan de opgegeven datumtijd. | AddDays(&lt;DATETIME>, &lt;NUMBER>) | AddDays (&quot;2019-12-25 15 :30: 00&quot;, 10) |
+| **AddHours** | Hiermee voegt u het opgegeven aantal uren toe aan de opgegeven datumtijd. | AddHours(&lt;DATETIME>, &lt;NUMBER>) | AddHours (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **AddMinutes** | Hiermee voegt u het opgegeven aantal minuten toe aan de opgegeven datumtijd. | AddMinutes(&lt;DATETIME>, &lt;NUMBER>) | AddMinutes (&quot;2019-12-25 15 :30: 00&quot;, 32) |
+| **AddSeconds** | Hiermee wordt het opgegeven aantal seconden toegevoegd aan de opgegeven datetime. | AddSeconds(&lt;DATETIME>, &lt;NUMBER>) | AddSeconds (&quot;2019-12-25 15 :30: 00&quot;, 37) |
+| **SubYears** | Trekt het gespecificeerde aantal jaren aan de verstrekte datetime af. | SubYear(&lt;DATETIME>, &lt;NUMBER>) | SubYaren (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **SubMonths** | Trekt het gespecificeerde aantal maanden aan de verstrekte datetime af. | SubMonths(&lt;DATETIME>, &lt;NUMBER>) | SubMonths (&quot;2019-12-25 15 :30: 00&quot;, 6) |
+| **SubDays** | Trekt het gespecificeerde aantal dagen aan de verstrekte datetime af. | SubDays(&lt;DATETIME>, &lt;NUMBER>) | SubDays (&quot;2019-12-25 15 :30: 00&quot;, 10) |
+| **SubHours** | Trekt het gespecificeerde aantal uren aan de verstrekte datetime af. | SubHours(&lt;DATETIME>, &lt;NUMBER>) | SubHours (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **SubMinutes** | Trekt het gespecificeerde aantal minuten aan de verstrekte datetime af. | SubMinutes(&lt;DATETIME>, &lt;NUMBER>) | SubMinutes (&quot;2019-12-25 15 :30: 00&quot;, 32) |
+| **SubSeconds** | Trekt het gespecificeerde aantal seconden aan de verstrekte datetime af. | SubSeconds(&lt;DATETIME>, &lt;NUMBER>) | SubSeconds (&quot;2019-12-25 15 :30: 00&quot;, 37) |
+| **Year** | Extraheert het jaar vanaf het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Month** | Extraheert de maand vanaf het opgegeven datetime-object. | Maand (&lt;DATETIME>) | Maand (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Day** | Extraheert de dag vanaf het opgegeven datetime-object. | Dag (&lt;DATETIME>) | Dag (&quot;2019-12-15 15 :30: 00&quot;) |
+| **DayOfYear** | Extraheert de dag van het jaar vanaf het opgegeven datetime-object. Bijvoorbeeld, als de verstrekte datetime 2 Februari is, zou het 33 terugkeren. | DayOfYear(&lt;DATETIME>) | DayOfYear (&quot;2019-12-15 15 :30: 00&quot;) |
+| **WeekDay** | Extraheert de dag van de week van het opgegeven datetime-object, als een getal van 0 tot en met 6, waarbij 0 staat voor zondag. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Hour** | Extraheert de uurwaarde van het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Minute** | Extraheert de minutenwaarde uit het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Second** | Extraheert de tweede waarde van het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **YearDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van jaren. | YearDiff(&lt;DATETIME>, &lt;DATETIME>) | YarenDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **MonthsDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van maanden. | MonthsDiff(&lt;DATETIME>, &lt;DATETIME>) | MonthsDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **DaysDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van dagen. | DaysDiff(&lt;DATETIME>, &lt;DATETIME>) | DaysDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **HoursDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van uren. | HoursDiff(&lt;DATETIME>, &lt;DATETIME>) | HoursDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **MinutesDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van notulen. | MinutesDiff(&lt;DATETIME>, &lt;DATETIME>) | MinutesDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **SecondsDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van seconden. | SecondsDiff(&lt;DATETIME>, &lt;DATETIME>) | SecondsDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **YearsOld** | Vindt het verschil tussen de bepaalde datum en heden, met een granulariteit van jaren. | YearOld(&lt;DATETIME>) | YarenOld (&quot;2019-12-25 15 :30: 00&quot;) |
+| **MonthsOld** | Vindt het verschil tussen de bepaalde datum en heden, met een granulariteit van maanden. | MonthsOld(&lt;DATETIME>) | MonthsOld (&quot;2019-12-25 15 :30: 00&quot;) |
+| **DaysOld** | Vindt het verschil tussen bepaalde datetime en heden, met een granulariteit van dagen. | DaysOld(&lt;DATETIME>) | DaysOld (&quot;2019-12-25 15 :30: 00&quot;) |
+| **GetDate** | Haal de huidige datum van de server op. | GetDate() | GetDate() |
+| **DateOnly** | Kort de datetime aan enkel het jaar, de maand, en de dag in. | DateOnly(&lt;DATETIME>) | DateOnly (&quot;2019-12-25 15 :30: 00&quot;) |
+| **ToDate** | Hiermee converteert u het veld naar een datumveld. | ToDate(&lt;DATETIME>) | ToDate (&quot;2019-12-25 15 :30: 00&quot;) |
+| **ToDateTime** | Hiermee converteert u het veld naar een datetime-veld. | ToDateTime(&lt;DATE>) | ToDateTime (&quot;2019-12-25 15 :30: 00&quot;) |
+| **ToTimestamp** | Hiermee converteert u het veld naar een tijdstempelveld. | ToTimestamp(&lt;DATETIME>) | ToTimestamp (&quot;2019-12-25 15 :30: 00&quot;) |
+| **Oldest** | Retourneert de oudste datum tussen de twee opgegeven waarden. | Oudst(&lt;DATETIME>, &lt;DATETIME>) | Oudst (&quot;2015-02-13 11 :59: 59&quot;, &quot;2016-04-13 19 :28: 14&quot;) |
+| **TruncDate** | Kort de datetime aan de dichtstbijzijnde eenheid in, op basis van de gegeven numerieke waarde. Als de numerieke waarde gelijk is aan 60, wordt deze afgebroken tot de dichtstbijzijnde minuut. Als de numerieke waarde gelijk is aan 3600, wordt deze afgebroken tot het dichtstbijzijnde uur. Als de numerieke waarde gelijk is aan 86400, wordt deze afgebroken tot de dichtstbijzijnde dag. Anders wordt het naar de dichtstbijzijnde seconde afgebroken. | TruncDate(&lt;DATETIME>, &lt;NUMBER>) | TruncDate (&quot;2016-04-13 19 :28: 14&quot;, 3600) |
+| **TruncDateTZ** | Kort de datetime aan de dichtstbijzijnde eenheid in, op basis van de gegeven numerieke waarde, en stelt de datetime in op de opgegeven tijdzone. Als de numerieke waarde gelijk is aan 60, wordt deze afgebroken tot de dichtstbijzijnde minuut. Als de numerieke waarde gelijk is aan 3600, wordt deze afgebroken tot het dichtstbijzijnde uur. Als de numerieke waarde gelijk is aan 86400, wordt deze afgebroken tot de dichtstbijzijnde dag. | TruncDateTZ(&lt;DATETIME>, &lt;NUMBER>, &lt;TIMEZONE>) | TruncDateTZ (&quot;2016-04-13 19 :28: 14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
+| **TruncTime** | Stelt de datetime in op 1 januari 2000 en rondt de rest van de datetime af op de dichtstbijzijnde eenheid, op basis van de opgegeven numerieke waarde. Als de numerieke waarde gelijk is aan 60, wordt deze verkort tot de dichtstbijzijnde minuut. Als de numerieke waarde gelijk is aan 3600, wordt deze afgebroken tot het dichtstbijzijnde uur. | TruncTime(&lt;DATETIME>, &lt;NUMBER>) | TruncTime (&quot;2016-04-13 19 :28: 14&quot;, 3600) |
+| **TruncQuarter** | Kort de datetime aan de eerste datum in het dichtstbijzijnde kwartaal in. | TruncQuarter(&lt;DATETIME>) | TruncQuarter (&quot;2016-04-13 19 :28: 14&quot;) |
+| **TruncYear** | Kort de datetime aan de eerste datum in het dichtstbijzijnde jaar in. | TruncYear(&lt;DATETIME>) | TruncYear (&quot;2016-04-13 19 :28: 14&quot;) |
+| **TruncWeek** | Kort de datetime aan de Zondag van de dichtstbijzijnde week in. | TruncWeek(&lt;DATETIME>) | TruncWeek (&quot;2016-04-13 19 :28: 14&quot;) |
+
+<!-- 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+-->
+
+<!-- | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+| **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
+| **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | -->
+
+
+<!-- 
+>[!TAB Databricks]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **AddYears** | Adds the specified number of years to the provided datetime. | AddYears(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddYears("2019-12-25 15:30:00", 3) |
+| **AddMonths** | Adds the specified number of months to the provided datetime. | AddMonths(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddMonths("2019-12-25 15:30:00", 6) |
+| **AddDays** | Adds the specified number of days to the provided datetime. | AddDays(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddDays("2019-12-25 15:30:00", 10) |
+| **AddHours** | Adds the specified number of hours to the provided datetime. | AddHours(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddHours("2019-12-25 15:30:00", 3) |
+| **AddMinutes** | Adds the specified number of minutes to the provided datetime. | AddMinutes(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddMinutes("2019-12-25 15:30:00", 32) |
+| **AddSeconds** | Adds the specified number of seconds to the provided datetime. | AddSeconds(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddSeconds("2019-12-25 15:30:00", 37) |
+| **SubYears** | Subtracts the specified number of years to the provided datetime. | SubYears(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubYears("2019-12-25 15:30:00", 3) |
+| **SubMonths** | Adds the specified number of months to the provided datetime. | SubMonths(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubMonths("2019-12-25 15:30:00", 6) |
+| **SubDays** | Adds the specified number of days to the provided datetime. | SubDays(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubDays("2019-12-25 15:30:00", 10) |
+| **SubHours** | Adds the specified number of hours to the provided datetime. | SubHours(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubHours("2019-12-25 15:30:00", 3) |
+| **SubMinutes** | Adds the specified number of minutes to the provided datetime. | SubMinutes(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubMinutes("2019-12-25 15:30:00", 32) |
+| **SubSeconds** | Adds the specified number of seconds to the provided datetime. | SubSeconds(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubSeconds("2019-12-25 15:30:00", 37) |
+| **Year** | Extracts the year from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Month** | Extracts the month from the given datetime object. | Month(&lt;DATETIME&gt;) | Month("2019-12-15 15:30:00") |
+| **Day** | Extracts the day from the given datetime object. | Day(&lt;DATETIME&gt;) | Day("2019-12-15 15:30:00") |
+| **DayOfYear** | Extracts the day of year from the given datetime object. For example, if the provided datetime is February 2nd, it would return 33. | DayOfYear(&lt;DATETIME&gt;) | DayOfYear("2019-12-15 15:30:00") |
+| **WeekDay** | Extracts the day of the week from the given datetime object, as a number from 1 to 7, with 1 representing Sunday. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Hour** | Extracts the hour value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Minute** | Extracts the minute value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Second** | Extracts the second value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **YearsDiff** | Finds the difference between the given datetimes, with a granularity of years. | YearsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | YearsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **MonthsDiff** | Finds the difference between the given datetimes, with a granularity of months. | MonthsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | MonthsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **DaysDiff** | Finds the difference between the given datetimes, with a granularity of days. | DaysDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | DaysDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **HoursDiff** | Finds the difference between the given datetimes, with a granularity of hours. | HoursDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | HoursDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **MinutesDiff** | Finds the difference between the given datetimes, with a granularity of minutes. | MinutesDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | MinutesDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **SecondsDiff** | Finds the difference between the given datetimes, with a granularity of seconds. | SecondsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | SecondsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **YearsOld** | Finds the difference between the given datetime and the present, with a granularity of years. | YearsOld(&lt;DATETIME&gt;) | YearsOld("2019-12-25 15:30:00") |
+| **MonthsOld** | Finds the difference between the given datetime and the present, with a granularity of months. | MonthsOld(&lt;DATETIME&gt;) | MonthsOld("2019-12-25 15:30:00") |
+| **DaysOld** | Finds the difference between the given datetime and the present, with a granularity of days. | DaysOld(&lt;DATETIME&gt;) | DaysOld("2019-12-25 15:30:00") |
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+| **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
+| **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
+| **ToDateTime** | Converts the field to a datetime field. | ToDateTime(&lt;DATE&gt;) | ToDateTime("2019-12-25 15:30:00") |
+| **ToTimestamp** | Converts the field to a timestamp field. | ToTimestamp(&lt;DATETIME&gt;) | ToTimestamp("2019-12-25 15:30:00") |
+| **GetDate** | Get the current date of the server. | GetDate() | GetDate() |
+| **DateOnly** | Truncates the datetime to just the year, month, and day. | DateOnly(&lt;DATETIME&gt;) | DateOnly("2019-12-25 15:30:00") |
+| **ToDate** | Converts the field to a date field. | ToDate(&lt;DATETIME&gt;) | ToDate("2019-12-25 15:30:00") |
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
+| **Oldest** | Returns the oldest date between the two provided. | Oldest(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | Oldest("2015-02-13 11:59:59", "2016-04-13 19:28:14") |
+| **TruncDate** | Truncates the datetime to the nearest unit, based on the numerical value given. If the numeric value is equal to 60, it truncates to the nearest minute. If the numeric value is equal to 3600, it truncates to the nearest hour. If the numeric value is equal to 86400, it truncates to the nearest day. Otherwise, it truncates to the nearest second. | TruncDate(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | TruncDate("2016-04-13 19:28:14", 3600) |
+| **TruncDateTZ** | Truncates the datetime to the nearest unit, based on the numerical value given, and sets the datetime to the specified timezone. If the numeric value is equal to 60, it truncates to the nearest minute. If the numeric value is equal to 3600, it truncates to the nearest hour. If the numeric value is equal to 86400, it truncates to the nearest day. | TruncDateTZ(&lt;DATETIME&gt;, &lt;NUMBER&gt;, &lt;TIMEZONE&gt;) | TruncDateTZ("2016-04-13 19:28:14", 3600, "America/Los_Angeles") |
+| **TruncTime** | Sets the datetime to January 1st, 2000 and rounds the rest of the datetime to the nearest unit, based on the numerical value given.If the numeric value is equal to 60, it truncates to the nearest minute. If the numeric value is equal to 3600, it truncates to the nearest hour. | TruncTime(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | TruncTime("2016-04-13 19:28:14", 3600) |
+| **TruncQuarter** | Truncates the datetime to the first date in the nearest quarter. | TruncQuarter(&lt;DATETIME&gt;) | TruncQuarter("2016-04-13 19:28:14") |
+| **TruncYear** | Truncates the datetime to the first date in the nearest year. | TruncYear(&lt;DATETIME&gt;) | TruncYear("2016-04-13 19:28:14") |
+| **TruncWeek** | Truncates the datetime to the Sunday of the nearest week. | TruncWeek(&lt;DATETIME&gt;) | TruncWeek("2016-04-13 19:28:14") |
+
+>[!TAB Fabric]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **AddYears** | Adds the specified number of years to the provided datetime. | AddYears(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddYears("2019-12-25 15:30:00", 3) |
+| **AddMonths** | Adds the specified number of months to the provided datetime. | AddMonths(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddMonths("2019-12-25 15:30:00", 6) |
+| **AddDays** | Adds the specified number of days to the provided datetime. | AddDays(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddDays("2019-12-25 15:30:00", 10) |
+| **AddHours** | Adds the specified number of hours to the provided datetime. | AddHours(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddHours("2019-12-25 15:30:00", 3) |
+| **AddMinutes** | Adds the specified number of minutes to the provided datetime. | AddMinutes(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddMinutes("2019-12-25 15:30:00", 32) |
+| **AddSeconds** | Adds the specified number of seconds to the provided datetime. | AddSeconds(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddSeconds("2019-12-25 15:30:00", 37) |
+| **SubYears** | Subtracts the specified number of years to the provided datetime. | SubYears(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubYears("2019-12-25 15:30:00", 3) |
+| **SubMonths** | Adds the specified number of months to the provided datetime. | SubMonths(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubMonths("2019-12-25 15:30:00", 6) |
+| **SubDays** | Adds the specified number of days to the provided datetime. | SubDays(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubDays("2019-12-25 15:30:00", 10) |
+| **SubHours** | Adds the specified number of hours to the provided datetime. | SubHours(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubHours("2019-12-25 15:30:00", 3) |
+| **SubMinutes** | Adds the specified number of minutes to the provided datetime. | SubMinutes(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubMinutes("2019-12-25 15:30:00", 32) |
+| **SubSeconds** | Adds the specified number of seconds to the provided datetime. | SubSeconds(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubSeconds("2019-12-25 15:30:00", 37) |
+| **DayOfYear** | Extracts the day of year from the given datetime object. For example, if the provided datetime is February 2nd, it would return 33. | DayOfYear(&lt;DATETIME&gt;) | DayOfYear("2019-12-15 15:30:00") |
+| **DateOnly** | Truncates the datetime to just the year, month, and day. | DateOnly(&lt;DATETIME&gt;) | DateOnly("2019-12-25 15:30:00") |
+| **YearsOld** | Finds the difference between the given datetime and the present, with a granularity of years. | YearsOld(&lt;DATETIME&gt;) | YearsOld("2019-12-25 15:30:00") |
+| **YearsDiff** | Finds the difference between the given datetimes, with a granularity of years. | YearsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | YearsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **MonthsDiff** | Finds the difference between the given datetimes, with a granularity of months. | MonthsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | MonthsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **DaysDiff** | Finds the difference between the given datetimes, with a granularity of days. | DaysDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | DaysDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **HoursDiff** | Finds the difference between the given datetimes, with a granularity of hours. | HoursDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | HoursDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **MinutesDiff** | Finds the difference between the given datetimes, with a granularity of minutes. | MinutesDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | MinutesDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **SecondsDiff** | Finds the difference between the given datetimes, with a granularity of seconds. | SecondsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | SecondsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **WeekDay** | Extracts the day of the week from the given datetime object, as a number from 1 to 7, with 1 representing Sunday. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Hour** | Extracts the hour value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Minute** | Extracts the minute value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Second** | Extracts the second value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Oldest** | Returns the oldest date between the two provided. | Oldest(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | Oldest("2015-02-13 11:59:59", "2016-04-13 19:28:14") |
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
+| **ToDate** | Converts the field to a date field. | ToDate(&lt;DATETIME&gt;) | ToDate("2019-12-25 15:30:00") |
+| **TruncDate** | Truncates the datetime to the nearest unit, based on the numerical value given. If the numeric value is equal to 60, it truncates to the nearest minute. If the numeric value is equal to 3600, it truncates to the nearest hour. If the numeric value is equal to 86400, it truncates to the nearest day. Otherwise, it truncates to the nearest second. | TruncDate(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | TruncDate("2016-04-13 19:28:14", 3600) |
+| **TruncTime** | Sets the datetime to January 1st, 2000 and rounds the rest of the datetime to the nearest unit, based on the numerical value given.If the numeric value is equal to 60, it truncates to the nearest minute. If the numeric value is equal to 3600, it truncates to the nearest hour. | TruncTime(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | TruncTime("2016-04-13 19:28:14", 3600) |
+| **TruncQuarter** | Truncates the datetime to the first date in the nearest quarter. | TruncQuarter(&lt;DATETIME&gt;) | TruncQuarter("2016-04-13 19:28:14") |
+| **TruncYear** | Truncates the datetime to the first date in the nearest year. | TruncYear(&lt;DATETIME&gt;) | TruncYear("2016-04-13 19:28:14") |
+| **TruncWeek** | Truncates the datetime to the Sunday of the nearest week. | TruncWeek(&lt;DATETIME&gt;) | TruncWeek("2016-04-13 19:28:14") |
+| **ToTimestamp** | Converts the field to a timestamp field. | ToTimestamp(&lt;DATETIME&gt;) | ToTimestamp("2019-12-25 15:30:00") |
+
+>[!TAB Redshift]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **ConvertTimezone** | Converts the datetime from its timezone to the timezone of the external account. | ConvertTimezone(&lt;DATETIME&gt;) | ConvertTimezone("2019-12-25 15:30:00") |
+
+ -->
+
+>[!TAB  Snowflake ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **AddYears** | Hiermee voegt u het opgegeven aantal jaren toe aan de opgegeven datumtijd. | AddYear(&lt;DATETIME>, &lt;NUMBER>) | AddYear (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **AddMonths** | Hiermee voegt u het opgegeven aantal maanden toe aan de opgegeven datumtijd. | AddMonths(&lt;DATETIME>, &lt;NUMBER>) | AddMonths (&quot;2019-12-25 15 :30: 00&quot;, 6) |
+| **AddDays** | Hiermee voegt u het opgegeven aantal dagen toe aan de opgegeven datumtijd. | AddDays(&lt;DATETIME>, &lt;NUMBER>) | AddDays (&quot;2019-12-25 15 :30: 00&quot;, 10) |
+| **AddHours** | Hiermee voegt u het opgegeven aantal uren toe aan de opgegeven datumtijd. | AddHours(&lt;DATETIME>, &lt;NUMBER>) | AddHours (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **AddMinutes** | Hiermee voegt u het opgegeven aantal minuten toe aan de opgegeven datumtijd. | AddMinutes(&lt;DATETIME>, &lt;NUMBER>) | AddMinutes (&quot;2019-12-25 15 :30: 00&quot;, 32) |
+| **AddSeconds** | Hiermee wordt het opgegeven aantal seconden toegevoegd aan de opgegeven datetime. | AddSeconds(&lt;DATETIME>, &lt;NUMBER>) | AddSeconds (&quot;2019-12-25 15 :30: 00&quot;, 37) |
+| **SubYears** | Trekt het gespecificeerde aantal jaren aan de verstrekte datetime af. | SubYear(&lt;DATETIME>, &lt;NUMBER>) | SubYaren (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **SubMonths** | Trekt het gespecificeerde aantal maanden aan de verstrekte datetime af. | SubMonths(&lt;DATETIME>, &lt;NUMBER>) | SubMonths (&quot;2019-12-25 15 :30: 00&quot;, 6) |
+| **SubDays** | Trekt het gespecificeerde aantal dagen aan de verstrekte datetime af. | SubDays(&lt;DATETIME>, &lt;NUMBER>) | SubDays (&quot;2019-12-25 15 :30: 00&quot;, 10) |
+| **SubHours** | Trekt het gespecificeerde aantal uren aan de verstrekte datetime af. | SubHours(&lt;DATETIME>, &lt;NUMBER>) | SubHours (&quot;2019-12-25 15 :30: 00&quot;, 3) |
+| **SubMinutes** | Trekt het gespecificeerde aantal minuten aan de verstrekte datetime af. | SubMinutes(&lt;DATETIME>, &lt;NUMBER>) | SubMinutes (&quot;2019-12-25 15 :30: 00&quot;, 32) |
+| **SubSeconds** | AdSubtractsds het gespecificeerde aantal seconden aan de verstrekte datetime. | SubSeconds(&lt;DATETIME>, &lt;NUMBER>) | SubSeconds (&quot;2019-12-25 15 :30: 00&quot;, 37) |
+| **Year** | Extraheert het jaar vanaf het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Month** | Extraheert de maand vanaf het opgegeven datetime-object. | Maand (&lt;DATETIME>) | Maand (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Day** | Extraheert de dag vanaf het opgegeven datetime-object. | Dag (&lt;DATETIME>) | Dag (&quot;2019-12-15 15 :30: 00&quot;) |
+| **DayOfYear** | Extraheert de dag van het jaar vanaf het opgegeven datetime-object. Bijvoorbeeld, als de verstrekte datetime 2 Februari is, zou het 33 terugkeren. | DayOfYear(&lt;DATETIME>) | DayOfYear (&quot;2019-12-15 15 :30: 00&quot;) |
+| **WeekDay** | Extraheert de dag van de week van het opgegeven datetime-object als een getal van 1 tot en met 7, waarbij 1 de zondag vertegenwoordigt. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Hour** | Extraheert de uurwaarde van het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Minute** | Extraheert de minutenwaarde uit het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **Second** | Extraheert de tweede waarde van het opgegeven datetime-object. | Jaar (&lt;DATETIME>) | Jaar (&quot;2019-12-15 15 :30: 00&quot;) |
+| **YearDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van jaren. | YearDiff(&lt;DATETIME>, &lt;DATETIME>) | YarenDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **MonthsDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van maanden. | MonthsDiff(&lt;DATETIME>, &lt;DATETIME>) | MonthsDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **DaysDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van dagen. | DaysDiff(&lt;DATETIME>, &lt;DATETIME>) | DaysDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **HoursDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van uren. | HoursDiff(&lt;DATETIME>, &lt;DATETIME>) | HoursDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **MinutesDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van notulen. | MinutesDiff(&lt;DATETIME>, &lt;DATETIME>) | MinutesDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **SecondsDiff** | Vindt het verschil tussen de bepaalde datetimes, met een granulariteit van seconden. | SecondsDiff(&lt;DATETIME>, &lt;DATETIME>) | SecondsDiff (&quot;2019-12-25 15 :30: 00&quot;, &quot;2018-10-14 18 :35: 27&quot;) |
+| **MonthsOld** | Vindt het verschil tussen de bepaalde datum en heden, met een granulariteit van maanden. | MonthsOld(&lt;DATETIME>) | MonthsOld (&quot;2019-12-25 15 :30: 00&quot;) |
+| **DaysOld** | Vindt het verschil tussen bepaalde datetime en heden, met een granulariteit van dagen. | DaysOld(&lt;DATETIME>) | DaysOld (&quot;2019-12-25 15 :30: 00&quot;) |
+| **GetDate** | Haal de huidige datum van de server op. | GetDate() | GetDate() |
+| **DateOnly** | Kort de datetime aan enkel het jaar, de maand, en de dag in. | DateOnly(&lt;DATETIME>) | DateOnly (&quot;2019-12-25 15 :30: 00&quot;) |
+| **ToDate** | Hiermee converteert u het veld naar een datumveld. | ToDate(&lt;DATETIME>) | ToDate (&quot;2019-12-25 15 :30: 00&quot;) |
+| **ToDateTime** | Hiermee converteert u het veld naar een datetime-veld. | ToDateTime(&lt;DATE>) | ToDateTime (&quot;2019-12-25 15 :30: 00&quot;) |
+| **ToTimestamp** | Hiermee converteert u het veld naar een tijdstempelveld. | ToTimestamp(&lt;DATETIME>) | ToTimestamp (&quot;2019-12-25 15 :30: 00&quot;) |
+| **Oldest** | Retourneert de oudste datum tussen de twee opgegeven waarden. | Oudst(&lt;DATETIME>, &lt;DATETIME>) | Oudst (&quot;2015-02-13 11 :59: 59&quot;, &quot;2016-04-13 19 :28: 14&quot;) |
+| **TruncDate** | Kort de datetime aan de dichtstbijzijnde eenheid in, op basis van de gegeven numerieke waarde. Als de numerieke waarde gelijk is aan 60, wordt deze afgebroken tot de dichtstbijzijnde minuut. Als de numerieke waarde gelijk is aan 3600, wordt deze afgebroken tot het dichtstbijzijnde uur. Als de numerieke waarde gelijk is aan 86400, wordt deze afgebroken tot de dichtstbijzijnde dag. Anders wordt het naar de dichtstbijzijnde seconde afgebroken. | TruncDate(&lt;DATETIME>, &lt;NUMBER>) | TruncDate (&quot;2016-04-13 19 :28: 14&quot;, 3600) |
+| **TruncDateTZ** | Kort de datetime aan de dichtstbijzijnde eenheid in, op basis van de gegeven numerieke waarde, en stelt de datetime in op de opgegeven tijdzone. Als de numerieke waarde gelijk is aan 60, wordt deze afgebroken tot de dichtstbijzijnde minuut. Als de numerieke waarde gelijk is aan 3600, wordt deze afgebroken tot het dichtstbijzijnde uur. Als de numerieke waarde gelijk is aan 86400, wordt deze afgebroken tot de dichtstbijzijnde dag. | TruncDateTZ(&lt;DATETIME>, &lt;NUMBER>, &lt;TIMEZONE>) | TruncDateTZ (&quot;2016-04-13 19 :28: 14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
+| **TruncTime** | Stelt de datetime in op 1 januari 2000 en rondt de rest van de datetime af op de dichtstbijzijnde eenheid, op basis van de opgegeven numerieke waarde. Als de numerieke waarde gelijk is aan 60, wordt deze verkort tot de dichtstbijzijnde minuut. Als de numerieke waarde gelijk is aan 3600, wordt deze afgebroken tot het dichtstbijzijnde uur. | TruncTime(&lt;DATETIME>, &lt;NUMBER>) | TruncTime (&quot;2016-04-13 19 :28: 14&quot;, 3600) |
+| **TruncQuarter** | Kort de datetime aan de eerste datum in het dichtstbijzijnde kwartaal in. | TruncQuarter(&lt;DATETIME>) | TruncQuarter (&quot;2016-04-13 19 :28: 14&quot;) |
+| **TruncYear** | Kort de datetime aan de eerste datum in het dichtstbijzijnde jaar in. | TruncYear(&lt;DATETIME>) | TruncYear (&quot;2016-04-13 19 :28: 14&quot;) |
+| **TruncWeek** | Kort de datetime aan de Zondag van de dichtstbijzijnde week in. | TruncWeek(&lt;DATETIME>) | TruncWeek (&quot;2016-04-13 19 :28: 14&quot;) |
+| **ConvertNTZ** | Converteert een tijdstempel zonder tijdzone naar een tijdstempel met een tijdzone. De bijgevoegde tijdzone is de tijdzone van de externe rekening. | ConvertNTZ(&lt;DATETIME>) | ConvertNTZ (&quot;2024-06-24 14 :43: 49&quot;) |
+
+<!-- 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+-->
+
+<!-- 
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+| **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
+| **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+-->
+
+<!-- 
+
+>[!TAB Vertica]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **AddYears** | Adds the specified number of years to the provided datetime. | AddYears(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddYears("2019-12-25 15:30:00", 3) |
+| **AddMonths** | Adds the specified number of months to the provided datetime. | AddMonths(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddMonths("2019-12-25 15:30:00", 6) |
+| **AddDays** | Adds the specified number of days to the provided datetime. | AddDays(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddDays("2019-12-25 15:30:00", 10) |
+| **AddHours** | Adds the specified number of hours to the provided datetime. | AddHours(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddHours("2019-12-25 15:30:00", 3) |
+| **AddMinutes** | Adds the specified number of minutes to the provided datetime. | AddMinutes(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddMinutes("2019-12-25 15:30:00", 32) |
+| **AddSeconds** | Adds the specified number of seconds to the provided datetime. | AddSeconds(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | AddSeconds("2019-12-25 15:30:00", 37) |
+| **SubYears** | Subtracts the specified number of years to the provided datetime. | SubYears(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubYears("2019-12-25 15:30:00", 3) |
+| **SubMonths** | Adds the specified number of months to the provided datetime. | SubMonths(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubMonths("2019-12-25 15:30:00", 6) |
+| **SubDays** | Adds the specified number of days to the provided datetime. | SubDays(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubDays("2019-12-25 15:30:00", 10) |
+| **SubHours** | Adds the specified number of hours to the provided datetime. | SubHours(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubHours("2019-12-25 15:30:00", 3) |
+| **SubMinutes** | Adds the specified number of minutes to the provided datetime. | SubMinutes(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubMinutes("2019-12-25 15:30:00", 32) |
+| **SubSeconds** | Adds the specified number of seconds to the provided datetime. | SubSeconds(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | SubSeconds("2019-12-25 15:30:00", 37) |
+| **Year** | Extracts the year from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Month** | Extracts the month from the given datetime object. | Month(&lt;DATETIME&gt;) | Month("2019-12-15 15:30:00") |
+| **Day** | Extracts the day from the given datetime object. | Day(&lt;DATETIME&gt;) | Day("2019-12-15 15:30:00") |
+| **DayOfYear** | Extracts the day of year from the given datetime object. For example, if the provided datetime is February 2nd, it would return 33. | DayOfYear(&lt;DATETIME&gt;) | DayOfYear("2019-12-15 15:30:00") |
+| **WeekDay** | Extracts the day of the week from the given datetime object, as a number from 1 to 7, with 1 representing Sunday. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Hour** | Extracts the hour value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Minute** | Extracts the minute value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **Second** | Extracts the second value from the given datetime object. | Year(&lt;DATETIME&gt;) | Year("2019-12-15 15:30:00") |
+| **YearsDiff** | Finds the difference between the given datetimes, with a granularity of years. | YearsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | YearsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **MonthsDiff** | Finds the difference between the given datetimes, with a granularity of months. | MonthsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | MonthsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **DaysDiff** | Finds the difference between the given datetimes, with a granularity of days. | DaysDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | DaysDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **HoursDiff** | Finds the difference between the given datetimes, with a granularity of hours. | HoursDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | HoursDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **MinutesDiff** | Finds the difference between the given datetimes, with a granularity of minutes. | MinutesDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | MinutesDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **SecondsDiff** | Finds the difference between the given datetimes, with a granularity of seconds. | SecondsDiff(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | SecondsDiff("2019-12-25 15:30:00", "2018-10-14 18:35:27") |
+| **YearsOld** | Finds the difference between the given datetime and the present, with a granularity of years. | YearsOld(&lt;DATETIME&gt;) | YearsOld("2019-12-25 15:30:00") |
+| **MonthsOld** | Finds the difference between the given datetime and the present, with a granularity of months. | MonthsOld(&lt;DATETIME&gt;) | MonthsOld("2019-12-25 15:30:00") |
+| **DaysOld** | Finds the difference between the given datetime and the present, with a granularity of days. | DaysOld(&lt;DATETIME&gt;) | DaysOld("2019-12-25 15:30:00") |
+| **GetDate** | Get the current date of the server. | GetDate() | GetDate() |
+| **DateOnly** | Truncates the datetime to just the year, month, and day. | DateOnly(&lt;DATETIME&gt;) | DateOnly("2019-12-25 15:30:00") |
+| **ToDate** | Converts the field to a date field. | ToDate(&lt;DATETIME&gt;) | ToDate("2019-12-25 15:30:00") |
+| **ToDateTime** | Converts the field to a datetime field. | ToDateTime(&lt;DATE&gt;) | ToDateTime("2019-12-25 15:30:00") |
+| **ToTimestamp** | Converts the field to a timestamp field. | ToTimestamp(&lt;DATETIME&gt;) | ToTimestamp("2019-12-25 15:30:00") |
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
+| **Oldest** | Returns the oldest date between the two provided. | Oldest(&lt;DATETIME&gt;, &lt;DATETIME&gt;) | Oldest("2015-02-13 11:59:59", "2016-04-13 19:28:14") |
+| **TruncDate** | Truncates the datetime to the nearest unit, based on the numerical value given. If the numeric value is equal to 60, it truncates to the nearest minute. If the numeric value is equal to 3600, it truncates to the nearest hour. If the numeric value is equal to 86400, it truncates to the nearest day. Otherwise, it truncates to the nearest second. | TruncDate(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | TruncDate("2016-04-13 19:28:14", 3600) |
+| **TruncTime** | Sets the datetime to January 1st, 2000 and rounds the rest of the datetime to the nearest unit, based on the numerical value given.If the numeric value is equal to 60, it truncates to the nearest minute. If the numeric value is equal to 3600, it truncates to the nearest hour. | TruncTime(&lt;DATETIME&gt;, &lt;NUMBER&gt;) | TruncTime("2016-04-13 19:28:14", 3600) |
+| **TruncQuarter** | Truncates the datetime to the first date in the nearest quarter. | TruncQuarter(&lt;DATETIME&gt;) | TruncQuarter("2016-04-13 19:28:14") |
+| **TruncYear** | Truncates the datetime to the first date in the nearest year. | TruncYear(&lt;DATETIME&gt;) | TruncYear("2016-04-13 19:28:14") |
+| **TruncWeek** | Truncates the datetime to the Sunday of the nearest week. | TruncWeek(&lt;DATETIME&gt;) | TruncWeek("2016-04-13 19:28:14") |
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+| **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") |
+-->
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -373,416 +366,452 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
 
 De geomarketing-functies worden gebruikt om geografische waarden te manipuleren.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Distance</strong><br /> </td> 
-   <td> Retourneert de afstand tussen twee punten die worden gedefinieerd door hun lengte en breedte, uitgedrukt in graden.<br /> </td> 
-   <td> Distance(&lt;Lengtegraad A&gt;, &lt;Breedtegraad A&gt;, &lt;Lengtegraad B&gt;, &lt;Breedtegraad B&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
-</table>
+>[!BEGINTABS]
+
+>[!TAB  Google BigQuery ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **Distance** | Retourneert de afstand tussen twee punten die door hun lengtegraad en breedtegraad in graden worden gedefinieerd, als een dubbele waarde. | Afstand (&lt;NUMBER>, &lt;NUMBER>, &lt;NUMBER>, &lt;NUMBER>) | Afstand(40.345, 39.2345, -35.5834, 34.599) |
+
+<!-- 
+
+>[!TAB Databricks]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Distance** | Returns the distance between two points defined by their longitude and latitude in degrees, as a double. | Distance(&lt;NUMBER&gt;, &lt;NUMBER&gt;, &lt;NUMBER&gt;, &lt;NUMBER&gt;) | Distance(40.345, 39.2345, -35.5834, 34.599) |
+
+>[!TAB Fabric]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Distance** | Returns the distance between two points defined by their longitude and latitude in degrees, as a double. | Distance(&lt;NUMBER&gt;, &lt;NUMBER&gt;, &lt;NUMBER&gt;, &lt;NUMBER&gt;) | Distance(40.345, 39.2345, -35.5834, 34.599) |
+
+>[!TAB Redshift]
+
+Geomarketing functions are not available.
+
+-->
+
+>[!TAB  Snowflake ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **Distance** | Retourneert de afstand tussen twee punten die door hun lengtegraad en breedtegraad in graden worden gedefinieerd, als een dubbele waarde. | Afstand (&lt;NUMBER>, &lt;NUMBER>, &lt;NUMBER>, &lt;NUMBER>) | Afstand(40.345, 39.2345, -35.5834, 34.599) |
+
+<!-- 
+
+>[!TAB Vertica]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Distance** | Returns the distance between two points defined by their longitude and latitude in degrees, as a double. | Distance(&lt;NUMBER&gt;, &lt;NUMBER&gt;, &lt;NUMBER&gt;, &lt;NUMBER&gt;) | Distance(40.345, 39.2345, -35.5834, 34.599) |
+
+-->
+
+>[!ENDTABS]
 
 ### Numeriek
 
 De numerieke functies worden gebruikt om tekst om te zetten in getallen.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Abs</strong><br /> </td> 
-   <td> Retourneert de absolute waarde van een getal<br /> </td> 
-   <td> Abs(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Ceil</strong><br /> </td> 
-   <td> Retourneert het laagste gehele getal dat groter is dan of gelijk is aan een getal<br /> </td> 
-   <td> Ceil(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Floor</strong><br /> </td> 
-   <td> Retourneert het grootste gehele getal dat groter is dan of gelijk is aan een getal <br /> </td> 
-   <td> Floor(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Greatest</strong><br /> </td> 
-   <td> Retourneert het hoogste van twee getallen<br /> </td> 
-   <td> Greatest(&lt;nummer 1&gt;, &lt;nummer 2&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Least</strong><br /> </td> 
-   <td> Retourneert het laagste van twee getallen<br /> </td> 
-   <td> Least(&lt;nummer 1&gt;, &lt;nummer 2&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Mod</strong><br /> </td> 
-   <td> Keert de rest van de geheelverdeling van n1 door n2 terug <br /> </td> 
-   <td> Mod(&lt;nummer 1&gt;, &lt;nummer 2&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Percent</strong><br /> </td> 
-   <td> Retourneert de verhouding van twee getallen uitgedrukt als een percentage<br /> </td> 
-   <td> Percent(&lt;nummer 1&gt;, &lt;nummer 2&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Random</strong><br /> </td> 
-   <td> Hiermee wordt de willekeurige waarde geretourneerd<br /> </td> 
-   <td> Random()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Round</strong><br /> </td> 
-   <td> Rondt een getal af naar n decimalen<br /> </td> 
-   <td> Round(&lt;nummer&gt;, &lt;aantal decimalen&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Sign</strong><br /> </td> 
-   <td> Hiermee wordt het teken van het getal geretourneerd<br /> </td> 
-   <td> Sign(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDouble</strong><br /> </td> 
-   <td> Hiermee wordt een geheel getal omgezet in een zwevende waarde<br /> </td> 
-   <td> ToDouble(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToInt64</strong><br /> </td> 
-   <td> Zet een zwevende waarde om in een 64-bits geheel getal<br /> </td> 
-   <td> ToInt64(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToInteger</strong><br /> </td> 
-   <td> Hiermee wordt een zwevende waarde omgezet in een geheel getal<br /> </td> 
-   <td> ToInteger(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Trunc</strong><br /> </td> 
-   <td> Kapt aantal decimalen af van n1 tot n2<br /> </td> 
-   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
-</table>
+>[!BEGINTABS]
+
+>[!TAB  Google BigQuery ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **Mod** | Retourneert de rest van het eerste getal gedeeld door het tweede getal. | Mod(&lt;NUMBER>, &lt;NUMBER>) | Mod (3, 2) |
+| **Percent** | Berekent welk percentage het eerste getal van het tweede getal is. | Percentage (&lt;NUMBER>, &lt;NUMBER>) | Percentage (1, 2) |
+| **Random** | Retourneert een willekeurig getal tussen 0 (exclusief) en 1 (exclusief). | Random() | Willekeurig () |
+| **Round** | Retourneert het opgegeven getal naar de dichtstbijzijnde aangevraagde decimale waarde. | Round(&lt;NUMBER>, &lt;NUMBER>) | Round(4.5394, 2) |
+| **ToDouble** | Zet het verstrekte aantal in een dubbel. | ToDouble(&lt;NUMBER>) | ToDouble(5) |
+| **ToInteger** | Zet het opgegeven getal om in een geheel getal. | ToInteger(&lt;NUMBER>) | ToInteger(45) |
+| **ToInt64** | Zet het verstrekte aantal in een geheel met 64 bits om. | ToInt64(&lt;NUMBER>) | ToInt64(493) |
+| **Trunc** | Kort het opgegeven getal in tot het gewenste aantal decimalen. | Trunc(&lt;NUMBER>, &lt;NUMBER>) | Trunc(36.9348934, 3) |
+
+<!-- 
+| **Ceil** | Rounds up the provided number to the nearest integer. For example, if the provided number is 2.3, it will return 3. | Ceil(&lt;NUMBER&gt;) | Ceil(2.3) |
+| **Floor** | Rounds down the provided number to the nearest integer. For example, if the provided number is 3.8, it will return 3. | Floor(&lt;NUMBER&gt;) | Floor(3.8) |
+| **Greatest** | Returns the larger number between the two provided numbers. | Greatest(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Greatest(1, 2) |
+| **Least** | Returns the smaller number between the two provided numbers. | Least(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Least (1,2) |
+ -->
+
+<!-- 
+
+>[!TAB Databricks]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Mod** | Returns the remainder of the first number divided by the second number. | Mod(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Mod (3, 2) |
+| **Percent** | Calculates what percentage the first number is of the second number. | Percent(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Percent(1, 2) |
+| **Random** | Returns a random number between 0 (inclusive) and 1 (exclusive). | Random() | Random () |
+| **ToDouble** | Converts the provided number to a double. | ToDouble(&lt;NUMBER&gt;) | ToDouble(5) |
+| **ToInteger** | Converts the provided number to an integer. | ToInteger(&lt;NUMBER&gt;) | ToInteger(45) |
+| **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
+| **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
+
+>[!TAB Fabric]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Ceil** | Rounds up the provided number to the nearest integer. For example, if the provided number is 2.3, it will return 3. | Ceil(&lt;NUMBER&gt;) | Ceil(2.3) |
+| **Mod** | Returns the remainder of the first number divided by the second number. | Mod(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Mod (3, 2) |
+| **Percent** | Calculates what percentage the first number is of the second number. | Percent(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Percent(1, 2) |
+| **ToDouble** | Converts the provided number to a double. | ToDouble(&lt;NUMBER&gt;) | ToDouble(5) |
+| **ToInteger** | Converts the provided number to an integer. | ToInteger(&lt;NUMBER&gt;) | ToInteger(45) |
+| **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
+| **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
+
+>[!TAB Redshift]
+
+Numeric functions are not available.
+
+--->
+
+>[!TAB  Snowflake ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **Mod** | Retourneert de rest van het eerste getal gedeeld door het tweede getal. | Mod(&lt;NUMBER>, &lt;NUMBER>) | Mod (3, 2) |
+| **Percent** | Berekent welk percentage het eerste getal van het tweede getal is. | Percentage (&lt;NUMBER>, &lt;NUMBER>) | Percentage (1, 2) |
+| **Random** | Retourneert een willekeurig getal tussen 0 (exclusief) en 1 (exclusief). | Random() | Willekeurig () |
+| **ToDouble** | Zet het verstrekte aantal in een dubbel. | ToDouble(&lt;NUMBER>) | ToDouble(5) |
+| **ToInteger** | Zet het opgegeven getal om in een geheel getal. | ToInteger(&lt;NUMBER>) | ToInteger(45) |
+| **ToInt64** | Zet het verstrekte aantal in een geheel met 64 bits om. | ToInt64(&lt;NUMBER>) | ToInt64(493) |
+| **Trunc** | Kort het opgegeven getal in tot het gewenste aantal decimalen. | Trunc(&lt;NUMBER>, &lt;NUMBER>) | Trunc(36.9348934, 3) |
+
+<!-- 
+
+>[!TAB Vertica]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Mod** | Returns the remainder of the first number divided by the second number. | Mod(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Mod (3, 2) |
+| **Percent** | Calculates what percentage the first number is of the second number. | Percent(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Percent(1, 2) |
+| **Random** | Returns a random number between 0 (inclusive) and 1 (exclusive). | Random() | Random () |
+| **ToDouble** | Converts the provided number to a double. | ToDouble(&lt;NUMBER&gt;) | ToDouble(5) |
+| **ToInteger** | Converts the provided number to an integer. | ToInteger(&lt;NUMBER&gt;) | ToInteger(45) |
+| **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
+| **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
+
+--->
+
+>[!ENDTABS]
 
 ### Overige
 
 Deze tabel bevat de resterende beschikbare functies.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong> AESEncrypt </strong><br /> </td> 
-   <td> Codeer koord dat in argument wordt verstrekt <br /> </td> 
-   <td> AESEncrypt (&lt;value&gt;) <br /> </td> 
-  </tr>
-  <tr> 
-   <td> <strong>Case</strong><br /> </td> 
-   <td> Retourneert waarde 1 als de voorwaarde true is. Als niet, keert het waarde 2 terug.<br /> </td> 
-   <td> Case(When(&lt;voorwaarde&gt;, &lt;waarde 1&gt;), Else(&lt;waarde 2&gt;))<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>ClearBit</strong><br /> </td> 
-   <td> Hiermee verwijdert u de markering in de waarde<br /> </td> 
-   <td> ClearBit(&lt;identificatiecode&gt;, &lt;markering&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Coalesce</strong><br /> </td> 
-   <td> Retourneert waarde 2 als waarde 1 null of nihil is, anders wordt waarde 1 geretourneerd<br /> </td> 
-   <td> Coalesce(&lt;waarde 1&gt;, &lt;waarde 2&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Decode</strong><br /> </td> 
-   <td> Retourneert waarde 3 als waarde 1 = waarde 2. Indien niet waarde 4 terugkeert.<br /> </td> 
-   <td> Decode(&lt;waarde 1&gt;, &lt;waarde 2&gt;, &lt;waarde 3&gt;, &lt;waarde 4&gt;)<br /> </td>  
-  </tr> 
-  <!--<tr> 
-   <td> <strong>DefaultFolder</strong><br /> </td> 
-   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
-   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
-  <tr> 
-   <td> <strong>Else</strong><br /> </td> 
-   <td> Retourneert waarde 1 (mag alleen worden gebruikt als parameter van de case-functie)<br /> </td> 
-   <td> Else (&lt;value 1&gt;, &lt;value 2&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> Extraheert het domein uit een e-mailadres<br /> </td> 
-   <td> GetEmailDomain(&lt;waarde&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetMirrorURL</strong><br /> </td> 
-   <td> Hiermee wordt de URL van de server van de spiegelpagina opgehaald<br /> </td> 
-   <td> GetMirrorURL(&lt;waarde&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Iif</strong><br /> </td> 
-   <td> Retourneert waarde 1 als de expressie true is. Als niet, keert waarde 2 <br /> terug </td> 
-   <td> Iif(&lt;voorwaarde&gt;, &lt;waarde 1&gt;, &lt;waarde 2&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>IsBitSet</strong><br /> </td> 
-   <td> Geeft aan of de markering zich in de waarde bevindt<br /> </td> 
-   <td> IsBitSet(&lt;identificatiecode&gt;, &lt;markering&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> Retourneert waarde 2 als tekenreeks 1 leeg is, anders retourneert u waarde 3 <br /> </td> 
-   <td> IsEmptyString (&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong> NewUID </strong><br /> </td> 
-   <td> Retourneert een unieke id <br /> </td> 
-   <td> NewUID() <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>NoNull</strong><br /> </td> 
-   <td> Retourneert de lege tekenreeks als het argument NULL is<br /> </td> 
-   <td> NoNull(&lt;waarde&gt;)<br /> </td>   
-  </tr> 
-  <tr> 
-   <td> <strong>RowId</strong><br /> </td> 
-   <td> Retourneert het regelnummer<br /> </td> 
-   <td> RowId<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>SetBit</strong><br /> </td> 
-   <td> Hiermee wordt de markering in de waarde geforceerd<br /> </td> 
-   <td> SetBit(&lt;identificatiecode&gt;, &lt;markering&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToBoolean</strong><br /> </td> 
-   <td> Hiermee wordt een getal omgezet in een Booleaanse waarde<br /> </td> 
-   <td> ToBoolean(&lt;nummer&gt;)<br /> </td>   
-  </tr> 
-  <tr> 
-   <td> <strong>When</strong><br /> </td> 
-   <td> Retourneert waarde 1 als de expressie true is. Als niet, keert het waarde 2 terug (kan slechts als parameter van de case functie worden gebruikt) <br /> </td> 
-   <td> When(&lt;voorwaarde&gt;, &lt;waarde 1&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
-</table>
+>[!BEGINTABS]
+
+>[!TAB  Google BigQuery ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **Case** | Retourneert de eerste waarde als de expressie true is. Anders wordt de tweede waarde geretourneerd. | Case(When(&lt;EXPRESSION> &lt;VALUE>), else(&lt;VALUE>) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;) |
+| **When** | Wordt gebruikt als onderdeel van de functie Case. Wordt gebruikt om de expressie te controleren in Hoofdletters en kleine letters. | When(&lt;EXPRESSION> &lt;VALUE>) | Wanneer(a > b, &quot;ja&quot;) |
+| **Else** | Wordt gebruikt als onderdeel van de functie Case. Wordt gebruikt om de andere optie te kiezen als de expressie Bij onwaar is. | else(&lt;VALUE>) | Anders (&quot;nee&quot;) |
+| **Coalesce** | Retourneert de eerste niet-null-waarde. | Coalesce(&lt;VALUE>, &lt;VALUE>) | Coalesce (&quot;&quot;, &quot;string&quot;) |
+| **Decode** | Retourneert de eerste optie als de waarden gelijk zijn. Retourneert de tweede optie als de waarden niet gelijk zijn. | Decode(&lt;VALUE>, &lt;VALUE>, &lt;VALUE>, &lt;VALUE>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
+| **GetEmailDomain** | Extraheert het domein van het opgegeven e-mailadres. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Iif** | Retourneert de eerste optie als de voorwaarde true is en retourneert de tweede optie als de voorwaarde false is. | IF(&lt;CONDITION>, &lt;VALUE>, &lt;VALUE>) | IF(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
+| **IsEmptyString** | Retourneert de eerste optie als de tekenreeks leeg is. Anders wordt de tweede optie geretourneerd. | IsEmptyString( &lt;STRING> ,&lt;VALUE>, &lt;VALUE>) | IsEmptyString(&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;) |
+| **NewUID** | Genereert een nieuwe unieke UID. | NewUID() | NewUID() |
+| **NoNull** | Retourneert de opgegeven tekenreeks als deze niet leeg is en retourneert een lege tekenreeks als de opgegeven tekenreeks leeg is. | NoNull(&lt;STRING>) | NoNull(&quot;test&quot;) |
+| **IsBitSet** | Voert bitsgewijze en (&amp;) uit op de opgegeven getallen. Hiermee kunt u controleren of het bit binnen de eerste parameter is ingesteld op de positie die in de tweede parameter is opgegeven. | IsBitSet(&lt;NUMBER>, &lt;NUMBER>) | IsBitSet(5, 3) |
+| **ClearBit** | Hierdoor kunt u het bit binnen de eerste parameter wissen op de positie die in de tweede parameter is opgegeven. | ClearBit(&lt;NUMBER>, &lt;NUMBER>) | |
+| **SetBit** | Voert bitsgewijze of (\|) uit op de opgegeven getallen. Hierdoor kunt u het bit binnen de eerste parameter instellen op de positie die in de tweede parameter wordt opgegeven. | SetBit(&lt;NUMBER>, &lt;NUMBER>) | SetBit(5, 3) |
+| **RowId** | Retourneert het regelnummer. | RowId() | RowId() |
+| **ToBoolean** | Zet de waarde om in een booleaanse waarde. | ToBoolean(&lt;VALUE>) | ToBoolean(a=b) |
+
+<!-- 
+
+>[!TAB Databricks]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Case** | Returns the first value if the expression is true. Otherwise, returns the second value. | Case(When(&lt;EXPRESSION&gt; &lt;VALUE&gt;), Else(&lt;VALUE&gt;)) | Case(When(a > b, "yes"), Else("no")) |
+| **When** | Used as part of the Case function. Used to check the expression within Case. | When(&lt;EXPRESSION&gt; &lt;VALUE&gt;) | When(a > b, "yes") |
+| **Else** | Used as part of the Case function. Used to choose the other option, if the When expression is false. | Else(&lt;VALUE&gt;) | Else ("no") |
+| **GetEmailDomain** | Extracts the domain from the provided email address. | GetEmailDomain(&lt;STRING&gt;) | GetEmailDomain("sample@example.com") |
+| **Iif** | Returns the first option if the condition is true and returns the second option if the condition is false. | Iif(&lt;CONDITION&gt;, &lt;VALUE&gt;, &lt;VALUE&gt;) | Iif(10 < 20, "true", "false") |
+| **IsBitSet** | Performs a bitwise and (&) on the provided numbers. This lets you check if the bit within the first parameter is set at the position provided in the second parameter. | IsBitSet(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | IsBitSet(5, 3) |
+| **ClearBit** | This lets your clear the bit within the first parameter at the position provided in the second parameter. | ClearBit(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | |
+| **SetBit** | Performs a bitwise or (\|) on the provided numbers. This lets you set the bit within the first parameter is set at the position provided in the second parameter. | SetBit(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | SetBit(5, 3) |
+| **IsEmptyString** | Returns the first option if the string is empty. Otherwise, returns the second option. | IsEmptyString( &lt;STRING&gt; ,&lt;VALUE&gt;, &lt;VALUE&gt;) | IsEmptyString("string", "yes", "no") |
+| **NewUUID** | Generates a new unique UUID. | NewUUID() | NewUUID() |
+| **NoNull** | Returns the provided string if it's not empty, and returns an empty string if the provided string is empty. | NoNull(&lt;STRING&gt;) | NoNull("test") |
+| **RowId** | Returns the line number. | RowId() | RowId() |
+| **ToBoolean** | Converts the value to a boolean. | ToBool(&lt;VALUE&gt;) | ToBool(a=b) |
+
+>[!TAB Fabric]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Case** | Returns the first value if the expression is true. Otherwise, returns the second value. | Case(When(&lt;EXPRESSION&gt; &lt;VALUE&gt;), Else(&lt;VALUE&gt;)) | Case(When(a > b, "yes"), Else("no")) |
+| **When** | Used as part of the Case function. Used to check the expression within Case. | When(&lt;EXPRESSION&gt; &lt;VALUE&gt;) | When(a > b, "yes") |
+| **Else** | Used as part of the Case function. Used to choose the other option, if the When expression is false. | Else(&lt;VALUE&gt;) | Else ("no") |
+| **IsBitSet** | Performs a bitwise and (&) on the provided numbers. This lets you check if the bit within the first parameter is set at the position provided in the second parameter. | IsBitSet(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | IsBitSet(5, 3) |
+| **ClearBit** | This lets your clear the bit within the first parameter at the position provided in the second parameter. | ClearBit(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | |
+| **SetBit** | Performs a bitwise or (\|) on the provided numbers. This lets you set the bit within the first parameter is set at the position provided in the second parameter. | SetBit(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | SetBit(5, 3) |
+| **IsEmptyString** | Returns the first option if the string is empty. Otherwise, returns the second option. | IsEmptyString( &lt;STRING&gt; ,&lt;VALUE&gt;, &lt;VALUE&gt;) | IsEmptyString("string", "yes", "no") |
+| **NoNull** | Returns the provided string if it's not empty, and returns an empty string if the provided string is empty. | NoNull(&lt;STRING&gt;) | NoNull("test") |
+| **RowId** | Returns the line number. | RowId() | RowId() |
+| **GetEmailDomain** | Extracts the domain from the provided email address. | GetEmailDomain(&lt;STRING&gt;) | GetEmailDomain("sample@example.com") |
+
+>[!TAB Redshift]
+
+Other functions are not available.
+
+--->
+
+>[!TAB  Snowflake ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **Case** | Retourneert de eerste waarde als de expressie true is. Anders wordt de tweede waarde geretourneerd. | Case(When(&lt;EXPRESSION> &lt;VALUE>), else(&lt;VALUE>) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;) |
+| **When** | Wordt gebruikt als onderdeel van de functie Case. Wordt gebruikt om de expressie te controleren in Hoofdletters en kleine letters. | When(&lt;EXPRESSION> &lt;VALUE>) | Wanneer(a > b, &quot;ja&quot;) |
+| **Else** | Wordt gebruikt als onderdeel van de functie Case. Wordt gebruikt om de andere optie te kiezen als de expressie Bij onwaar is. | else(&lt;VALUE>) | Anders (&quot;nee&quot;) |
+| **GetEmailDomain** | Extraheert het domein van het opgegeven e-mailadres. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Iif** | Retourneert de eerste optie als de voorwaarde true is en retourneert de tweede optie als de voorwaarde false is. | IF(&lt;CONDITION>, &lt;VALUE>, &lt;VALUE>) | IF(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
+| **IsEmptyString** | Retourneert de eerste optie als de tekenreeks leeg is. Anders wordt de tweede optie geretourneerd. | IsEmptyString( &lt;STRING> ,&lt;VALUE>, &lt;VALUE>) | IsEmptyString(&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;) |
+| **ToBoolean** | Retourneert 1 als de waarde true is. Retourneert 0 als de waarde false is. | ToBoolean(&lt;VALUE>) | ToBoolean(a=b) |
+| **ToBooleanType** | Zet de waarde om in een booleaanse waarde. | ToBooleanType(&lt;VALUE>) | ToBooleanType(a=b) |
+| **IsBitSet** | Voert bitsgewijze en (&amp;) uit op de opgegeven getallen. Hiermee kunt u controleren of het bit binnen de eerste parameter is ingesteld op de positie die in de tweede parameter is opgegeven. | IsBitSet(&lt;NUMBER>, &lt;NUMBER>) | IsBitSet(5, 3) |
+| **ClearBit** | Hierdoor kunt u het bit binnen de eerste parameter wissen op de positie die in de tweede parameter is opgegeven. | ClearBit(&lt;NUMBER>, &lt;NUMBER>) | |
+| **SetBit** | Voert bitsgewijze of (\|) uit op de opgegeven getallen. Hierdoor kunt u het bit binnen de eerste parameter instellen op de positie die in de tweede parameter wordt opgegeven. | SetBit(&lt;NUMBER>, &lt;NUMBER>) | SetBit(5, 3) |
+| **RowId** | Retourneert het regelnummer. | RowId() | RowId() |
+| **NewUID** | Genereert een nieuwe unieke UID. | NewUID() | NewUID() |
+| **NoNull** | Retourneert de opgegeven tekenreeks als deze niet leeg is en retourneert een lege tekenreeks als de opgegeven tekenreeks leeg is. | NoNull(&lt;STRING>) | NoNull(&quot;test&quot;) |
+| **AESEncrypt** | Codeert de opgegeven tekenreeks met het AES-coderingstype. | AESEncrypt() | AESEncrypt(&quot;hello&quot;) |
+| **ObjectConstruct** | Maakt een object dat is gebaseerd op de opgegeven sleutel-/waardeparen. | ObjectConstruct(&lt;STRING>, &lt;STRING>) | ObjectConstruct(&quot;key&quot;, &quot;value&quot;) |
+
+<!-- 
+
+>[!TAB Vertica]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Case** | Returns the first value if the expression is true. Otherwise, returns the second value. | Case(When(&lt;EXPRESSION&gt; &lt;VALUE&gt;), Else(&lt;VALUE&gt;)) | Case(When(a > b, "yes"), Else("no")) |
+| **When** | Used as part of the Case function. Used to check the expression within Case. | When(&lt;EXPRESSION&gt; &lt;VALUE&gt;) | When(a > b, "yes") |
+| **Else** | Used as part of the Case function. Used to choose the other option, if the When expression is false. | Else(&lt;VALUE&gt;) | Else ("no") |
+| **Coalesce** | Returns the first non-null value. | Coalesce(&lt;VALUE&gt;, &lt;VALUE&gt;) | Coalesce ("", "string") |
+| **GetEmailDomain** | Extracts the domain from the provided email address. | GetEmailDomain(&lt;STRING&gt;) | GetEmailDomain("sample@example.com") |
+| **Iif** | Returns the first option if the condition is true and returns the second option if the condition is false. | Iif(&lt;CONDITION&gt;, &lt;VALUE&gt;, &lt;VALUE&gt;) | Iif(10 < 20, "true", "false") |
+| **IsBitSet** | Performs a bitwise and (&) on the provided numbers. This lets you check if the bit within the first parameter is set at the position provided in the second parameter. | IsBitSet(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | IsBitSet(5, 3) |
+| **ClearBit** | This lets your clear the bit within the first parameter at the position provided in the second parameter. | ClearBit(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | |
+| **SetBit** | Performs a bitwise or (\|) on the provided numbers. This lets you set the bit within the first parameter is set at the position provided in the second parameter. | SetBit(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | SetBit(5, 3) |
+| **IsEmptyString** | Returns the first option if the string is empty. Otherwise, returns the second option. | IsEmptyString( &lt;STRING&gt; ,&lt;VALUE&gt;, &lt;VALUE&gt;) | IsEmptyString("string", "yes", "no") |
+| **NewUUID** | Generates a new unique UUID. | NewUUID() | NewUUID() |
+| **NoNull** | Returns the provided string if it's not empty, and returns an empty string if the provided string is empty. | NoNull(&lt;STRING&gt;) | NoNull("test") |
+| **RowId** | Returns the line number. | RowId() | RowId() |
+| **ToBoolean** | Converts the value to a boolean. | ToBoolean(&lt;VALUE&gt;) | ToBoolean(a=b) |
+
+-->
+
+>[!ENDTABS]
 
 ### String
 
 De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AllNonNull2</strong><br /> </td> 
-   <td> Geeft aan of alle parameters niet null en niet leeg zijn<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AllNonNull3</strong><br /> </td> 
-   <td> Geeft aan of alle parameters niet null en niet leeg zijn<br /> </td> 
-   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Ascii </strong><br /> </td> 
-   <td> Keert de waarde van ASCII van het eerste karakter in het koord terug.<br /> </td> 
-   <td> Ascii(&lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Char</strong><br /> </td> 
-   <td> Hiermee wordt het teken geretourneerd dat overeenkomt met de ASCII-code ‘n’<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Charindex</strong><br /> </td> 
-   <td> Keert de positie van koord 2 in koord 1 terug.<br /> </td> 
-   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> dataLength </strong><br /> </td> 
-   <td> Keert de grootte in bytes van het koord terug <br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>GetLine</strong><br /> </td> 
-   <td> Retourneert de n-de (van 1 tot en met n) regel van de tekenreeks<br /> </td> 
-   <td> GetLine(&lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>IfEquals</strong><br /> </td> 
-   <td> Retourneert de derde parameter als de eerste twee parameters gelijk zijn. Indien niet, keert de laatste parameter <br /> terug </td> 
-   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>IsMemoNull</strong><br /> </td> 
-   <td> Geeft aan of het als parameter doorgegeven memo null is<br /> </td> 
-   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Voegt de doorgegeven tekenreeksen samen als parameters. Voegt ruimten tussen de koorden toe indien nodig.<br /> </td> 
-   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Voegt de doorgegeven tekenreeksen samen als parameters. Voegt indien nodig spaties tussen de tekenreeksen toe <br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Left</strong><br /> </td> 
-   <td> Retourneert de eerste n tekens van de tekenreeks<br /> </td> 
-   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Length</strong><br /> </td> 
-   <td> Keert de lengte van het koord <br /> terug </td> 
-   <td> Lengte (&lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Lijn </strong><br /> </td> 
-   <td> Regel n uit tekenreeks extraheren <br /> </td> 
-   <td> Regel (&lt;string&gt;,&lt;number&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong>Lower</strong><br /> </td> 
-   <td> Hiermee wordt de tekenreeks in kleine letters geretourneerd<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> Hiermee wordt de voltooide tekenreeks links geretourneerd<br /> </td> 
-   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Ltrim</strong><br /> </td> 
-   <td> Hiermee worden spaties links van de tekenreeks verwijderd<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> Retourneert een hexadecimale representatie van de MD5-toets van een tekenreeks<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>MemoContains</strong><br /> </td> 
-   <td> Hiermee wordt opgegeven of het memo de tekenreeks bevat die als parameter is doorgegeven<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> NodeValue </strong><br /> </td> 
-   <td> Extraheert de waarde van een gebied van XML van zijn XPath en de gebiedsgegevens <br /> </td> 
-   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Replace</strong><br /> </td> 
-   <td> Vervangt alle voorkomen van een gespecificeerde koordwaarde (Koord 2) met een andere koordwaarde (Koord 3) binnen een koord (Koord 1).<br /> </td> 
-   <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Right</strong><br /> </td> 
-   <td> Retourneert de laatste n tekens van de tekenreeks<br /> </td> 
-   <td> Right(&lt;tekenreeks&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> Hiermee wordt de voltooide tekenreeks aan de rechterkant geretourneerd<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Rtrim</strong><br /> </td> 
-   <td> Hiermee worden spaties rechts van de tekenreeks verwijderd<br /> </td> 
-   <td> Rtrim(&lt;tekenreeks&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> Hexadecimale vertegenwoordiging van de sleutel SHA256 van een koord.<br /> </td> 
-   <td> Sha256Digest (&lt;String&gt;) <br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> Hexadecimale vertegenwoordiging van de sleutel SHA512 van een koord.<br /> </td> 
-   <td> Sha512Digest (&lt;String&gt;) <br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Smart</strong><br /> </td> 
-   <td> Retourneert de tekenreeks met de eerste letter van elk woord in hoofdletters<br /> </td> 
-   <td> Smart(&lt;tekenreeks&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Substring</strong><br /> </td> 
-   <td> Extraheert substring die bij karakter n1 van het koord en van lengte n2 begint <br /> </td> 
-   <td> Substring(&lt;tekenreeks&gt;, &lt;offset&gt;, &lt;lengte&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToString</strong><br /> </td> 
-   <td> Zet het getal om in een tekenreeks<br /> </td> 
-   <td> ToString (&lt;number&gt;, &lt;number&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Upper</strong><br /> </td> 
-   <td> Hiermee wordt de tekenreeks in hoofdletters geretourneerd<br /> </td> 
-   <td> Upper(&lt;tekenreeks&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>VirtualLink</strong><br /> </td> 
-   <td> Retourneert de externe sleutel van een koppeling die als een parameter is doorgegeven als de andere twee parameters gelijk zijn<br /> </td> 
-   <td> VirtualLink(&lt;nummer&gt;, &lt;nummer&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>VirtualLinkStr</strong><br /> </td> 
-   <td> Retourneert de externe sleutel (tekst) van een koppeling die als parameter wordt doorgegeven als de andere twee parameters gelijk zijn<br /> </td> 
-   <td> VirtualLinkStr(&lt;tekenreeks&gt;, &lt;nummer&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
-</table>
+>[!BEGINTABS]
+
+>[!TAB  Google BigQuery ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **AllNonNull2** | Neemt twee tekenreeksen en controles als alle tekenreeksen niet null en niet leeg zijn. | AllNonNull2(&lt;STRING>, &lt;STRING>) | AllNonNull2(&quot;&quot;, &quot;string2&quot;) |
+| **AllNonNull3** | Neemt drie tekenreeksen en controleert of alle tekenreeksen niet null en niet leeg zijn | AllNonNull3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | AllNonNull3(&quot;&quot;, &quot;one&quot;, &quot;three&quot;) |
+| **Ascii** | Neemt een tekenreeks en retourneert de resulterende tekenreeks. | Ascii(&lt;STRING>) | Ascii (&quot;foo&quot;) |
+| **Char** | Neemt een array van Unicode-codepunten en retourneert de resulterende tekenreeks. | Char(&lt;ARRAY>) | Char ([ 65, 68, 79, 66, 69 ]) |
+| **Charindex** | Vindt het eerste voorkomen van het gespecificeerde substring binnen het belangrijkste koord. | Charindex(&lt;STRING>, &lt;SUBSTRING>) | Charindex (&quot;bar@example.com&quot;, &quot;@&quot;) |
+| **dataLength** | Geeft het aantal bytes in de tekenreeks. | dataLength(&lt;STRING>) | dataLength(&quot;Mijn tekenreeks&quot;) |
+| **GetLine** | Retourneer de aangevraagde regel van de opgegeven tekenreeks. | GetLine(&lt;STRING>, &lt;NUMBER>) | GetLine(multiline string, 5) |
+| **IfEquals** | Neemt vier tekenreeksen en retourneert de derde tekenreeks als de eerste twee tekenreeksen gelijk zijn en retourneert de vierde tekenreeks als de eerste twee tekenreeksen niet gelijk zijn. | IfEquals(&lt;STRING>, &lt;STRING>, &lt;STRING>, &lt;STRING>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;) |
+| **IsMemoNull** | Retourneert 1 als de tekenreeks null is, anders retourneert deze 0. | IsMemoNull(&lt;STRING>) | IsMemoNull(&quot;hello&quot;) |
+| **JuxtWords** | Neemt twee tekenreeksen en combineert deze tot één tekenreeks. Spaties tussen de tekenreeksen worden indien nodig toegevoegd. | JuxtWords(&lt;STRING>, &lt;STRING>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | Neemt drie tekenreeksen en combineert deze tot één tekenreeks. Spaties tussen de tekenreeksen worden indien nodig toegevoegd. | JuxtWords3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **Left** | Neemt een tekenreeks en retourneert de meest linkse tekens zoals opgegeven. | Left(&lt;STRING>, &lt;NUMBER>) | Left(&quot;Substring&quot;, 3) |
+| **Length** | Retourneert de lengte van de tekenreeks. | Lengte (&lt;STRING>) | Length(&quot;MyString&quot;) |
+| **Md5Digest** | Zet de MD5-hashed-tekenreeks om in de hexadecimale representatie. | Md5Digest(&lt;STRING>) | Md5Digest(&quot;String&quot;) |
+| **MemoContains** | Controleert of de tekenreeks de opgegeven subtekenreeks bevat. | MemoContains(&lt;STRING>, &lt;STRING>) | memoContains(&quot;string&quot;, &quot;str&quot;) |
+| **Right** | Neemt een tekenreeks en retourneert de meest rechtse tekens zoals opgegeven. | Right(&lt;STRING>, &lt;NUMBER>) | Right (&quot;Substring&quot;, 3) |
+| **Smart** | Retourneert de tekenreeks met de eerste letter van elk woord met hoofdletter. | Smart(&lt;STRING>) | Smart(&quot;hello world&quot;) |
+| **Substring** | Neem een tekenreeks en retourneert een deel van de opgegeven tekenreeks op basis van de opgegeven posities. | Substring(&lt;STRING>, &lt;LEFT_NUMBER>, RIGHT_NUMBER>) | Substring(&quot;Substring&quot;, 3, 5) |
+| **Sha256Digest** | Zet de SHA256-gehakte koord in zijn hexadecimale vertegenwoordiging om. | Sha256Digest(&lt;STRING>) | Sha256Digest(&quot;tekenreeks&quot;) |
+| **Sha512Digest** | Zet de SHA512-hashed koord in zijn hexadecimale vertegenwoordiging om. | Sha512Digest(&lt;STRING>) | Sha512Digest(&quot;string&quot;) |
+| **ToString** | Retourneert de waarde als een tekenreeks. | ToString(&lt;VALUE>) | ToString(123) |
+
+<!-- 
+
+>[!TAB Databricks]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
+| **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
+| **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
+| **dataLength** | Returns the number of bytes in the string. | dataLength(&lt;STRING&gt;) | dataLength("My string") |
+| **IfEquals** | Takes four strings and returns the third string if the first two strings are equal and returns the fourth string if the first two strings are not equal. | IfEquals(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | IfEquals("a", "a", "yes", "no") |
+| **JuxtWords** | Takes two strings and combines them into a single string. Spaces between the strings are added if required. | JuxtWords(&lt;STRING&gt;, &lt;STRING&gt;) | JuxtWords("Hello", "World") |
+| **Left** | Takes a string and returns the leftmost characters as specified. | Left(&lt;STRING&gt;, &lt;NUMBER&gt;) | Left("Substring", 3) |
+| **Length** | Returns the length of the string. | Length(&lt;STRING&gt;) | Length("MyString") |
+| **Md5Digest** | Converts the MD5-hashed string into its hexadecimal representation. |  Md5Digest(&lt;STRING&gt;) | Md5Digest("String") |
+| **Right** | Takes a string and returns the rightmost characteres as specified. | Right(&lt;STRING&gt;, &lt;NUMBER&gt;)  | Right ("Substring", 3) |
+| **Smart** | Returns the string with the first letter of each word capitalized. | Smart(&lt;STRING&gt;) | Smart("hello world") |
+| **ToString** | Returns the value as a string. | ToString(&lt;VALUE&gt;) | ToString(123) |
+| **Sha256Digest** | Converts the SHA256-hashed string into its hexadecimal representation. | Sha256Digest(&lt;STRING&gt;)  | Sha256Digest("string") |
+| **Sha512Digest** | Converts the SHA512-hashed string into its hexadecimal representation. | Sha512Digest(&lt;STRING&gt;)  | Sha512Digest("string") |
+
+>[!TAB Fabric]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
+| **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
+| **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
+| **dataLength** | Returns the number of bytes in the string. | dataLength(&lt;STRING&gt;) | dataLength("My string") |
+| **GetLine** | Return the requested line of the provided string. | GetLine(&lt;STRING&gt;, &lt;NUMBER&gt;) | GetLine(multilinestring, 5) |
+| **IfEquals** | Takes four strings and returns the third string if the first two strings are equal and returns the fourth string if the first two strings are not equal. | IfEquals(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | IfEquals("a", "a", "yes", "no") |
+| **IsMemoNull** |  Returns 1 if the string is null, otherwise it returns 0. | IsMemoNull(&lt;STRING&gt;) | IsMemoNull("hello") |
+| **Left** | Takes a string and returns the leftmost characters as specified. | Left(&lt;STRING&gt;, &lt;NUMBER&gt;) | Left("Substring", 3) |
+| **Md5Digest** | Converts the MD5-hashed string into its hexadecimal representation. |  Md5Digest(&lt;STRING&gt;) | Md5Digest("String") |
+| **JuxtWords** | Takes two strings and combines them into a single string. Spaces between the strings are added if required. | JuxtWords(&lt;STRING&gt;, &lt;STRING&gt;) | JuxtWords("Hello", "World") |
+| **JuxtWords3** | Takes three strings and combines them into a single string. Spaces between the strings are added if required. | JuxtWords3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | JuxtWords3("Hello", "New", "World") |
+| **LPad** | Pads the provided string on the left side with the padding string up to the length given. | LPad(&lt;STRING&gt;, &lt;NUMBER&gt;, &lt;STRING&gt;) | LPad("LongerString", 15, "ch") |
+| **Length** | Returns the length of the string. | Length(&lt;STRING&gt;) | Length("MyString") |
+| **Right** | Takes a string and returns the rightmost characteres as specified. | Right(&lt;STRING&gt;, &lt;NUMBER&gt;)  | Right ("Substring", 3) |
+| **RPad** | Pads the provided string on the right side with the padding string up to the length given. | RPad(&lt;STRING&gt;, &lt;NUMBER&gt;, &lt;STRING&gt;) | RPad("LongerString", 15, "ch") |
+| **Smart** | Returns the string with the first letter of each word capitalized. | Smart(&lt;STRING&gt;) | Smart("hello world") |
+| **ToString** | Returns the value as a string. | ToString(&lt;VALUE&gt;) | ToString(123) |
+| **Sha256Digest** | Converts the SHA256-hashed string into its hexadecimal representation. | Sha256Digest(&lt;STRING&gt;)  | Sha256Digest("string") |
+| **Sha512Digest** | Converts the SHA512-hashed string into its hexadecimal representation. | Sha512Digest(&lt;STRING&gt;)  | Sha512Digest("string") |
+
+>[!TAB Redshift]
+
+String functions are not available.
+
+-->
+
+>[!TAB  Snowflake ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **AllNonNull2** | Neemt twee tekenreeksen en controles als alle tekenreeksen niet null en niet leeg zijn. | AllNonNull2(&lt;STRING>, &lt;STRING>) | AllNonNull2(&quot;&quot;, &quot;string2&quot;) |
+| **AllNonNull3** | Neemt drie tekenreeksen en controleert of alle tekenreeksen niet null en niet leeg zijn | AllNonNull3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | AllNonNull3(&quot;&quot;, &quot;one&quot;, &quot;three&quot;) |
+| **Char** | Neemt een array van Unicode-codepunten en retourneert de resulterende tekenreeks. | Char(&lt;ARRAY>) | Char ([ 65, 68, 79, 66, 69 ]) |
+| **Charindex** | Vindt het eerste voorkomen van het gespecificeerde substring binnen het belangrijkste koord. | Charindex(&lt;STRING>, &lt;SUBSTRING>) | Charindex (&quot;bar@example.com&quot;, &quot;@&quot;) |
+| **dataLength** | Geeft het aantal bytes in de tekenreeks. | dataLength(&lt;STRING>) | dataLength(&quot;Mijn tekenreeks&quot;) |
+| **GetLine** | Retourneer de aangevraagde regel van de opgegeven tekenreeks. | GetLine(&lt;STRING>, &lt;NUMBER>) | GetLine(multiline string, 5) |
+| **IfEquals** | Neemt vier tekenreeksen en retourneert de derde tekenreeks als de eerste twee tekenreeksen gelijk zijn en retourneert de vierde tekenreeks als de eerste twee tekenreeksen niet gelijk zijn. | IfEquals(&lt;STRING>, &lt;STRING>, &lt;STRING>, &lt;STRING>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;) |
+| **IsMemoNull** | Retourneert 1 als de tekenreeks null is, anders retourneert deze 0. | IsMemoNull(&lt;STRING>) | IsMemoNull(&quot;hello&quot;) |
+| **JuxtWords** | Neemt twee tekenreeksen en combineert deze tot één tekenreeks. Spaties tussen de tekenreeksen worden indien nodig toegevoegd. | JuxtWords(&lt;STRING>, &lt;STRING>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | Neemt drie tekenreeksen en combineert deze tot één tekenreeks. Spaties tussen de tekenreeksen worden indien nodig toegevoegd. | JuxtWords3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **Left** | Neemt een tekenreeks en retourneert de meest linkse tekens zoals opgegeven. | Left(&lt;STRING>, &lt;NUMBER>) | Left(&quot;Substring&quot;, 3) |
+| **Length** | Retourneert de lengte van de tekenreeks. | Lengte (&lt;STRING>) | Length(&quot;MyString&quot;) |
+| **Lijn** | Retourneert de opgegeven genummerde regel van de tekenreeks. | Regel (&lt;STRING>, &lt;NUMBER>) | Regel (multiline-tekenreeks, 5) |
+| **Md5Digest** | Zet de MD5-hashed-tekenreeks om in de hexadecimale representatie. | Md5Digest(&lt;STRING>) | Md5Digest(&quot;String&quot;) |
+| **Replace** | Neemt een tekenreeks en vervangt alle instanties van de subtekenreeks door een vervangende subtekenreeks. | Vervangen(&lt;STRING>, &lt;STRING&amp;gt, &lt;STRING&amp;gt) | Replace(&quot;Kapitein Steve&quot;, &quot;kapitein&quot;, &quot;ingenieur&quot;) |
+| **Right** | Neemt een tekenreeks en retourneert de meest rechtse tekens zoals opgegeven. | Right(&lt;STRING>, &lt;NUMBER>) | Right (&quot;Substring&quot;, 3) |
+| **Sha256Digest** | Zet de SHA256-gehakte koord in zijn hexadecimale vertegenwoordiging om. | Sha256Digest(&lt;STRING>) | Sha256Digest(&quot;tekenreeks&quot;) |
+| **Sha512Digest** | Zet de SHA512-hashed koord in zijn hexadecimale vertegenwoordiging om. | Sha512Digest(&lt;STRING>) | Sha512Digest(&quot;string&quot;) |
+| **Smart** | Retourneert de tekenreeks met de eerste letter van elk woord met hoofdletter. | Smart(&lt;STRING>) | Smart(&quot;hello world&quot;) |
+| **ToString** | Retourneert de waarde als een tekenreeks. | ToString(&lt;VALUE>) | ToString(123) |
+
+<!-- 
+
+>[!TAB Vertica]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
+| **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
+| **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
+| **dataLength** | Returns the number of bytes in the string. | dataLength(&lt;STRING&gt;) | dataLength("My string") |
+| **GetLine** | Return the requested line of the provided string. | GetLine(&lt;STRING&gt;, &lt;NUMBER&gt;) | GetLine(multilinestring, 5) |
+| **IfEquals** | Takes four strings and returns the third string if the first two strings are equal and returns the fourth string if the first two strings are not equal. | IfEquals(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | IfEquals("a", "a", "yes", "no") |
+| **JuxtWords** | Takes two strings and combines them into a single string. Spaces between the strings are added if required. | JuxtWords(&lt;STRING&gt;, &lt;STRING&gt;) | JuxtWords("Hello", "World") |
+| **JuxtWords3** | Takes three strings and combines them into a single string. Spaces between the strings are added if required. | JuxtWords3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | JuxtWords3("Hello", "New", "World") |
+| **Left** | Takes a string and returns the leftmost characters as specified. | Left(&lt;STRING&gt;, &lt;NUMBER&gt;) | Left("Substring", 3) |
+| **Length** | Returns the length of the string. | Length(&lt;STRING&gt;) | Length("MyString") |
+| **LPad** | Pads the provided string on the left side with the padding string up to the length given. | LPad(&lt;STRING&gt;, &lt;NUMBER&gt;, &lt;STRING&gt;) | LPad("LongerString", 15, "ch") |
+| **Md5Digest** | Converts the MD5-hashed string into its hexadecimal representation. |  Md5Digest(&lt;STRING&gt;) | Md5Digest("String") |
+| **Right** | Takes a string and returns the rightmost characteres as specified. | Right(&lt;STRING&gt;, &lt;NUMBER&gt;)  | Right ("Substring", 3) |
+| **RPad** | Pads the provided string on the right side with the padding string up to the length given. | RPad(&lt;STRING&gt;, &lt;NUMBER&gt;, &lt;STRING&gt;) | RPad("LongerString", 15, "ch") |
+| **Sha256Digest** | Converts the SHA256-hashed string into its hexadecimal representation. | Sha256Digest(&lt;STRING&gt;)  | Sha256Digest("string") |
+| **Sha512Digest** | Converts the SHA512-hashed string into its hexadecimal representation. | Sha512Digest(&lt;STRING&gt;)  | Sha512Digest("string") |
+| **Smart** | Returns the string with the first letter of each word capitalized. | Smart(&lt;STRING&gt;) | Smart("hello world") |
+| **ToString** | Returns the value as a string. | ToString(&lt;VALUE&gt;) | ToString(123) |
+
+-->
+
+>[!ENDTABS]
 
 ### Venster
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>_Over__</strong><br /> </td> 
-   <td> Voer de SQL functievraag uit die als 1st parameter, over Verdeling of Orde door de gebieden is ingegaan als 2de parameter <br /> is ingegaan </td> 
-   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Desc</strong><br /> </td> 
-   <td> Hiermee wordt een aflopende sortering toegepast<br /> </td> 
-   <td> Desc(&lt;waarde 1&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>OrderBy</strong><br /> </td> 
-   <td> Hiermee wordt het resultaat binnen de partitie gesorteerd<br /> </td> 
-   <td> OrderBy(&lt;waarde 1&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Verdeelt het resultaat van een query op een lijst<br /> </td> 
-   <td> PartitionBy(&lt;waarde 1&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>RowNum</strong><br /> </td> 
-   <td> Produceert een lijnaantal dat op de lijstverdeling en op een sorterende opeenvolging wordt gebaseerd.<br /> </td> 
-   <td> RowNum(PartitionBy(&lt;waarde 1&gt;), OrderBy(&lt;waarde 1&gt;))<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!BEGINTABS]
+
+>[!TAB  Google BigQuery ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **RowNum** | Retourneert een reeks rijen op basis van de tabelpartitie en de sorteervolgorde. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>) | RowNum(PartitionBy(Division), OrderBy(time)) |
+| **PartitionBy** | Hiermee scheidt u de invoerrijen in verschillende verdelingen op basis van de gegeven expressie. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(delen) |
+| **OrderBy** | Hiermee sorteert u het resultaat van de partitie. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
+| **Desc** | Laat uw OrderBy soort door dalende orde, eerder dan het stijgen orde. | Desc(OrderBy(&lt;EXPRESSION>) | Desc(OrderBy(age)) |
+
+<!-- 
+
+>[!TAB Databricks]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **RowNum** | Returns a sequence of rows based on the table partition and the sorting sequence. | RowNum(PartitionBy(&lt;EXPRESSION&gt;), OrderBy(&lt;EXPRESSION&gt;)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **PartitionBy** | Separates the input rows into different partitions, based on the expression given. | PartitionBy(&lt;EXPRESSION&gt;) | PartitionBy(division) |
+| **OrderBy** | Sorts the result of the partition. | OrderBy(&lt;EXPRESSION&gt;) | OrderBy(age) |
+| **Desc** | Lets your OrderBy sort by descending order, rather than ascending order. | Desc(OrderBy(&lt;EXPRESSION&gt;)) | Desc(OrderBy(age)) |
+
+>[!TAB Fabric]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **RowNum** | Returns a sequence of rows based on the table partition and the sorting sequence. | RowNum(PartitionBy(&lt;EXPRESSION&gt;), OrderBy(&lt;EXPRESSION&gt;)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **PartitionBy** | Separates the input rows into different partitions, based on the expression given. | PartitionBy(&lt;EXPRESSION&gt;) | PartitionBy(division) |
+| **OrderBy** | Sorts the result of the partition. | OrderBy(&lt;EXPRESSION&gt;) | OrderBy(age) |
+| **Desc** | Lets your OrderBy sort by descending order, rather than ascending order. | Desc(OrderBy(&lt;EXPRESSION&gt;)) | Desc(OrderBy(age)) |
+
+>[!TAB Redshift]
+
+Window functions are not available.
+
+--->
+
+>[!TAB  Snowflake ]
+
+| Naam | Beschrijving | Syntaxis | Voorbeeld |
+| ---- | ----------- | ------ | ------- |
+| **RowNum** | Retourneert een reeks rijen op basis van de tabelpartitie en de sorteervolgorde. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>) | RowNum(PartitionBy(Division), OrderBy(time)) |
+| **PartitionBy** | Hiermee scheidt u de invoerrijen in verschillende verdelingen op basis van de gegeven expressie. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(delen) |
+| **OrderBy** | Hiermee sorteert u het resultaat van de partitie. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
+| **Desc** | Laat uw OrderBy soort door dalende orde, eerder dan het stijgen orde. | Desc(OrderBy(&lt;EXPRESSION>) | Desc(OrderBy(age)) |
+
+<!-- 
+
+>[!TAB Vertica]
+
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **RowNum** | Returns a sequence of rows based on the table partition and the sorting sequence. | RowNum(PartitionBy(&lt;EXPRESSION&gt;), OrderBy(&lt;EXPRESSION&gt;)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **PartitionBy** | Separates the input rows into different partitions, based on the expression given. | PartitionBy(&lt;EXPRESSION&gt;) | PartitionBy(division) |
+| **OrderBy** | Sorts the result of the partition. | OrderBy(&lt;EXPRESSION&gt;) | OrderBy(age) |
+| **Desc** | Lets your OrderBy sort by descending order, rather than ascending order. | Desc(OrderBy(&lt;EXPRESSION&gt;)) | Desc(OrderBy(age)) |
+
+-->
+
+>[!ENDTABS]
