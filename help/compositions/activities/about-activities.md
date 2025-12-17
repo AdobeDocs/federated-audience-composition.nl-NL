@@ -23,20 +23,20 @@ In Federated Audience Composition, kunt u samenstellingen tot stand brengen gebr
 >
 >Wanneer het werken met samenstellingsactiviteiten, kunnen de attributennamen **geen** om het even welke ruimten bevatten.
 
-* [ bouwt publieksactiviteit ](build-audience.md): Bepaal uw doelbevolking. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
-* [ gegevensbron van de Verandering ](./change-data-source.md): Verander de gegevensbron die door uw samenstelling wordt gebruikt.
-* [ dimensie van de Verandering ](change-dimension.md): Verander het schema, dat ook als het richten dimensie wordt bekend, aangezien u uw samenstelling bouwt.
-* [ combineren ](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
-* [ Deduplicatie ](deduplication.md): Schrap duplicaten in het resultaat(en) van de binnenkomende activiteiten.
-* [ Verrijking ](enrichment.md): Bepaal extra gegevens om in uw samenstelling te verwerken. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
-* [ Verzoening ](reconciliation.md): Bepaal het verband tussen de gegevens in het gegevensbestand en de gegevens in een het werklijst, bijvoorbeeld gegevens die van een extern dossier worden geladen.
-* [ sparen publiek ](save-audience.md): Werk een bestaand publiek bij of creeer een nieuw publiek van de bevolking die stroomopwaarts in een samenstelling wordt berekend.
-* [ Gesplitst ](split.md): De inkomende bevolking van het segment in verscheidene ondergroepen.
+* [&#x200B; bouwt publieksactiviteit &#x200B;](build-audience.md): Bepaal uw doelbevolking. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
+* [&#x200B; gegevensbron van de Verandering &#x200B;](./change-data-source.md): Verander de gegevensbron die door uw samenstelling wordt gebruikt.
+* [&#x200B; dimensie van de Verandering &#x200B;](change-dimension.md): Verander het schema, dat ook als het richten dimensie wordt bekend, aangezien u uw samenstelling bouwt.
+* [&#x200B; combineren &#x200B;](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
+* [&#x200B; Deduplicatie &#x200B;](deduplication.md): Schrap duplicaten in het resultaat(en) van de binnenkomende activiteiten.
+* [&#x200B; Verrijking &#x200B;](enrichment.md): Bepaal extra gegevens om in uw samenstelling te verwerken. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
+* [&#x200B; Verzoening &#x200B;](reconciliation.md): Bepaal het verband tussen de gegevens in het gegevensbestand en de gegevens in een het werklijst, bijvoorbeeld gegevens die van een extern dossier worden geladen.
+* [&#x200B; sparen publiek &#x200B;](save-audience.md): Werk een bestaand publiek bij of creeer een nieuw publiek van de bevolking die stroomopwaarts in een samenstelling wordt berekend.
+* [&#x200B; Gesplitst &#x200B;](split.md): De inkomende bevolking van het segment in verscheidene ondergroepen.
 
 ## Workflowbeheeractiviteiten
 
-* [ EN-sluit zich aan ](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een samenstelling.
+* [&#x200B; EN-sluit zich aan &#x200B;](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een samenstelling.
 * **Eind**: Merk grafisch het eind van een samenstelling. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
-* [ Fork ](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
-* [ Planner ](scheduler.md): Plan wanneer de samenstelling begonnen wordt.
-* [ wacht ](wait.md): Onderbreek tijdelijk uitvoering van een deel van een samenstelling.
+* [&#x200B; Fork &#x200B;](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
+* [&#x200B; Planner &#x200B;](scheduler.md): Plan wanneer de samenstelling begonnen wordt.
+* [&#x200B; wacht &#x200B;](wait.md): Onderbreek tijdelijk uitvoering van een deel van een samenstelling.
