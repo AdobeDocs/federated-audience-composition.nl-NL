@@ -2,61 +2,43 @@
 user-guide-title: Experience Platform Federated Audience Composition
 title: Experience Platform Federated Audience Composition Documentation
 breadcrumb-title: Experience Platform Federated Audience Composition
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 17%
+source-wordcount: '110'
+ht-degree: 10%
 
 ---
 
 
 # Experience Platform Federated Audience Composition-documentatie {#using}
 
-+ [Experience Platform Federated Audience Composition-documentatie](home.md)
-+ [Aanvullende informatie](start/release-notes.md)
-+ [Aanvullende informatie](start/e-release-notes.md)
-+ Aan de slag met Federale Audience Composition {#start}
-   + [Wat is Federated Audience Composition](start/get-started.md)
-   + [Vereisten en geleiders](start/access-prerequisites.md)
-   + [Werken met het publiek](start/audiences.md)
-   + [Werken met de AI Assistant](start/ai-assistant.md)
-   + [Veelgestelde vragen](start/faq.md)
-+ Bestuur, Privacy, Veiligheid {#governance-privacy-security}
-   + [Overzicht](./governance-privacy-security/home.md)
-   + [Toegangsbeheer](governance-privacy-security/access-control.md)
-+ Configuratiestappen {#config}
-   + [Overzicht van verbindingen](connections/home.md)
-   + [FDA-rechtenmatrix](connections/fda-rights.md)
-   + Gegevensmodellen en -schema&#39;s{#datamodel}
-      + [Schema&#39;s maken en configureren](customer/schemas.md)
-      + [Uw gegevensmodellen configureren](data-management/gs-models.md)
-   + [Het Adobe Experience Platform-publiek verrijken met externe gegevens](connections/destinations.md)
-+ Doelgroep samenstellen {#compositions}
-   + [Aan de slag met composities](compositions/gs-compositions.md)
-   + Creeer en stel uw eerste samenstelling in werking {#create-composition}
-      + [Belangrijkste beginselen voor het creëren van compositie](compositions/gs-composition-creation.md)
-      + [De compositie maken en configureren](compositions/create-composition.md)
-      + [Orchestraten](compositions/orchestrate-activities.md)
-      + [Uw compositie starten en controleren](compositions/start-monitor-composition.md)
-   + Werken met activiteiten {#activities}
-      + [Lijst van activiteiten](compositions/activities/about-activities.md)
-      + [AND-Join](compositions/activities/and-join.md)
-      + [publiek opbouwen](compositions/activities/build-audience.md)
-      + [Databron wijzigen](compositions/activities/change-data-source.md)
-      + [Dimensie wijzigen](compositions/activities/change-dimension.md)
-      + [Combineren](compositions/activities/combine.md)
-      + [Deduplicatie](compositions/activities/deduplication.md)
-      + [Verrijking](compositions/activities/enrichment.md)
-      + [Vertakking](compositions/activities/fork.md)
-      + [Afstemming](compositions/activities/reconciliation.md)
-      + [Doelgroep opslaan](compositions/activities/save-audience.md)
-      + [Profielen opslaan](compositions/activities/save-profiles.md)
-      + [Planner](compositions/activities/scheduler.md)
-      + [Splitsen](compositions/activities/split.md)
-      + [Wachten](compositions/activities/wait.md)
-+ De database opvragen {#query-database}
-   + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
-   + [Uw eerste query samenstellen](query/build-query.md)
-   + [Expressies bewerken](query/expression-editor.md)
-+ [Audit trail](admin/audit-trail.md)
-
+- [Experience Platform Federated Audience Composition-documentatie](landing.md)
+- [Samenstelling federatieve doelgroep](./overview.md)
+- Aan de slag met Federale Audience Composition {#start}
+   - [Vereisten en geleiders](start/access-prerequisites.md)
+   - [Werken met het publiek](start/audiences.md)
+   - [Werken met de AI Assistant](start/ai-assistant.md)
+- Bestuur, Privacy, Veiligheid {#governance-privacy-security}
+   - [Overzicht](./governance-privacy-security/home.md)
+   - [Toegangsbeheer](governance-privacy-security/access-control.md)
+- Verbindingen {#connections}
+   - [Overzicht van verbindingen](connections/home.md)
+   - [Matrix met toegangsrechten voor gegevens](connections/fda-rights.md)
+   - [Het Adobe Experience Platform-publiek verrijken met externe gegevens](connections/destinations.md)
+- Gegevensmodellen en -schema&#39;s {#models}
+   - [Overzicht van schema&#39;s](data-modelling/schemas.md)
+   - [Overzicht van gegevensmodellen](data-modelling/models.md)
+- Composities {#compositions}
+   - [Overzicht van compositie](compositions/home.md)
+   - [Een compositie maken](compositions/create-composition.md)
+   - [Overzicht van activiteiten](compositions/activities.md)
+- Query-modelleraar {#query-database}
+   - [Overzicht van het querymodel](query/home.md)
+   - [Een query samenstellen](query/build-query.md)
+   - [Expressies bewerken](query/expression-editor.md)
+- [Audit trail](admin/audit-trail.md)
+- [Veelgestelde vragen](./faq.md)
+- Aanvullende informatie {#release-notes}
+   - [Opmerkingen bij de laatste release](./release-notes/latest.md)
+   - [2024](./release-notes/2024.md)
+   - [Opmerkingen voorafgaand aan de release](./release-notes/e-release-notes.md)

@@ -3,28 +3,28 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe te om uw eerste vraag in de vraagmodeler te bouwen
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2013'
 ht-degree: 0%
 
 ---
 
 # Uw eerste query samenstellen {#build-query}
 
-Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats van uw keus, afhankelijk van de actie u wilt uitvoeren. Het Query-model wordt geopend met een leeg canvas. Klik **+** knoop om de eerste knoop van uw vraag te vormen.
+Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats van uw keus, afhankelijk van de actie u wilt uitvoeren. Het Query-model wordt geopend met een leeg canvas. Selecteer **+** knoop om de eerste knoop van uw vraag te vormen.
 
 U kunt twee typen elementen toevoegen:
 
-* **het Filtreren componenten** (de voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [&#x200B; leren hoe te met het filtreren componenten &#x200B;](#filtering) te werken
+* **het Filtreren componenten** (de voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [ leren hoe te met het filtreren componenten ](#filtering) te werken
 
   Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief* intekende. *Ontvangers die in New York* leven, *Ontvangers die in San Francisco* leven
 
   ![](assets/query-add-component.png){zoomable="yes"}
 
-* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [&#x200B; Leer hoe te met exploitanten &#x200B;](#filtering) te werken
+* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [ Leer hoe te met exploitanten ](#filtering) te werken
 
-  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**&#x200B;intekende die in New York **OF**&#x200B;San Francisco* leven.
+  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**intekende die in New York **OF**San Francisco* leven.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -44,17 +44,17 @@ Door componenten te filteren kunt u de query verfijnen door:
 
 Voer de volgende stappen uit om de query te filteren met behulp van een aangepaste voorwaarde:
 
-1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Custom condition]** . Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
+1. Selecteer de **+** knoop op de gewenste knoop, die door **[!UICONTROL Custom condition]** wordt gevolgd. Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
 
-1. Selecteer in het veld **[!UICONTROL Attribute]** het kenmerk in de database dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw database, inclusief kenmerken van gekoppelde tabellen.
+2. Selecteer in het veld **[!UICONTROL Attribute]** het kenmerk in de database dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw database, inclusief kenmerken van gekoppelde tabellen.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Met de knop **[!UICONTROL Edit expression]** kunt u de expressie-editor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
+   >Met de knop **[!UICONTROL Edit expression]** kunt u de expressie-editor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
-1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
+3. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
    +++Lijst met beschikbare operatoren
 
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    +++
 
-1. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Klik hiertoe op de knop **[!UICONTROL Edit expression]** . [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
+4. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Selecteer hiertoe de knop **[!UICONTROL Edit expression]** . [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
    *het voorbeeld van de Vraag die alle profielen terugkeren die 21 of meer zijn:*
 
@@ -93,7 +93,7 @@ Voor a **1-1 verbinding**, navigeer aan de verbonden lijst, selecteer de gewenst
 
 U kunt ook rechtstreeks een tabelkoppeling selecteren in de **[!UICONTROL Value]** -kiezer en bevestigen. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
 
-+++voorbeeld van Query
++++Voorbeeld van query
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
@@ -109,11 +109,11 @@ Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselect
 
 ![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 Voor a **1-N verbinding**, kunt u sub-voorwaarden bepalen om uw vraag te verfijnen, zoals aangetoond in het hieronder voorbeeld.
 
-+++voorbeeld van Query
++++Voorbeeld van query
 
 Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking tot het BrewMaster-product, voor een totale hoeveelheid van ten minste 100$.
 
@@ -133,7 +133,7 @@ Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking
 
    ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Werken met geaggregeerde gegevens {#aggregate}
 
@@ -156,7 +156,7 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
-1. Klik op de knop **+** op het gewenste knooppunt en kies **[!UICONTROL Select audience]** .
+1. Selecteer de **+** knoop op de gewenste knoop en kies **[!UICONTROL Select audience]**.
 
 1. Het deelvenster **[!UICONTROL Select audience]** -eigenschappen wordt aan de rechterkant geopend. Kies het publiek dat u wilt gebruiken om uw query te filteren.
 
@@ -173,7 +173,7 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
 Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd filter:
 
-1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Predefined filter]** .
+1. Selecteer de **+** knoop op de gewenste knoop, die door **[!UICONTROL Predefined filter]** wordt gevolgd.
 
 1. Het deelvenster **[!UICONTROL Predefined filter]** -eigenschappen wordt aan de rechterkant geopend. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
 
@@ -191,15 +191,15 @@ Met de querymodelfunctie kunt u een of meer filtercomponenten kopiëren en deze 
 
 Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
-1. Selecteer de filtercomponent die u wilt kopiëren door erop in het vraagcanvas te klikken. Als u meerdere componenten wilt selecteren, gebruikt u het gereedschap Meerdere selecties dat beschikbaar is in de werkbalk rechtsboven op het canvas.
+1. Selecteer de filtercomponent die u wilt kopiëren door deze in het querycanvas te selecteren. Als u meerdere componenten wilt selecteren, gebruikt u het gereedschap Meerdere selecties dat beschikbaar is in de werkbalk rechtsboven op het canvas.
 
-1. Klik op de knop **[!UICONTROL Copy]** in het deelvenster Eigenschappen van de component of in het blauwe lint onder aan het scherm als u meerdere componenten hebt geselecteerd.
+1. Selecteer de knop **[!UICONTROL Copy]** in het deelvenster Eigenschappen van de component of in het blauwe lint onder aan het scherm als u meerdere componenten hebt geselecteerd.
 
    | Eén component kopiëren | Meerdere componenten kopiëren |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Als u de component(en) wilt plakken, klikt u op de knop + aan het einde van de gewenste overgang en selecteert u **[!UICONTROL Paste n items]** .
+1. Als u de component(en) wilt plakken, selecteert u de +-knop aan het einde van de gewenste overgang, gevolgd door **[!UICONTROL Paste n items]** .
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -216,7 +216,7 @@ In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten o
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het deelvenster **[!UICONTROL Group]** dat aan de rechterkant wordt geopend.
+Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, selecteert u deze en de gewenste operator in het deelvenster **[!UICONTROL Group]** dat aan de rechterkant wordt geopend.
 
 Beschikbare operatoren zijn:
 
@@ -226,9 +226,9 @@ Beschikbare operatoren zijn:
 
 ![](assets/query-operator-change.png){zoomable="yes"}
 
-Daarnaast kunt u tussenliggende groepen componenten maken door op de knop **+** in een overgang te klikken. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
+Daarnaast kunt u tussenliggende groepen componenten maken door de knop **+** in een overgang te selecteren. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
 
-In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten opneemt van het publiek &quot;VIP te belonen&quot; of &quot;Super VIP&quot;.
+In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten opneemt van het publiek &quot;VIP to bonus&quot; of &quot;Super VIP&quot;.
 
 ![](assets/query-intermediate-group.png){zoomable="yes"}
 
@@ -250,7 +250,7 @@ Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met het dee
   >
   >Selecteer een vooraf gedefinieerd filter in het deelvenster Eigenschappen regel om de query die in het canvas is gemaakt te vervangen door het geselecteerde filter.
 
-Wanneer uw vraag klaar is, klik de **[!UICONTROL Confirm]** knoop in de hoger-juiste hoek om het te bewaren.
+Wanneer de query gereed is, selecteert u de knop **[!UICONTROL Confirm]** in de rechterbovenhoek om deze op te slaan.
 
 U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd in mening dat het bij het openen van een bestaande vraag, het in een vereenvoudigde mening zonder de zichtbaarheid van **+** knopen toont. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de knoppen **+** weer te geven.
 

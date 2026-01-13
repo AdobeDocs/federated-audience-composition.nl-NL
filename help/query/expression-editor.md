@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Bouw uw eerste vraag gebruikend de vraagmodeler
-description: Leer hoe te om uw eerste vraag in vraagmodeler te bouwen.
+title: Overzicht van de expressiebewerker
+description: Leer hoe te om de functies binnen de uitdrukkingsredacteur te gebruiken om een vraag binnen vraagmodeler te bouwen.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '4097'
+source-wordcount: '4098'
 ht-degree: 5%
 
 ---
 
-# Expressies bewerken {#expression}
+# Overzicht van de expressie-editor {#expression}
 
 Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken waarmee u de waarden kunt bewerken die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals datums, tekenreeksen, numerieke velden, sorteren, enzovoort.
 
@@ -28,11 +28,11 @@ De uitdrukkingsredacteur verstrekt:
 * De lijst van beschikbare **gebieden (2)** die in de uitdrukking en het beantwoorden aan het schema kunnen worden gebruikt, dat ook als het richten dimensie, van de vraag wordt bekend.
 * **de functies van de Helper (3)**, die door categorie wordt gesorteerd.
 
-Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
+Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en selecteert u de +-knop.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Klik op de knop **[!UICONTROL Confirm]** als uw expressie gereed is. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
+Selecteer **[!UICONTROL Confirm]** als uw expressie gereed is. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
 
 In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het veld **[!UICONTROL Value]** . Als u de expressie wilt bewerken, moet u de expressie-editor openen met de knop **[!UICONTROL Edit expression]** .
 

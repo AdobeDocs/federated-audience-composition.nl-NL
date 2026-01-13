@@ -3,7 +3,7 @@ audience: end-user
 title: Audit trail
 description: Leer hoe acties en gebeurtenissen zijn geregistreerd en toegankelijk in het audittrail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 >
 >-**Spoor van de Controle van de Mening**
 >
->Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [&#x200B; gids van de toegangscontrole &#x200B;](/help/governance-privacy-security/access-control.md).
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
@@ -31,7 +31,7 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 * **het de controlespoor van het Schema van Source** staat u toe om activiteiten en recente wijzigingen te controleren die aan uw schema&#39;s binnen de Adobe Federated instantie van de Samenstelling van het Publiek worden aangebracht.
 
-  Voor gedetailleerde informatie over schema&#39;s, verwijs naar deze [&#x200B; pagina &#x200B;](../customer/schemas.md).
+  Voor gedetailleerde informatie over schema&#39;s, verwijs naar deze [ pagina ](../data-modelling/schemas.md).
 
 * **het controletraject van het Werkschema** staat u toe om spoor van activiteiten en recente veranderingen te houden die aan werkschema&#39;s, met inbegrip van hun huidige staten zoals worden aangebracht:
 
@@ -44,11 +44,11 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
    * Wakeup die gelijk is aan de handeling Voer taken uit die in behandeling zijn.
    * Onvoorwaardelijk stoppen
 
-  Voor meer informatie over werkschema&#39;s, verwijs naar deze [&#x200B; pagina &#x200B;](../compositions/gs-compositions.md).
+  Voor meer informatie over werkschema&#39;s, verwijs naar deze [ pagina ](../compositions/home.md).
 
 * **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in de instantie van de Samenstelling van het publiek van Adobe worden aangebracht.
 
-  Voor meer informatie over externe rekening, verwijs naar deze [&#x200B; pagina &#x200B;](../connections/home.md).
+  Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../connections/home.md).
 
 +++
 

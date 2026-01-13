@@ -3,7 +3,7 @@ audience: end-user
 title: Het Adobe Experience Platform-publiek verrijken met externe gegevens
 description: Leer hoe u het Adobe Experience Platform-publiek kunt verfijnen en verrijken met gegevens uit uw gefedereerde databases met behulp van de gefedereerde compositiebestemming van het publiek.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 1%
@@ -44,19 +44,19 @@ De belangrijkste stappen om Adobe Experience Platform-publiek naar Adobe Federat
    * Databricks
    * Microsoft Fabric
 
-1. Selecteer **[!UICONTROL Federated database]** waarmee u verbinding wilt maken en klik op **[!UICONTROL Next]** .
+1. Selecteer de **[!UICONTROL Federated database]** waarmee u verbinding wilt maken, gevolgd door **[!UICONTROL Next]** .
 
    ![](assets/destination-configure.png)
 
 1. In de sectie **[!UICONTROL Alerts]** kunt u waarschuwingen inschakelen voor het ontvangen van meldingen over de status van de gegevensstroom naar uw bestemming.
 
-   Voor meer informatie over alarm, zie de documentatie van Adobe Experience Platform over [&#x200B; het intekenen aan bestemmingsalarm gebruikend UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   Voor meer informatie over alarm, zie de documentatie van Adobe Experience Platform over [ het intekenen aan bestemmingsalarm gebruikend UI ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. In de stap **[!UICONTROL Governance policy & enforcement actions]** kunt u het beleid voor gegevensbeheer definiëren en ervoor zorgen dat de gebruikte gegevens voldoen wanneer een publiek wordt verstuurd en geactiveerd.
 
-   Wanneer u klaar bent met het selecteren van de gewenste marketingacties voor het doel, klikt u op **[!UICONTROL Create]** .
+   Wanneer u klaar bent met het selecteren van de gewenste marketingacties voor het doel, selecteert u **[!UICONTROL Create]** .
 
-1. De nieuwe verbinding met het doel wordt gemaakt. U kunt het publiek nu activeren om naar de bestemming te gaan. U doet dit door het in de lijst te selecteren en op **[!UICONTROL Next]** te klikken
+1. De nieuwe verbinding met het doel wordt gemaakt. U kunt het publiek nu activeren om naar de bestemming te gaan. Selecteer dit in de lijst, gevolgd door **[!UICONTROL Next]**
 
    ![](assets/destination-activate.png)
 
@@ -74,14 +74,14 @@ De belangrijkste stappen om Adobe Experience Platform-publiek naar Adobe Federat
    >
    >De gedetailleerde informatie over hoe te om programma en filenames te vormen is beschikbaar in de volgende secties van de documentatie van Adobe Experience Platform:
    >
-   >* [&#x200B; de publieksuitvoer van het Programma &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [&#x200B; vorm dossiernamen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [ de publieksuitvoer van het Programma ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [ vorm dossiernamen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Selecteer in de stap **[!UICONTROL Mapping]** welke kenmerk- en identiteitsvelden u wilt exporteren voor uw publiek of doelgroepen. Voor meer informatie, bekijk de [&#x200B; toewijzingsstap &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in de documentatie van Adobe Experience Platform.
+1. Selecteer in de stap **[!UICONTROL Mapping]** welke kenmerk- en identiteitsvelden u wilt exporteren voor uw publiek of doelgroepen. Voor meer informatie, bekijk de [ toewijzingsstap ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in de documentatie van Adobe Experience Platform.
 
    ![](assets/destination-attributes.png)
 
-1. Controleer de doelconfiguratie en de publieksinstellingen en klik vervolgens op **[!UICONTROL Finish]** .
+1. Controleer de doelconfiguratie en de publieksinstellingen en selecteer vervolgens **[!UICONTROL Finish]** .
 
    ![](assets/destination-review.png)
 
