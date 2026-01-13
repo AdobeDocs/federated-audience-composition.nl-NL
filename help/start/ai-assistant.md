@@ -15,7 +15,7 @@ AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten ku
 
 >[!CAUTION]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Federated Audience Composition hebt u toegang tot productkennis voor meer informatie over Adobe-concepten die betrekking hebben op verschillende onderdelen van het proces. De AI Medewerker steunt twee types van productkennis: **Open ontdekking** (onderzoek productconcepten die op de documentatie van Experience League worden gebaseerd) en **gericht leren en het oplossen van problemen** (stel vragen over specifieke eigenschappen of functionaliteit).
 
@@ -29,7 +29,7 @@ Een vraag stellen:
 
 1. U opent de AI-assistent door het pictogram op de bovenste balk te selecteren.
 
-   AI Assistant wordt rechts in het scherm weergegeven. U kunt ![ beeld alt tekst van de Duik ](assets/do-not-localize/Smock_FullScreen_18_N.svg " selecteren breidt zich ") uit om het AI hulpvenster uit te breiden.
+   AI Assistant wordt rechts in het scherm weergegeven. U kunt ![&#x200B; beeld alt tekst van de Duik &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " selecteren breidt zich ") uit om het AI hulpvenster uit te breiden.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 
@@ -43,4 +43,4 @@ Een vraag stellen:
 
 1. Gebruik de duim omhoog of duim neer om het antwoord te schatten.
 
-Leren hoe te om AI Medewerker te gebruiken, zie voorbeelddoelstellingen u met AI Medewerker kunt verwezenlijken, en leren hoe AI Medewerker werkt, naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} verwijzen.
+Leren hoe te om AI Medewerker te gebruiken, zie voorbeelddoelstellingen u met AI Medewerker kunt verwezenlijken, en leren hoe AI Medewerker werkt, naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} verwijzen.

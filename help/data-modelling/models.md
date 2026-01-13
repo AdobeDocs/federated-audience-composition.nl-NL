@@ -20,13 +20,13 @@ ht-degree: 0%
 >- **beheer Federated Gegevensmodel**
 >- **Bekijk het Verbond Model van Gegevens**
 >
->Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [&#x200B; gids van de toegangscontrole &#x200B;](/help/governance-privacy-security/access-control.md).
 
 Een gegevensmodel is een reeks schema&#39;s, publiek, en de verbindingen tussen hen. U kunt modellen gebruiken om de gegevens van uw database te combineren in uw publiek.
 
 In Federated Audience Composition kunt u gegevensmodellen rechtstreeks in de Canvasweergave maken en beheren. Dit omvat het toevoegen van schema&#39;s en publiek, evenals het bepalen van de verbindingen tussen hen die op uw gebruiksgeval worden gebaseerd.
 
-Leer meer over [ schema&#39;s ](../data-modelling/schemas.md#schema-start) en [ publiek ](../start/audiences.md).
+Leer meer over [&#x200B; schema&#39;s &#x200B;](../data-modelling/schemas.md#schema-start) en [&#x200B; publiek &#x200B;](../start/audiences.md).
 
 U ziet bijvoorbeeld onder een weergave van een gegevensmodel de tabellen met hun naam en de koppelingen daartussen.
 
@@ -52,7 +52,7 @@ Ga als volgt te werk om een gegevensmodel te maken:
 
    ![](assets/models/datamodel-audiences.png){zoomable="yes"}
 
-5. Vestig verbindingen tussen lijsten in uw gegevensmodel om nauwkeurige gegevensverhoudingen te verzekeren. Voor meer informatie, lees [ tot de sectie van verbindingen ](#data-model-links) leidt.
+5. Vestig verbindingen tussen lijsten in uw gegevensmodel om nauwkeurige gegevensverhoudingen te verzekeren. Voor meer informatie, lees [&#x200B; tot de sectie van verbindingen &#x200B;](#data-model-links) leidt.
 
 6. Nadat u de configuratie hebt voltooid, selecteert u **[!UICONTROL Save]** om de wijzigingen toe te passen.
 
@@ -68,7 +68,7 @@ Ga als volgt te werk om een gegevensmodel te maken:
 
 Ga als volgt te werk als u koppelingen wilt maken tussen tabellen van uw gegevensmodel op het tabblad tabelweergave:
 
-1. Selecteer het ![ drie puntenpictogram ](/help/assets/icons/more.png) dat door **[!UICONTROL Create link]** naast één van de lijst wordt gevolgd, of selecteer **[!UICONTROL Create links]** binnen de **[!UICONTROL Links]** sectie:
+1. Selecteer het ![&#x200B; drie puntenpictogram &#x200B;](/help/assets/icons/more.png) dat door **[!UICONTROL Create link]** naast één van de lijst wordt gevolgd, of selecteer **[!UICONTROL Create links]** binnen de **[!UICONTROL Links]** sectie:
 
    ![](assets/models/datamodel_createlinks.png){zoomable="yes"}
 
@@ -78,15 +78,15 @@ Ga als volgt te werk als u koppelingen wilt maken tussen tabellen van uw gegeven
 
    **Kardinaliteit**
 
-   * **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
+   &#x200B;* **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
 
-   * **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-   * **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
    Als u meerdere verbindingskoppelingen wilt maken, selecteert u het plusteken. U kunt nu meerdere verbindingen maken tussen de schemavelden.
 
-   ![ de plus knoop wordt benadrukt, die u laat een veelvoudige verbinden verbinding voor het model tot stand brengen.](assets/models/multi-join.png){zoomable="yes"}
+   ![&#x200B; de plus knoop wordt benadrukt, die u laat een veelvoudige verbinden verbinding voor het model tot stand brengen.](assets/models/multi-join.png){zoomable="yes"}
 
 Alle koppelingen die voor uw gegevensmodel zijn gedefinieerd, worden hieronder weergegeven:
 
@@ -108,11 +108,11 @@ Ga als volgt te werk om koppelingen te maken tussen tabellen van uw gegevensmode
 
    **Kardinaliteit**
 
-   * **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
+   &#x200B;* **1-n**: één voorkomen van de bronlijst kan verscheidene overeenkomstige voorkomen van de doellijst hebben, maar één voorkomen van de doellijst kan hoogstens één overeenkomstige voorkomen van de bronlijst hebben.
 
-   * **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **n-1**: één voorkomen van de doellijst kan verscheidene overeenkomstige voorkomen van de bronlijst hebben, maar één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
-   * **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
+   &#x200B;* **1-1**: één voorkomen van de bronlijst kan hoogstens één overeenkomstige voorkomen van de doellijst hebben.
 
 4. Alle koppelingen die in het gegevensmodel zijn gedefinieerd, worden als pijlen weergegeven in de canvasweergave. Selecteer een pijl tussen twee tabellen om details weer te geven, bewerkingen uit te voeren of verwijder de koppeling naar wens.
 
@@ -122,12 +122,12 @@ Ga als volgt te werk om koppelingen te maken tussen tabellen van uw gegevensmode
 
    ![](assets/models/datamodel-canvas-3.png)
 
-   * **[!UICONTROL Zoom in]**: vergroot het canvas om de details van uw gegevensmodel duidelijker te zien.
-   * **[!UICONTROL Zoom out]**: verklein de canvasgrootte voor een bredere weergave van uw gegevensmodel.
-   * **[!UICONTROL Fit view]**: pas het zoomniveau aan zodat alle schema&#39;s en/of doelgroepen in het zichtbare gebied passen.
-   * **[!UICONTROL Toggle interactivity]**: Schakel gebruikersinteractie met het canvas in of uit.
-   * **[!UICONTROL Filter]**: kies welk schema u wilt weergeven binnen het canvas.
-   * **[!UICONTROL Force auto layout]**: schema&#39;s en/of publiek automatisch rangschikken voor een betere organisatie.
+   &#x200B;* **[!UICONTROL Zoom in]**: vergroot het canvas om de details van uw gegevensmodel duidelijker te zien.
+   &#x200B;* **[!UICONTROL Zoom out]**: verklein de canvasgrootte voor een bredere weergave van uw gegevensmodel.
+   &#x200B;* **[!UICONTROL Fit view]**: pas het zoomniveau aan zodat alle schema&#39;s en/of doelgroepen in het zichtbare gebied passen.
+   &#x200B;* **[!UICONTROL Toggle interactivity]**: Schakel gebruikersinteractie met het canvas in of uit.
+   &#x200B;* **[!UICONTROL Filter]**: kies welk schema u wilt weergeven binnen het canvas.
+   &#x200B;* **[!UICONTROL Force auto layout]**: schema&#39;s en/of publiek automatisch rangschikken voor een betere organisatie.
 
 >[!ENDTABS]
 

@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Werken met het publiek {#gs-audiences}
 
-Experience Platform Federated de Samenstelling van het Publiek staat u toe [ samenstellingen ](../compositions/home.md) tot stand te brengen, waar u hefboomwerking diverse activiteiten in een visueel canvas kunt om publiek tot stand te brengen en hen op te slaan in het Portaal van het Publiek van Adobe Experience Platform.
+Experience Platform Federated de Samenstelling van het Publiek staat u toe [&#x200B; samenstellingen &#x200B;](../compositions/home.md) tot stand te brengen, waar u hefboomwerking diverse activiteiten in een visueel canvas kunt om publiek tot stand te brengen en hen op te slaan in het Portaal van het Publiek van Adobe Experience Platform.
 
 U kunt deze doelgroepen vervolgens activeren in Journey Optimizer of activeren naar een bestemming die wordt ondersteund door Adobe Experience Platform.
 
 ## Het creëren van het publiek gebruikend samenstellingen {#creation}
 
-Als u een publiek wilt maken met de compositie Federated Audience, moet u een compositie maken die een **[!UICONTROL Save audience]** -activiteit bevat. Deze activiteit staat u toe om het publiek in het Portaal van de Publiek op te slaan, en gebieden van uw externe gegevensbestanden te selecteren om in het publiek te omvatten. [ Leer hoe te om sparen publieksactiviteit ](../compositions/activities.md#save-audience) te vormen
+Als u een publiek wilt maken met de compositie Federated Audience, moet u een compositie maken die een **[!UICONTROL Save audience]** -activiteit bevat. Deze activiteit staat u toe om het publiek in het Portaal van de Publiek op te slaan, en gebieden van uw externe gegevensbestanden te selecteren om in het publiek te omvatten. [&#x200B; Leer hoe te om sparen publieksactiviteit &#x200B;](../compositions/activities.md#save-audience) te vormen
 
 Publiek dat is gemaakt met gebruik van Adobe Federated Data Composition bevat alle velden die zijn geselecteerd in de **[!UICONTROL Save audience]** -activiteit en worden samen met alle Adobe Experience Platform-doelgroepen opgeslagen in het Poort Publiek.
 
 Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer.
 
-U kunt deze soorten publiek activeren op elk doel dat door Adobe Experience Platform wordt ondersteund. Leer hoe te met bestemmingen in [ Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"} te werken
+U kunt deze soorten publiek activeren op elk doel dat door Adobe Experience Platform wordt ondersteund. Leer hoe te met bestemmingen in [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"} te werken
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ Op het tabblad **[!UICONTROL Browse]** worden alle bestaande soorten publiek wee
 
 ![](assets/audiences-list.png)
 
-Voor meer informatie over hoe te met publiek in Adobe Experience Platform te werken, verwijs naar [ Poortdocumentatie van het Poortpubliek van het Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Voor meer informatie over hoe te met publiek in Adobe Experience Platform te werken, verwijs naar [&#x200B; Poortdocumentatie van het Poortpubliek van het Publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

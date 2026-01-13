@@ -17,7 +17,7 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 **als u geen werknemer van Adobe** bent kunt u een externe communautaire bijdrage voorleggen. Communautaire bijdragen worden geïmporteerd in onze interne systemen en worden bewerkt en samengevoegd in de publieke repo. Het publieke repo wordt vervolgens gesynchroniseerd met de meest recente wijzigingen en samengevoegd in de privéopslagplaats.
 
-**als u een werknemer van Adobe** bent, kunt u rechtstreeks tot de privé [ bewaarplaats van Adobe GitHub ](https://git.corp.adobe.com/AdobeDocs/) bijdragen. Zie de Adobe Experience League Authoring Guide voor Adobe-werknemers voor meer informatie.
+**als u een werknemer van Adobe** bent, kunt u rechtstreeks tot de privé [&#x200B; bewaarplaats van Adobe GitHub &#x200B;](https://git.corp.adobe.com/AdobeDocs/) bijdragen. Zie de Adobe Experience League Authoring Guide voor Adobe-werknemers voor meer informatie.
 
 ## Externe contribuanten
 
@@ -47,7 +47,7 @@ Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/d
 
 ## Interne contribuanten
 
-Als u een technische schrijver, programmamanager, of ontwikkelaar van het productteam voor een oplossing van Adobe Experience Cloud bent en het uw baan is om aan of auteur technische artikelen bij te dragen, gebruik de [ privé bewaarplaats ](https://git.corp.adobe.com/AdobeDocs).
+Als u een technische schrijver, programmamanager, of ontwikkelaar van het productteam voor een oplossing van Adobe Experience Cloud bent en het uw baan is om aan of auteur technische artikelen bij te dragen, gebruik de [&#x200B; privé bewaarplaats &#x200B;](https://git.corp.adobe.com/AdobeDocs).
 
 ## Uw onderwerp opmaken
 

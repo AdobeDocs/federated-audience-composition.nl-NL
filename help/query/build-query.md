@@ -16,15 +16,15 @@ Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats 
 
 U kunt twee typen elementen toevoegen:
 
-* **het Filtreren componenten** (de voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [ leren hoe te met het filtreren componenten ](#filtering) te werken
+* **het Filtreren componenten** (de voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [&#x200B; leren hoe te met het filtreren componenten &#x200B;](#filtering) te werken
 
   Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief* intekende. *Ontvangers die in New York* leven, *Ontvangers die in San Francisco* leven
 
   ![](assets/query-add-component.png){zoomable="yes"}
 
-* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [ Leer hoe te met exploitanten ](#filtering) te werken
+* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [&#x200B; Leer hoe te met exploitanten &#x200B;](#filtering) te werken
 
-  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**intekende die in New York **OF**San Francisco* leven.
+  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**&#x200B;intekende die in New York **OF**&#x200B;San Francisco* leven.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -52,7 +52,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    >[!NOTE]
    >
-   >Met de knop **[!UICONTROL Edit expression]** kunt u de expressie-editor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
+   >Met de knop **[!UICONTROL Edit expression]** kunt u de expressie-editor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
 
 3. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    +++
 
-4. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Selecteer hiertoe de knop **[!UICONTROL Edit expression]** . [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
+4. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Selecteer hiertoe de knop **[!UICONTROL Edit expression]** . [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
 
    *het voorbeeld van de Vraag die alle profielen terugkeren die 21 of meer zijn:*
 
