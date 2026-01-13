@@ -24,7 +24,7 @@ Publiek dat is gemaakt met gebruik van Adobe Federated Data Composition bevat al
 
 Na het uitvoeren van de samenstelling, wordt het resulterende publiek bewaard in Adobe Experience Platform als extern publiek, en beschikbaar in het Platform van de Gegevens van de Klant van Adobe Real-Time en/of Adobe Journey Optimizer.
 
-U kunt deze soorten publiek activeren op elk doel dat door Adobe Experience Platform wordt ondersteund. Leer hoe te met bestemmingen in [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"} te werken
+U kunt deze soorten publiek activeren op elk doel dat door Adobe Experience Platform wordt ondersteund. Leer hoe te met bestemmingen in [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home){target="_blank"} te werken
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ Op het tabblad **[!UICONTROL Browse]** worden alle bestaande soorten publiek wee
 
 ![](assets/audiences-list.png)
 
-Voor meer informatie over hoe te met publiek in Adobe Experience Platform te werken, verwijs naar [&#x200B; Poortdocumentatie van het Poortpubliek van het Publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Voor meer informatie over hoe te met publiek in Adobe Experience Platform te werken, verwijs naar [&#x200B; Poortdocumentatie van het Poortpubliek van het Publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

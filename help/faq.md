@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # Veelgestelde vragen {#faq}
 
-Hieronder volgt een lijst met veelgestelde vragen over Adobe Experience Platform Federated Audience Composition. Een globale FAQ is ook beschikbaar voor de Dienst van de Segmentatie van Adobe Experience Platform op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
+Hieronder volgt een lijst met veelgestelde vragen over Adobe Experience Platform Federated Audience Composition. Een globale FAQ is ook beschikbaar voor de Dienst van de Segmentatie van Adobe Experience Platform op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 ## Welke toestemmingen worden vereist om tot de Samenstelling van het Publiek toegang te hebben Federated?
 
@@ -87,7 +87,7 @@ Federated Audience Composition bewaart geen fysieke kopie van de gegevens. De fr
 Bijvoorbeeld:
 
 * In het geval van een Making van het Publiek, wordt het publiek gecreeerd in uw pakhuis, en u kunt de Samenstelling van de Publiek van de Federatie voor extra samenstellingstaken en gegevensmanipulatie gebruiken alvorens het resulterende publiek en de bijbehorende attributen via het Portaal van de Publiek van Adobe Experience Platform te publiceren. De publieksdefinitie en de bijbehorende kenmerken komen naar Adobe Experience Platform.
-De huidige gegevensvervaldatum voor extern gegenereerde doelgroepen is 30 dagen. Deze gegevensvervaldatum vermindert de hoeveelheid overtollige gegevens die binnen een organisatie worden opgeslagen. Nadat de gegevensvervalperiode overgaat, is de bijbehorende dataset nog zichtbaar binnen de datasetinventaris, maar u kunt niet het publiek activeren en de profieltelling zal als nul tonen. Leer meer in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
+De huidige gegevensvervaldatum voor extern gegenereerde doelgroepen is 30 dagen. Deze gegevensvervaldatum vermindert de hoeveelheid overtollige gegevens die binnen een organisatie worden opgeslagen. Nadat de gegevensvervalperiode overgaat, is de bijbehorende dataset nog zichtbaar binnen de datasetinventaris, maar u kunt niet het publiek activeren en de profieltelling zal als nul tonen. Leer meer in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * In het geval van een Publiek Verrijking, is het uitgangspunt een bestaand publiek van Adobe Experience Platform. Hier kunnen twee scenario&#39;s worden bekeken:
    1. Breng extra attributen van de publiekslading van het gefedereerde gegevenspakhuis: in dit geval, zullen de extra attributen die worden toegevoegd als deel van deze publieksdefinitie overkomen. De vervaldatum van gegevens voor extern gegenereerde doelgroepen is gelijk aan de hierboven beschreven vervaldatum, 30 dagen.
@@ -124,10 +124,10 @@ Nee, de identiteitsservice wordt niet gebruikt tijdens een samenstelling. De geg
 
 U kunt individuele verzoeken om toegang tot en verwijdering van klantgegevens uit de Adobe Federated Audience Composition op twee manieren verzenden:
 
-* Door Adobe Experience Platform **UI van Privacy Service**. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
-* Door Adobe Experience Platform **Privacy Service API**. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Door Adobe Experience Platform **UI van Privacy Service**. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL){target="_blank"}
+* Door Adobe Experience Platform **Privacy Service API**. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-Alle stappen om **toegangsverzoeken** tot stand te brengen en te beheren en **verzoeken** schrappen zijn gedetailleerd in de [&#x200B; documentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+Alle stappen om **toegangsverzoeken** tot stand te brengen en te beheren en **verzoeken** schrappen zijn gedetailleerd in de [&#x200B; documentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/privacy){target="_blank"}.
 
 +++
 
