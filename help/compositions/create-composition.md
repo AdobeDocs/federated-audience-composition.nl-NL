@@ -25,7 +25,7 @@ Om een samenstelling tot stand te brengen, zult u eerst zijn etiket moeten bepal
 
 Als u een compositie wilt maken, selecteert u **[!UICONTROL Audiences]** in de sectie **[!UICONTROL Customer]** , gevolgd door de tab **[!UICONTROL Federated compositions]** .
 
-![&#x200B; de weg om tot de Federatieve compositiesectie toegang te hebben wordt benadrukt.](assets/create/access-compositions.png)
+![ de weg om tot de Federatieve compositiesectie toegang te hebben wordt benadrukt.](assets/create/access-compositions.png)
 
 De pagina Bladeren met gefedereerde composities wordt weergegeven. Selecteer **[!UICONTROL Create composition]** om door te gaan met het maken van composities.
 
@@ -55,7 +55,7 @@ Beschikbare opties zijn:
 
 In het compositicanvas kunt u activiteiten en overgangen toevoegen die u helpen uw publiek te definiëren. De activiteiten laten u ** de componenten binnen het publiek bepalen terwijl de overgangen u *laten* de stroom van uw samenstelling organiseren.
 
-Voor meer informatie over de activiteiten en de overgangen die voor gebruik beschikbaar zijn, lees het [&#x200B; overzicht van activiteiten &#x200B;](./activities.md).
+Voor meer informatie over de activiteiten en de overgangen die voor gebruik beschikbaar zijn, lees het [ overzicht van activiteiten ](./activities.md).
 
 ## Activiteiten beheren {#manage-activities}
 
@@ -136,17 +136,17 @@ Op alle tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filters
 
 U kunt zich ook abonneren op waarschuwingen om meldingen te ontvangen als de uitvoering van uw gefedereerde compositie is geslaagd of mislukt.
 
-Om aan alarm in te tekenen, selecteer het ![&#x200B; berichtpictogram &#x200B;](/help/assets/icons/bell.png), dat door het ![&#x200B; montagespictogram &#x200B;](/help/assets/icons/settings.png) wordt gevolgd.
+Om aan alarm in te tekenen, selecteer het ![ berichtpictogram ](/help/assets/icons/bell.png), dat door het ![ montagespictogram ](/help/assets/icons/settings.png) wordt gevolgd.
 
-![&#x200B; zowel worden het bericht als de montagespictogrammen benadrukt.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+![ zowel worden het bericht als de montagespictogrammen benadrukt.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
 
 De pagina met instellingen voor meldingen wordt weergegeven. Selecteer op deze pagina **[!UICONTROL Experience Platform]** en kies de gewenste kanalen voor waarschuwingen. Selecteer **[!UICONTROL In-app]** als u de meldingen in de gebruikersinterface wilt weergeven.
 
-![&#x200B; checkbox in-app wordt geselecteerd binnen de sectie van Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+![ checkbox in-app wordt geselecteerd binnen de sectie van Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
 
 Als **[!UICONTROL In-app]** is geselecteerd, krijgt u nu een melding voor het uitvoeren van composities.
 
-![&#x200B; het alarm wordt getoond, tonend de samenstellingssuccessen en mislukkingen.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
+![ het alarm wordt getoond, tonend de samenstellingssuccessen en mislukkingen.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Vorm de montages van de samenstelling {#settings}
 
