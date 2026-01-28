@@ -44,7 +44,7 @@ Na het selecteren van **creeer publiek**, kies het **Schema** voor uw publiek. M
 
 ![](./assets/activities/build-audience-create.png)
 
-Na het kiezen van een schema, uitgezochte **gaat** verder. U kunt nu de definitie van uw publiek definiëren in Query Modeler. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [ overzicht van Modeler van de Vraag ](../query/home.md).
+Na het kiezen van een schema, uitgezochte **gaat** verder. U kunt nu de definitie van uw publiek definiëren in Query Modeler. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [&#x200B; overzicht van Modeler van de Vraag &#x200B;](../query/home.md).
 
 >[!TAB  Gebruik bestaand publiek ]
 
@@ -68,7 +68,7 @@ De **gegevensbron van de Verandering** activiteit laat u veranderen welke gegeve
 
 Na het toevoegen van de **gegevensbron van de Verandering** activiteit aan uw samenstellingscanvas, kunt u de gegevensbron bepalen die voor de samenstelling zal worden gebruikt.
 
-![ de gegevensbronoptie wordt benadrukt binnen de Federatieve werkruimte van de Samenstelling van de Publiek.](./assets/activities/configure.png){zoomable="yes"}{width="70%"}
+![&#x200B; de gegevensbronoptie wordt benadrukt binnen de Federatieve werkruimte van de Samenstelling van de Publiek.](./assets/activities/configure.png){zoomable="yes"}{width="70%"}
 
 | Bron | Beschrijving |
 | ------ | ----------- |
@@ -76,7 +76,7 @@ Na het toevoegen van de **gegevensbron van de Verandering** activiteit aan uw sa
 
 Nadat u **[!UICONTROL FDA external account]** hebt geselecteerd, kunt u kiezen met welke externe account u verbinding wilt maken.
 
-![ popover het tonen van de externe rekeningsopties wordt getoond.](./assets/activities/fda-external-account.png){zoomable="yes"}{width="70%"}
+![&#x200B; popover het tonen van de externe rekeningsopties wordt getoond.](./assets/activities/fda-external-account.png){zoomable="yes"}{width="70%"}
 
 +++
 
@@ -160,7 +160,7 @@ Nadat u de samenstelling uitvoert, zullen uw resultaten worden bijgewerkt.
 >
 >**combineer** activiteit **moet** na een andere activiteit worden geplaatst en **kan** niet aan het begin van de samenstelling worden geplaatst.
 
-**combineer** activiteit 1} laat u zich bij veelvoudige toehoorders op diverse manieren aansluiten - een unie, een doorsnede, of een uitsluiting.
+**combineer** activiteit 1&rbrace; laat u zich bij veelvoudige toehoorders op diverse manieren aansluiten - een unie, een doorsnede, of een uitsluiting.
 
 - **Unie**: Een unie combineert de verschillende soorten publiek in één enkel publiek. Dit is gelijk aan een OR-bewerking.
 - **Intersection**: Een doorsnede combineert de verschillende soorten publiek in één enkel publiek met slechts de **gedeelde** inhoud die wordt bewaard. Dit is gelijkwaardig aan een EN verrichting.
@@ -168,7 +168,7 @@ Nadat u de samenstelling uitvoert, zullen uw resultaten worden bijgewerkt.
 
 +++ Configuratiedetails
 
-Na het toevoegen van veelvoudige activiteiten om minstens **twee** verschillende takken te vormen, voeg **** activiteit aan het eind van één van de takken combineren. U kunt nu een van de combinatieopties kiezen: Verenigen, Doorsnede of Uitsluiting.
+Na het toevoegen van veelvoudige activiteiten om minstens **twee** verschillende takken te vormen, voeg **&#x200B;**&#x200B;activiteit aan het eind van één van de takken combineren. U kunt nu een van de combinatieopties kiezen: Verenigen, Doorsnede of Uitsluiting.
 
 ![](./assets/activities/combine.png)
 
@@ -280,7 +280,7 @@ Bovendien, kunt u **selecteren vormt complementaire** optie. Het produceren van 
 
 De **Verrijking** activiteit laat u uw samenstelling verbeteren door extra gegevens van uw gefedereerd gegevensbestand toe te voegen.
 
-Als u een verbinding aan de Federatieve bestemming van de Samenstelling van het Publiek hebt gevormd, kunt u de activiteit van de Verrijking gebruiken om gegevens te verrijken die Adobe Experience Platform met attributen van uw extern gegevensbestand komen. [ Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken ](../connections/destinations.md)
+Als u een verbinding aan de Federatieve bestemming van de Samenstelling van het Publiek hebt gevormd, kunt u de activiteit van de Verrijking gebruiken om gegevens te verrijken die Adobe Experience Platform met attributen van uw extern gegevensbestand komen. [&#x200B; Leer hoe te om het publiek van Adobe Experience Platform met externe gegevens te verrijken &#x200B;](../connections/destinations.md)
 
 +++ Configuratiedetails
 
@@ -365,13 +365,13 @@ Gegevens worden in overeenstemming gebracht wanneer de bron en het doel gelijk z
 
 >[!TAB  Geavanceerde verzoeningsvoorwaarden ]
 
-Na het kiezen van **Geavanceerde verzoeningsvoorwaarden**, uitgezochte **creeer voorwaarden**. U kunt nu uw eigen verzoeningsvoorwaarde maken met de querymodelfunctie. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [ overzicht van Modeler van de Vraag ](../query/home.md)
+Na het kiezen van **Geavanceerde verzoeningsvoorwaarden**, uitgezochte **creeer voorwaarden**. U kunt nu uw eigen verzoeningsvoorwaarde maken met de querymodelfunctie. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [&#x200B; overzicht van Modeler van de Vraag &#x200B;](../query/home.md)
 
 ![](./assets/activities/reconciliation-advanced.png)
 
 >[!ENDTABS]
 
-U kunt ook de gegevens filteren die met elkaar in overeenstemming zijn. Selecteer **creeer filter** om een douanetoewijzing tot stand te brengen gebruikend de Vraag Modeler. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [ overzicht van Modeler van de Vraag ](../query/home.md)
+U kunt ook de gegevens filteren die met elkaar in overeenstemming zijn. Selecteer **creeer filter** om een douanetoewijzing tot stand te brengen gebruikend de Vraag Modeler. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [&#x200B; overzicht van Modeler van de Vraag &#x200B;](../query/home.md)
 
 +++
 
@@ -403,9 +403,9 @@ U kunt ook de gegevens filteren die met elkaar in overeenstemming zijn. Selectee
 >
 >Als uw zandbak de belangrijkheid van de a **dataset** samenvoegbeleid gebruikt, gelieve de Zorg van de Klant van Adobe te contacteren om de `Halos UPS` dataset aan uw fusiebeleid toe te voegen.
 >
->Voor meer informatie over fusiebeleid, te lezen gelieve het [ overzicht van het samenvoegbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+>Voor meer informatie over fusiebeleid, te lezen gelieve het [&#x200B; overzicht van het samenvoegbeleid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
-**sparen publiek** activiteit laat u een publiek tot stand brengen dat van de samenstelling wordt gebaseerd. Zodra het publiek is gecreeerd, kunt u hen binnen het Portaal van het Publiek in Adobe Experience Platform gebruiken. Voor meer informatie bij het gebruiken van publiek met de Federatieve Samenstelling van het Publiek, lees het [ overzicht van publiek ](../start/audiences.md). Voor meer informatie over publiek in Experience Platform, lees het [ Poortoverzicht van het Poortpubliek van het Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+**sparen publiek** activiteit laat u een publiek tot stand brengen dat van de samenstelling wordt gebaseerd. Zodra het publiek is gecreeerd, kunt u hen binnen het Portaal van het Publiek in Adobe Experience Platform gebruiken. Voor meer informatie bij het gebruiken van publiek met de Federatieve Samenstelling van het Publiek, lees het [&#x200B; overzicht van publiek &#x200B;](../start/audiences.md). Voor meer informatie over publiek in Experience Platform, lees het [&#x200B; Poortoverzicht van het Poortpubliek van het Publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Configuratiedetails
 
@@ -484,7 +484,7 @@ De **Gesplitste** activiteit scheidt de inkomende bevolking in veelvoudige delen
 
 Na het toevoegen van de **Gesplitste** activiteit aan uw samenstelling, kunt u nu bepalen hoe te om uw publiek te onderdrukken. Selecteer **segment** toevoegen om uw verschillende vertakkende wegen tot stand te brengen.
 
-U kunt nu details voor elk van deze subpaden opgeven. U kunt het subpad een naam en filtervoorwaarden geven. Om een het filtreren voorwaarde tot stand te brengen, creeer **filter** en vorm de het filtreren regel gebruikend de Vraag Modeler. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [ overzicht van Modeler van de Vraag ](../query/home.md).
+U kunt nu details voor elk van deze subpaden opgeven. U kunt het subpad een naam en filtervoorwaarden geven. Om een het filtreren voorwaarde tot stand te brengen, creeer **filter** en vorm de het filtreren regel gebruikend de Vraag Modeler. Voor meer informatie bij het gebruiken van de Vraag Modeler, lees het [&#x200B; overzicht van Modeler van de Vraag &#x200B;](../query/home.md).
 
 Zodra u uw het filtreren voorwaarde hebt gecreeerd, kunt u de volgende extra regels toepassen:
 
@@ -497,7 +497,7 @@ Nu de subsets zijn geconfigureerd, kunt u nog een aantal extra opties instellen.
 | Opties | Beschrijving |
 | ------- | ----------- |
 | **produceer complement** | Creeert een uitgaande overgang die de resterende bevolking bevat. |
-| **laat overlapping van outputpopulaties** toe | Indien toegelaten, kan de ontvanger **niet** in veelvoudige uitgaande overgangen aanwezig zijn en zal **slechts** in de eerste uitgaande overgang aanwezig zijn. Als gehandicapt, kan de ontvanger **** in veelvoudige uitgaande overgangen verschijnen. |
+| **laat overlapping van outputpopulaties** toe | Indien toegelaten, kan de ontvanger **niet** in veelvoudige uitgaande overgangen aanwezig zijn en zal **slechts** in de eerste uitgaande overgang aanwezig zijn. Als gehandicapt, kan de ontvanger **&#x200B;**&#x200B;in veelvoudige uitgaande overgangen verschijnen. |
 | **produceer alle ondergroepen in de zelfde lijst** | Hiermee groepeert u alle subsets in één uitgaande overgang. |
 
 +++
@@ -527,25 +527,25 @@ Binnen de **het samenvoegen opties** sectie, kunt u alle activiteiten selecteren
 
 #### Einde
 
-De **activiteit van het 0} Eind {merkt grafisch het eind van de samenstelling en heeft geen functioneel effect.**
+De **activiteit van het 0&rbrace; Eind &lbrace;merkt grafisch het eind van de samenstelling en heeft geen functioneel effect.**
 
 #### Vertakking
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
 >title="Vorkactiviteit"
->abstract="De **activiteit 0} van het Vonk {staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.**"
+>abstract="De **activiteit 0&rbrace; van het Vonk &lbrace;staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.**"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="Overgangen naar vorkactiviteit"
 >abstract="Door gebrek, worden twee overgangen gecreeerd met de activiteit van het a **Fork**. Selecteer **overgangsknoop** toevoegen om een extra uitgaande overgang te bepalen, en zijn etiket in te gaan."
 
-De **1} activiteit van het Vonk {laat u veelvoudige uitgaande overgangen tot stand brengen die gelijktijdig veelvoudige activiteiten beginnen.**
+De **1&rbrace; activiteit van het Vonk &lbrace;laat u veelvoudige uitgaande overgangen tot stand brengen die gelijktijdig veelvoudige activiteiten beginnen.**
 
 +++ Configuratiedetails
 
-Zodra u de **activiteit 0} van het Vonk {aan uw samenstelling hebt toegevoegd, worden twee uitgaande overgangen automatisch geproduceerd.** U kunt deze uitgaande overgangen een naam geven. Bovendien, kunt u **selecteren voeg overgang** toe om een andere uitgaande overgang toe te voegen.
+Zodra u de **activiteit 0&rbrace; van het Vonk &lbrace;aan uw samenstelling hebt toegevoegd, worden twee uitgaande overgangen automatisch geproduceerd.** U kunt deze uitgaande overgangen een naam geven. Bovendien, kunt u **selecteren voeg overgang** toe om een andere uitgaande overgang toe te voegen.
 
 ![](./assets/activities/fork.png)
 
@@ -582,7 +582,7 @@ Na het toevoegen van de **Planner** activiteit aan uw samenstelling, kunt u de *
 >
 >De tijd wordt ingesteld op UTC.
 
-Als u **** eens selecteert, wordt de samenstelling slechts eenmaal uitgevoerd. U kunt de datum en het tijdstip selecteren waarop de compositie wordt uitgevoerd.
+Als u **&#x200B;**&#x200B;eens selecteert, wordt de samenstelling slechts eenmaal uitgevoerd. U kunt de datum en het tijdstip selecteren waarop de compositie wordt uitgevoerd.
 
 >[!TAB  Dagelijks ]
 
@@ -683,4 +683,4 @@ In composities tonen overgangen hoe gegevens van de ene activiteit naar de ander
 
 ## Volgende stappen {#next-steps}
 
-Na het lezen van deze gids, zult u een beter inzicht in de activiteiten en de overgangen hebben u binnen een samenstelling kunt gebruiken. Voor meer informatie over samenstellingen in het algemeen, lees het [ samenstellingsoverzicht ](./create-composition.md).
+Na het lezen van deze gids, zult u een beter inzicht in de activiteiten en de overgangen hebben u binnen een samenstelling kunt gebruiken. Voor meer informatie over samenstellingen in het algemeen, lees het [&#x200B; samenstellingsoverzicht &#x200B;](./create-composition.md).
