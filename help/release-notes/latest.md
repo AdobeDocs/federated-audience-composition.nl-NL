@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Aanvullende informatie
 
-[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+[!DNL Federated Audience Composition] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in deze releaseopmerkingen. [!DNL Federated Audience Composition] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
 
 ## Release januari 1926 {#fac-26-01}
 
@@ -25,7 +25,7 @@ De release van januari voor Federated Audience Composition ondersteunt de volgen
 
 | Beschikbaarheid voor Adobe Experience Platform-klanten op Amazon Web Services (AWS) |
 | --- |
-| U kunt Federated Audience Composition nu gebruiken als uw Experience Platform-exemplaar zich op AWS bevindt. Voor meer informatie over Experience Platform op AWS, gelieve het [&#x200B; multi-wolkenoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud) te lezen. |
+| U kunt Federated Audience Composition nu gebruiken als uw Experience Platform-exemplaar zich op AWS bevindt. Voor meer informatie over Experience Platform op AWS, gelieve het [&#x200B; multi-wolkenoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/multi-cloud) te lezen. |
 
 ### Verbeteringen {#fac-26-01-improvements}
 
