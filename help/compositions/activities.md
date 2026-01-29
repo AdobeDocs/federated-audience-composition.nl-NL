@@ -391,21 +391,21 @@ U kunt ook de gegevens filteren die met elkaar in overeenstemming zijn. Selectee
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Primair identiteitsveld"
 >abstract="Selecteer de primaire identiteit die u voor profielen wilt gebruiken."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Meer informatie in de documentatie van Experience Platform"
+>additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Meer informatie in de documentatie van Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Naamruimte identiteit"
 >abstract="Selecteer de naamruimte die u wilt gebruiken voor profielen."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Meer informatie in de documentatie van Experience Platform"
+>additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces" text="Meer informatie in de documentatie van Experience Platform"
 
 >[!IMPORTANT]
 >
 >Als uw zandbak de belangrijkheid van de a **dataset** samenvoegbeleid gebruikt, gelieve de Zorg van de Klant van Adobe te contacteren om de `Halos UPS` dataset aan uw fusiebeleid toe te voegen.
 >
->Voor meer informatie over fusiebeleid, te lezen gelieve het [&#x200B; overzicht van het samenvoegbeleid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+>Voor meer informatie over fusiebeleid, te lezen gelieve het [&#x200B; overzicht van het samenvoegbeleid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview).
 
-**sparen publiek** activiteit laat u een publiek tot stand brengen dat van de samenstelling wordt gebaseerd. Zodra het publiek is gecreeerd, kunt u hen binnen het Portaal van het Publiek in Adobe Experience Platform gebruiken. Voor meer informatie bij het gebruiken van publiek met de Federatieve Samenstelling van het Publiek, lees het [&#x200B; overzicht van publiek &#x200B;](../start/audiences.md). Voor meer informatie over publiek in Experience Platform, lees het [&#x200B; Poortoverzicht van het Poortpubliek van het Publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+**sparen publiek** activiteit laat u een publiek tot stand brengen dat van de samenstelling wordt gebaseerd. Zodra het publiek is gecreeerd, kunt u hen binnen het Portaal van het Publiek in Adobe Experience Platform gebruiken. Voor meer informatie bij het gebruiken van publiek met de Federatieve Samenstelling van het Publiek, lees het [&#x200B; overzicht van publiek &#x200B;](../start/audiences.md). Voor meer informatie over publiek in Experience Platform, lees het [&#x200B; Poortoverzicht van het Poortpubliek van het Publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Configuratiedetails
 
