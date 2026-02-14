@@ -42,7 +42,7 @@ De federatieve Samenstelling van het Publiek steunt **drie** categorieën van ge
 
 ![&#x200B; diagram &#x200B;](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-Voor meer informatie over het gebruik van de Samenstelling van de Federatieve Audience van de Auditie gelieve te lezen [&#x200B; Verfelijke whitepaper van de Samenstelling van het Publiek &#x200B;](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
+Voor meer informatie over het gebruik van de Samenstelling van de Federatieve Audience van de Auditie gelieve te lezen [&#x200B; Verfelijke whitepaper van de Samenstelling van het Publiek &#x200B;](https://business.adobe.com/nl/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Belangrijkste stappen {#gs-steps}
 
