@@ -16,15 +16,15 @@ Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats 
 
 U kunt twee typen elementen toevoegen:
 
-* **het Filtreren componenten** (de voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [&#x200B; leren hoe te met het filtreren componenten &#x200B;](#filtering) te werken
+* **het Filtreren componenten** (de voorwaarde van de Douane, Uitgezochte publiek) staat u toe om uw eigen regels te bouwen of een publiek te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [ leren hoe te met het filtreren componenten ](#filtering) te werken
 
   Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief* intekende. *Ontvangers die in New York* leven, *Ontvangers die in San Francisco* leven
 
   ![](assets/query-add-component.png){zoomable="yes"}
 
-* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [&#x200B; Leer hoe te met exploitanten &#x200B;](#filtering) te werken
+* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om samen het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [ Leer hoe te met exploitanten ](#filtering) te werken
 
-  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**&#x200B;intekende die in New York **OF**&#x200B;San Francisco* leven.
+  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**intekende die in New York **OF**San Francisco* leven.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -52,7 +52,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    >[!NOTE]
    >
-   >Met de knop **[!UICONTROL Edit expression]** kunt u de expressie-editor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
+   >Met de knop **[!UICONTROL Edit expression]** kunt u de expressie-editor gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
 3. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -70,7 +70,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    | Niet in | Werkt zoals is opgenomen in operator. Hier, willen wij ontvangers uitsluiten die op de ingegane waarden worden gebaseerd. | Geboortedatum (@geboortedatum) is niet opgenomen in &quot;10-12-1979,12-10-1984&quot;. Anders dan in het vorige voorbeeld worden ontvangers die binnen deze datums geboren zijn, niet geretourneerd. |
    | Is leeg | In dit geval komt het resultaat dat we zoeken overeen met een lege waarde in de tweede kolom Waarde. | Mobiele (@mobilePhone) is leeg en retourneert alle ontvangers die geen mobiel nummer hebben. |
    | Is niet leeg | Werkt in omgekeerde volgorde naar de operator Is leeg. Het is niet nodig gegevens in te voeren in de tweede kolom Waarde. | E-mail (@email) is niet leeg. |
-   | Begint met | Retourneert de resultaten die beginnen met de ingevoerde waarde. | Account # (@account) begint met &#39;32010&#39;. |
+   | Starts with (Begint met) | Retourneert de resultaten die beginnen met de ingevoerde waarde. | Account # (@account) begint met &#39;32010&#39;. |
    | Begint niet met | Retourneert de resultaten die niet beginnen met de ingevoerde waarde. | Account # (@account) begint niet met &#39;20&#39; |
    | Bevat | Retourneert de resultaten die ten minste de ingevoerde waarde bevatten. | E-maildomein (@domain) bevat &#39;mail&#39; </strong> , retourneert alle domeinnamen die &#39;mail&#39; bevatten. Het domein &#39;gmail.com&#39; wordt dus ook geretourneerd. |
    | Bevat niet | Retourneert resultaten die niet de ingevoerde waarde bevatten. | E-maildomein (@domain) bevat geen &#39;vo&#39;</strong>. In dit geval worden domeinnamen die &#39;vo&#39; bevatten, niet geretourneerd. De domeinnaam voila.fr wordt niet weergegeven in de resultaten. |
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    +++
 
-4. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Selecteer hiertoe de knop **[!UICONTROL Edit expression]** . [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
+4. Definieer in het veld **[!UICONTROL Value]** de verwachte waarde. U kunt de expressieeditor ook gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. Selecteer hiertoe de knop **[!UICONTROL Edit expression]** . [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
    *het voorbeeld van de Vraag die alle profielen terugkeren die 21 of meer zijn:*
 
