@@ -3,10 +3,10 @@ audience: end-user
 title: Verbindingen met gefederaliseerde databases maken en beheren
 description: Leer hoe u verbindingen met Federale databases maakt en beheert
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '2593'
-ht-degree: 1%
+source-wordcount: '2947'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 >- **beheer Federated Gegevensbestand**
 >- **Mening Federated Gegevensbestand**
 >
->Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [&#x200B; gids van de toegangscontrole &#x200B;](/help/governance-privacy-security/access-control.md).
+>Voor meer informatie over de vereiste toestemmingen, te lezen gelieve de [ gids van de toegangscontrole ](/help/governance-privacy-security/access-control.md).
 
 Met de Experience Platform Federated Audience Composition kunt u een publiek opbouwen en verrijken vanuit de gegevensopslagruimten van derden en het publiek importeren naar Adobe Experience Platform.
 
@@ -40,15 +40,15 @@ Als u met uw gefedereerde database en Adobe Experience Platform wilt werken, moe
 
 Als u een verbinding wilt maken, selecteert u **[!UICONTROL Federated databases]** in de sectie Federatieve gegevens.
 
-![&#x200B; de Federated knoop van Gegevensbestanden wordt benadrukt binnen de linkernavigatie.](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+![ de Federated knoop van Gegevensbestanden wordt benadrukt binnen de linkernavigatie.](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
 
 De sectie Federated databases wordt weergegeven. Selecteer **[!UICONTROL Add federated database]** om een verbinding te maken.
 
-![&#x200B; Add wordt de federated gegevensbestandknoop benadrukt binnen de Federated pagina van de gegevensbestandvertoning.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+![ Add wordt de federated gegevensbestandknoop benadrukt binnen de Federated pagina van de gegevensbestandvertoning.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
 
 De pop-up Verbindingseigenschappen wordt weergegeven. U kunt uw verbinding een naam geven en selecteren welk type database u wilt maken.
 
-![&#x200B; de gefederaliseerde gegevensbestandtypes worden getoond.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
+![ de gefederaliseerde gegevensbestandtypes worden getoond.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
 
 Nadat u een type hebt geselecteerd, wordt de sectie **[!UICONTROL Details]** weergegeven. Deze sectie verschilt op basis van het eerder gekozen databasetype.
 
@@ -70,7 +70,7 @@ Nadat u Amazon Redshift hebt geselecteerd, kunt u de volgende details toevoegen:
 | Account | De gebruikersnaam van de account. |
 | Wachtwoord | Het wachtwoord van de account. |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
-| Werkschema | De naam van het schema van het gegevensbestand voor werklijsten te gebruiken. Meer informatie over deze eigenschap kan in de [&#x200B; documentatie van het Schema van Amazon &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} worden gevonden.<br/><br/>**Nota:** u kunt om het even welk schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Werkschema | De naam van het schema van het gegevensbestand voor werklijsten te gebruiken. Meer informatie over deze eigenschap kan in de [ documentatie van het Schema van Amazon ](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} worden gevonden.<br/><br/>**Nota:** u kunt om het even welk schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 
 >[!TAB  Analytics van Azure Synapse ]
 
@@ -84,9 +84,9 @@ Nadat u Azure Synapse Analytics hebt geselecteerd, kunt u de volgende gegevens t
 | ----- | ----------- |
 | Server | De URL van de Azure Synapse-server. |
 | Account | Toepassingsidentiteitskaart (**identiteitskaart van de Cliënt**) van de Azure toepassingsregistratie. |
-| Wachtwoord | De **geheime van de Cliënt** waarde van de Azure toepassing. |
+| Wachtwoord | De **geheime** waarde van de Cliënt van de toepassing van Azure. |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
-| Opties | Aanvullende opties voor de verbinding. Voor Azure Synapse Analytics kunt u het type verificatie opgeven dat door de connector wordt ondersteund. Federated Audience Composition biedt momenteel ondersteuning voor `ActiveDirectoryMSI` . Voor meer informatie over verbindingskoorden, te lezen gelieve de [&#x200B; sectie van de koorden van de voorbeeldverbinding binnen de documentatie van Microsoft &#x200B;](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
+| Opties | Aanvullende opties voor de verbinding. Voor Azure Synapse Analytics kunt u het type verificatie opgeven dat door de connector wordt ondersteund. Federated Audience Composition biedt momenteel ondersteuning voor `ActiveDirectoryMSI` . Voor meer informatie over verbindingskoorden, te lezen gelieve de [ sectie van de koorden van de voorbeeldverbinding binnen de documentatie van Microsoft ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
 
 U kunt uw Azure Synapse Analytics-verbinding ook veilig configureren met de Service Principal-verificatie. U zou de Belangrijkste authentificatie van de Dienst voor productie-rang integratie evenals automatiseringsscenario&#39;s moeten gebruiken.
 
@@ -94,7 +94,7 @@ U kunt uw Azure Synapse Analytics-verbinding ook veilig configureren met de Serv
 
 Houd rekening met de volgende voorwaarden voordat u de hoofdverificatie voor de service instelt:
 
-- Een Azure-abonnement met toegang tot Microsoft Entra-id
+- Een Azure-abonnement met toegang tot Microsoft Entra ID
 - Een Azure Synapse-werkruimte en -database
 - Machtiging om toepassingsregistratie te maken
 - Machtiging om Azure Synapse-databaserollen te beheren
@@ -104,7 +104,7 @@ Houd rekening met de volgende voorwaarden voordat u de hoofdverificatie voor de 
 
 In het Azure Portal moet u eerst een nieuwe app-registratie maken. Selecteer **Register** na het geven van de toepassing een unieke naam. De **pagina van het Overzicht** verschijnt. Zorg ervoor u nota neemt van **identiteitskaart van de Toepassing (Cliënt)** en **Folder (Huurder) identiteitskaart** waarden.
 
-![&#x200B; identiteitskaart van de Toepassing (Cliënt) binnen de overzichtspagina wordt benadrukt.](/help/connections/assets/home/azure-client-id.png)
+![ identiteitskaart van de Toepassing (Cliënt) binnen de overzichtspagina wordt benadrukt.](/help/connections/assets/home/azure-client-id.png)
 
 Binnen de onlangs geregistreerde toepassing, uitgezochte **Certificaten &amp; geheimen**. Van hier, selecteer **Nieuw cliëntgeheim** binnen de **geheimen van de Cliënt** sectie om een nieuw cliëntgeheim tot stand te brengen. Na het verstrekken van een beschrijving en een afloop, uitgezocht **voeg** toe om het cliëntgeheim te produceren.
 
@@ -114,9 +114,9 @@ Binnen de onlangs geregistreerde toepassing, uitgezochte **Certificaten &amp; ge
 
 Nu u uw cliëntgeheim hebt geproduceerd, moet u ervoor zorgen u de **belangrijkste van de Dienst** identiteit aan het middel hebt verleend.
 
-Voor meer informatie bij het toewijzen van identiteit aan middelen, lees de [&#x200B; Beheerde identiteiten voor de gids van de Analyse van Azure Synapse &#x200B;](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
+Voor meer informatie bij het toewijzen van identiteit aan middelen, lees de [ Beheerde identiteiten voor de gids van de Analyse van Azure Synapse ](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
 
-Omdat u al uw Azure-side configuraties hebt voltooid, kunt u nu uw Federated-Audience-Composition-side configuraties instellen.
+Omdat u al uw Azure-zijconfiguraties hebt voltooid, kunt u nu uw Federated-Audience-Composition-side configuraties instellen.
 
 Stel in uw Azure Synapse-verbinding de volgende configuratiedetails in:
 
@@ -124,7 +124,7 @@ Stel in uw Azure Synapse-verbinding de volgende configuratiedetails in:
 | ----- | ----------- |
 | Server | De URL van de Azure Synapse-server. |
 | Account | Toepassingsidentiteitskaart (**identiteitskaart van de Cliënt**) van de Azure toepassingsregistratie. |
-| Wachtwoord | De **geheime van de Cliënt** waarde van de Azure toepassing. |
+| Wachtwoord | De **geheime** waarde van de Cliënt van de toepassing van Azure. |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
 | Opties | Aanvullende opties voor de verbinding. Als u Service Principal-verificatie wilt gebruiken, moet u `Authentication="ActiveDirectoryServicePrincipal"` instellen. |
 
@@ -132,24 +132,48 @@ Stel in uw Azure Synapse-verbinding de volgende configuratiedetails in:
 
 >[!NOTE]
 >
->De veilige toegang tot uw extern gegevenspakhuis van Gegevensbestanden door privé verbinding wordt gesteund. Dit omvat veilige verbindingen met Databricks-databases die worden gehost op Amazon Web Services (AWS) via privékoppelingen en databases die worden gehost op Microsoft Azure via VPN. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang.
+>De veilige toegang tot uw extern gegevenspakhuis van Gegevensbestanden door privé verbinding wordt gesteund. Dit omvat veilige verbindingen met gegevensbestanden van Gegevensbestanden die op Amazon Web Services (AWS) via privé verbinding en gegevensbestanden worden ontvangen die op Microsoft Azure via VPN worden ontvangen. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang.
 
-Na het selecteren van Gegevensbestanden, kunt u de volgende details toevoegen:
+Na het selecteren van Gegevensbestanden, kunt u met authentificatiemethode kiezen u wanneer het verbinden met de Samenstelling van de Publiek wilt gebruiken.
+
+Als u **Authentificatie van de Rekening/van het Wachtwoord** selecteert, kunt u de volgende login details toevoegen:
 
 | Veld | Beschrijving |
 | ----- | ----------- |
 | Server | De naam van de Databricks-server. |
-| HTTP-pad | De weg aan uw Cluster of Warehouse. Voor meer informatie over de weg, te lezen gelieve de [&#x200B; documentatie van Gegevensbestanden over verbindingsdetails &#x200B;](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
-| Wachtwoord | Het toegangstoken voor de server van Gegevensbestanden. Voor meer informatie over deze waarde, te lezen gelieve de [&#x200B; documentatie van Gegevensbestanden over persoonlijke toegangstokens &#x200B;](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
-| Catalogus | De naam van de catalogus met databases. Voor meer informatie over catalogi in Gegevensbestanden, te lezen gelieve de [&#x200B; documentatie van Gegevensbestanden over catalogi &#x200B;](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Wachtwoord | Het toegangstoken voor de server van Gegevensbestanden. Voor meer informatie over deze waarde, te lezen gelieve de [ documentatie van Gegevensbestanden over persoonlijke toegangstokens ](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
+
+Als u **Belangrijkste Authentificatie van de Dienst** selecteert, kunt u de volgende details toevoegen:
+
+| Veld | Beschrijving |
+| ----- | ----------- |
+| Server | De naam van de Databricks-server. |
+| Client-id | De client-id van uw databaseserver. Dit veld fungeert als een gebruikersnaam voor uw project. |
+| Clientgeheim | Het cliëntgeheim van uw server van Gegevensbestanden. Dit veld fungeert als een wachtwoord voor uw project. |
+
+Als u **OAuth 2.0** selecteert, kunt u de volgende details toevoegen:
+
+| Veld | Beschrijving |
+| ----- | ----------- |
+| Server | De naam van de Databricks-server. |
+| Client-id | De client-id van uw databaseserver. Dit gebied wordt gebruikt om de toepassing tijdens authentificatie te identificeren OAuth 2.0 en handelt als gebruikersbenaming voor uw project. |
+| Clientgeheim | Het cliëntgeheim van uw server van Gegevensbestanden. Deze vertrouwelijke referentie is uitgegeven met de client-id en fungeert als een wachtwoord voor uw project. |
+| Toegangsbereik | Prepopulated informatie die van het werkingsgebied een lijst maakt dat uw token OAuth voor binnen uw server van Databricks wordt geoorloofd. |
+
+Na het invoeren van uw login details, kunt u de volgende informatie toevoegen:
+
+| Veld | Beschrijving |
+| ----- | ----------- |
+| HTTP-pad | De weg aan uw Cluster of Warehouse. Voor meer informatie over de weg, te lezen gelieve de [ documentatie van Gegevensbestanden over verbindingsdetails ](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
+| Catalogus | De naam van de catalogus met databases. Voor meer informatie over catalogi in Gegevensbestanden, te lezen gelieve de [ documentatie van Gegevensbestanden over catalogi ](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
+| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
 Voor Databases kunt u de volgende aanvullende opties instellen:
 
 | Opties | Beschrijving |
 | ------- | ----------- |
-| TimeZoneName | De naam van de te gebruiken tijdzone. Deze waarde vertegenwoordigt de sessieparameter `TIMEZONE` . Voor meer informatie over tijdstreken, gelieve de [&#x200B; documentatie van Gegevensbestanden over timezones &#x200B;](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"} te lezen. |
+| TimeZoneName | De naam van de te gebruiken tijdzone. Deze waarde vertegenwoordigt de sessieparameter `TIMEZONE` . Voor meer informatie over tijdstreken, gelieve de [ documentatie van Gegevensbestanden over timezones ](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"} te lezen. |
 
 >[!TAB  Google BigQuery ]
 
@@ -163,7 +187,7 @@ Als u **[!UICONTROL Account/Password Authentication]** selecteert, kunt u de vol
 
 | Veld | Beschrijving |
 | ----- | ----------- |
-| Serviceaccount | Het e-mailadres van uw serviceaccount. Voor meer informatie, te lezen gelieve de [&#x200B; documentatie van de de dienstrekening van de Wolk van Google &#x200B;](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+| Serviceaccount | Het e-mailadres van uw serviceaccount. Voor meer informatie, te lezen gelieve de [ documentatie van de de dienstrekening van de Wolk van Google ](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
 
 Als u **[!UICONTROL OAuth 2.0]** selecteert, kunt u de volgende aanmeldingsgegevens toevoegen:
 
@@ -183,8 +207,8 @@ Na het invoeren van uw login details, kunt u de volgende details toevoegen:
 
 | Veld | Beschrijving |
 | ----- | ----------- |
-| Project | De id van uw project. Voor meer informatie, te lezen gelieve de [&#x200B; het projectdocumentatie van de Wolk van Google &#x200B;](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
-| Gegevensset | De naam van de gegevensset. Voor meer informatie, te lezen gelieve de [&#x200B; documentatie van de Cloud van Google &#x200B;](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
+| Project | De id van uw project. Voor meer informatie, te lezen gelieve de [ het projectdocumentatie van de Wolk van Google ](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
+| Gegevensset | De naam van de gegevensset. Voor meer informatie, te lezen gelieve de [ documentatie van de Cloud van Google ](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Hoofdbestandspad | Het sleutelbestand naar de server. Alleen `json` bestanden worden ondersteund. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
@@ -197,9 +221,9 @@ Voor Google BigQuery kunt u de volgende aanvullende opties instellen:
 | ProxyUid | Het poortnummer waarop de proxy wordt uitgevoerd. |
 | ProxyPwd | Het wachtwoord voor de proxy. |
 | bgpath | **Nota:** dit is slechts van toepassing voor het **bulk-lading hulpmiddel** (SDK van de Wolk). <br/><br/> Het pad naar de map Cloud SDK bin op de server. U hoeft dit alleen in te stellen als u de map `google-cloud-sdk` naar een andere locatie hebt verplaatst of als u de variabele PATH niet wilt gebruiken. |
-| GCloudConfigName | **Nota:** dit is slechts van toepassing voor het **bulk-lading hulpmiddel** (Wolk SDK) boven versie 7.3.4. <br/><br/> De naam van de configuratie die de parameters voor het laden van de gegevens opslaat. Deze waarde is standaard `accfda` . |
-| GCloudDefaultConfigName | **Nota:** dit is slechts van toepassing voor het **bulk-lading hulpmiddel** (Wolk SDK) boven versie 7.3.4. <br/><br/> De naam van de tijdelijke configuratie om de belangrijkste configuratie voor ladingsgegevens te ontspannen. Deze waarde is standaard `default` . |
-| GCloudRecreateConfig | **Nota:** dit is slechts van toepassing voor het **bulk-lading hulpmiddel** (Wolk SDK) boven versie 7.3.4. <br/><br/> Een booleaanse waarde die u laat beslissen als het bulkladingsmechanisme automatisch de configuraties van SDK van de Wolk van Google zou moeten ontspannen, schrappen of wijzigen. Als deze waarde is ingesteld op `false` , worden gegevens geladen via een bestaande configuratie op de computer. Als deze waarde is ingesteld op `true` , moet u controleren of de configuratie juist is ingesteld. Als dit niet het geval is, wordt de fout `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` weergegeven en wordt het laadmechanisme weer ingesteld op het standaardlaadmechanisme. |
+| GCloudConfigName | **Nota:** dit is slechts van toepassing voor het **bulk-lading hulpmiddel** (SDK van de Wolk) boven versie 7.3.4. <br/><br/> De naam van de configuratie die de parameters voor het laden van de gegevens opslaat. Deze waarde is standaard `accfda` . |
+| GCloudDefaultConfigName | **Nota:** dit is slechts van toepassing voor het **bulk-lading hulpmiddel** (SDK van de Wolk) boven versie 7.3.4. <br/><br/> De naam van de tijdelijke configuratie om de hoofdconfiguratie voor het laden van gegevens opnieuw te maken. Deze waarde is standaard `default` . |
+| GCloudRecreateConfig | **Nota:** dit is slechts van toepassing voor het **bulk-lading hulpmiddel** (SDK van de Wolk) boven versie 7.3.4. <br/><br/> Een Booleaanse waarde waarmee u kunt bepalen of het mechanisme voor het laden van grote hoeveelheden automatisch de Google Cloud SDK-configuraties opnieuw maakt, verwijdert of wijzigt. Als deze waarde is ingesteld op `false` , worden gegevens geladen via een bestaande configuratie op de computer. Als deze waarde is ingesteld op `true` , moet u controleren of de configuratie juist is ingesteld. Als dit niet het geval is, wordt de fout `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` weergegeven en wordt het laadmechanisme weer ingesteld op het standaardlaadmechanisme. |
 
 >[!TAB  de Stof van Microsoft ]
 
@@ -208,15 +232,15 @@ Nadat u Microsoft Fabric hebt geselecteerd, kunt u de volgende gegevens toevoege
 | Veld | Beschrijving |
 | ----- | ----------- |
 | Server | De URL voor de Microsoft Fabric-server. |
-| Toepassings-id | The application ID for Microsoft Fabric. Voor meer informatie over toepassingsidentiteitskaart, te lezen gelieve de [&#x200B; documentatie van de Stof van Microsoft over toepassingsopstelling &#x200B;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}. |
-| Clientgeheim | Het clientgeheim voor de toepassing. Voor meer informatie over het cliëntgeheim, te lezen gelieve de [&#x200B; documentatie van de Stof van Microsoft over toepassingsopstelling &#x200B;](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}. |
+| Toepassings-id | The application ID for Microsoft Fabric. Voor meer informatie over toepassingsidentiteitskaart, te lezen gelieve de [ documentatie van de Stof van Microsoft over toepassingsopstelling ](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}. |
+| Clientgeheim | Het clientgeheim voor de toepassing. Voor meer informatie over het cliëntgeheim, te lezen gelieve de [ documentatie van de Stof van Microsoft over toepassingsopstelling ](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
 Voor Microsoft Fabric kunt u de volgende aanvullende opties instellen:
 
 | Optie | Beschrijving |
 | ------ | ----------- |
-| Verificatie | Het type van authentificatie die door de schakelaar wordt gebruikt. Tot de ondersteunde waarden behoren: `ActiveDirectoryMSI` . Voor meer informatie, te lezen gelieve de [&#x200B; documentatie van Microsoft over opslagconnectiviteit &#x200B;](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}. |
+| Verificatie | Het type van authentificatie die door de schakelaar wordt gebruikt. Tot de ondersteunde waarden behoren: `ActiveDirectoryMSI` . Voor meer informatie, te lezen gelieve de [ documentatie van Microsoft over opslagconnectiviteit ](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}. |
 
 >[!TAB  Oracle ]
 
@@ -236,7 +260,7 @@ Nadat u Oracle hebt geselecteerd, kunt u de volgende gegevens toevoegen:
 
 >[!NOTE]
 >
->Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt ondersteund. Je Snowflake-account moet worden gehost op Amazon Web Services (AWS) of Azure en zich in dezelfde regio bevinden als je Federated Audience Composition-omgeving. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account.
+>Beveiligde toegang tot uw externe Snowflake-gegevenspakhuis via een persoonlijke koppeling wordt ondersteund. Houd er rekening mee dat uw Snowflake-account moet worden gehost op Amazon Web Services (AWS) of Azure en zich moet bevinden in dezelfde regio als uw Federated Audience Composition-omgeving. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij het instellen van veilige toegang tot uw Snowflake-account.
 
 Nadat u Snowflake hebt geselecteerd, kunt u kiezen welke verificatiemethode u wilt gebruiken wanneer u verbinding maakt met Federatieve Audience Composition.
 
@@ -267,7 +291,7 @@ Na het invoeren van uw login details, kunt u de volgende details toevoegen:
 | Veld | Beschrijving |
 | ----- | ----------- |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
-| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 | Persoonlijke sleutel | De persoonlijke sleutel voor uw databaseverbinding. U kunt een `.pem` -bestand uploaden vanaf uw lokale systeem. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
@@ -276,11 +300,11 @@ Voor Snowflake kunt u de volgende aanvullende opties instellen:
 | Opties | Beschrijving |
 | ------- | ----------- |
 | werkschema | De naam van het databaseschema dat moet worden gebruikt voor werktabellen. |
-| TimeZoneName | De naam van de te gebruiken tijdzone. Deze waarde vertegenwoordigt de sessieparameter `TIMEZONE` . Standaard wordt de tijdzone van het systeem gebruikt. Voor meer informatie over tijdstreken, te lezen gelieve de [&#x200B; documentatie van Snowflake op timezones &#x200B;](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}. |
-| WeekStart | De dag waarop je de week wilt beginnen. Deze waarde vertegenwoordigt de sessieparameter `WEEK_START` . Voor meer informatie over week begin, gelieve te lezen de [&#x200B; documentatie van Snowflake op de parameter van het wekbegin &#x200B;](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"} |
-| UseCachedResult | Een Booleaanse waarde die bepaalt of de resultaten in de cache van Snowflake worden gebruikt. Deze waarde vertegenwoordigt de sessieparameter `USE_CACHED_RESULTS` . Deze waarde is standaard ingesteld op true. Voor meer informatie over deze parameter, te lezen gelieve de [&#x200B; documentatie van Snowflake over het voortbestaan van resultaten &#x200B;](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}. |
+| TimeZoneName | De naam van de te gebruiken tijdzone. Deze waarde vertegenwoordigt de sessieparameter `TIMEZONE` . Standaard wordt de tijdzone van het systeem gebruikt. Voor meer informatie over tijdstreken, te lezen gelieve de [ documentatie van Snowflake op timezones ](https://docs.snowflake.com/en/sql-reference/parameters#timezone){target="_blank"}. |
+| WeekStart | De dag waarop je de week wilt beginnen. Deze waarde vertegenwoordigt de sessieparameter `WEEK_START` . Voor meer informatie over week begin, gelieve te lezen de [ documentatie van Snowflake op de parameter van het wekbegin ](https://docs.snowflake.com/en/sql-reference/parameters#week-start){target="_blank"} |
+| UseCachedResult | Een Booleaanse waarde die bepaalt of de resultaten in de cache van Snowflake worden gebruikt. Deze waarde vertegenwoordigt de sessieparameter `USE_CACHED_RESULTS` . Deze waarde is standaard ingesteld op true. Voor meer informatie over deze parameter, te lezen gelieve de [ documentatie van Snowflake over het voortbestaan van resultaten ](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}. |
 | bulkThreads | Het aantal threads dat moet worden gebruikt voor Snowflake-bulklader. Hoe meer threads toegevoegd worden, hoe beter de prestaties zijn voor grotere bulkladingen. Deze waarde is standaard ingesteld op 1. |
-| chunkSize | De bestandsgrootte van het segment van elke bulklader. Wanneer u deze bestanden tegelijkertijd met meer threads gebruikt, kunt u de prestaties van de bulkladingen verbeteren. Deze waarde is standaard ingesteld op 128 MB. Voor meer informatie over brokgrootte, te lezen gelieve de [&#x200B; documentatie van Snowflake bij het voorbereiden van gegevensdossiers &#x200B;](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}. |
+| chunkSize | De bestandsgrootte van het segment van elke bulklader. Wanneer u deze bestanden tegelijkertijd met meer threads gebruikt, kunt u de prestaties van de bulkladingen verbeteren. Deze waarde is standaard ingesteld op 128 MB. Voor meer informatie over brokgrootte, te lezen gelieve de [ documentatie van Snowflake bij het voorbereiden van gegevensdossiers ](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | De naam van een vooraf ingericht intern opvoerende milieu. Dit kan in bulkladingen in plaats van het creëren van een nieuw tijdelijk stadium worden gebruikt. |
 
 >[!TAB  Vertica Analytics ]
@@ -293,14 +317,14 @@ Nadat u Vertica Analytics hebt geselecteerd, kunt u de volgende gegevens toevoeg
 | Account | De gebruikersnaam van de account. |
 | Wachtwoord | Het wachtwoord van de account. |
 | Database | De naam van de database. Als dit in de servernaam wordt gespecificeerd, kan dit gebied leeg worden verlaten. |
-| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **&#x200B;**&#x200B;duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
+| Werkschema | De naam van het databaseschema dat moet worden gebruikt voor de werktabellen. <br/><br/>**Nota:** u kunt **om het even welk** schema van het gegevensbestand gebruiken, met inbegrip van schema&#39;s die voor tijdelijke gegevensverwerking worden gebruikt, zolang u de vereiste toestemmingen hebt om met dit schema te verbinden. Nochtans, moet u **** duidelijke het werken schema&#39;s gebruiken wanneer het verbinden van veelvoudige zandbakken met het zelfde gegevensbestand. |
 | Opties | Aanvullende opties voor de verbinding. De beschikbare opties worden weergegeven in de volgende tabel. |
 
 Voor Vertica Analytics kunt u de volgende aanvullende opties instellen:
 
 | Opties | Beschrijving |
 | ------- | ----------- |
-| TimeZoneName | De naam van de te gebruiken tijdzone. Deze waarde vertegenwoordigt de sessieparameter `TIMEZONE` . Voor meer informatie over timezones, gelieve de [&#x200B; documentatie van Vertica Analytics op timezones &#x200B;](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} te lezen |
+| TimeZoneName | De naam van de te gebruiken tijdzone. Deze waarde vertegenwoordigt de sessieparameter `TIMEZONE` . Voor meer informatie over timezones, gelieve de [ documentatie van Vertica Analytics op timezones ](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} te lezen |
 
 >[!ENDTABS]
 
