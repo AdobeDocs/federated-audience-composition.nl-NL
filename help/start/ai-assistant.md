@@ -1,46 +1,70 @@
 ---
-title: Werken met AI-assistent
-description: Leer hoe u AI-assistent kunt gebruiken
+title: Overzicht van AI-assistent
+description: Leer hoe u AI Assistant gebruikt, zoals productkennis, operationele inzichten en het maken van gefederaliseerde publiekscomposities.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 2%
+source-wordcount: '649'
+ht-degree: 0%
 
 ---
 
-# Werken met AI-assistent {#ai-assistant}
+# Overzicht van AI-assistent {#ai-assistant}
 
-AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen. Het is beschikbaar voor het gebruik van productkennis in verscheidene producten door Adobe Experience Cloud, met inbegrip van Federated Audience Composition.
+AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten kunt navigeren en deze kunt begrijpen. U kunt AI Assistant gebruiken om meer inzicht te krijgen in de gebruiksgevallen van productkennis in verschillende producten in Adobe Experience Cloud, waaronder Federated Audience Composition.
 
 >[!CAUTION]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst in het [ AI Medewerker (erfenis) overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-In Federated Audience Composition hebt u toegang tot productkennis voor meer informatie over Adobe-concepten die betrekking hebben op verschillende onderdelen van het proces. De AI Medewerker steunt twee types van productkennis: **Open ontdekking** (onderzoek productconcepten die op de documentatie van Experience League worden gebaseerd) en **gericht leren en het oplossen van problemen** (stel vragen over specifieke eigenschappen of functionaliteit).
+In Federated Audience Composition hebt u toegang tot productkennis voor meer informatie over Adobe-concepten die betrekking hebben op verschillende onderdelen van het proces. AI de Medewerker steunt vier soorten gebruiksgevallen: **Open ontdekking** (onderzoek productconcepten die op de documentatie van Experience League worden gebaseerd), **gericht leren en het oplossen van problemen** (stel vragen over specifieke eigenschappen of functionaliteit), **Operationele inzichten** (stel vragen over uw voorwerpen binnen de Verbond van de Samenstelling van het Publiek), en **Creërend gefedereerde publiekscomposities**.
 
-Voorbeelden van dergelijke vragen zijn:
+## Toegang {#access}
 
-* Wat is Federated Audience Composition?
-* Hoe kan ik een Snowflake Federated Database Account configureren?
-* Hoe kan ik een gefedereerde samenstelling creëren?
+Om tot AI Medewerker toegang te hebben, selecteer ![ het AI Hulppictogram ](/help/start/assets/ai-assistant/icon.png) op de hoogste bar. AI Assistant wordt rechts in het scherm weergegeven. U kunt ![ beeld alt tekst van de Duik ](assets/do-not-localize/Smock_FullScreen_18_N.svg " selecteren breidt pictogram ") uit om het AI Hulpvenster uit te breiden.
 
-Een vraag stellen:
+![ het AI Hulppictogram wordt benadrukt, die hoe te om tot AI Medewerker toegang te hebben tonen.](/help/start/assets/ai-assistant/access.png)
 
-1. U opent de AI-assistent door het pictogram op de bovenste balk te selecteren.
+## AI-assistent gebruiken {#using}
 
-   AI Assistant wordt rechts in het scherm weergegeven. U kunt ![&#x200B; beeld alt tekst van de Duik &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " selecteren breidt zich ") uit om het AI hulpvenster uit te breiden.
+Zodra u AI Medewerker hebt geopend, ga uw vraag op het gebied bij de bodem van het scherm in en druk binnengaan. Het antwoord op uw vraag wordt nu weergegeven. U kunt duimen naar boven of naar beneden gebruiken om uw antwoord te beoordelen.
 
-   ![](assets/do-not-localize/ai-assistant-open.png)
+![ de steekproefvraag en het antwoord van A binnen AI Medewerker wordt getoond.](/help/start/assets/ai-assistant/sample-question-answer.png)
 
-1. Voer deze in het veld onder aan het scherm in en druk op Enter.
+## Voorbeeldvragen {#sample-questions}
 
-   ![](assets/do-not-localize/ai-assistant-ask.png)
+De volgende vragen tonen de beschikbare soorten vragen u AI Medewerker kunt stellen:
 
-1. Controleer het antwoord en gebruik **toon bronnen** knoop om directe verbindingen aan de productdocumentatie te krijgen en meer te leren.
+| Type query | Voorbeeldvraag |
+| ---------- | --------------- |
+| Openbare detectie | <ul><li>Wat is Federated Audience Composition?</li></ul> |
+| Gericht leren | <ul><li>Hoe kan ik een Snowflake Federated-databaseaccount configureren?</li><li>Hoe kan ik een gefedereerde samenstelling creëren?</li></ul> |
+| Operationele inzichten | <ul><li>Hoeveel gefedereerde gegevensbestanden heb ik in mijn zandbak?</li><li>Hoeveel schema&#39;s heb ik gemaakt in de afgelopen 30 dagen?</li></ul> |
+| Een gefederaliseerde publiekscompositie maken | <ul><li>Creëer een gefedereerd publiek van klanten die in het Verenigd Koninkrijk wonen.</li></ul> |
 
-   ![](assets/do-not-localize/ai-assistant-answer.png)
+Bovendien, kunt u de Medewerker van AI gebruiken om autonoom een gefedereerde publiekssamenstelling tot stand te brengen.
 
-1. Gebruik de duim omhoog of duim neer om het antwoord te schatten.
+## Een publiek maken {#create-audience}
 
-Leren hoe te om AI Medewerker te gebruiken, zie voorbeelddoelstellingen u met AI Medewerker kunt verwezenlijken, en leren hoe AI Medewerker werkt, naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"} verwijzen.
+U kunt AI Medewerker gebruiken om een gefederaliseerde publiekssamenstelling tot stand te brengen gebruikend natuurlijk-taalherinneringen. Wanneer u AI Assistant gebruikt om een publiek te maken, krijgt AI Assistant een abonnement op basis van uw vraag en wordt dit plan in uw browser uitgevoerd met behulp van door AI aangedreven automatisering.
+
+Bijvoorbeeld, als u AI Medewerker vraagt om &quot;een gefedereerd publiek van klanten tot stand te brengen die in VK met het schema CUSTOMERS_Table&quot;leven, zal de Medewerker AI het plan verklaren het zal verbinden om het publiek tot stand te brengen, met inbegrip van stappen zoals het navigeren aan de Federated samenstellingspagina, hoe de agent de samenstelling zal creëren, en het publiek zal bewaren zodra het wordt voltooid.
+
+![ de steekproefvraag en de reactie van A worden getoond.](/help/start/assets/ai-assistant/ask-create.png)
+
+Als het plan nauwkeurig kijkt, kunt u **[!UICONTROL Execute]** selecteren om de agent door zijn automatisering te laten gaan. De agent zal, binnen browser, autonoom door de stappen gaan van het creëren van uw gevraagde samenstelling binnen Federated de Samenstelling UI van het Publiek. Selecteer **[!UICONTROL Stop]** als u de automatisering op een gegeven moment wilt stoppen.
+
+![ het plan is uitgevoerd, en de agent stelt autonoom het plan in werking.](/help/start/assets/ai-assistant/execute-plan.png)
+
+Momenteel, steunt de vaardigheid van de publieksverwezenlijking de volgende extra eigenschappen:
+
+- Planner
+   - U kunt gefedereerde samenstellingen tot stand brengen die op een terugkerend programma lopen. De gesteunde waarden omvatten **eens** en **Dagelijks**.
+- Deduplicatie
+   - U kunt de gefederaliseerde gegevensrecords dupliceren tijdens het afstemmen van gegevens
+
+## Volgende stappen
+
+Voor meer informatie over AI Medewerker, met inbegrip van voorbeelddoelstellingen kunt u met AI Medewerker verwezenlijken, en het leren hoe AI Medewerker werkt, lees het [ AI Hulpoverzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+
+Voor een volledige lijst van de Operationele vragen van Insight kunt u om Federatieve Samenstelling van het Publiek vragen, lees de [ operationele sectie van Inzichten ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
