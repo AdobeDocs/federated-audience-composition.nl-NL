@@ -15,21 +15,21 @@ AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten ku
 
 >[!CAUTION]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst in het [ AI Medewerker (erfenis) overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst in het [&#x200B; AI Medewerker (erfenis) overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Federated Audience Composition hebt u toegang tot productkennis voor meer informatie over Adobe-concepten die betrekking hebben op verschillende onderdelen van het proces. AI de Medewerker steunt vier soorten gebruiksgevallen: **Open ontdekking** (onderzoek productconcepten die op de documentatie van Experience League worden gebaseerd), **gericht leren en het oplossen van problemen** (stel vragen over specifieke eigenschappen of functionaliteit), **Operationele inzichten** (stel vragen over uw voorwerpen binnen de Verbond van de Samenstelling van het Publiek), en **Creërend gefedereerde publiekscomposities**.
 
 ## Toegang {#access}
 
-Om tot AI Medewerker toegang te hebben, selecteer ![ het AI Hulppictogram ](/help/start/assets/ai-assistant/icon.png) op de hoogste bar. AI Assistant wordt rechts in het scherm weergegeven. U kunt ![ beeld alt tekst van de Duik ](assets/do-not-localize/Smock_FullScreen_18_N.svg " selecteren breidt pictogram ") uit om het AI Hulpvenster uit te breiden.
+Om tot AI Medewerker toegang te hebben, selecteer ![&#x200B; het AI Hulppictogram &#x200B;](/help/start/assets/ai-assistant/icon.png) op de hoogste bar. AI Assistant wordt rechts in het scherm weergegeven. U kunt ![&#x200B; beeld alt tekst van de Duik &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " selecteren breidt pictogram ") uit om het AI Hulpvenster uit te breiden.
 
-![ het AI Hulppictogram wordt benadrukt, die hoe te om tot AI Medewerker toegang te hebben tonen.](/help/start/assets/ai-assistant/access.png)
+![&#x200B; het AI Hulppictogram wordt benadrukt, die hoe te om tot AI Medewerker toegang te hebben tonen.](/help/start/assets/ai-assistant/access.png)
 
 ## AI-assistent gebruiken {#using}
 
 Zodra u AI Medewerker hebt geopend, ga uw vraag op het gebied bij de bodem van het scherm in en druk binnengaan. Het antwoord op uw vraag wordt nu weergegeven. U kunt duimen naar boven of naar beneden gebruiken om uw antwoord te beoordelen.
 
-![ de steekproefvraag en het antwoord van A binnen AI Medewerker wordt getoond.](/help/start/assets/ai-assistant/sample-question-answer.png)
+![&#x200B; de steekproefvraag en het antwoord van A binnen AI Medewerker wordt getoond.](/help/start/assets/ai-assistant/sample-question-answer.png)
 
 ## Voorbeeldvragen {#sample-questions}
 
@@ -50,11 +50,11 @@ U kunt AI Medewerker gebruiken om een gefederaliseerde publiekssamenstelling tot
 
 Bijvoorbeeld, als u AI Medewerker vraagt om &quot;een gefedereerd publiek van klanten tot stand te brengen die in VK met het schema CUSTOMERS_Table&quot;leven, zal de Medewerker AI het plan verklaren het zal verbinden om het publiek tot stand te brengen, met inbegrip van stappen zoals het navigeren aan de Federated samenstellingspagina, hoe de agent de samenstelling zal creëren, en het publiek zal bewaren zodra het wordt voltooid.
 
-![ de steekproefvraag en de reactie van A worden getoond.](/help/start/assets/ai-assistant/ask-create.png)
+![&#x200B; de steekproefvraag en de reactie van A worden getoond.](/help/start/assets/ai-assistant/ask-create.png)
 
 Als het plan nauwkeurig kijkt, kunt u **[!UICONTROL Execute]** selecteren om de agent door zijn automatisering te laten gaan. De agent zal, binnen browser, autonoom door de stappen gaan van het creëren van uw gevraagde samenstelling binnen Federated de Samenstelling UI van het Publiek. Selecteer **[!UICONTROL Stop]** als u de automatisering op een gegeven moment wilt stoppen.
 
-![ het plan is uitgevoerd, en de agent stelt autonoom het plan in werking.](/help/start/assets/ai-assistant/execute-plan.png)
+![&#x200B; het plan is uitgevoerd, en de agent stelt autonoom het plan in werking.](/help/start/assets/ai-assistant/execute-plan.png)
 
 Momenteel, steunt de vaardigheid van de publieksverwezenlijking de volgende extra eigenschappen:
 
@@ -65,6 +65,6 @@ Momenteel, steunt de vaardigheid van de publieksverwezenlijking de volgende extr
 
 ## Volgende stappen
 
-Voor meer informatie over AI Medewerker, met inbegrip van voorbeelddoelstellingen kunt u met AI Medewerker verwezenlijken, en het leren hoe AI Medewerker werkt, lees het [ AI Hulpoverzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Voor meer informatie over AI Medewerker, met inbegrip van voorbeelddoelstellingen kunt u met AI Medewerker verwezenlijken, en het leren hoe AI Medewerker werkt, lees het [&#x200B; AI Hulpoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Voor een volledige lijst van de Operationele vragen van Insight kunt u om Federatieve Samenstelling van het Publiek vragen, lees de [ operationele sectie van Inzichten ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Voor een volledige lijst van de Operationele vragen van Insight kunt u om Federatieve Samenstelling van het Publiek vragen, lees de [&#x200B; operationele sectie van Inzichten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
