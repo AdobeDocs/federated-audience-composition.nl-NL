@@ -3,18 +3,18 @@ cloud: Experience Cloud
 solution: Experience Cloud
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/federated-audience-composition.nl-NL
+git-repo: https://github.com/AdobeDocs/federated-audience-composition.en
 index: true
-source-git-commit: ae4c655f6208a7799aca4b064de8d90a6b86e11e
+source-git-commit: 5c67619fd99763608a1794c75eacc0c80100ef79
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 98%
+source-wordcount: '70'
+ht-degree: 0%
 
 ---
 
 
-# Metadata voor intern gebruik
+# Metagegevens voor intern gebruik
 
-Het bestand metadata.md bevat metadata op repo-niveau die worden doorgegeven aan de handleiding voor TOC.md-bestanden in de repo. Als u de inhoud van metadata.md voor een handleiding wilt wijzigen, doe dit dan in een TOC.md-bestand.
+Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven aan de bestanden in de repo in de gebruikershandleiding TOC.md. Als u de inhoud metadata.md voor om het even welke gebruikersgids wilt veranderen, doe dit in om het even welk dossier van TOC.md.
 
-Zie [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=nl) voor een lijst met geldige waarden voor **oplossing**, **product** en **type**.
+Zie [ Meta-gegevens ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) voor een lijst van geldige waarden voor **oplossing**, **product**, en **type**.
