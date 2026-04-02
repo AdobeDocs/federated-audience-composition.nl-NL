@@ -15,7 +15,7 @@ AI Assistant is een gebruikersinterfacefunctie waarmee u door Adobe-concepten ku
 
 >[!CAUTION]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst in het [&#x200B; AI Medewerker (erfenis) overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u AI Assistant kunt gebruiken. Leer meer over de overeenkomst in het [&#x200B; AI Medewerker (erfenis) overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Federated Audience Composition hebt u toegang tot productkennis voor meer informatie over Adobe-concepten die betrekking hebben op verschillende onderdelen van het proces. AI de Medewerker steunt vier soorten gebruiksgevallen: **Open ontdekking** (onderzoek productconcepten die op de documentatie van Experience League worden gebaseerd), **gericht leren en het oplossen van problemen** (stel vragen over specifieke eigenschappen of functionaliteit), **Operationele inzichten** (stel vragen over uw voorwerpen binnen de Verbond van de Samenstelling van het Publiek), en **Creërend gefedereerde publiekscomposities**.
 
@@ -65,6 +65,6 @@ Momenteel, steunt de vaardigheid van de publieksverwezenlijking de volgende extr
 
 ## Volgende stappen
 
-Voor meer informatie over AI Medewerker, met inbegrip van voorbeelddoelstellingen kunt u met AI Medewerker verwezenlijken, en het leren hoe AI Medewerker werkt, lees het [&#x200B; AI Hulpoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Voor meer informatie over AI Medewerker, met inbegrip van voorbeelddoelstellingen kunt u met AI Medewerker verwezenlijken, en het leren hoe AI Medewerker werkt, lees het [&#x200B; AI Hulpoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Voor een volledige lijst van de Operationele vragen van Insight kunt u om Federatieve Samenstelling van het Publiek vragen, lees de [&#x200B; operationele sectie van Inzichten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Voor een volledige lijst van de Operationele vragen van Insight kunt u om Federatieve Samenstelling van het Publiek vragen, lees de [&#x200B; operationele sectie van Inzichten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
